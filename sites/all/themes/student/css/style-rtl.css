@@ -106,6 +106,15 @@ ul.secondary li {
      padding-top: 20px;
  }
 
+/*End style webform  */
+/*Begin style login*/
+#edit-name
+{
+    width: 70%
+}
+#edit-pass{
+    width: 70%
 
+}
 
-/*End style webform non */
+/*End STYLE LOGIN*/
