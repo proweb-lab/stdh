@@ -12,9 +12,9 @@
     float: right;
     margin: 0;
 }
-/*ul.secondary {
+ul.secondary {
     float: left;
-}*/
+}
 ul.secondary li {
     border-left: 0px solid #ccc;
     border-left-width: 0px;
