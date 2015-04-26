@@ -88,7 +88,7 @@ ul.secondary li {
 }
 /*Begin style webform */
 .form-control {
-    display:inline-block; width: 50%;
+    display:inline-block; width: 35%;
     height: 34px; padding: 6px 12px;
     font-size: 14px;
     line-height: 1.428571429;
