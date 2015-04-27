@@ -15,7 +15,7 @@ $pos = strpos($form_id, "webform_client_form");
 }
 
  if (isset($form['#node']->type) && ($form['#node']->type == 'webform')) {
-
+if ($form['#id']== 'webform-client-form-64'){
     foreach ($form["submitted"] as $key => $value) {
       switch ($value["#type"]) {
         case 'textfield':
@@ -26,6 +26,7 @@ $pos = strpos($form_id, "webform_client_form");
       } 
     }
   }
+}
 }
 
 
