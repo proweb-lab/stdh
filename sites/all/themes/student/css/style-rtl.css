@@ -73,8 +73,8 @@ ul.secondary li {
 #block-system-main-menu ul.menu li a:hover{
     background-color: #0064be;
 }
-#block-system-main-menu ul.menu li a:hover, .nav .open>a:focus{
-    background-color: #0064be;
+#block-system-main-menu ul.menu li a:hover, .nav .open>a:focus {
+  background-color: #49494b;
 }
 
 .dropdown-menu
