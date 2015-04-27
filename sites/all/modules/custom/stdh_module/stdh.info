@@ -1,0 +1,4 @@
+name = Student's House Group Custom Module
+description = Custom functions related to Student's House.
+package = Student's House Modules
+core = 7.x

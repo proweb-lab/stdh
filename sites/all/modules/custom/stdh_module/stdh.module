@@ -1,0 +1,20 @@
+<?php
+
+function stdh_form_alter(&$form, &$form_state, $form_id) {
+
+$pos = strpos($form_id, "webform_client_form");
+  if ($pos !== FALSE) {
+    foreach (element_children($form['submitted']) as $element) {
+      if (isset($form['submitted'][$element]['#title']))
+        $form['submitted'][$element]['#title'] = t($form['submitted'][$element]['#title']);
+    }
+    if (isset($form['title']['#title'])) {
+      $form['title']['#title'] = t($form['title']['#title']);
+    }
+    
+}
+}
+//print_r($form['#id']);
+
+   
+
