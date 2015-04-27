@@ -71,7 +71,7 @@ ul.secondary li {
 
 }
 #block-system-main-menu ul.menu li a:hover{
-    background-color: #0064be;
+    background-color: #636467;
 }
 #block-system-main-menu ul.menu li a:hover, .nav .open>a:focus {
   background-color: #49494b;
@@ -79,15 +79,15 @@ ul.secondary li {
 
 .dropdown-menu
 {
-    background-color: #0064be;
+    background-color: #636467;
 }
 .dropdown-menu ul.menu li a:hover, .nav .open>a:focus
 {
-    background-color: #0064be;
+    background-color: #636467;
 }
 
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
-    background-color: #0064be;
+    background-color: #636467;
 }
 .breadcrumb
 {
