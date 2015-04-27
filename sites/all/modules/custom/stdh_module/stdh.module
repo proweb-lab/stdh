@@ -1,7 +1,7 @@
 <?php
 
 function stdh_form_alter(&$form, &$form_state, $form_id) {
-print_r($form['#id']);
+//print_r($form['#id']);
 $pos = strpos($form_id, "webform_client_form");
   if ($pos !== FALSE) {
     foreach (element_children($form['submitted']) as $element) {
