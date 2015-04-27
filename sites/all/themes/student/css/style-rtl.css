@@ -105,7 +105,10 @@ ul.secondary li {
  .form-item{
      padding-top: 20px;
  }
-
+#edit-submitted-email
+{
+    width: 399px;
+}
 /*End style webform  */
 /*Begin style login*/
 #edit-name
@@ -116,5 +119,4 @@ ul.secondary li {
     width: 70%
 
 }
-
 /*End STYLE LOGIN*/
