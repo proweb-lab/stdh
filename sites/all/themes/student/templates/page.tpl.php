@@ -46,10 +46,6 @@
       </div>
     <?php endif; ?>
   </div>
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
-
     <?php print render($page['header']); ?>
 </header>
     <?php if(drupal_is_front_page()){?>
@@ -58,8 +54,6 @@
 </div>
     <?php }?>
 <div class="main-container container">
-
-
     <?php if(drupal_is_front_page()){?>
     <hr>
     <div class="about">
