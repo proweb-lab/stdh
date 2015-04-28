@@ -59,8 +59,8 @@
     <div class="about">
       <?php  $about = node_view(node_load(8));
         print(drupal_render($about));
-        ?>
-        </div>
+      ?>
+    </div>
     <hr>
     <?php }?>
   <div class="row">
