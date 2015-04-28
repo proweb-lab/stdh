@@ -136,9 +136,9 @@ ul.secondary li {
 {
     width: 399px;
 }
-.webform-client-form-64 .form-textarea
+.form-textarea-wrapper
 {
-    width: 100%;
+    width: 400px;
     height: 100%;
 
 }
