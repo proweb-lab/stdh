@@ -84,7 +84,7 @@ ul.secondary li {
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
     background-color: #49494b;
-    border-left: 1px ;
+
 }
 .dropdown-menu
 {
@@ -93,8 +93,10 @@ ul.secondary li {
 .dropdown-menu ul.menu li a:hover, .nav .open>a:focus
 {
     background-color: #636467;
-
-
+}
+.dropdown-menu ul.menu li a
+{
+    border-left: 1px ;
 }
 
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
