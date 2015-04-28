@@ -13,7 +13,7 @@
 ?>
 
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="container">
+
     <div class="navbar-header">
       <?php if ($logo): ?>
       <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
@@ -53,6 +53,7 @@
     <?php print views_embed_view('slider','block') ?>
 </div>
     <?php }?>
+<div class="container">
 <div class="main-container container">
     <?php if(drupal_is_front_page()){?>
     <hr>
