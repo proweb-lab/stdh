@@ -94,10 +94,6 @@ ul.secondary li {
 {
     background-color: #636467;
 }
- ul li.first a
-{
-    border-left: none;
-}
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
     background-color: #636467;
 }
