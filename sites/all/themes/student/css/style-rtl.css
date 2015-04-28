@@ -76,10 +76,6 @@ ul.secondary li {
     border-left: 1px solid;
 
 }
-.dropdown-menu li a
-{
-    border-left:none;
-}
 #block-system-main-menu ul.menu li a:hover{
     background-color: #636467;
 }
