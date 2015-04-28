@@ -75,11 +75,7 @@ ul.secondary li {
     color: #F1F9F9;
 
 }
-#block-system-main-menu ul.menu li
-{
-    border-left: 1px solid;
 
-}
 #block-system-main-menu ul.menu li a:hover{
     background-color: #636467;
 }
