@@ -76,7 +76,7 @@ ul.secondary li {
     border-left: 1px solid;
 
 }
-.dropdown-menu,li ul a
+.dropdown-menu li a
 {
     border-left:none;
 }
