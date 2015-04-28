@@ -92,6 +92,8 @@ ul.secondary li {
 .dropdown-menu ul.menu li a:hover, .nav .open>a:focus
 {
     background-color: #636467;
+    border-left:1px solid !important;
+
 }
 
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
