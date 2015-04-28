@@ -103,7 +103,7 @@ ul.secondary li {
 #flexslider-1 ul li{
     list-style: none;
 }
-.flexslider .slides img{height: auto !important;}
+.flexslider .slides img{height: 300px !important;}
 .flex-nav-next{
     display: none;
 }
