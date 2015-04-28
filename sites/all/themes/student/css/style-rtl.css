@@ -146,6 +146,11 @@ ul.secondary li {
 {
     margin-top: 10px;
 }
+#edit-submitted-message
+{
+    width: 400px;
+
+}
 /*End style webform  */
 /*Begin style login*/
 #edit-name
