@@ -65,6 +65,8 @@ ul.secondary li {
 {
     background-color: #636467;
     border-color: #fefefe;
+    border-left: 1px solid;
+
 }
 .nav .caret {
     border-top-color: #636467;
