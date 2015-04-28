@@ -132,13 +132,10 @@ ul.secondary li {
  .form-item{
      padding-top: 20px;
  }
-#edit-submitted-email
+
+.webform-client-form-64 .form-textarea-wrapper
 {
-    width: 399px;
-}
-.webform-client-form-64 .form-textarea
-{
-    width: 100%;
+    width: 35%;
     height: 100%;
 
 }
