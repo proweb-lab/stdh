@@ -94,11 +94,6 @@ ul.secondary li {
 {
     background-color: #636467;
 }
-#block-system-main-menu.dropdown-menu ul.menu li a
-{
-    border-left: 1px ;
-}
-
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
     background-color: #636467;
 }
