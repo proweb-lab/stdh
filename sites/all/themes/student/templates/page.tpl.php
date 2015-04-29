@@ -55,7 +55,6 @@
     <?php }?>
 <div class="main-container container">
     <?php if(drupal_is_front_page()){?>
-    <hr>
     <div class="about">
       <?php  $about = node_view(node_load(8));
         print(drupal_render($about));
