@@ -66,6 +66,7 @@ ul.secondary li
     color: #636467;
     border-left: 1px solid;
 }
+#block-system-main-menu ul.menu li{padding: 0;}
 #block-system-main-menu ul.menu li:hover,
 #block-system-main-menu ul.menu li.active
 {
