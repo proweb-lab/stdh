@@ -231,7 +231,11 @@ body
 
 /*Begin style navbar*/
 
-
+.logo
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 /*End style navbar*/
 /* Begin style flexslider */

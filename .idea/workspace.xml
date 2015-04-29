@@ -31,7 +31,7 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49481866" vertical-offset="3304" max-vertical-offset="3690">
+            <state vertical-scroll-proportion="0.49481866" vertical-offset="3304" max-vertical-offset="3750">
               <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
               <folding />
             </state>
@@ -413,12 +413,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00053" summary="edit width text area">
-      <created>1430224282346</created>
-      <option name="number" value="00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1430224282346</updated>
-    </task>
     <task id="LOCAL-00054" summary="edit width text area">
       <created>1430224333979</created>
       <option name="number" value="00054" />
@@ -707,7 +701,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430297934670</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="edit file css">
+      <created>1430300597366</created>
+      <option name="number" value="00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1430300597367</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -752,7 +752,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="try update menu color" />
     <MESSAGE value="update menu color hover" />
     <MESSAGE value="update menu color hover2" />
     <MESSAGE value="update menu color hover3" />
@@ -777,7 +776,8 @@
     <MESSAGE value="style footer height" />
     <MESSAGE value="javascript file for toggle" />
     <MESSAGE value="offices front block" />
-    <option name="LAST_COMMIT_MESSAGE" value="offices front block" />
+    <MESSAGE value="edit file css" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit file css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
