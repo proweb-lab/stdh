@@ -94,6 +94,7 @@ ul.secondary li
 {
     background-color: #636467;
     color: #fff;
+    visibility: visible;
 }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus
 {
