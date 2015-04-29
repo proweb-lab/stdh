@@ -1,40 +1,32 @@
-
-@font-face {
-    font-family: 'Droid Arabic Kufi';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
-        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.woff) format('woff'),
-        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.ttf) format('truetype');
+/*Begin style navbar*/
+.navbar.container
+{
+    margin-top: 0px;
 }
-@font-face {
-    font-family: 'Droid Arabic Kufi';
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
-        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.woff) format('woff'),
-        url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.ttf) format('truetype');
-}
-
-body{
-    font-family: 'Droid Arabic Kufi' !important;
-}
-.main-slider .slides ul{padding: 0;}
-
-.pull-left {
-    float: right!important;
-}
-.navbar-header {
+.navbar-header
+{
     float: right;
 }
-.navbar-nav {
+.navbar-nav
+{
     float: right;
     margin: 0;
 }
-ul.secondary {
+.navbar-default
+{
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+    margin-top: 0px;
+    border-top-width: 0px;
+}
+/*End style navbar*/
+/*Begin style menu*/
+ul.secondary
+{
     float: left;
 }
-ul.secondary li {
+ul.secondary li
+{
     border-left: 0px solid #ccc;
     border-left-width: 0px;
     border-left-style: solid;
@@ -43,21 +35,14 @@ ul.secondary li {
     display: inline;
     padding: 0 1em;
 }
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
-    float: right;
-}
-.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    float:left;
-}
-#block-system-main-menu ul.menu li {
-
+#block-system-main-menu ul.menu li
+{
     float: right;
 }
 .front .page-header,
 #first-time{display: none;}
-.navbar-default {
+.navbar-default
+{
     background-color: #fefefe;
     border-color: #fefefe;
 }
@@ -65,26 +50,28 @@ ul.secondary li {
 {
     background-color: #636467;
     border-color: #fefefe;
-
 }
-.nav .caret {
+.nav .caret
+{
     border-top-color: #636467;
     border-bottom-color: #636467;
 }
-#block-system-main-menu ul.menu li a{
+#block-system-main-menu ul.menu li a
+{
     color: #F1F9F9;
     border-left: 1px solid;
-
 }
-#block-system-main-menu ul.menu li a:hover{
+#block-system-main-menu ul.menu li a:hover
+{
     background-color: #636467;
 }
-#block-system-main-menu ul.menu li a:hover, .nav .open>a:focus {
-  background-color: #49494b;
-}
-.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+#block-system-main-menu ul.menu li a:hover, .nav .open>a:focus
+{
     background-color: #49494b;
-
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
+{
+    background-color: #49494b;
 }
 .dropdown-menu
 {
@@ -94,27 +81,71 @@ ul.secondary li {
 {
     background-color: #636467;
 }
-.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus
+{
     background-color: #636467;
 }
 .breadcrumb
 {
     background-color:#FFFFFF;
 }
-
-#flexslider-1 ul li{
+/*End style menu*/
+/*Begin style slider*/
+.main-slider .slides ul
+{
+    padding: 0;
+}
+#flexslider-1 ul li
+{
     list-style: none;
 }
-.flexslider .slides img{height: 300px !important;}
-.flex-nav-next{
+.flexslider .slides img
+{
+    height: 300px !important;
+}
+.flex-nav-next
+{
     display: none;
 }
 .flex-nav-prev
 {
     display: none;
 }
-/*Begin style webform */
-.webform-client-form-64 .form-control {
+.flex-control-nav
+{
+    bottom: 0px;
+    z-index: 1000;
+}
+#flexslider-1
+{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
+}
+/*End style slider*/
+/*Begin style font*/
+@font-face
+{
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+    url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.woff) format('woff'),
+    url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face
+{
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+    url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.woff) format('woff'),
+    url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.ttf) format('truetype');
+}
+/*End style font*/
+/*Begin style webform*/
+.webform-client-form-64 .form-control
+{
     display:inline-block; width: 35%;
     height: 34px; padding: 6px 12px;
     font-size: 14px;
@@ -129,9 +160,10 @@ ul.secondary li {
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
- .form-item{
-     padding-top: 20px;
- }
+.form-item
+{
+    padding-top: 20px;
+}
 #edit-submitted-email
 {
     width: 399px;
@@ -151,49 +183,25 @@ ul.secondary li {
     height: 100px;
 
 }
-/*End style webform  */
-/*Begin style login*/
-#edit-name
+/*End style webform*/
+/*Begin style body*/
+body
 {
-    width: 70%
+    font-family: 'Droid Arabic Kufi' !important;
 }
-#edit-pass{
-    width: 70%
-
-}
-/*End STYLE LOGIN*/
-/*Begin style navbar*/
-.navbar-default
+.pull-left
 {
-
-    margin-bottom: 0px;
-    border-bottom-width: 0px;
-    margin-top: 0px;
-    border-top-width: 0px;
-
+    float: right!important;
 }
-.logo
-{
-    margin-top: 0px;
-    margin-bottom: 0px;
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
+    float: right;
 }
-.flex-control-nav
-{
-    bottom: 0px;
-    z-index: 1000;
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float:left;
 }
-/*End style navbar*/
-/* Begin style flexslider */
-#flexslider-1
-{
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    margin-bottom: 0px;
-}
-.navbar.container {
-    margin-top: 0px;
-}
-/* End style flexslider */
+/*End style body*/
 /*Begin Style footer*/
 .footer
 {
@@ -203,3 +211,30 @@ ul.secondary li {
 
 }
 /*End Style footer*/
+/*Begin style login*/
+#edit-name
+{
+    width: 70%
+}
+#edit-pass{
+    width: 70%
+
+}
+/*End STYLE login*/
+
+
+
+
+
+
+
+
+/*Begin style navbar*/
+
+
+
+/*End style navbar*/
+/* Begin style flexslider */
+
+
+/* End style flexslider */
