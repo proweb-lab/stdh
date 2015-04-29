@@ -1,9 +1,10 @@
 (function ($, Drupal, window, document, undefined) {
   Drupal.behaviors.student = {
     attach: function (context, settings) {
-      
-       $('#accordion').accordion();
-    
+
+        $(function() {
+            $( "#accordion" ).accordion();
+        });
    
       
       
