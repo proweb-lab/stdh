@@ -47,13 +47,13 @@
     <?php endif; ?>
   </div>
     <?php print render($page['header']); ?>
-</header>
+   </header>
     <?php if(drupal_is_front_page()){?>
-<div class="main-slider">
+   <div class="main-slider">
     <?php print views_embed_view('slider','block') ?>
-</div>
+   </div>
     <?php }?>
-<div class="main-container container">
+   <div class="main-container container">
     <?php if(drupal_is_front_page()){?>
     <hr>
     <div class="about">
@@ -63,7 +63,7 @@
     </div>
     <hr>
     <?php }?>
-  <div class="row">
+    <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="col-sm-3" role="complementary">
@@ -101,8 +101,8 @@
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
-  </div>
-</div>
+   </div>
+   </div>
 <footer class="footer">
   <?php print render($page['footer']); ?>
 </footer>

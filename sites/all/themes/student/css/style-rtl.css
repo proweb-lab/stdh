@@ -195,5 +195,7 @@ ul.secondary li {
 .footer
 {
     background-color:#636467;
+    margin-top: 0px;
+    height:100px;
 }
 /*End Style footer*/
