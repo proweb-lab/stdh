@@ -1,4 +1,9 @@
 /*Begin style navbar*/
+.logo
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .navbar.container
 {
     margin-top: 0px;
@@ -221,24 +226,3 @@ body
 
 }
 /*End STYLE login*/
-
-
-
-
-
-
-
-
-/*Begin style navbar*/
-
-.logo
-{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-/*End style navbar*/
-/* Begin style flexslider */
-
-
-/* End style flexslider */
