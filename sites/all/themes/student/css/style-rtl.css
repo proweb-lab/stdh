@@ -80,6 +80,7 @@ ul.secondary li
 #block-system-main-menu ul.menu li a:hover, .nav .open>a:focus
 {
     background-color: #636467;
+    color: #fff;
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
 {
@@ -92,10 +93,12 @@ ul.secondary li
 .dropdown-menu ul.menu li a:hover, .nav .open>a:focus
 {
     background-color: #636467;
+    color: #fff;
 }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus
 {
     background-color: #636467;
+    color: #fff;
 }
 .breadcrumb
 {
