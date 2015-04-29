@@ -51,8 +51,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.092449926" vertical-offset="0" max-vertical-offset="649">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="649">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -446,12 +446,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00044" summary="web form form control">
-      <created>1430211847792</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1430211847792</updated>
-    </task>
     <task id="LOCAL-00045" summary="test block services">
       <created>1430223043449</created>
       <option name="number" value="00045" />
@@ -740,7 +734,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430292712015</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="javascript file for toggle">
+      <created>1430293086765</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1430293086765</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1181,8 +1181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092449926" vertical-offset="0" max-vertical-offset="649">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="649">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
