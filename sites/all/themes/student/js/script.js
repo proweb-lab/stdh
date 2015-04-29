@@ -3,8 +3,8 @@
     attach: function (context, settings) {
 
        $('.accordion .collection-title').click(function(){
-          $('#accordion .colloection-info').toggleClass('active');
-          $('#accordion .colloection-info').slideToggle();
+          $('.accordion .colloection-info').toggleClass('active');
+          $('.accordion .colloection-info').slideToggle();
         });
 
    
