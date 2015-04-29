@@ -177,6 +177,10 @@ ul.secondary li {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.flex-control-nav
+{
+    bottom: 0px;
+}
 /*End style navbar*/
 /* Begin style flexslider */
 #flexslider-1
