@@ -53,7 +53,7 @@ ul.secondary li
 }
 #block-system-main-menu
 {
-    background-color: #636467;
+    background-color: #fff;
     border-color: #fefefe;
 }
 .nav .caret
@@ -63,12 +63,18 @@ ul.secondary li
 }
 #block-system-main-menu ul.menu li a
 {
-    color: #F1F9F9;
+    color: #636467;
     border-left: 1px solid;
 }
-#block-system-main-menu ul.menu li a:hover
+#block-system-main-menu ul.menu li:hover,
+#block-system-main-menu ul.menu li.active
 {
     background-color: #636467;
+}
+#block-system-main-menu ul.menu li:hover a,
+#block-system-main-menu ul.menu li.active a
+{
+    color: #fff;
 }
 #block-system-main-menu ul.menu li a:hover, .nav .open>a:focus
 {
