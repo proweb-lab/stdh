@@ -172,6 +172,10 @@ ul.secondary li {
     border-top-width: 0px;
 
 }
-
+.logo
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 /*End style navbar*/
