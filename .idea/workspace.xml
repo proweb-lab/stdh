@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="style slider ol remove bottom">
+    <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8113208" vertical-offset="2409" max-vertical-offset="3045">
-              <caret line="195" column="29" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.7641509" vertical-offset="2409" max-vertical-offset="3045">
+              <caret line="193" column="18" selection-start-line="193" selection-start-column="18" selection-end-line="193" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -381,12 +381,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00028" summary="update menu color border update4">
-      <created>1430205513898</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1430205513898</updated>
-    </task>
     <task id="LOCAL-00029" summary="update menu color border update4">
       <created>1430205582376</created>
       <option name="number" value="00029" />
@@ -675,7 +669,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430289820521</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="style footer background color">
+      <created>1430290100184</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1430290100184</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -720,7 +720,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="change width textbox email in webform" />
     <MESSAGE value="change width textarea Message in webform" />
     <MESSAGE value="change  margin-top button submit in webform" />
     <MESSAGE value="new logo" />
@@ -745,7 +744,8 @@
     <MESSAGE value="style slider remove hr under slider" />
     <MESSAGE value="style slider return hr under slider" />
     <MESSAGE value="style slider ol remove bottom" />
-    <option name="LAST_COMMIT_MESSAGE" value="style slider ol remove bottom" />
+    <MESSAGE value="style footer background color" />
+    <option name="LAST_COMMIT_MESSAGE" value="style footer background color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1114,8 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8113208" vertical-offset="2409" max-vertical-offset="3045">
-          <caret line="195" column="29" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.7641509" vertical-offset="2409" max-vertical-offset="3045">
+          <caret line="193" column="18" selection-start-line="193" selection-start-column="18" selection-end-line="193" selection-end-column="18" />
           <folding />
         </state>
       </provider>
