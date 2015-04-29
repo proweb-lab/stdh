@@ -180,6 +180,7 @@ ul.secondary li {
 .flex-control-nav
 {
     bottom: 0px;
+    z-index: 1000;
 }
 /*End style navbar*/
 /* Begin style flexslider */
