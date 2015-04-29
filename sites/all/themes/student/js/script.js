@@ -2,9 +2,11 @@
   Drupal.behaviors.student = {
     attach: function (context, settings) {
 
-        $(function() {
-            $( "#accordion" ).accordion();
+       $('#accordion h3').click(function(){
+          $('#accordion h3').toggleClass('active');
+          $('#accordion h3').slideToggle();
         });
+
    
       
       
