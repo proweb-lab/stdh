@@ -190,6 +190,9 @@ ul.secondary li {
     border-bottom-width: 0px;
     margin-bottom: 0px;
 }
+.navbar.container {
+    margin-top: 0px;
+}
 /* End style flexslider */
 /*Begin Style footer*/
 .footer
