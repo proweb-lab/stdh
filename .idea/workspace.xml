@@ -51,8 +51,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13867489" vertical-offset="0" max-vertical-offset="649">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.092449926" vertical-offset="0" max-vertical-offset="649">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -432,12 +432,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00038" summary="update menu color border update6">
-      <created>1430208447161</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1430208447161</updated>
-    </task>
     <task id="LOCAL-00039" summary="update menu color border update6">
       <created>1430208517642</created>
       <option name="number" value="00039" />
@@ -726,7 +720,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430291951031</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="javascript file for toggle">
+      <created>1430292077361</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1430292077361</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1167,8 +1167,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13867489" vertical-offset="0" max-vertical-offset="649">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.092449926" vertical-offset="0" max-vertical-offset="649">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -2,7 +2,7 @@
   Drupal.behaviors.student = {
     attach: function (context, settings) {
       
-       $('#accordion h3').accordion();
+       $('#accordion').accordion();
     
    
       
