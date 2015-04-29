@@ -85,6 +85,7 @@ ul.secondary li
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus
 {
     background-color: #636467;
+    display: block;
 }
 .dropdown-menu
 {
