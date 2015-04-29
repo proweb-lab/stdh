@@ -177,5 +177,12 @@ ul.secondary li {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
 /*End style navbar*/
+/* Begin style flexslider */
+#flexslider-1
+{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
+}
+/* End style flexslider */
