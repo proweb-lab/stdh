@@ -5,16 +5,12 @@
     float: left;
     list-style: none;
 }
-#block-menu-menu-top-menu ul
+#block-menu-menu-top-menu ul li a
 {
     list-style-type:none;
-
-}
-#block-menu-menu-top-menu  li
-{
     display: inline;
-
 }
+
 /*End style top menu*/
 /*Begin style navbar*/
 .logo
