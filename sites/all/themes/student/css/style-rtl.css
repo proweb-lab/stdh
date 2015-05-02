@@ -183,7 +183,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
   border-left: 0px;
   border-bottom-color: none;
 }
-.dropdown-menu>li>a{
+.dropdown-menu li a{
     color: #fff; 
 	border-bottom:1px solid #474747;
 	padding: 10px 10px;
