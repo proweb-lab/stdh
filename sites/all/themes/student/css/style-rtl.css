@@ -1,3 +1,10 @@
+/*Begin style top menu*/
+#block-menu-menu-top-menu
+{
+    width: 500px;
+    float: left;
+}
+/*End style top menu*/
 /*Begin style navbar*/
 .logo
 {
@@ -259,5 +266,4 @@ body
     right: 0;
     z-index: 1000;
 }
-
 /*End style social-block */
