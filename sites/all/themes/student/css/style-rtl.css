@@ -244,8 +244,9 @@ body
 {
     width: 500px;
     height: 500px;
-    background: aqua;
+    background: #fff;
     border: 30px solid blue;
+    border-radius: 50%;
 }
 
 /*End style block office*/
