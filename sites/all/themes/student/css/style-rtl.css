@@ -194,7 +194,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 }
 
 li.dropdown {
-   width: 120px;
+   width: 122px !important;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
