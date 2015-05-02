@@ -245,7 +245,7 @@ body
     width: 350px;
     height: 250px;
     background: #fff;
-    border: 30px solid #43aaff;
+    border: 30px solid rgba(4, 2, 4, 0.71);
     border-radius: 50%;
 }
 
