@@ -243,6 +243,7 @@ body
 .office-block{float: right;}
 .office-block .office-image{
   border: 2px solid;
+   border-radius: 50%;
 }
 .office-block .office-image img{
   border-radius: 50%;
