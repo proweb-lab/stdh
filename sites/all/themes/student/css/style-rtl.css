@@ -241,6 +241,7 @@ body
 /*End STYLE login*/
 /*Begin style block office*/
 .office-block{float: right;}
+.office-block .office-title{text-align: center;}
 .office-block .office-image{
   border: 2px solid;
    border-radius: 50%;
