@@ -68,7 +68,7 @@ ul.secondary li
 .navbar-default
 {
     background: none;
-    border-color: none;
+    border: none;
 }
 /*#block-system-main-menu
 {
