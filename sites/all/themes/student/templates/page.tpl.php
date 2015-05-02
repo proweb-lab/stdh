@@ -1,16 +1,3 @@
-<?php
-// *
-// * Regions:
-// * - $page['help']: Dynamic help text, mostly for admin pages.
-// * - $page['highlighted']: Items for the highlighted content region.
-// * - $page['content']: The main content of the current page.
-// * - $page['sidebar_first']: Items for the first sidebar.
-// * - $page['sidebar_second']: Items for the second sidebar.
-// * - $page['header']: Items for the header region.
-// * - $page['footer']: Items for the footer region.
-// *
-
-?>
 
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container">
@@ -29,6 +16,12 @@
         <span class="icon-bar"></span>
       </button>
     </div>
+      <div class="social-block">
+            <?php
+                    $social_block = module_invoke('block', 'block', 2);
+                    print render($social_block['content']);
+                    ?>
+      </div>
 
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       <div class="navbar-collapse collapse">
