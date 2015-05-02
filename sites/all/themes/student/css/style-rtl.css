@@ -9,7 +9,10 @@
     list-style-type:none;
 
 }
-
+#block-menu-menu-top-menu li
+{
+    display:inline-block;
+}
 /*End style top menu*/
 /*Begin style navbar*/
 .logo
