@@ -104,6 +104,9 @@ ul.secondary li
 {
     background-color:#FFFFFF;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 /*End style menu*/
 /*Begin style slider*/
 .main-slider .slides ul
