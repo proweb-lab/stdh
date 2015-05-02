@@ -3,6 +3,6 @@
         <?php print $fields['title']->content; ?>
     </div>
     <div class="office-image">
-        <?php print $fileds['field_image']->content;?>
+        <?php print $fields['field_image']->content;?>
     </div>
 </div>
