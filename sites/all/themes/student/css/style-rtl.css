@@ -131,8 +131,9 @@ ul.secondary li
   background: #f8f8f8;
   border-bottom: 1px dotted #a9a9a9;
   border-top: 1px dotted #a9a9a9;
-   margin-top: 50px;
+  margin-top: 25px;
   margin-right: 50px;
+  margin-bottom: 25px;
 }
 .navbar .nav > li > a { 
 	color: #636467;
