@@ -4,7 +4,7 @@
 
        $('.accordion .collection-title').click(function(){
           $('.accordion .colloction-info').toggleClass('active');
-          $('.accordion .collocollection-titlection-info').slideToggle();
+          $('.accordion .colloction-info').slideToggle();
         });
             $('.accordion .collection-title').click(function () {
       if ($(this).parents('.colloction-info').hasClass('active')) {
