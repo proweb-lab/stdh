@@ -4,7 +4,7 @@
     width: 250px;
     float: left;
 }
-#block-menu-menu-top-menu ul li a
+.block ul li a
 {
     display:inline-block;
     vertical-align: top;
