@@ -239,3 +239,13 @@ body
 
 }
 /*End STYLE login*/
+/*Begin style block office*/
+.offices-block
+{
+    width: 500px;
+    height: 500px;
+    background: aqua;
+    border: 30px solid blue;
+}
+
+/*End style block office*/
