@@ -370,7 +370,8 @@ body
   height: auto;
 }
 .front .offices-block{
-    margin-bottom: 50px;
+   padding-bottom: 50px;
+   border-bottom: 3px double #E5E5E5;
 }
 /*End style block office*/
 /*Begin style social-block*/
