@@ -62,10 +62,10 @@
       ?>
     </div>
     <hr>
-        <div class="offices-block">
+        <div class="offices-block container">
             <?php print views_embed_view('office','front_block')?>
         </div>
-        <div class="front services-blocks">
+        <div class="front services-blocks container">
             <?php print views_embed_view('services','front_block');?>
         </div>
     <?php }?>
