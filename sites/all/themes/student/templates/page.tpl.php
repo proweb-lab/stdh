@@ -65,6 +65,9 @@
         <div class="offices-block">
             <?php print views_embed_view('office','front_block')?>
         </div>
+        <div class="front services-blocks">
+            <?php print views_embed_view('services','front_block');?>
+        </div>
     <?php }?>
 
     <div class="row">
@@ -80,7 +83,7 @@
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
       <a id="main-content"></a>
-
+      
       <?php print $messages; ?>
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>
