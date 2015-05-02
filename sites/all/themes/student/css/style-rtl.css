@@ -142,9 +142,9 @@ ul.secondary li
 	font-size:12px; 
 	padding: 10px 15px 10px;
 }
-#block-system-main-menu .nav > .active  a,
-#block-system-main-menu .nav > .active  a:hover,
-#block-system-main-menu  .nav > .active  a:focus {
+#block-system-main-menu ul li.active  a,
+#block-system-main-menu .ul li.active  a:hover,
+#block-system-main-menu  ul li.active  a:focus {
 	color:#FFF; 
 	background-color:#d8450b;
      -webkit-box-shadow: none;
