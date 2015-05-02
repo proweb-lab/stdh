@@ -379,3 +379,9 @@ body
     top:50%;
 }
 /*End style social-block */
+/*Begin style services block*/
+.views-row
+{
+    width:300px;
+}
+/*End style services block*/
