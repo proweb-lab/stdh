@@ -67,8 +67,8 @@ ul.secondary li
 #first-time{display: none;}
 .navbar-default
 {
-    background-color: none;
-    border-color: #none;
+    background: none;
+    border-color: none;
 }
 /*#block-system-main-menu
 {
