@@ -4,6 +4,12 @@
     width: 250px;
     float: left;
 }
+#block-menu-menu-top-menu ul li
+{
+    display:inline-block;
+    vertical-align: top;
+    width: 50%; // should be less than 50%
+}
 /*End style top menu*/
 /*Begin style navbar*/
 .logo
