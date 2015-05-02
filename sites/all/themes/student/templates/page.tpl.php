@@ -19,7 +19,7 @@
       <div class="social-block">
             <?php
           
-                    $social_block = module_invoke('block', 'block', 2);
+                    $social_block =  module_invoke('block', 'block_view', '2');
                     print render($social_block['content']);
                     ?>
       </div>
