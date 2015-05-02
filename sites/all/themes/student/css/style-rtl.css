@@ -1,10 +1,10 @@
 /*Begin style top menu*/
 #block-menu-menu-top-menu
 {
-    width: 250px;
+    width: 700px;
     float: left;
 }
-#block-menu-menu-top-menu ul li a
+#block-menu-menu-top-menu ul
 {
     list-style-type:none;
 
