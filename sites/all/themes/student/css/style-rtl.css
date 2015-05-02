@@ -4,11 +4,9 @@
     width: 250px;
     float: left;
 }
-.block ul li a
+#block-menu-menu-top-menu ul li a
 {
-    display:inline-block;
-    vertical-align: top;
-    width: 30%; // should be less than 50%
+    list-style: none;
 }
 /*End style top menu*/
 /*Begin style navbar*/
