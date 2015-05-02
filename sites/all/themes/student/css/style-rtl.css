@@ -1,5 +1,5 @@
 body {
-  background: #f9f9f9 url(./images/page-bg-1.jpg);
+  background: #f9f9f9 url(../images/page-bg-1.jpg);
 }
 
 /*Begin style top menu*/
@@ -67,8 +67,8 @@ ul.secondary li
 #first-time{display: none;}
 .navbar-default
 {
-    background-color: #fefefe;
-    border-color: #fefefe;
+    background: none;
+    border: none;
 }
 /*#block-system-main-menu
 {
