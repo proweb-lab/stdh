@@ -37,9 +37,11 @@
           <?php endif; ?>
         </nav>
       </div>
-    <?php endif; ?>
+    <?php endif; 
+    
+     <?php print render($page['header']); ?>
   </div>
-    <?php print render($page['header']); ?>
+    
    </header>
     <?php if(drupal_is_front_page()){?>
    <div class="main-slider">
