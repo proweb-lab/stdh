@@ -242,8 +242,8 @@ body
 /*Begin style block office*/
 .offices-block
 {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     background: #fff;
     border: 30px solid blue;
     border-radius: 50%;
