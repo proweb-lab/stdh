@@ -5,8 +5,14 @@
     float: left;
     list-style: none;
 }
-#block-menu-menu-top-menu ul li a
+#block-menu-menu-top-menu ul
 {
+    list-style-type:none;
+
+}
+#block-menu-menu-top-menu  li
+{
+    display: inline;
 
 }
 /*End style top menu*/
