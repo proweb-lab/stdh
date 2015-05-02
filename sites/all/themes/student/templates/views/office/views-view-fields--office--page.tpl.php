@@ -1,7 +1,7 @@
 <div id="office">
-    <div class="office-title">
+    <h2 cclass="office-title">
         <?php print $fields['title']->content; ?>
-    </div>
+    </h2>
     <div class="office-image">
         <?php print $fields['field_image']->content; ?>
     </div>
