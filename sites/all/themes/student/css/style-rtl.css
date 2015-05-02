@@ -192,7 +192,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 	padding: 10px 10px;
 	margin:0px 10px;
 }
-.dropdown-menu li {
+li.dropdown-menu {
    width: 120px;
 }
 .dropdown-menu li > a:hover,
