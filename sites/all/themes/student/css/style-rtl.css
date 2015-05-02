@@ -216,7 +216,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
   border-top-color:#636467; 
   border-bottom-color: #636467;
 }
-.nav .caret:hover {
+.nav a:hover .caret {
   border-top-color:#000; 
   border-bottom-color: #000;
 }
