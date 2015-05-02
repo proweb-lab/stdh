@@ -3,7 +3,7 @@
   <div class="container">
     <div class="navbar-header">
       <?php if ($logo): ?>
-      <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+      <a class="logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
       </a>
       <?php endif; ?>
@@ -18,10 +18,9 @@
     </div>
       <div class="social-block">
             <?php
-          
-                    $social_block =  module_invoke('block', 'block_view', '2');
-                    print render($social_block['content']);
-                    ?>
+                 $social_block =  module_invoke('block', 'block_view', '2');
+                 print render($social_block['content']);
+                 ?>
       </div>
 
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
