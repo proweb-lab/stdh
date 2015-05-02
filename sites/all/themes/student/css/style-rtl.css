@@ -213,7 +213,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 #block-system-main-menu .nav > li > .dropdown-menu:after {
   display: none;
 }
-
+.nav .caret {
+  border-top-color:#636467; 
+  border-bottom-color: #636467;
+}
+.nav .caret:hover {
+  border-top-color:#000; 
+  border-bottom-color: #000;
+}
 
 /*End style menu*/
 /*Begin style slider*/
