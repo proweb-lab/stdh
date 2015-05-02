@@ -147,7 +147,7 @@ ul.secondary li
     box-shadow: none;  
 }
 #block-system-main-menu ul li:hover a{color: #000; background: none;}
-
+#block-system-main-menu ul li{margin: 0;padding: 0;}
 #block-system-main-menu  .nav li.dropdown.open > .dropdown-toggle,
 #block-system-main-menu  .nav li.dropdown.active > .dropdown-toggle,
 #block-system-main-menu  .nav li.dropdown.open.active > .dropdown-toggle {
