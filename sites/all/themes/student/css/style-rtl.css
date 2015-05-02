@@ -6,7 +6,7 @@
 }
 #block-menu-menu-top-menu ul li a
 {
-    display:block;
+    display:inline-block;
     vertical-align: top;
     width: 30%; // should be less than 50%
 }
