@@ -240,13 +240,15 @@ body
 }
 /*End STYLE login*/
 /*Begin style block office*/
-.offices-block
-{
-    width: 450px;
-    height: 250px;
-    background: #fff;
-    border: 30px solid rgba(4, 2, 4, 0.71);
-    border-radius: 50%;
+.office-block{float: right;}
+.office-block .office-image{
+  border: 2px solid;
 }
+.office-block .office-image img{
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
 
 /*End style block office*/
