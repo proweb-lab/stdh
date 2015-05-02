@@ -138,12 +138,12 @@ ul.secondary li
 	font-size:12px; 
 	padding: 10px 15px 10px;
 }
-#block-system-main-menu .nav > .active > a,
-#block-system-main-menu .nav > .active > a:hover,
-#block-system-main-menu  .nav > .active > a:focus {
+#block-system-main-menu ul li.active  a,
+#block-system-main-menu .ul li.active  a:hover,
+#block-system-main-menu  ul li.active  a:focus {
 	color:#FFF; 
 	background-color:#d8450b;
--webkit-box-shadow: none;
+     -webkit-box-shadow: none;
        -moz-box-shadow: none;
     box-shadow: none;  
 }
@@ -184,7 +184,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
   border-bottom-color: none;
 }
 .dropdown-menu>li>a{
-    color: #ababab; 
+    color: #fff; 
 	border-bottom:1px solid #474747;
 	padding: 10px 10px;
 	margin:0px 10px;
