@@ -24,7 +24,7 @@
       </div>
 
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse">
+      <div class="navigation">
         <nav role="navigation">
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
@@ -38,8 +38,9 @@
         </nav>
       </div>
     <?php endif; ?>
+     <?php print render($page['header']); ?>
   </div>
-    <?php print render($page['header']); ?>
+    
    </header>
     <?php if(drupal_is_front_page()){?>
    <div class="main-slider">
