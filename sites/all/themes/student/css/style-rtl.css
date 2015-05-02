@@ -383,5 +383,6 @@ body
 .views-row
 {
     width:300px;
+    float:right;
 }
 /*End style services block*/
