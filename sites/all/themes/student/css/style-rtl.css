@@ -1,3 +1,7 @@
+body {
+  background: #f9f9f9 url(./images/page-bg-1.jpg);
+}
+
 /*Begin style top menu*/
 #block-menu-menu-top-menu
 {
@@ -212,7 +216,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 #block-system-main-menu .nav > li > .dropdown-menu:after {
   display: none;
 }
-
+.nav .caret {
+  border-top-color:#636467; 
+  border-bottom-color: #636467;
+}
+.nav a:hover .caret {
+  border-top-color:#000; 
+  border-bottom-color: #000;
+}
 
 /*End style menu*/
 /*Begin style slider*/
