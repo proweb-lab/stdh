@@ -10,8 +10,10 @@ if (count($variables['element']['#items']) > 0) {
         
    <?php $item = $variables['element'][$key]['entity']['field_collection_item'][$value]; ?>
     <h3 class="collection-title"><?php echo render($item['field_title'][0]); ?></h3>
-        <div class="colloection-info">
+        <div class="colloction-info">
+             <div class="colloction-info-body">
           <?php echo render($item['field_body'][0]); ?>
+        </div>
         </div>
        
      
