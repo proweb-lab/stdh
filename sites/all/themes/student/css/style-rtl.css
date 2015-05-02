@@ -181,12 +181,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
   border-left: 0px;
   border-bottom-color: none;
 }
-.dropdown-menu a {
-	color: #ababab; 
+.dropdown-menu>li>a{
+    color: #ababab; 
 	border-bottom:1px solid #474747;
 	padding: 10px 10px;
 	margin:0px 10px;
 }
+
+
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
