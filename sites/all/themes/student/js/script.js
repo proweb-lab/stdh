@@ -2,9 +2,9 @@
   Drupal.behaviors.student = {
     attach: function (context, settings) {
 
-       $('.accordion .collection-title h3').click(function(){
-          $('.accordion .colloection-info').toggleClass('active');
-          $('.accordion .colloection-info').slideToggle();
+       $('.accordion .collection-title').click(function(){
+          $('.accordion .colloction-info').toggleClass('active');
+          $('.accordion .collocollection-titlection-info').slideToggle();
         });
             $('.accordion .collection-title').click(function () {
       if ($(this).parents('.colloction-info').hasClass('active')) {
@@ -15,9 +15,6 @@
       }
       $(this).parents('.colloction-info').find('.colloction-info-body').slideToggle('slow', function () {
       });
-
-     
-
 
     });
 
