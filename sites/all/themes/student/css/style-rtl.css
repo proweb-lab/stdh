@@ -356,6 +356,7 @@ body
 
 }
 /*End STYLE login*/
+
 /*Begin style block office*/
 .office-block{float: right;}
 .office-block .office-title{text-align: center;}
@@ -387,4 +388,11 @@ body
     top:50%;
 }
 /*End style social-block */
+/*Begin style services*/
+.front .service-block
+{
+    border:1px solid  #636467;
+    border-radius:10%;
+}
 
+/*End  style services*/
