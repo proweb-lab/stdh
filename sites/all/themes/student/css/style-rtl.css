@@ -105,7 +105,7 @@ ul.secondary li
 #block-system-main-menu  .nav li.dropdown.active > .dropdown-toggle,
 #block-system-main-menu  .nav li.dropdown.open.active > .dropdown-toggle {
   	color:#FFF; 
-	background-color:#d8450b;
+	background-color:#e89222;
 }
 ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 .dropdown-menu{
