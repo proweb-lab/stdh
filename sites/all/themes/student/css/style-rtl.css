@@ -219,7 +219,8 @@ li.dropdown {
 /*End style slider*/
 
 /*Begin style webform*/
-.webform-client-form-64 .form-control
+.webform-client-form-64 .form-control,
+.webform-client-form-64  .form-email
 {
     display:inline-block; width: 35%;
     height: 34px; padding: 6px 12px;
