@@ -297,7 +297,13 @@ body
 
 }
 /*End STYLE login*/
-
+/*Begin style block universities*/
+.block-universities
+{
+    float: left;
+    margin-top: 20px;
+}
+/*End style block universities*/
 /*Begin style block office*/
 .office-block{float: right;position: relative;}
 .office-block .office-title{text-align: center;}
