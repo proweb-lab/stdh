@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -28,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22169812" vertical-offset="4359" max-vertical-offset="5400">
-              <caret line="300" column="47" selection-start-line="300" selection-start-column="47" selection-end-line="300" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4389" max-vertical-offset="5415">
+              <caret line="302" column="47" selection-start-line="302" selection-start-column="47" selection-end-line="302" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="675" max-vertical-offset="1770">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.432" vertical-offset="585" max-vertical-offset="1815">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -75,9 +75,9 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custom/stdh_module/stdh.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/student.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/fields/field--field_information.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/js/script.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
       </list>
     </option>
   </component>
@@ -285,36 +285,6 @@
       <created>1429079359855</created>
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
-    </task>
-    <task id="LOCAL-00110" summary="edit file css">
-      <created>1430314516155</created>
-      <option name="number" value="00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1430314516155</updated>
-    </task>
-    <task id="LOCAL-00111" summary="edit file css">
-      <created>1430314700721</created>
-      <option name="number" value="00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1430314700721</updated>
-    </task>
-    <task id="LOCAL-00112" summary="edit file css">
-      <created>1430314762970</created>
-      <option name="number" value="00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1430314762971</updated>
-    </task>
-    <task id="LOCAL-00113" summary="edit file css">
-      <created>1430314803077</created>
-      <option name="number" value="00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1430314803077</updated>
-    </task>
-    <task id="LOCAL-00114" summary="menu dropdown hover">
-      <created>1430547269288</created>
-      <option name="number" value="00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1430547269289</updated>
     </task>
     <task id="LOCAL-00115" summary="try office block new style">
       <created>1430549852409</created>
@@ -580,7 +550,37 @@
       <option name="project" value="LOCAL" />
       <updated>1430649386341</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="edit office extra title&#10;">
+      <created>1430651305580</created>
+      <option name="number" value="00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1430651305580</updated>
+    </task>
+    <task id="LOCAL-00160" summary="edit office extra title&#10;">
+      <created>1430652989322</created>
+      <option name="number" value="00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1430652989322</updated>
+    </task>
+    <task id="LOCAL-00161" summary="unviresty&#10;">
+      <created>1430653138695</created>
+      <option name="number" value="00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1430653138695</updated>
+    </task>
+    <task id="LOCAL-00162" summary="unviresty&#10;">
+      <created>1430653253160</created>
+      <option name="number" value="00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1430653253160</updated>
+    </task>
+    <task id="LOCAL-00163" summary="unviresty&#10;">
+      <created>1430653323733</created>
+      <option name="number" value="00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1430653323734</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,7 +625,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="update menu color border update5" />
     <MESSAGE value="update menu color border update6" />
     <MESSAGE value="update menu color border update7" />
     <MESSAGE value="web form form control" />
@@ -650,7 +649,8 @@
     <MESSAGE value="style main container" />
     <MESSAGE value="edit file css" />
     <MESSAGE value="edit office extra title&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit office extra title&#10;" />
+    <MESSAGE value="unviresty&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="unviresty&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1002,18 +1002,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="675" max-vertical-offset="1770">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4389" max-vertical-offset="5415">
+          <caret line="302" column="47" selection-start-line="302" selection-start-column="47" selection-end-line="302" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22169812" vertical-offset="4359" max-vertical-offset="5400">
-          <caret line="300" column="47" selection-start-line="300" selection-start-column="47" selection-end-line="300" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.432" vertical-offset="585" max-vertical-offset="1815">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
           <folding />
         </state>
       </provider>

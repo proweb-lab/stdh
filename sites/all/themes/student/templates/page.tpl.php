@@ -54,7 +54,10 @@
         print(drupal_render($about));
       ?>
     </div>
-       
+        <div class="block-universities">
+            <a class="btn btn-primary btn-lg" href="ar/universities"><?php echo t('universities');?>
+            </a>
+        </div>
         <div class="offices-block container">
             <h2 class="block-title"><?php echo t('Study Abroad');?></h2>
             <?php print views_embed_view('office','front_block')?>
