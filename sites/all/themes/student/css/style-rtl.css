@@ -398,3 +398,10 @@ body
 }
 
 /*End  style services*/
+
+/*Begin style main-container*/
+.main-container
+{
+    min-height: 300px;
+}
+/*End style main-container*/
