@@ -375,7 +375,7 @@ body
 /*End style main-container*/
 
 /*Begin style page office*/
-.accordion h3
+.accordion h3 span
 {
     background-color: #d5d5d5;
     border: 1px solid;
