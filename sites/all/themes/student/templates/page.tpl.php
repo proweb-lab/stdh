@@ -63,7 +63,16 @@
         <div class="front services-blocks container">
             <h2 class="block-title"><?php echo t('Our Services');?></h2>
             <?php print views_embed_view('services','front_block');?>
-            <span class="service-buttom"><a href="ar/node/68"><?php print t('Go to All Services')?></a></span>
+            <div class="service-buttom">
+                  <?php if($language->language == 'ar'){
+                  $link = l(t('Go to All Services'), 'ar/node/68');
+                      }
+                        else{
+             $link = l(t('Go to All Services'), 'en/node/68');
+    }
+    echo $link;
+    ?>
+            </div>
          </div>
     <?php }?>
 
