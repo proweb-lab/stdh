@@ -207,10 +207,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 }
 .dropdown-menu li a{
     color: #fff !important; 
-	
-	padding: 10px ;
-	margin:0px auto;
-        text-align: center;
+    padding: 10px ;
+    margin:0px auto;
+    text-align: center;
 }
 
 li.dropdown {
