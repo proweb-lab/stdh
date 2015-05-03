@@ -179,7 +179,9 @@ li.dropdown {
   width: 20% !important;
   margin-top: 27px !important;
  }
-#block-search-form .input-group-btn button{background: #d8450b;  height: 42px;}
+#block-search-form .input-group-btn button{background: #d8450b;  height: 42px; border: none;
+  border-radius: 0;
+}
 #block-search-form input.form-control{height: 42px;}
 /*End style menu*/
 /*Begin style slider*/
