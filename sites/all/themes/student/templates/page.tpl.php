@@ -54,10 +54,11 @@
         print(drupal_render($about));
       ?>
     </div>
-   
+       <div class="block-title"><?php echo t('Study Abroad');?></div>
         <div class="offices-block container">
             <?php print views_embed_view('office','front_block')?>
         </div>
+       <div class="block-title"><?php echo t('Our Services');?></div>
         <div class="front services-blocks container">
             <?php print views_embed_view('services','front_block');?>
         </div>
