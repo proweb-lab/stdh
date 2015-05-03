@@ -56,11 +56,11 @@
             ?>
         </div>
         <div class="block-universities">
-            <a class="btn btn-primary btn-lg" href="ar/universities">
+            <button class="btn  btn-lg">
                 <?php  $link_universities = l(t('Search In Universities'), '/universities');
 
-               // echo t('Search In Universities');?>
-            </a>
+                echo $link_universities;?>
+            </button>
 
         </div>
         <div class="offices-block container">
