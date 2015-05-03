@@ -296,13 +296,15 @@ body
 .office-block .office-image{
   border: 2px solid;
    border-radius: 50%;
+   width: 240px;
+   height: 160px;
 }
 .office-block .extra-title {position: absolute;right: 50%;top: 10%;}
 
 .office-block .office-image img{
   border-radius: 50%;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .front .offices-block{
    margin-bottom: 30px;
