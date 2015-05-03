@@ -286,12 +286,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00106" summary="edit file css">
-      <created>1430312907651</created>
-      <option name="number" value="00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1430312907651</updated>
-    </task>
     <task id="LOCAL-00107" summary="edit file css">
       <created>1430313006057</created>
       <option name="number" value="00107" />
@@ -580,7 +574,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430638006430</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="edit office extra title&#10;">
+      <created>1430641932329</created>
+      <option name="number" value="00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1430641932329</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,7 +625,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="update menu color border update4" />
     <MESSAGE value="update menu color border update5" />
     <MESSAGE value="update menu color border update6" />
     <MESSAGE value="update menu color border update7" />
@@ -650,7 +649,8 @@
     <MESSAGE value="style serives" />
     <MESSAGE value="style main container" />
     <MESSAGE value="edit file css" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit file css" />
+    <MESSAGE value="edit office extra title&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit office extra title&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
