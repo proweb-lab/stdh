@@ -56,7 +56,7 @@
             ?>
         </div>
         <div class="block-universities">
-            <button class="btn  btn-lg">
+            <button class="btn btn-primary btn-lg">
                 <?php  $link_universities = l(t('Search In Universities'), '/universities');
 
                 echo $link_universities;?>
