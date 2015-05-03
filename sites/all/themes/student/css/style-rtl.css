@@ -306,14 +306,6 @@ body
     float: left;
     margin-top: 20px;
 }
-.btn-xlarge {
-    padding: 18px 28px;
-    font-size: 22px;
-    line-height: normal;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-}
 /*End style block universities*/
 /*Begin style block office*/
 .office-block{float: right;position: relative;}
