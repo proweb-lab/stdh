@@ -179,10 +179,10 @@ li.dropdown {
   width: 20% !important;
   margin-top: 27px !important;
  }
-#block-search-form .input-group-btn button{background: #d8450b;  height: 42px; border: none;
+#block-search-form .input-group-btn button{background: #e89222;  height: 42px; border: none;
   border-radius: 0;
 }
-#block-search-form .input-group-btn button i{color: #e89222;}
+#block-search-form .input-group-btn button i{color: #636467;}
 #block-search-form input.form-control{height: 42px;}
 /*End style menu*/
 /*Begin style slider*/
