@@ -56,12 +56,12 @@
     </div>
        
         <div class="offices-block container">
-            <h1 class="block-title"><?php echo t('Study Abroad');?></h1>
+            <h2 class="block-title"><?php echo t('Study Abroad');?></h2>
             <?php print views_embed_view('office','front_block')?>
         </div>
        
         <div class="front services-blocks container">
-            <h1 class="block-title"><?php echo t('Our Services');?></h1>
+            <h2 class="block-title"><?php echo t('Our Services');?></h2>
             <?php print views_embed_view('services','front_block');?>
         </div>
     <?php }?>
