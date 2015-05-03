@@ -63,7 +63,7 @@
         <div class="front services-blocks container">
             <h2 class="block-title"><?php echo t('Our Services');?></h2>
             <?php print views_embed_view('services','front_block');?>
-            <span class="buttom"><a href="/node/68"><?php print t('Go to All Services')?></a></span>
+            <span class="buttom"><a href="ar/node/68"><?php print t('Go to All Services')?></a></span>
          </div>
     <?php }?>
 
