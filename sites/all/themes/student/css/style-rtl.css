@@ -291,12 +291,14 @@ body
 /*End STYLE login*/
 
 /*Begin style block office*/
-.office-block{float: right;}
+.office-block{float: right;position: relative;}
 .office-block .office-title{text-align: center;}
 .office-block .office-image{
   border: 2px solid;
    border-radius: 50%;
 }
+.office-block .extra-title {position: absolute;right: 50%;top: 10%;}
+
 .office-block .office-image img{
   border-radius: 50%;
   width: 100%;
