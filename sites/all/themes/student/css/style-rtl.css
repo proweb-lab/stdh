@@ -174,6 +174,11 @@ li.dropdown {
   border-bottom-color: #000;
 }
 
+ #block-search-form {
+  float: left;
+  width: 20%;
+  margin-top: 30px;}
+
 /*End style menu*/
 /*Begin style slider*/
 .main-slider .slides ul
