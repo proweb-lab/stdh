@@ -36,26 +36,11 @@ body {
 }
 /*End style top menu*/
 /*Begin style navbar*/
-.logo
-{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.navbar.container
-{
-    margin-top: 0px;
-}
-.navbar-header
-{    margin-top: 15px;
-    float: right;
-}
-.navbar-nav
-{
-    float: right;
-    margin: 0;
-}
-.navbar-default
-{
+
+.navbar.container{margin-top: 0px;}
+.navbar-header{   margin-top: 15px; float: right;}
+.navbar-nav{float: right;margin: 0;}
+.navbar-default{
     margin-bottom: 0px;
     border-bottom-width: 0px;
     margin-top: 0px;
