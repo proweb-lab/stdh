@@ -381,5 +381,7 @@ body
     border: 1px solid;
 
 }
-
+.accordion span{
+    float:left;
+}
 /*End style page office */
