@@ -299,7 +299,7 @@ body
    width: 240px;
    height: 160px;
 }
-.office-block .extra-title {position: absolute;right: 50%;top: 10%;}
+.office-block .extra-title {position: absolute;right: 60%;top: 10%;}
 
 .office-block .office-image img{
   border-radius: 50%;
