@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/js/script.js" afterPath="$PROJECT_DIR$/sites/all/themes/student/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -42,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.18489985" vertical-offset="0" max-vertical-offset="649">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -416,12 +415,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00139" summary="style top menu">
-      <created>1430568088532</created>
-      <option name="number" value="00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1430568088532</updated>
-    </task>
     <task id="LOCAL-00140" summary="style top menu">
       <created>1430568280058</created>
       <option name="number" value="00140" />
@@ -710,7 +703,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430657201051</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="unviresty&#10;">
+      <created>1430657669462</created>
+      <option name="number" value="00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1430657669462</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1143,7 +1142,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18489985" vertical-offset="0" max-vertical-offset="649">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
