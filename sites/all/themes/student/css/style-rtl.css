@@ -177,8 +177,10 @@ li.dropdown {
  #block-search-form {
   float: left !important;
   width: 20% !important;
-  margin-top: 27px !important;}
+  margin-top: 27px !important;
+ }
 #block-search-form .input-group-btn button{background: #d8450b}
+#block-search-form input.form-control{height: 42px;}
 /*End style menu*/
 /*Begin style slider*/
 .main-slider .slides ul
