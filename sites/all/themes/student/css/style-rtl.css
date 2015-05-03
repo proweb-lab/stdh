@@ -306,6 +306,10 @@ body
     float: left;
     margin-top: 20px;
 }
+.block-universities a
+{
+    text-decoration: none;
+}
 /*End style block universities*/
 /*Begin style block office*/
 .office-block{float: right;position: relative;}
