@@ -99,7 +99,7 @@ ul.secondary li
        -moz-box-shadow: none;
     box-shadow: none;  
 }
-#block-system-main-menu ul li:hover a{color: #000; background: none;}
+#block-system-main-menu ul li:hover a{color: #e89222; background: none;}
 #block-system-main-menu ul li{margin: 0;padding: 0; width: 100px;text-align: center;}
 #block-system-main-menu  .nav li.dropdown.open > .dropdown-toggle,
 #block-system-main-menu  .nav li.dropdown.active > .dropdown-toggle,
@@ -170,8 +170,8 @@ li.dropdown {
   border-bottom-color: #636467;
 }
 .nav a:hover .caret {
-  border-top-color:#000; 
-  border-bottom-color: #000;
+  border-top-color:#e89222; 
+  border-bottom-color: #e89222;
 }
 
  #block-search-form {
