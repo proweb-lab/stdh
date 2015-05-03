@@ -286,12 +286,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00114" summary="menu dropdown hover">
-      <created>1430547269288</created>
-      <option name="number" value="00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1430547269289</updated>
-    </task>
     <task id="LOCAL-00115" summary="try office block new style">
       <created>1430549852409</created>
       <option name="number" value="00115" />
@@ -580,7 +574,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430653253160</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="unviresty&#10;">
+      <created>1430653323733</created>
+      <option name="number" value="00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1430653323734</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="ToolWindowManager">
