@@ -175,9 +175,9 @@ li.dropdown {
 }
 
  #block-search-form {
-  float: left;
-  width: 20%;
-  margin-top: 30px;}
+  float: left !important;
+  width: 20% !important;
+  margin-top: 30px !important;}
 
 /*End style menu*/
 /*Begin style slider*/
