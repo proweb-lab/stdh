@@ -311,6 +311,11 @@ body
     text-decoration: none;
     color:#fff;
 }
+.btn-universities
+{
+    background-color: #d8450b;
+    border-color: #d8450b;
+}
 /*End style block universities*/
 /*Begin style block office*/
 .office-block{float: right;position: relative;}
