@@ -55,7 +55,7 @@
       ?>
     </div>
         <div class="block-universities">
-            <a class="btn btn-primary btn-lg" href="ar/universities"><?php echo t('universities');?>
+            <a class="btn btn-primary btn-lg" href="ar/universities"><?php echo t('Search In Universities');?>
             </a>
         </div>
         <div class="offices-block container">
