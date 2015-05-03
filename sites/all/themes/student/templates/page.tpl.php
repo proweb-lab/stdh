@@ -56,14 +56,15 @@
             ?>
         </div>
         <div class="block-universities">
-            <a class="btn btn-primary btn-lg" href="ar/universities"><?php echo t('Search In Universities'); ?>
-            </a>
             <a class="btn btn-primary btn-md" href="ar/universities"><?php echo t('Search In Universities'); ?>
             </a>
             <a class="btn btn-primary btn-sm" href="ar/universities"><?php echo t('Search In Universities'); ?>
             </a>
             <a class="btn btn-primary btn-xs" href="ar/universities"><?php echo t('Search In Universities'); ?>
             </a>
+            <a class="btn btn-primary btn-lg" href="ar/universities"><?php echo t('Search In Universities'); ?>
+            </a>
+
         </div>
         <div class="offices-block container">
             <h2 class="block-title"><?php echo t('Study Abroad'); ?></h2>
