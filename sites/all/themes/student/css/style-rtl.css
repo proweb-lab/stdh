@@ -312,9 +312,10 @@ body
   height: 100%;
 }
 .front .offices-block{
-   margin-bottom: 30px;
+   margin:30px;
    padding-bottom: 30px;
    border-bottom: 3px double #E5E5E5;
+  
 }
 .front .services-blocks{
   margin-top: 30px;
