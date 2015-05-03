@@ -94,7 +94,7 @@ ul.secondary li
 #block-system-main-menu .ul li.active  a:hover,
 #block-system-main-menu  ul li.active  a:focus {
 	color:#FFF; 
-	background-color:#d8450b;
+	background-color:#e89222;
      -webkit-box-shadow: none;
        -moz-box-shadow: none;
     box-shadow: none;  
@@ -182,7 +182,7 @@ li.dropdown {
 #block-search-form .input-group-btn button{background: #d8450b;  height: 42px; border: none;
   border-radius: 0;
 }
-#block-search-form .input-group-btn button i{color: #636467;}
+#block-search-form .input-group-btn button i{color: #e89222;}
 #block-search-form input.form-control{height: 42px;}
 /*End style menu*/
 /*Begin style slider*/
