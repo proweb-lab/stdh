@@ -373,3 +373,12 @@ body
     min-height: 300px;
 }
 /*End style main-container*/
+
+/*Begin style page office*/
+.accordion h3
+{
+    background-color: #d5d5d5;
+    border: 1px solid;
+}
+
+/*End style page office */
