@@ -99,7 +99,7 @@ ul.secondary li
        -moz-box-shadow: none;
     box-shadow: none;  
 }
-#block-system-main-menu ul li:hover a{color: #000; background: none;}
+#block-system-main-menu ul li:hover a{color: #e89222; background: none;}
 #block-system-main-menu ul li{margin: 0;padding: 0; width: 100px;text-align: center;}
 #block-system-main-menu  .nav li.dropdown.open > .dropdown-toggle,
 #block-system-main-menu  .nav li.dropdown.active > .dropdown-toggle,
@@ -148,7 +148,7 @@ li.dropdown {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
-  color: #e89222;
+  color: #f9f9f9;
   text-decoration: none;
   background-color: #383838;
   background-image: none;
