@@ -224,7 +224,7 @@ li.dropdown {
   background-image: none;
   filter: none;
 }
-.dropdown li{width: 100%;}
+.dropdown li{width: 100% !important;}
 #block-system-main-menu .nav li.dropdown.open > .dropdown-toggle .caret,
 #block-system-main-menu .nav li.dropdown.active > .dropdown-toggle .caret,
 #block-system-main-menu  .nav li.dropdown.open.active > .dropdown-toggle .caret {
