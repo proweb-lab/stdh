@@ -148,7 +148,7 @@ li.dropdown {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
-  color: #f9f9f9;
+  color: #e89222;
   text-decoration: none;
   background-color: #383838;
   background-image: none;
