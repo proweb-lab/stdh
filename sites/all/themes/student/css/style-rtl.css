@@ -105,7 +105,7 @@ ul.secondary li
 #block-system-main-menu  .nav li.dropdown.active > .dropdown-toggle,
 #block-system-main-menu  .nav li.dropdown.open.active > .dropdown-toggle {
   	color:#FFF; 
-	background-color:#d8450b;
+	background-color:#e89222;
 }
 ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 .dropdown-menu{
@@ -182,7 +182,7 @@ li.dropdown {
 #block-search-form .input-group-btn button{background: #e89222;  height: 42px; border: none;
   border-radius: 0;
 }
-#block-search-form .input-group-btn button i{color: #e89222;}
+#block-search-form .input-group-btn button i{color: #636467;}
 #block-search-form input.form-control{height: 42px;}
 /*End style menu*/
 /*Begin style slider*/
