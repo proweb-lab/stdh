@@ -59,7 +59,7 @@
             <a class="btn btn-primary btn-lg" href="ar/universities">
                 <?php  $link_universities = l(t('Search In Universities'), '/universities');
 
-               // echo t('Search In Universities');?>
+                echo $link_universities;?>
             </a>
 
         </div>
