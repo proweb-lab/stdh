@@ -170,8 +170,8 @@ li.dropdown {
   border-bottom-color: #636467;
 }
 .nav a:hover .caret {
-  border-top-color:#000; 
-  border-bottom-color: #000;
+  border-top-color:#e89222; 
+  border-bottom-color: #e89222;
 }
 
  #block-search-form {
