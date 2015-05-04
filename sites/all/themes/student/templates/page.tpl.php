@@ -135,6 +135,7 @@
 
     </div>
 </div>
+<a style="display: block;" href="#" class="scrollToTop button"><i class="enotype-icon-arrow-up"></i></a>
 <footer class="footer">
 <?php print render($page['footer']); ?>
 </footer>
