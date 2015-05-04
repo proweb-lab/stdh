@@ -137,5 +137,4 @@
 </div>
 <footer class="footer">
 <?php print render($page['footer']); ?>
-    <h2>hello</h2>
 </footer>
