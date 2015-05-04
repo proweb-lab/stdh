@@ -74,7 +74,7 @@
                 echo $link_learn_turkish;?>
             </button>
             <button class="btn btn-success-stories btn-lg">
-                <?php  $link_Stories = l(t('Success Stories'), '');
+                <?php  $link_Stories = l(t('Success Stories'), '#');
                 echo $link_Stories;?>
             </button>
         </div>
