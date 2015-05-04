@@ -404,8 +404,8 @@ body
 .accordion  h3
 {
     background-color: #000000;
-    border: 1px solid;
-    color:#fff;
+    border: 1px solid ;
+    color:#e89222;
 
 }
 .accordion span{
