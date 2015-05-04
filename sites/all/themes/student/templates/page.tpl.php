@@ -132,10 +132,14 @@
             <?php print render($page['sidebar_second']); ?>
             </aside>  <!-- /#sidebar-second -->
             <?php endif; ?>
+        <span id="top-link-block" class="hidden">
+    <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</span><!-- /top-link-block -->
 
     </div>
 </div>
-<a style="display: block;" href="#" class="scrollToTop button"><i class="enotype-icon-arrow-up"></i></a>
 <footer class="footer">
 <?php print render($page['footer']); ?>
 </footer>
