@@ -32,8 +32,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.428572" vertical-offset="4553" max-vertical-offset="6090">
-              <caret line="323" column="16" selection-start-line="323" selection-start-column="16" selection-end-line="323" selection-end-column="16" />
+            <state vertical-scroll-proportion="-13.642858" vertical-offset="4553" max-vertical-offset="6180">
+              <caret line="329" column="16" selection-start-line="329" selection-start-column="16" selection-end-line="329" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -62,8 +62,8 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29411766" vertical-offset="660" max-vertical-offset="2040">
-              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.6372549" vertical-offset="690" max-vertical-offset="2130">
+              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -87,8 +87,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/student/student.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/fields/field--field_information.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/js/script.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
       </list>
     </option>
   </component>
@@ -376,12 +376,6 @@
       <created>1429079359855</created>
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
-    </task>
-    <task id="LOCAL-00170" summary="unviresty&#10;">
-      <created>1430654121757</created>
-      <option name="number" value="00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1430654121757</updated>
     </task>
     <task id="LOCAL-00171" summary="unviresty&#10;">
       <created>1430654172281</created>
@@ -671,7 +665,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430731682466</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="add button class test unversity">
+      <created>1430731951718</created>
+      <option name="number" value="00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1430731951718</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -716,7 +716,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="style slider" />
     <MESSAGE value="style slider remove hr under slider" />
     <MESSAGE value="style slider return hr under slider" />
     <MESSAGE value="style slider ol remove bottom" />
@@ -741,7 +740,8 @@
     <MESSAGE value="style button search in unversity" />
     <MESSAGE value="style offices block continer" />
     <MESSAGE value="add button test unversity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add button test unversity" />
+    <MESSAGE value="add button class test unversity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add button class test unversity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1107,16 +1107,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.428572" vertical-offset="4553" max-vertical-offset="6090">
-          <caret line="323" column="16" selection-start-line="323" selection-start-column="16" selection-end-line="323" selection-end-column="16" />
+        <state vertical-scroll-proportion="-13.642858" vertical-offset="4553" max-vertical-offset="6180">
+          <caret line="329" column="16" selection-start-line="329" selection-start-column="16" selection-end-line="329" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29411766" vertical-offset="660" max-vertical-offset="2040">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.6372549" vertical-offset="690" max-vertical-offset="2130">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
           <folding />
         </state>
       </provider>
