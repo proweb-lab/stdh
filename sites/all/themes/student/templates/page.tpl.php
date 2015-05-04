@@ -57,14 +57,15 @@
         </div>
         <div class="block-universities">
             <button class="btn btn-universities btn-lg">
+                <?php  $link_test = l(t('Test university orientation '), 'http://myqyas.monadsoft.com/startMyQyas.aspx');
+                echo $link_test;?>
+            </button>
+            <button class="btn btn-universities btn-lg">
                 <?php  $link_universities = l(t('Search In Universities'), '/universities');
 
                 echo $link_universities;?>
             </button>
-            <button class="btn btn-universities btn-lg">
-                <?php  $link_test = l(t('Test university orientation '), 'http://myqyas.monadsoft.com/startMyQyas.aspx');
-                echo $link_test;?>
-            </button>
+
         </div>
         <div class="offices-block container">
             <h2 class="block-title"><?php echo t('Study Abroad'); ?></h2>
