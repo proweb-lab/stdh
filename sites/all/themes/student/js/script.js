@@ -5,13 +5,13 @@
 
         $('.collection-title').click(function(){
             var next = $(this).next('.colloction-info');
-            $(this).siblings('.colloction-info').not(next).slideUp("slow");
-            next.slideToggle("slow");
+            $(this).siblings('.colloction-info').not(next).slideUp("fast");
+            next.slideToggle("fast");
         });
 
         $('.colloction-info').click(function(){
-            $(this).siblings('.colloction-info').slideUp("slow");
-            $(this).slideToggle("slow");
+            $(this).siblings('.colloction-info').slideUp("fast");
+            $(this).slideToggle("fast");
         });
 
       

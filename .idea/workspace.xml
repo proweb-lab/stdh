@@ -41,8 +41,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3466872" vertical-offset="0" max-vertical-offset="649">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.2311248" vertical-offset="0" max-vertical-offset="649">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -376,12 +376,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00159" summary="edit office extra title&#10;">
-      <created>1430651305580</created>
-      <option name="number" value="00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1430651305580</updated>
-    </task>
     <task id="LOCAL-00160" summary="edit office extra title&#10;">
       <created>1430652989322</created>
       <option name="number" value="00160" />
@@ -670,7 +664,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430722053811</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="toggle try work">
+      <created>1430724840659</created>
+      <option name="number" value="00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1430724840659</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1114,8 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3466872" vertical-offset="0" max-vertical-offset="649">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.2311248" vertical-offset="0" max-vertical-offset="649">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
