@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6052632" vertical-offset="5737" max-vertical-offset="6360">
-              <caret line="407" column="21" selection-start-line="407" selection-start-column="21" selection-end-line="407" selection-end-column="21" />
+              <caret line="407" column="4" selection-start-line="407" selection-start-column="4" selection-end-line="407" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -376,12 +376,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00186" summary="unviresty&#10;">
-      <created>1430656914007</created>
-      <option name="number" value="00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1430656914007</updated>
-    </task>
     <task id="LOCAL-00187" summary="unviresty&#10;">
       <created>1430657201051</created>
       <option name="number" value="00187" />
@@ -670,7 +664,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430742662092</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="toggle title background color">
+      <created>1430745598099</created>
+      <option name="number" value="00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1430745598099</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +715,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="style slider ol z-index" />
     <MESSAGE value="style footer height" />
     <MESSAGE value="javascript file for toggle" />
     <MESSAGE value="offices front block" />
@@ -740,7 +739,8 @@
     <MESSAGE value="add button Success stories" />
     <MESSAGE value="edit button success story" />
     <MESSAGE value="new buuton bottom up" />
-    <option name="LAST_COMMIT_MESSAGE" value="new buuton bottom up" />
+    <MESSAGE value="toggle title background color" />
+    <option name="LAST_COMMIT_MESSAGE" value="toggle title background color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1115,7 +1115,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6052632" vertical-offset="5737" max-vertical-offset="6360">
-          <caret line="407" column="21" selection-start-line="407" selection-start-column="21" selection-end-line="407" selection-end-column="21" />
+          <caret line="407" column="4" selection-start-line="407" selection-start-column="4" selection-end-line="407" selection-end-column="4" />
           <folding />
         </state>
       </provider>
