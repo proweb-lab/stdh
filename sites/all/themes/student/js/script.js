@@ -3,10 +3,26 @@
     attach: function (context, settings) {
 
 
-       $('.accordion .collection-title').click(function(){
+        $('.collection-title').click(function(){
+            var prev = $(this).prev('.colloction-info-body');
+            $(this).siblings('.colloction-info-body').not(prev).slideUp("slow");
+            prev.slideToggle("slow");
+        });
+
+        $('.colloction-info-body').click(function(){
+            $(this).siblings('.colloction-info-body').slideUp("slow");
+            $(this).slideToggle("slow");
+        });
+
+
+
+
+
+
+       /*$('.accordion .collection-title').click(function(){
           $('.accordion .colloction-info').toggleClass('active');
           $('.accordion .colloction-info').slideToggle();
-        });
+        });*/
 
 
    

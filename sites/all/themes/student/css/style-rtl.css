@@ -384,4 +384,8 @@ body
 .accordion span{
     float:left;
 }
+.colloction-info-body
+{
+    display: none;
+}
 /*End style page office */
