@@ -4,13 +4,13 @@
 
 
         $('.collection-title').click(function(){
-            var prev = $(this).prev('.colloction-info-body');
-            $(this).siblings('.colloction-info-body').not(prev).slideUp("slow");
+            var prev = $(this).prev('.colloction-info');
+            $(this).siblings('.colloction-info').not(prev).slideUp("slow");
             prev.slideToggle("slow");
         });
 
-        $('.colloction-info-body').click(function(){
-            $(this).siblings('.colloction-info-body').slideUp("slow");
+        $('.colloction-info').click(function(){
+            $(this).siblings('.colloction-info').slideUp("slow");
             $(this).slideToggle("slow");
         });
 
