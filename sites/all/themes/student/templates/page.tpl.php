@@ -138,9 +138,5 @@
 </div>
 <footer class="footer">
 <?php print render($page['footer']); ?>
-    <span id="top-link-block" class="hidden">
-    <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
-        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
-    </a>
-</span><!-- /top-link-block -->
+   hello
 </footer>
