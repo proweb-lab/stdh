@@ -32,8 +32,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.642858" vertical-offset="4553" max-vertical-offset="6180">
-              <caret line="329" column="16" selection-start-line="329" selection-start-column="16" selection-end-line="329" selection-end-column="16" />
+            <state vertical-scroll-proportion="-16.857143" vertical-offset="4553" max-vertical-offset="6270">
+              <caret line="335" column="16" selection-start-line="335" selection-start-column="16" selection-end-line="335" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -62,8 +62,8 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6372549" vertical-offset="690" max-vertical-offset="2130">
-              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.44117647" vertical-offset="855" max-vertical-offset="2190">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -377,12 +377,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00171" summary="unviresty&#10;">
-      <created>1430654172281</created>
-      <option name="number" value="00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1430654172281</updated>
-    </task>
     <task id="LOCAL-00172" summary="unviresty&#10;">
       <created>1430654274161</created>
       <option name="number" value="00172" />
@@ -671,7 +665,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430731951718</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="add button learn trukisy">
+      <created>1430732772389</created>
+      <option name="number" value="00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1430732772389</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -716,7 +716,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="style slider remove hr under slider" />
     <MESSAGE value="style slider return hr under slider" />
     <MESSAGE value="style slider ol remove bottom" />
     <MESSAGE value="style footer background color" />
@@ -741,7 +740,8 @@
     <MESSAGE value="style offices block continer" />
     <MESSAGE value="add button test unversity" />
     <MESSAGE value="add button class test unversity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add button class test unversity" />
+    <MESSAGE value="add button learn trukisy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add button learn trukisy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1107,16 +1107,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.642858" vertical-offset="4553" max-vertical-offset="6180">
-          <caret line="329" column="16" selection-start-line="329" selection-start-column="16" selection-end-line="329" selection-end-column="16" />
+        <state vertical-scroll-proportion="-16.857143" vertical-offset="4553" max-vertical-offset="6270">
+          <caret line="335" column="16" selection-start-line="335" selection-start-column="16" selection-end-line="335" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6372549" vertical-offset="690" max-vertical-offset="2130">
-          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.44117647" vertical-offset="855" max-vertical-offset="2190">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
           <folding />
         </state>
       </provider>

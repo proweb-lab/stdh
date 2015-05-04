@@ -329,6 +329,12 @@ body
     border-color: #e89222;
     width:270px;
 }
+.btn-success-stories
+{
+    background-color: #e89222;
+    border-color: #e89222;
+    width:270px;
+}
 /*End style block universities*/
 /*Begin style block office*/
 .office-block{float: right;position: relative;}

@@ -73,6 +73,10 @@
                         array('target' => '_blank')));
                 echo $link_learn_turkish;?>
             </button>
+            <button class="btn btn-success-stories btn-lg">
+                <?php  $link_Stories = l(t('Success Stories'), '');
+                echo $link_Stories;?>
+            </button>
         </div>
         <div class="offices-block container">
             <h2 class="block-title"><?php echo t('Study Abroad'); ?></h2>
