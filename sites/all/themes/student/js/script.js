@@ -4,9 +4,9 @@
 
 
         $('.collection-title').click(function(){
-            var prev = $(this).next('.colloction-info');
-            $(this).siblings('.colloction-info').not(prev).slideUp("slow");
-            prev.slideToggle("slow");
+            var next = $(this).next('.colloction-info');
+            $(this).siblings('.colloction-info').not(next).slideUp("slow");
+            next.slideToggle("slow");
         });
 
         $('.colloction-info').click(function(){
@@ -14,21 +14,6 @@
             $(this).slideToggle("slow");
         });
 
-
-
-
-
-
-       /*$('.accordion .collection-title').click(function(){
-          $('.accordion .colloction-info').toggleClass('active');
-          $('.accordion .colloction-info').slideToggle();
-        });*/
-
-
-   
-      
-      
-      
       
     }
        };
