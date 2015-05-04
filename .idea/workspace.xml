@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.53431374" vertical-offset="813" max-vertical-offset="2190">
-              <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+              <caret line="76" column="64" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -376,12 +376,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00178" summary="unviresty&#10;">
-      <created>1430655169014</created>
-      <option name="number" value="00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1430655169014</updated>
-    </task>
     <task id="LOCAL-00179" summary="unviresty&#10;">
       <created>1430655223374</created>
       <option name="number" value="00179" />
@@ -670,7 +664,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430735432698</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="edit button success story">
+      <created>1430738858559</created>
+      <option name="number" value="00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1430738858559</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +715,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="style slider ol remove bottom" />
     <MESSAGE value="style footer background color" />
     <MESSAGE value="style slider ol z-index" />
     <MESSAGE value="style footer height" />
@@ -740,7 +739,8 @@
     <MESSAGE value="add button class test unversity" />
     <MESSAGE value="add button learn trukisy" />
     <MESSAGE value="add button Success stories" />
-    <option name="LAST_COMMIT_MESSAGE" value="add button Success stories" />
+    <MESSAGE value="edit button success story" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit button success story" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1115,7 +1115,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53431374" vertical-offset="813" max-vertical-offset="2190">
-          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+          <caret line="76" column="64" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
           <folding />
         </state>
       </provider>
