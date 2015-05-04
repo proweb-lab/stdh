@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5805921" vertical-offset="5737" max-vertical-offset="6360">
-              <caret line="406" column="22" selection-start-line="406" selection-start-column="22" selection-end-line="406" selection-end-column="22" />
+              <caret line="406" column="29" selection-start-line="406" selection-start-column="29" selection-end-line="406" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -376,12 +376,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00193" summary="toggle office">
-      <created>1430660262431</created>
-      <option name="number" value="00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1430660262431</updated>
-    </task>
     <task id="LOCAL-00194" summary="toggle office">
       <created>1430660304535</created>
       <option name="number" value="00194" />
@@ -670,7 +664,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430746289675</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="toggle title background color">
+      <created>1430746399078</created>
+      <option name="number" value="00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1430746399078</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1115,7 +1115,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5805921" vertical-offset="5737" max-vertical-offset="6360">
-          <caret line="406" column="22" selection-start-line="406" selection-start-column="22" selection-end-line="406" selection-end-column="22" />
+          <caret line="406" column="29" selection-start-line="406" selection-start-column="29" selection-end-line="406" selection-end-column="29" />
           <folding />
         </state>
       </provider>
