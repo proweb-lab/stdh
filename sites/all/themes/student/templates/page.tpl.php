@@ -133,8 +133,7 @@
             </aside>  <!-- /#sidebar-second -->
             <?php endif; ?>
 
-        <a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
-
+        <a class="back-to-top"  href="#">Back to Top</a>
     </div>
 
 </div>
