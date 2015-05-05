@@ -468,6 +468,11 @@ body
 /*End style button back to top*/
 
 /*Begin style view services*/
+.service
+{
+    margin-bottom: 32px;
+
+}
 .service-image
 {
     display: inline-block;
