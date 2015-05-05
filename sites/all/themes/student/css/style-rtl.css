@@ -473,12 +473,12 @@ body
     margin-bottom: 32px;
 
 }
-.service-image
+.service .service-image
 {
     float:right;
 }
 
-.service-info
+.service .service-info
 {
     display: inline-block;
     margin-right: 20px;
