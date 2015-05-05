@@ -204,7 +204,7 @@ li.dropdown {
 .flex-direction-nav a.flex-next:before { content: '';}
 .flex-direction-nav a.flex-next{background: no-repeat url("../images/arrow-right.png");text-indent: -30000px;height:90px;width: 75px;}
 .flex-control-nav{
-    bottom: 50px;
+    bottom: 0px;
     z-index: 1000;
 }
 #flexslider-1{
