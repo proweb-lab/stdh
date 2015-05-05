@@ -465,4 +465,8 @@ body
 .back-to-top i {
     font-size: 60px;
 }
+a .back-to-top:hover
+{
+    opacity: 0.5;
+}
 /*End style button back to top*/
