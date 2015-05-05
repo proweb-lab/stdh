@@ -134,7 +134,7 @@
             <?php endif; ?>
 
         <a href="#" class="back-to-top">
-            <i class="icon-up-arrow"></i>
+            <i class="icon-circle-arrow-up"></i>
         </a>
     </div>
 
