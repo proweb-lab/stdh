@@ -467,6 +467,6 @@ body
 }
 a .back-to-top:hover
 {
-    opacity: 0.5;
+    color: white;
 }
 /*End style button back to top*/
