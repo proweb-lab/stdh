@@ -133,7 +133,9 @@
             </aside>  <!-- /#sidebar-second -->
             <?php endif; ?>
 
-        <a class="back-to-top"  href="#">Back to Top</a>
+        <a href="#" class="back-to-top">
+            <i class="fa fa-arrow-circle-up"></i>
+        </a>
     </div>
 
 </div>
