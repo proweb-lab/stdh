@@ -419,7 +419,7 @@ body
 {
     display: none;
 }
-.view-office .field-collection-container{display: none;}
+.view-office .field-collection-container{border: none;}
 /*End style page office */
 /*Begin style page universities*/
 #edit-uni-language
