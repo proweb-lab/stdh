@@ -480,5 +480,7 @@ body
 .service-info
 {
     display: inline-block;
+    margin-right: 20px;
+
 }
 /*End style view services*/
