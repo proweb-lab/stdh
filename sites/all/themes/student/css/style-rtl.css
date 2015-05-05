@@ -460,10 +460,13 @@ body
 }
 .glyphicon-arrow-up:hover
 {
-   color: #e89222;
+
 }
 .back-to-top i {
     font-size: 60px;
 }
-
+.back-to-top:hover
+{
+    color: white;
+}
 /*End style button back to top*/
