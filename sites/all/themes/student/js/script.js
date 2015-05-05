@@ -16,7 +16,7 @@
         //End Script toggle
 
       //Begin Script button back to top
-        var offset = 450;
+        var offset = 350;
         var duration = 300;
         jQuery(window).scroll(function() {
             if (jQuery(this).scrollTop() > offset) {
