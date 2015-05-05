@@ -466,3 +466,14 @@ body
     color: white;
 }
 /*End style button back to top*/
+
+/*Begin style view services*/
+.service-image
+{
+    display: inline-block;
+}
+.service-info
+{
+    display: inline-block;
+}
+/*End style view services*/
