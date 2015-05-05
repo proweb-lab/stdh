@@ -419,3 +419,9 @@ body
     display: none;
 }
 /*End style page office */
+/*Begin style page universities*/
+#edit-uni-language
+{
+    height: 25px;
+}
+/*End style page universities*/
