@@ -2,7 +2,7 @@
   Drupal.behaviors.student = {
     attach: function (context, settings) {
 
-
+       //Begin Script toggle
         $('.collection-title').click(function(){
             var next = $(this).next('.colloction-info');
             $(this).siblings('.colloction-info').not(next).slideUp("fast");
@@ -13,7 +13,9 @@
             $(this).siblings('.colloction-info').slideUp("fast");
             $(this).slideToggle("fast");
         });
+        //End Script toggle
 
+      //Begin Script button back to top
         var offset = 250;
         var duration = 300;
         jQuery(window).scroll(function() {
@@ -29,6 +31,7 @@
             jQuery('html, body').animate({scrollTop: 0}, duration);
             return false;
         })
+     //End Script button back to top
     }
        };
 })(jQuery, Drupal, this, this.document);

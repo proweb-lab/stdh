@@ -135,8 +135,9 @@
 
 
     </div>
+    <a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
+
 </div>
-<a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
 <footer class="footer">
 <?php print render($page['footer']); ?>
 </footer>

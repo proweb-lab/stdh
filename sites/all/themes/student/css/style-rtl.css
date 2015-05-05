@@ -440,6 +440,8 @@ body
     height: 39px;
 }
 /*End style page universities*/
+
+/*Begin style button back to top*/
 .back-to-top {
     background: none;
     margin: 0;
@@ -458,3 +460,4 @@ body
 .back-to-top i {
     font-size: 60px;
 }
+/*End style button back to top*/
