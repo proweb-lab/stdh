@@ -465,7 +465,7 @@ body
 .back-to-top i {
     font-size: 60px;
 }
-a .back-to-top:hover
+.back-to-top:hover
 {
     color: white;
 }
