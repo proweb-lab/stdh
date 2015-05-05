@@ -477,6 +477,11 @@ body
 {
     display: inline-block;
 }
+
+.service-image img
+{
+    margin-bottom: 232px;
+}
 .service-info
 {
     display: inline-block;
