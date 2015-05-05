@@ -475,12 +475,12 @@ body
 }
 .service-image
 {
-    float: right;
+    display: inline-block;
 }
 
 .service-info
 {
-    float: left;
+    display: inline-block;
     margin-right: 20px;
 
 }
