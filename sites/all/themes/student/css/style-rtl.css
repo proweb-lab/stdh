@@ -190,31 +190,26 @@ li.dropdown {
 #block-search-form input.form-control{height: 42px;}
 /*End style menu*/
 /*Begin style slider*/
-.main-slider .slides ul
-{   padding: 0;
+.main-slider .slides ul{   
+    padding: 0;
 }
 #flexslider-1 ul li{
     list-style: none;
 }
-.flexslider .slides img
-{
+.flexslider .slides img{
     height: 300px !important;
 }
-.flex-nav-next
-{
+.flex-nav-next{
     display: none;
 }
-.flex-nav-prev
-{
+.flex-nav-prev{
     display: none;
 }
-.flex-control-nav
-{
+.flex-control-nav{
     bottom: 0px;
     z-index: 1000;
 }
-#flexslider-1
-{
+#flexslider-1{
     border-top-width: 0px;
     border-bottom-width: 0px;
     margin-bottom: 0px;
@@ -227,8 +222,7 @@ li.dropdown {
 
 /*Begin style webform*/
 .webform-client-form-64 .form-control,
-.webform-client-form-64  .form-email
-{
+.webform-client-form-64  .form-email{
     display:inline-block; width: 35%;
     height: 34px; padding: 6px 12px;
     font-size: 14px;
@@ -243,37 +237,30 @@ li.dropdown {
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-.form-item
-{
+.form-item{
     padding-top: 20px;
 }
-#edit-submitted-email
-{
+#edit-submitted-email{
     width: 399px;
 }
-.form-textarea-wrapper
-{
+.form-textarea-wrapper{
     width: 400px;
     height: 100%;
 
 }
-.webform-submit
-{
+.webform-submit{
     margin-top: 10px;
 }
-#edit-submitted-message
-{ width: 400px;
+#edit-submitted-message{ width: 400px;
     height: 100px;
 
 }
 /*End style webform*/
 /*Begin style body*/
-body
-{
+body{
     font-family: 'Droid Arabic Kufi' !important;
 }
-.pull-left
-{
+.pull-left{
     float: right!important;
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
@@ -286,8 +273,7 @@ body
 }
 /*End style body*/
 /*Begin Style footer*/
-.footer
-{
+.footer{
     background-color:#636467;
     margin-top: 0px;
     height:200px;
@@ -295,8 +281,7 @@ body
 }
 /*End Style footer*/
 /*Begin style login*/
-#edit-name
-{
+#edit-name{
     width: 70%
 }
 #edit-pass{
@@ -305,40 +290,34 @@ body
 }
 /*End STYLE login*/
 /*Begin style block universities*/
-.block-universities
-{
+.block-universities{
     float: left;
     margin-top: 20px;
     padding-left: 20px;
 }
-.block-universities a
-{
+.block-universities a{
     text-decoration: none;
     color:#fff;
 }
-.btn-universities
-{
+.btn-universities{
     background-color: #e89222;
     border-color: #e89222;
     width:270px;
     margin-left: 5px;
 }
-.btn-test-universities
-{
+.btn-test-universities{
     background-color: #e89222;
     border-color: #e89222;
     width:270px;
     margin-left: 5px;
 }
-.btn-learn-turkish
-{
+.btn-learn-turkish{
     background-color: #e89222;
     border-color: #e89222;
     width:270px;
     margin-left: 5px;
 }
-.btn-success-stories
-{
+.btn-success-stories{
     background-color: #e89222;
     border-color: #e89222;
     width:270px;
@@ -367,9 +346,7 @@ body
     margin-right: 0px;
    padding-bottom: 30px;
    border-bottom: 3px double #E5E5E5;
-  
 }
-
 /*End style block office*/
 /*Begin style social-block*/
 .social-block{  
@@ -399,15 +376,13 @@ body
 /*End  style services*/
 
 /*Begin style main-container*/
-.main-container
-{
+.main-container{
     min-height: 300px;
 }
 /*End style main-container*/
 
 /*Begin style page office*/
-.accordion  h3.collection-title
-{
+.accordion  h3.collection-title{
     border-bottom: 1px solid #636467;
     color:#636467;
     
@@ -416,30 +391,23 @@ body
 .accordion span{
     float:left;
 }
-.colloction-info
-{
+.colloction-info{
     display: none;
 }
 .view-office .field-collection-container{border: none;}
 /*End style page office */
 /*Begin style page universities*/
-#edit-uni-language
-{
+#edit-uni-language{
     height: 39px;
 }
-#edit-uni-office
-{
+#edit-uni-office{
     height: 39px;
 }
-#edit-uni-recognition
-{
-
+#edit-uni-recognition{
     width: 155px;
     height: 39px;
-
 }
-#edit-uni-specialties
-{
+#edit-uni-specialties{
     height: 39px;
 }
 /*End style page universities*/
@@ -464,25 +432,20 @@ body
 .back-to-top i {
     font-size: 60px;
 }
-.back-to-top:hover
-{
+.back-to-top:hover{
     color: white;
 }
 /*End style button back to top*/
 
 /*Begin style view services*/
-.service
-{
+.service{
     margin-bottom: 32px;
-
 }
-.service .service-image
-{
+.service .service-image{
     float:right;
 }
 
-.service .service-info
-{
+.service .service-info{
     display: inline-block;
     margin-right: 20px;
 
