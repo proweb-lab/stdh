@@ -475,7 +475,7 @@ body
 }
 .service-image
 {
-    display: inline-block;
+    float:right;
 }
 
 .service-info
