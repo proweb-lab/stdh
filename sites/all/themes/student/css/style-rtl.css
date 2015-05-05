@@ -405,10 +405,11 @@ body
 /*End style main-container*/
 
 /*Begin style page office*/
-.accordion  h3
+.accordion  h3.collection-title
 {
     border-bottom: 1px solid #636467;
     color:#636467;
+    background: url('../images/support-exp.png') no-repeat right top transparent;
 }
 
 .accordion span{
@@ -485,4 +486,9 @@ body
     margin-right: 20px;
 
 }
+.dotted-divider {
+  clear: both;
+  background: url("../images/divider.png") repeat-x;
+  margin: 30px 0;
+  height: 5px;}
 /*End style view services*/
