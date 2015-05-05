@@ -458,7 +458,7 @@ body
     padding: 0 !important;
 
 }
-.back-to-top:hover
+.glyphicon-arrow-up:hover
 {
     background-color: #e89222;
 }
