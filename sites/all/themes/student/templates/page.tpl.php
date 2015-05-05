@@ -134,7 +134,7 @@
             <?php endif; ?>
 
         <a href="#" class="back-to-top">
-            <i class="glyphicon icon-up-arrow">ggg</i>
+            <i class="glyphicon icon-up-arrow"></i>
         </a>
     </div>
 
