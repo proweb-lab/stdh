@@ -133,9 +133,9 @@
             </aside>  <!-- /#sidebar-second -->
             <?php endif; ?>
 
+        <a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
 
     </div>
-    <a class="back-to-top" style="display: inline;" href="#">Back to Top</a>
 
 </div>
 <footer class="footer">
