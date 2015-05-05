@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6792763" vertical-offset="6817" max-vertical-offset="7440">
-              <caret line="482" column="25" selection-start-line="482" selection-start-column="25" selection-end-line="482" selection-end-column="25" />
+              <caret line="482" column="3" selection-start-line="482" selection-start-column="3" selection-end-line="482" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -376,12 +376,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00251" summary="disable search info">
-      <created>1430748227664</created>
-      <option name="number" value="00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1430748227664</updated>
-    </task>
     <task id="LOCAL-00252" summary="disable search info">
       <created>1430748271695</created>
       <option name="number" value="00252" />
@@ -670,7 +664,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430820577700</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="style div in services view">
+      <created>1430821242800</created>
+      <option name="number" value="00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1430821242800</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1108,7 +1108,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6792763" vertical-offset="6817" max-vertical-offset="7440">
-          <caret line="482" column="25" selection-start-line="482" selection-start-column="25" selection-end-line="482" selection-end-column="25" />
+          <caret line="482" column="3" selection-start-line="482" selection-start-column="3" selection-end-line="482" selection-end-column="3" />
           <folding />
         </state>
       </provider>
