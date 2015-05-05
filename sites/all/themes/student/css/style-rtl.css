@@ -411,6 +411,7 @@ body
     color:#636467;
 
 }
+
 .accordion span{
     float:left;
 }
@@ -418,6 +419,7 @@ body
 {
     display: none;
 }
+.view-office .field-collection-container{display: none;}
 /*End style page office */
 /*Begin style page universities*/
 #edit-uni-language
