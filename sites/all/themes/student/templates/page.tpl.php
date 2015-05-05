@@ -86,7 +86,7 @@
         <div class="front services-blocks container">
             <h2 class="block-title"><?php echo t('Our Services'); ?></h2>
                 <?php print views_embed_view('services', 'front_block'); ?>
-            <div class="service-buttom btn  btn-lg">
+            <div class="service-buttom btn btn-lg">
                 <?php
                 $link = l(t('Go to All Services'), '/node/68');
                 echo $link;
