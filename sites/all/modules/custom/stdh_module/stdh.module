@@ -17,7 +17,7 @@ function stdh_form_alter(&$form, &$form_state, $form_id) {
 
  if (isset($form['#node']->type) && ($form['#node']->type == 'webform')) {
 if ($form['#id']== 'webform-client-form-64'){
-     print_r($form);
+     //print_r($form);
     foreach ($form["submitted"] as $key => $value) {
       switch ($value["#type"]) {
         case 'textfield':
