@@ -5,7 +5,7 @@
        //Begin Script toggle
         $('.collection-title').click(function(){
               if($('.collection-title').hasClass('active')) {
-          $('.collection-title').removeClass('active');
+          $('.collection-title').removetoggleClass('active');
         }
           $(this).toggleClass("active");
             var next = $(this).next('.colloction-info');
