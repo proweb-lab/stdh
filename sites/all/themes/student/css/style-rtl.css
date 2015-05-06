@@ -372,7 +372,7 @@ body{
     background: url('../images/support-exp.png') no-repeat left top transparent;
 }
 .accordion  h3.collection-title.active {
-  background: url('../images/support-exp.png') no-repeat right bottom transparent;
+  background: url('../images/support-exp.png') no-repeat left bottom transparent;
 }
 
 .accordion span{
