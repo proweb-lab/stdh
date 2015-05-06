@@ -44,7 +44,7 @@ if ($form['#id']== 'webform-client-form-64'){
 }
 
 
-function stdhcustom_registration_form_user_register_form_alter(&$form, &$form_state, $form_id) {
+function stdh_form_user_register_form_alter(&$form, &$form_state, $form_id) {
     
   
   $form['#theme'] = 'user_register';
