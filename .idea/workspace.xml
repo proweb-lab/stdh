@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72861844" vertical-offset="6382" max-vertical-offset="6990">
-              <caret line="455" column="3" selection-start-line="455" selection-start-column="3" selection-end-line="455" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.5805921" vertical-offset="6457" max-vertical-offset="7065">
+              <caret line="454" column="23" selection-start-line="454" selection-start-column="23" selection-end-line="454" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -528,12 +529,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00279" summary="button back to up">
-      <created>1430812583184</created>
-      <option name="number" value="00279" />
-      <option name="project" value="LOCAL" />
-      <updated>1430812583184</updated>
-    </task>
     <task id="LOCAL-00280" summary="button back to up">
       <created>1430812627101</created>
       <option name="number" value="00280" />
@@ -822,7 +817,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430913814112</updated>
     </task>
-    <option name="localTasksCounter" value="328" />
+    <task id="LOCAL-00328" summary="style login">
+      <created>1430913846179</created>
+      <option name="number" value="00328" />
+      <option name="project" value="LOCAL" />
+      <updated>1430913846180</updated>
+    </task>
+    <option name="localTasksCounter" value="329" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1262,8 +1263,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72861844" vertical-offset="6382" max-vertical-offset="6990">
-          <caret line="455" column="3" selection-start-line="455" selection-start-column="3" selection-end-line="455" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.5805921" vertical-offset="6457" max-vertical-offset="7065">
+          <caret line="454" column="23" selection-start-line="454" selection-start-column="23" selection-end-line="454" selection-end-column="23" />
           <folding />
         </state>
       </provider>

@@ -453,8 +453,13 @@ body{
 /* user login form */
 
 #fancy_login_login_box{
-    border:3px solid #d8450b;
     top: 10%;
   left: 15%;
   margin-left: 0 !important; 
-   margin-top: 0 !important; }
+   margin-top: 0 !important;
+}
+.fancy-login-close-listener-processed
+{
+    border:3px solid #d8450b;
+
+}
