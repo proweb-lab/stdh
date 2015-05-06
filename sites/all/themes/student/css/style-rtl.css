@@ -452,7 +452,10 @@ body{
 /*End style view services*/
 /* user login form */
 
-#fancy_login_login_box{  top: 10%;
+#fancy_login_login_box{
+    top: 10%;
   left: 15%;
   margin-left: 0 !important; 
-   margin-top: 0 !important; }
+   margin-top: 0 !important;
+}
+
