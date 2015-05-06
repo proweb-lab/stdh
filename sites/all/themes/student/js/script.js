@@ -38,11 +38,11 @@
         })
      //End Script button back to top
      
-      $('#block-menu-menu-top-menu .menu li.first').click(function(){
-           $('#block-user-login').show();
-    
-    
-    });
+//      $('#block-menu-menu-top-menu .menu li.first').click(function(){
+//           $('#block-user-login').show();
+//    
+//    
+//    });
     
     }
     
