@@ -4,13 +4,14 @@
 
        //Begin Script toggle
         $('.collection-title').click(function(){
-            var next = $(this).next('.colloction-info');
-            $(this).siblings('.colloction-info').not(next).slideUp("fast");
-            next.slideToggle("fast");
-              if ($('.collection-title').hasClass('active')) {
+              if($('.collection-title').hasClass('active')) {
           $('.collection-title').removeClass('active');
         }
         $(this).addClass('active');
+            var next = $(this).next('.colloction-info');
+            $(this).siblings('.colloction-info').not(next).slideUp("fast");
+            next.slideToggle("fast");
+            
         });
 
         $('.colloction-info').click(function(){
