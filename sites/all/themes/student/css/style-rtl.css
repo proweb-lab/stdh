@@ -454,5 +454,5 @@ body{
 
 #fancy_login_login_box{  top: 30%;
   left: 15%;
-  margin-left: 0; 
-   margin-top: 0; }
+  margin-left: 0 !important; 
+   margin-top: 0 !important; }
