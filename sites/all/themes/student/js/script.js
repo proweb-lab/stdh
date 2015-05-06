@@ -23,6 +23,10 @@
     $(this).next('.colloction-info').slideToggle("slow");
     $(this).toggleClass("active");
   });
+          $('.colloction-info').click(function(){
+            $(this).siblings('.colloction-info').slideUp("fast");
+            $(this).slideToggle("fast");
+        });
   
         //End Script toggle
 
