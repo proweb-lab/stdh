@@ -297,30 +297,16 @@ body{
     text-decoration: none;
     color:#fff;
 }
-.btn-universities{
-    background-color: #e89222;
-    border-color: #e89222;
-    width:270px;
-    margin-left: 5px;
-}
-.btn-test-universities{
-    background-color: #e89222;
-    border-color: #e89222;
-    width:270px;
-    margin-left: 5px;
-}
-.btn-learn-turkish{
-    background-color: #e89222;
-    border-color: #e89222;
-    width:270px;
-    margin-left: 5px;
-}
+.btn-test-universities,
+.btn-learn-turkish,
+.btn-universities,
 .btn-success-stories{
-    background-color: #e89222;
-    border-color: #e89222;
+    background-color: #d8450b;
+    border-color:#d8450b;
     width:270px;
     margin-left: 5px;
 }
+
 /*End style block universities*/
 /*Begin style block office*/
 .office-block{float: right;position: relative;}
@@ -366,7 +352,7 @@ body{
  margin-bottom: 70px;
 }
 
-.front .services-blocks .service-buttom{position: absolute;right: 30px;bottom: -60px;  background-color: #e89222;}
+.front .services-blocks .service-buttom{position: absolute;right: 30px;bottom: -60px;  background-color: #d8450b;}
 .front .services-blocks .service-buttom a{color: #fff;text-decoration: none;}
 .front .page-title{display: none;}
 .page-title{color: #636467;padding-right: 7%;}
@@ -412,7 +398,7 @@ body{
 
 /*Begin style button back to top*/
 .back-to-top {
-    background: #e89222;
+    background: #d8450b;
     position: fixed;
     line-height: 50px;
     width: 50px;
