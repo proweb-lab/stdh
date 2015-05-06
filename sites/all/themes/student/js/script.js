@@ -7,7 +7,7 @@
               if($('.collection-title').hasClass('active')) {
           $('.collection-title').removeClass('active');
         }else{
-          $(this).toggleClass("active");
+          $(this).addClass("active");
           }
             var next = $(this).next('.colloction-info');
             $(this).siblings('.colloction-info').not(next).slideUp("fast");
