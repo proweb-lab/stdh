@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5180921" vertical-offset="30" max-vertical-offset="6765">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.59210527" vertical-offset="30" max-vertical-offset="6765">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -489,12 +489,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00273" summary="button back to up">
-      <created>1430812115353</created>
-      <option name="number" value="00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1430812115353</updated>
-    </task>
     <task id="LOCAL-00274" summary="button back to up">
       <created>1430812241565</created>
       <option name="number" value="00274" />
@@ -783,7 +777,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430896024471</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <task id="LOCAL-00322" summary="block-system-main-menu">
+      <created>1430896084207</created>
+      <option name="number" value="00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1430896084207</updated>
+    </task>
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1214,8 +1214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5180921" vertical-offset="30" max-vertical-offset="6765">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.59210527" vertical-offset="30" max-vertical-offset="6765">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding />
         </state>
       </provider>
