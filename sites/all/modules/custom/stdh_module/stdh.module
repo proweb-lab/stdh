@@ -31,7 +31,7 @@ if ($form['#id']== 'webform-client-form-64'){
 }
  //break;
 
-     if ($form['#id']== 'webform-client-form-64'){
+     if ($form['#id']== 'user_login'){
      //print_r($form);
            $form['name']['#description']="";
       $form['pass']['#description']="";
