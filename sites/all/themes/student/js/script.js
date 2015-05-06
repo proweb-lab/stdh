@@ -4,11 +4,11 @@
 
        //Begin Script toggle
         $('.collection-title').click(function(){
-              if($('.collection-title').hasClass('active')) {
-          $('.collection-title').removeClass('active');
-        }else{
+//              if($('.collection-title').hasClass('active')) {
+//          $('.collection-title').removeClass('active');
+//        }else{
           $(this).toggleClass("active");
-          }
+          //}
             var next = $(this).next('.colloction-info');
             $(this).siblings('.colloction-info').not(next).slideUp("fast");
             next.slideToggle("fast");
@@ -16,9 +16,6 @@
         });
 
         $('.colloction-info').click(function(){
-                  if($('.collection-title').hasClass('active')) {
-          $('.collection-title').removeClass('active');
-        }
             $(this).siblings('.colloction-info').slideUp("fast");
             $(this).slideToggle("fast");
         });
