@@ -370,6 +370,7 @@ body{
     border-bottom: 1px solid #636467;
     color:#636467;
     background: url('../images/support-exp.png') no-repeat left top transparent;
+    line-height: 40px;
 }
 .accordion  h3.collection-title.active {
   background: url('../images/support-exp.png') no-repeat left bottom transparent;
