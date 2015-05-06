@@ -15,6 +15,9 @@
         });
 
         $('.colloction-info').click(function(){
+                  if($('.collection-title').hasClass('active')) {
+          $('.collection-title').removeClass('active');
+        }
             $(this).siblings('.colloction-info').slideUp("fast");
             $(this).slideToggle("fast");
         });
