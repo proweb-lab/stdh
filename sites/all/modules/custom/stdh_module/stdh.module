@@ -2,7 +2,9 @@
 
 function stdh_form_alter(&$form, &$form_state, $form_id) {
 //print_r($form['#id']);
-$pos = strpos($form_id, "webform_client_form");
+    switch($form_id){
+      case 'webform_client_form':
+    $pos = strpos($form_id, "webform_client_form");
   if ($pos !== FALSE) {
     foreach (element_children($form['submitted']) as $element) {
       if (isset($form['submitted'][$element]['#title']))
@@ -26,6 +28,10 @@ if ($form['#id']== 'webform-client-form-64'){
       } 
     }
   }
+}
+
+ case 'user_login':
+     print_r($form);
 }
 }
 
