@@ -35,6 +35,11 @@ body {
 {
     display:inline-block;
 }
+.navigation .menu
+{
+    width: 373px;
+
+}
 /*End style top menu*/
 /*Begin style navbar*/
 
