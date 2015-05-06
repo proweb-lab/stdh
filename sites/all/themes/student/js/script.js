@@ -7,6 +7,10 @@
             var next = $(this).next('.colloction-info');
             $(this).siblings('.colloction-info').not(next).slideUp("fast");
             next.slideToggle("fast");
+              if ($('.collection-title').hasClass('active')) {
+          $('.collection-title').removeClass('active');
+        }
+        $(this).addClass('active');
         });
 
         $('.colloction-info').click(function(){
