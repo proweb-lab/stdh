@@ -3,26 +3,27 @@
     attach: function (context, settings) {
 
        //Begin Script toggle
-        $('.collection-title').click(function(){
-              if($('.collection-title').hasClass('active')) {
-          $('.collection-title').removeClass('active');
-        }else{
-          $(this).addClass("active");
-          }
-            var next = $(this).next('.colloction-info');
-            $(this).siblings('.colloction-info').not(next).slideUp("fast");
-            next.slideToggle("fast");
-            
-        });
+//        $('.collection-title').click(function(){
+//              if($('.collection-title').hasClass('active')) {
+//          $('.collection-title').removeClass('active');
+//        }else{
+//          $(this).addClass("active");
+//          }
+//            var next = $(this).next('.colloction-info');
+//            $(this).siblings('.colloction-info').not(next).slideUp("fast");
+//            next.slideToggle("fast");
+//            
+//        });
+//
+//        $('.colloction-info').click(function(){
+//            $(this).siblings('.colloction-info').slideUp("fast");
+//            $(this).slideToggle("fast");
+//        });
 
-        $('.colloction-info').click(function(){
-            $(this).siblings('.colloction-info').slideUp("fast");
-            $(this).slideToggle("fast");
-        });
-//      $('.collection-title').click(function() {
-//    $(this).next('.colloction-info').slideToggle("slow");
-//    $(this).toggleClass("active");
-//  });
+      $('.collection-title').click(function() {
+    $(this).next('.colloction-info').slideToggle("slow");
+    $(this).toggleClass("active");
+  });
 //          $('.colloction-info').click(function(){
 //            $(this).siblings('.colloction-info').slideUp("fast");
 //            $(this).slideToggle("fast");
