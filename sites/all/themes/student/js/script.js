@@ -20,6 +20,8 @@
 //            $(this).slideToggle("fast");
 //        });
 
+
+
       $('.collection-title').click(function() {
     $(this).next('.colloction-info').slideToggle("slow");
     $(this).toggleClass("active");
