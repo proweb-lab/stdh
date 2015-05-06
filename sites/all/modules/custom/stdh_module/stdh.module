@@ -31,7 +31,13 @@ if ($form['#id']== 'webform-client-form-64'){
 }
  break;
  case 'user_login':
-     print_r($form);
+     //print_r($form);
+           $form['name']['#description']="";
+      $form['pass']['#description']="";
+      $items = array();
+      $items[] = l(t('Request new password'), 'user/password', 
+              array('attributes' => array('title' => t('Request new password via e-mail.'))));
+      $form['links'] = array('#markup' => theme('item_list', array('items' => $items)), '#weight' => 200);
   break;
 }
 }
