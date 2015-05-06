@@ -4,10 +4,10 @@
 
        //Begin Script toggle
         $('.collection-title').click(function(){
-              if($('.collection-title').hasClass('active')) {
-          $('.collection-title').removeClass('active');
-        }
-        $(this).addClass('active');
+//              if($('.collection-title').hasClass('active')) {
+//          $('.collection-title').removeClass('active');
+//        }
+        $(this).toggleClass("active");
             var next = $(this).next('.colloction-info');
             $(this).siblings('.colloction-info').not(next).slideUp("fast");
             next.slideToggle("fast");
