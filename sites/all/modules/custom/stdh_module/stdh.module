@@ -45,7 +45,7 @@ if ($form['#id']== 'webform-client-form-64'){
 
 
 function stdh_form_user_register_form_alter(&$form, &$form_state, $form_id) {
-    
+    print_r($form);
   
   $form['#theme'] = 'user_register';
   $form['actions']['submit']['#value'] = t('REGISTER');
