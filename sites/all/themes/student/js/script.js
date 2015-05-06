@@ -6,8 +6,9 @@
         $('.collection-title').click(function(){
               if($('.collection-title').hasClass('active')) {
           $('.collection-title').removeClass('active');
-        }
+        }else{
           $(this).toggleClass("active");
+      }
             var next = $(this).next('.colloction-info');
             $(this).siblings('.colloction-info').not(next).slideUp("fast");
             next.slideToggle("fast");
