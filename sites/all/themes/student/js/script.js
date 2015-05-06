@@ -37,6 +37,17 @@
             return false;
         })
      //End Script button back to top
+     
+      $('#block-menu-menu-top-menu .menu li.first').click(function(){
+           $('#block-user-login').show();
+    
+    
+    });
+    
     }
+    
+    
+    
+    
        };
 })(jQuery, Drupal, this, this.document);
