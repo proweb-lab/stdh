@@ -2,8 +2,7 @@
 
 function stdh_form_alter(&$form, &$form_state, $form_id) {
 //print_r($form['#id']);
-    switch($form_id){
-      case 'webform_client_form':
+
     $pos = strpos($form_id, "webform_client_form");
   if ($pos !== FALSE) {
     foreach (element_children($form['submitted']) as $element) {
@@ -30,8 +29,9 @@ if ($form['#id']== 'webform-client-form-64'){
     }
   }
 }
- break;
- case 'user_login':
+ //break;
+
+     if ($form['#id']== 'webform-client-form-64'){
      //print_r($form);
            $form['name']['#description']="";
       $form['pass']['#description']="";
@@ -39,7 +39,7 @@ if ($form['#id']== 'webform-client-form-64'){
       $items[] = l(t('Request new password'), 'user/password', 
               array('attributes' => array('title' => t('Request new password via e-mail.'))));
       $form['links'] = array('#markup' => theme('item_list', array('items' => $items)), '#weight' => 200);
-  break;
+
 }
 }
 
