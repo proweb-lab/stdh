@@ -16,7 +16,7 @@
     url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.woff) format('woff'),
     url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.ttf) format('truetype');
 }
-body {
+body,h3 {
   background: #f9f9f9 url(../images/page-bg-1.jpg);
   color: #636467;
 }
