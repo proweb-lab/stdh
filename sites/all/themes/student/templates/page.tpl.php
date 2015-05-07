@@ -132,12 +132,10 @@
             <?php print render($page['sidebar_second']); ?>
             </aside>  <!-- /#sidebar-second -->
             <?php endif; ?>
-
-        <a href="#" class="back-to-top">
+<div  class="back-to-top">
             <span class="glyphicon glyphicon-arrow-up"></span>
-        </a>
+ </div>
     </div>
-
 </div>
 <footer class="footer">
 <?php print render($page['footer']); ?>
