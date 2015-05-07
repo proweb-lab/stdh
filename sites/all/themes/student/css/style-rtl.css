@@ -16,10 +16,11 @@
     url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.woff) format('woff'),
     url(https://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.ttf) format('truetype');
 }
-body,h3 {
+body {
   background: #f9f9f9 url(../images/page-bg-1.jpg);
   color: #636467;
 }
+
 
 /*Begin style top menu*/
 #block-menu-menu-top-menu
@@ -260,7 +261,7 @@ li.dropdown {
 }
 /*End style webform*/
 /*Begin style body*/
-body{
+body,h3{
     font-family: 'Droid Arabic Kufi' !important;
 }
 .pull-left{
