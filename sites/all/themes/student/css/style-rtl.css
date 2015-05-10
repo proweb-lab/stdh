@@ -372,7 +372,7 @@ li.dropdown {
 
 /*Begin style page office*/
 .accordion  .collection-title{
-    border-bottom: 0.5px solid #636467;
+    border-bottom: 1px dotted #636467;
     color:#636467;
     background: url('../images/support-exp.png') no-repeat left top transparent;
     line-height: 40px;
