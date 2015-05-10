@@ -376,18 +376,20 @@ li.dropdown {
 /*End style main-container*/
 
 /*Begin style page office*/
-.accordion  .collection-title{
+#office  .collection-title{
     color:#636467;
     background: url('../images/support-exp.png') no-repeat left top transparent;
     line-height: 40px;
     font-size: 24px;
     padding-right: 20px;
 }
-.accordion  .collection-title.active {
+#office .collection-title.active {
   background: url('../images/support-exp.png') no-repeat left bottom transparent;
    border-bottom: 1px solid #636467;
 }
-
+#office .colloction-info-body{
+    padding: 15px 15px;
+}
 .accordion span{
     float:left;
 }
