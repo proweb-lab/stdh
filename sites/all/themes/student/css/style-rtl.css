@@ -312,6 +312,8 @@ li.dropdown {
 
 /*End style block universities*/
 /*Begin style block office*/
+
+#office .office-info{border: 1px solid #636467;}
 .office-block{float: right;position: relative;}
 .office-block .office-title{text-align: center;}
 .office-block .office-image{
