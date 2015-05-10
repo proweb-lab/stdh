@@ -65,6 +65,9 @@ ul.secondary li
 }
 .navigation .menu.secondary a{
   color: #636467;  
+
+ .navigation .menu.secondary li:hover a{
+  color: #d8450b;  
 }
 #block-system-main-menu ul.menu li{  
     float: right;
