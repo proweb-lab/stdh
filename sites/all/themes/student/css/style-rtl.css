@@ -65,7 +65,7 @@ ul.secondary li
 }
 .navigation .menu.secondary a{
   color: #636467;  
-
+.navigation .menu.secondary li:hover{background: none;}
  .navigation .menu.secondary li:hover a{
   color: #d8450b;  
 }
