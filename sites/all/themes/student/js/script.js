@@ -3,11 +3,7 @@
     attach: function (context, settings) {
 
        //Begin Script toggle
-
-
-
-
-      $('.collection-title').click(function() {
+    $('.office-info').click(function() {
     $(this).next('.colloction-info').slideToggle("slow");
     $(this).toggleClass("active");
   });
