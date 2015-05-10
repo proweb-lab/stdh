@@ -314,9 +314,9 @@ li.dropdown {
 /*Begin style block office*/
 
 #office .office-info{
-    border-top: 1px solid #636467;
-    border-left: 1px solid #636467;
-    border-right: 1px solid #636467;
+    border: 1px solid #636467;
+    margin-bottom: 20px;
+   
 }
 #office .office-image{padding-bottom: 50px;}
 .office-block{float: right;position: relative;}
@@ -374,13 +374,14 @@ li.dropdown {
 /*End style main-container*/
 
 /*Begin style page office*/
-.accordion  h3.collection-title{
-    border-bottom: 1px solid #636467;
+.accordion  .collection-title{
+    border-bottom: 1px dotted #636467;
     color:#636467;
     background: url('../images/support-exp.png') no-repeat left top transparent;
     line-height: 40px;
+    font-size: 24px;
 }
-.accordion  h3.collection-title.active {
+.accordion  .collection-title.active {
   background: url('../images/support-exp.png') no-repeat left bottom transparent;
 }
 
