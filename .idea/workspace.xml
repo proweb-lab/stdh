@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33223686" vertical-offset="4703" max-vertical-offset="7005">
-              <caret line="327" column="1" selection-start-line="327" selection-start-column="1" selection-end-line="327" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.48026314" vertical-offset="4718" max-vertical-offset="7035">
+              <caret line="334" column="22" selection-start-line="334" selection-start-column="22" selection-end-line="334" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -545,12 +544,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00290" summary="button back to up">
-      <created>1430813578800</created>
-      <option name="number" value="00290" />
-      <option name="project" value="LOCAL" />
-      <updated>1430813578800</updated>
-    </task>
     <task id="LOCAL-00291" summary="button back to up">
       <created>1430813632704</created>
       <option name="number" value="00291" />
@@ -839,7 +832,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431260558297</updated>
     </task>
-    <option name="localTasksCounter" value="339" />
+    <task id="LOCAL-00339" summary="delete style span title in office block">
+      <created>1431260773245</created>
+      <option name="number" value="00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1431260773245</updated>
+    </task>
+    <option name="localTasksCounter" value="340" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -884,7 +883,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="toggle try work" />
     <MESSAGE value="style button search in unversity" />
     <MESSAGE value="style offices block continer" />
     <MESSAGE value="add button test unversity" />
@@ -909,7 +907,8 @@
     <MESSAGE value="office fornt" />
     <MESSAGE value="div offices-block container" />
     <MESSAGE value="delete span title in office block" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete span title in office block" />
+    <MESSAGE value="delete style span title in office block" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete style span title in office block" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1274,8 +1273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33223686" vertical-offset="4703" max-vertical-offset="7005">
-          <caret line="327" column="1" selection-start-line="327" selection-start-column="1" selection-end-line="327" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.48026314" vertical-offset="4718" max-vertical-offset="7035">
+          <caret line="334" column="22" selection-start-line="334" selection-start-column="22" selection-end-line="334" selection-end-column="22" />
           <folding />
         </state>
       </provider>
