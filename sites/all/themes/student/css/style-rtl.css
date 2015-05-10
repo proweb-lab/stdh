@@ -25,9 +25,8 @@ body,h1,h2,h3{
 }
 
 /*Begin style top menu*/
-#block-menu-menu-top-menu
-{
-    width: 333px;
+#block-menu-menu-top-menu{
+   
     float: left;
 }
 #block-menu-menu-top-menu ul
@@ -37,7 +36,7 @@ body,h1,h2,h3{
 }
 #block-menu-menu-top-menu li
 {
-    display:inline-block;
+    float: left;
 }
 
 /*End style top menu*/
