@@ -31,11 +31,11 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.214286" vertical-offset="6443" max-vertical-offset="7095">
-              <caret line="443" column="23" selection-start-line="443" selection-start-column="10" selection-end-line="443" selection-end-column="23" />
+            <state vertical-scroll-proportion="-7.214286" vertical-offset="6488" max-vertical-offset="7125">
+              <caret line="446" column="16" selection-start-line="445" selection-start-column="10" selection-end-line="445" selection-end-column="23" />
               <folding>
-                <marker date="1431263084048" expanded="true" signature="9669:9812" placeholder="{...}" />
-                <marker date="1431263084048" expanded="true" signature="9648:9660" placeholder="{...}" />
+                <marker date="1431263311896" expanded="true" signature="9789:9963" placeholder="{...}" />
+                <marker date="1431263311896" expanded="true" signature="9776:9782" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,8 +74,8 @@
       <file leaf-file-name="views-view-fields--services--front-block.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.144" vertical-offset="0" max-vertical-offset="625">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="625">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -562,12 +562,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00296" summary="button back to up">
-      <created>1430814794626</created>
-      <option name="number" value="00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1430814794626</updated>
-    </task>
     <task id="LOCAL-00297" summary="style div in services view">
       <created>1430820224690</created>
       <option name="number" value="00297" />
@@ -856,7 +850,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431263073539</updated>
     </task>
-    <option name="localTasksCounter" value="345" />
+    <task id="LOCAL-00345" summary="add div service in front block services">
+      <created>1431263303105</created>
+      <option name="number" value="00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1431263303105</updated>
+    </task>
+    <option name="localTasksCounter" value="346" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -901,7 +901,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="add button class test unversity" />
     <MESSAGE value="add button learn trukisy" />
     <MESSAGE value="add button Success stories" />
     <MESSAGE value="edit button success story" />
@@ -926,7 +925,8 @@
     <MESSAGE value="return style span title in office block" />
     <MESSAGE value=" style span title in office block" />
     <MESSAGE value="delete div image in front block services" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete div image in front block services" />
+    <MESSAGE value="add div service in front block services" />
+    <option name="LAST_COMMIT_MESSAGE" value="add div service in front block services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -945,8 +945,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1431263084048" expanded="true" signature="9669:9812" placeholder="{...}" />
-            <marker date="1431263084048" expanded="true" signature="9648:9660" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9789:9963" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9776:9782" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -991,8 +991,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="885">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
           <folding>
-            <marker date="1431263084048" expanded="true" signature="9669:9812" placeholder="{...}" />
-            <marker date="1431263084048" expanded="true" signature="9648:9660" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9789:9963" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9776:9782" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1037,8 +1037,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1431263084048" expanded="true" signature="9669:9812" placeholder="{...}" />
-            <marker date="1431263084048" expanded="true" signature="9648:9660" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9789:9963" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9776:9782" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1062,8 +1062,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1431263084048" expanded="true" signature="9669:9812" placeholder="{...}" />
-            <marker date="1431263084048" expanded="true" signature="9648:9660" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9789:9963" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9776:9782" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1272,11 +1272,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.214286" vertical-offset="6443" max-vertical-offset="7095">
-          <caret line="443" column="23" selection-start-line="443" selection-start-column="10" selection-end-line="443" selection-end-column="23" />
+        <state vertical-scroll-proportion="-7.214286" vertical-offset="6488" max-vertical-offset="7125">
+          <caret line="446" column="16" selection-start-line="445" selection-start-column="10" selection-end-line="445" selection-end-column="23" />
           <folding>
-            <marker date="1431263084048" expanded="true" signature="9669:9812" placeholder="{...}" />
-            <marker date="1431263084048" expanded="true" signature="9648:9660" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9789:9963" placeholder="{...}" />
+            <marker date="1431263311896" expanded="true" signature="9776:9782" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1307,8 +1307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.144" vertical-offset="0" max-vertical-offset="625">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="625">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding />
         </state>
       </provider>
