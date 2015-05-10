@@ -59,19 +59,15 @@ ul.secondary
 }
 ul.secondary li
 {
-    border-left: 0px solid #ccc;
-    border-left-width: 0px;
-    border-left-style: solid;
-    border-left-color: rgb(204, 204, 204);
-    border-right: none;
+    border:none;
+ 
     display: inline;
     padding: 0 1em;
 }
 .navigation .menu.secondary a{
   color: #636467;  
 }
-#block-system-main-menu ul.menu li
-{  
+#block-system-main-menu ul.menu li{  
     float: right;
 }
 .front .page-header,
