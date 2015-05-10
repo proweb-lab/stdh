@@ -20,26 +20,25 @@ body {
   background: #f9f9f9 url(../images/page-bg-1.jpg);
   color: #636467;
 }
-
+body,h1,h2,h3{
+    font-family: 'Droid Arabic Kufi' !important;
+}
 
 /*Begin style top menu*/
-#block-menu-menu-top-menu
-{
-    width: 333px;
+#block-menu-menu-top-menu{
+   
     float: left;
 }
 #block-menu-menu-top-menu ul
 {
     list-style-type:none;
+      text-align: left;
 }
 #block-menu-menu-top-menu li
 {
-    display:inline-block;
+    float: left;
 }
-.navigation .menu
-{
 
-}
 /*End style top menu*/
 /*Begin style navbar*/
 
@@ -261,9 +260,7 @@ li.dropdown {
 }
 /*End style webform*/
 /*Begin style body*/
-body,h3{
-    font-family: 'Droid Arabic Kufi' !important;
-}
+
 .pull-left{
     float: right!important;
 }
@@ -319,14 +316,12 @@ body,h3{
 .office-block .office-title{text-align: center;}
 .office-block .office-image{
   border: 2px solid;
-   border-radius: 50%;
-   width: 240px;
+  // width: 240px;
    height: 160px;
 }
 .office-block .extra-title {font-size:20px;position: absolute;right: 45%;top: 70%;}
 
 .office-block .office-image img{
-  border-radius: 50%;
   width: 100%;
   height: 100%;
 }
