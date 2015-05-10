@@ -3,6 +3,6 @@
         <?php print $fields['title']->content;?>
     </div>
     <div class="service-description">
-        <?php print $fields['field_information_general']->content;?>
+        <?php print $fields['information_general']->content;?>
     </div>
 </div>
