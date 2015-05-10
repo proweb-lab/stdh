@@ -41,8 +41,8 @@ body,h1,h2,h3{
 {
    color: #636467;
 }
-#block-menu-menu-top-menu li:hover a
-{
+#block-menu-menu-top-menu li:hover a{
+   background: none;
    color: #d8450b;
 }
 #block-menu-menu-top-menu li:hover{background: none;}
