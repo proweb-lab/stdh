@@ -377,6 +377,7 @@ li.dropdown {
     color:#636467;
     background: url('../images/support-exp.png') no-repeat left top transparent;
     line-height: 40px;
+    font-size: 24px;
 }
 .accordion  .collection-title.active {
   background: url('../images/support-exp.png') no-repeat left bottom transparent;
