@@ -26,7 +26,6 @@ body,h1,h2,h3{
 
 /*Begin style top menu*/
 #block-menu-menu-top-menu{
-   
     float: left;
 }
 #block-menu-menu-top-menu ul
@@ -37,6 +36,14 @@ body,h1,h2,h3{
 #block-menu-menu-top-menu li
 {
     float: left;
+}
+#block-menu-menu-top-menu li a
+{
+   color: #636467;
+}
+#block-menu-menu-top-menu li:hover a{
+   background: none;
+   color: #d8450b;
 }
 
 /*End style top menu*/
@@ -65,8 +72,8 @@ ul.secondary li
 }
 .navigation .menu.secondary a{
   color: #636467;  }
-.navigation .menu.secondary li:hover{background: none;}
  .navigation .menu.secondary li:hover a{
+     background: none;
   color: #d8450b;  
 }
 #block-system-main-menu ul.menu li{  
