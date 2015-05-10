@@ -33,15 +33,13 @@ body,h1,h2,h3{
 #block-menu-menu-top-menu ul
 {
     list-style-type:none;
+      text-align: left;
 }
 #block-menu-menu-top-menu li
 {
     display:inline-block;
 }
-.navigation .menu
-{
 
-}
 /*End style top menu*/
 /*Begin style navbar*/
 
@@ -319,14 +317,12 @@ li.dropdown {
 .office-block .office-title{text-align: center;}
 .office-block .office-image{
   border: 2px solid;
-   //border-radius: 50%;
   // width: 240px;
    height: 160px;
 }
 .office-block .extra-title {font-size:20px;position: absolute;right: 45%;top: 70%;}
 
 .office-block .office-image img{
-  //border-radius: 50%;
   width: 100%;
   height: 100%;
 }
