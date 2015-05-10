@@ -382,7 +382,7 @@ li.dropdown {
     background: url('../images/support-exp.png') no-repeat left top transparent;
     line-height: 40px;
     font-size: 24px;
-    padding-right: 20px;
+    padding:5px 20px;
 }
 #office .collection-title.active {
   background: url('../images/support-exp.png') no-repeat left bottom transparent;
