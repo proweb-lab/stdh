@@ -42,7 +42,7 @@ body,h1,h2,h3{
 /*End style top menu*/
 /*Begin style navbar*/
 
-.navbar.container{margin-top: 0px;}
+#navbar.container{margin-top: 0px;}
 .navbar-header{   margin-top: 15px; float: right;}
 .navbar-nav{float: right;margin: 0;}
 .navbar-default{
