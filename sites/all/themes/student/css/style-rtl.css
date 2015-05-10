@@ -26,7 +26,6 @@ body,h1,h2,h3{
 
 /*Begin style top menu*/
 #block-menu-menu-top-menu{
-   
     float: left;
 }
 #block-menu-menu-top-menu ul
@@ -38,7 +37,14 @@ body,h1,h2,h3{
 {
     float: left;
 }
-
+#block-menu-menu-top-menu li a
+{
+   color: #636467;
+}
+#block-menu-menu-top-menu li:hover a
+{
+   color: #d8450b;
+}
 /*End style top menu*/
 /*Begin style navbar*/
 
