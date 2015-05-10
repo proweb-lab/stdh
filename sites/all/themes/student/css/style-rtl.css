@@ -316,8 +316,10 @@ li.dropdown {
 #office .office-info{
     border: 1px solid #636467;
     margin-bottom: 20px;
-   
+    
 }
+
+
 #office .office-image{padding-bottom: 50px;}
 .office-block{float: right;position: relative;}
 .office-block .office-title{text-align: center;}
@@ -375,14 +377,15 @@ li.dropdown {
 
 /*Begin style page office*/
 .accordion  .collection-title{
-    border-bottom: 1px dotted #636467;
     color:#636467;
     background: url('../images/support-exp.png') no-repeat left top transparent;
     line-height: 40px;
     font-size: 24px;
+    padding-right: 20px;
 }
 .accordion  .collection-title.active {
   background: url('../images/support-exp.png') no-repeat left bottom transparent;
+   border-bottom: 1px solid #636467;
 }
 
 .accordion span{
