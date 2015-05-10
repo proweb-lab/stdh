@@ -20,7 +20,9 @@ body {
   background: #f9f9f9 url(../images/page-bg-1.jpg);
   color: #636467;
 }
-
+body,h1,h2,h3{
+    font-family: 'Droid Arabic Kufi' !important;
+}
 
 /*Begin style top menu*/
 #block-menu-menu-top-menu
@@ -261,9 +263,7 @@ li.dropdown {
 }
 /*End style webform*/
 /*Begin style body*/
-body,h3{
-    font-family: 'Droid Arabic Kufi' !important;
-}
+
 .pull-left{
     float: right!important;
 }
