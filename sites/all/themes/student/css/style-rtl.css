@@ -60,9 +60,8 @@ ul.secondary
 ul.secondary li
 {
     border:none;
- 
     display: inline;
-    padding: 0 1em;
+   
 }
 .navigation .menu.secondary a{
   color: #636467;  
