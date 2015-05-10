@@ -87,7 +87,7 @@ ul.secondary li
   margin-right: 50px;
   margin-bottom: 25px;
 }
-.navbar .nav > li > a { 
+#block-system-main-menu .nav > li > a { 
 	color: #636467;
 	font-weight: normal;
 	text-shadow: none; 
