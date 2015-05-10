@@ -67,6 +67,9 @@ ul.secondary li
     display: inline;
     padding: 0 1em;
 }
+.navigation .menu.secondary a{
+  color: #636467;  
+}
 #block-system-main-menu ul.menu li
 {  
     float: right;
