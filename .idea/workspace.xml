@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -31,22 +31,9 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6577" max-vertical-offset="6930">
-              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-              <folding>
-                <marker date="1431252486792" expanded="true" signature="1162:1216" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="1236:1268" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="1295:1322" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="1352:1372" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="6695:6700" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="6744:6785" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="6845:6886" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="6914:6951" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="7835:7867" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="7928:8027" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="8157:8297" placeholder="{...}" />
-                <marker date="1431252486792" expanded="true" signature="8431:8466" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="6052" max-vertical-offset="6960">
+              <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,18 +41,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="645">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="field--field_information.tpl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/fields/field--field_information.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="480">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -74,7 +51,7 @@
       <file leaf-file-name="node--8.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--8.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
@@ -84,28 +61,28 @@
       <file leaf-file-name="views-view-fields--services--front-block.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24019608" vertical-offset="723" max-vertical-offset="2460">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="19" />
+            <state vertical-scroll-proportion="-9.25" vertical-offset="903" max-vertical-offset="2460">
+              <caret line="75" column="59" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views-view-fields--office--front-block.tpl.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views-view-fields--office--front-block.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
+              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -163,8 +140,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--8.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/js/script.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php" />
       </list>
     </option>
   </component>
@@ -372,6 +349,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="office" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stdh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stdh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fields" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stdh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stdh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="student" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -504,12 +553,6 @@
       <created>1429079359855</created>
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
-    </task>
-    <task id="LOCAL-00288" summary="button back to up">
-      <created>1430813392763</created>
-      <option name="number" value="00288" />
-      <option name="project" value="LOCAL" />
-      <updated>1430813392763</updated>
     </task>
     <task id="LOCAL-00289" summary="button back to up">
       <created>1430813526549</created>
@@ -799,7 +842,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431259662757</updated>
     </task>
-    <option name="localTasksCounter" value="337" />
+    <task id="LOCAL-00337" summary="div offices-block container">
+      <created>1431259706867</created>
+      <option name="number" value="00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1431259706867</updated>
+    </task>
+    <option name="localTasksCounter" value="338" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -887,20 +936,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1431252486792" expanded="true" signature="1162:1216" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1236:1268" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1295:1322" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1352:1372" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6695:6700" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6744:6785" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6845:6886" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6914:6951" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7835:7867" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7928:8027" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8157:8297" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8431:8466" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -943,20 +979,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="885">
           <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <marker date="1431252486792" expanded="true" signature="1162:1216" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1236:1268" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1295:1322" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1352:1372" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6695:6700" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6744:6785" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6845:6886" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6914:6951" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7835:7867" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7928:8027" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8157:8297" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8431:8466" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -999,20 +1022,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1431252486792" expanded="true" signature="1162:1216" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1236:1268" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1295:1322" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1352:1372" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6695:6700" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6744:6785" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6845:6886" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6914:6951" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7835:7867" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7928:8027" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8157:8297" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8431:8466" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,20 +1044,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1431252486792" expanded="true" signature="1162:1216" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1236:1268" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1295:1322" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1352:1372" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6695:6700" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6744:6785" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6845:6886" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6914:6951" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7835:7867" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7928:8027" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8157:8297" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8431:8466" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,22 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/fields/field--field_information.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="480">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--8.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/user-register.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
@@ -1244,10 +1225,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/stdh_module/stdh.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="915">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6052" max-vertical-offset="6960">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/fields/field--field_information.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85820895" vertical-offset="0" max-vertical-offset="495">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.25" vertical-offset="903" max-vertical-offset="2460">
+          <caret line="75" column="59" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1260,47 +1265,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--8.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6577" max-vertical-offset="6930">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-          <folding>
-            <marker date="1431252486792" expanded="true" signature="1162:1216" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1236:1268" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1295:1322" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="1352:1372" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6695:6700" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6744:6785" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6845:6886" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="6914:6951" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7835:7867" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="7928:8027" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8157:8297" placeholder="{...}" />
-            <marker date="1431252486792" expanded="true" signature="8431:8466" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/stdh_module/stdh.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="915">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24019608" vertical-offset="723" max-vertical-offset="2460">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
