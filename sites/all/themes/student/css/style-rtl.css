@@ -529,7 +529,7 @@ li.dropdown {
     background: #79A70A;
     background: linear-gradient(#9BC90D 0%, #79A70A 100%);
     box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
-    position: absolute;
+    position: relative;
     top: 19px; right: -21px;
 }
 .ribbon span::before {
