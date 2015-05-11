@@ -38,16 +38,16 @@
         <span class="uni-name">
             <?php print t('university')?>
         </span>
-        <span class="reg-jo">
+        <span class="reg-country">
             <?php print t('Jordan')?>
         </span>
-         <span class="reg-qater">
+         <span class="reg-country">
             <?php print t('Qater')?>
         </span>
-         <span class="reg-uae">
+         <span class="reg-country">
             <?php print t('UAE')?>
         </span>
-         <span class="reg-kw">
+         <span class="reg-country">
             <?php print t('kwait')?>
         </span>
        
