@@ -3,9 +3,9 @@
 <?php
 //$country = intval($node->field_recognition['und'][0]['value']);
 // switch($country){
-print '<pre>';
-print_r($fields['field_recognized_jo']);
-print '</pre>';
+//print '<pre>';
+//print_r($fields['field_recognized_jo']);
+//print '</pre>';
 $field = field_info_field('field_recognized_jo');
 $allowed_values = list_allowed_values($field);
 print_r($allowed_values);
