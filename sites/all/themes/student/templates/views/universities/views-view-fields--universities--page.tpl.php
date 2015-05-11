@@ -9,7 +9,7 @@
 $field = field_info_field('field_recognized_jo');
 $allowed_values = list_allowed_values($field);
 print_r($allowed_values[2]);
-        if(( $jo)==='Yes'){
+        if(isset($allowed_values[1])){
           echo '<span class="reg-country">';
           print t('Jorn');
            print '</span>';
