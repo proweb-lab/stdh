@@ -33,6 +33,28 @@
           print t('no qatar');
             print '</span>';
          }
+            if($fields['field_recognized_uae']->content=='Yes'){
+            echo '<span class="reg-country">';
+          print t('yes uae');
+            print '</span>';
+         } 
+        
+         else{
+              echo '<span class="reg-country">';
+          print t('no uae');
+            print '</span>';
+         }
+            if($fields['field_recognized_kw']->content=='Yes'){
+            echo '<span class="reg-country">';
+          print t('yes kw');
+            print '</span>';
+         } 
+        
+         else{
+              echo '<span class="reg-country">';
+          print t('no kw');
+            print '</span>';
+         }
     
        
    
