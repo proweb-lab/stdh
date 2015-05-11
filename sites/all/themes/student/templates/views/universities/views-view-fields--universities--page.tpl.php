@@ -3,7 +3,9 @@
 <?php
 //$country = intval($node->field_recognition['und'][0]['value']);
 // switch($country){
+print '<pre>';
 print_r($fields['field_recognized_jo']);
+print '</pre>';
         if(( $jo)==='Yes'){
           echo '<span class="reg-country">';
           print t('Jorn');
@@ -18,3 +20,5 @@ print_r($fields['field_recognized_jo']);
      
  
        ?>
+<!--$field = field_info_field('field_name');
+$allowed_values = list_allowed_values($field);-->
