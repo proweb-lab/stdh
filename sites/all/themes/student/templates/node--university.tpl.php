@@ -1,5 +1,5 @@
 <article class="node-page node-<?php print $node->nid; ?> <?php print $classes; ?> "<?php print $attributes; ?>>
-<span class="uni-name" ><?php print  render($title);?></span>
+<span class="uni-name" ><?php print   $title;?></span>
 
 <?php
 $country = intval($node->field_recognition['und'][0]['value']);
@@ -28,3 +28,4 @@ $country = intval($node->field_recognition['und'][0]['value']);
  }
        ?>
 </article>
+
