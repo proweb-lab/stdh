@@ -374,7 +374,26 @@ li.dropdown {
     position: absolute;
     top: 19px; right: -21px;
 }
-
+.ribbon-wrapper-green span::before {
+    content: '';
+    position: absolute;
+    left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #636467;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #636467;
+}
+.ribbon-wrapper-green span::after {
+    content: '';
+    position: absolute;
+    right: 0%; top: 100%;
+    z-index: -1;
+    border-right: 3px solid #636467;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #636467;
+}
 
 
 
@@ -591,7 +610,8 @@ li.dropdown {
 /*End style view services*/
 /* user login form */
 
-#fancy_login_login_box{
+#fancy_login_login_box
+{
     top: 10%;
     left: 15%;
     margin-left: 0 !important; 
