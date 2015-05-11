@@ -10,26 +10,30 @@
 //$allowed_values_jo = list_allowed_values($field);
 //print_r($allowed_values[2]);
 
-      if($fields['field_recognized_qa']->content=='Yes'){
+      if($fields['field_recognized_jo']->content=='Yes'):{
             echo '<span class="reg-country">';
           print t('Jordan yes');
             print '</span>';
          }
-        elseif($fields['field_recognized_jo']->content=='No'){
+         endif;
+       if($fields['field_recognized_jo']->content=='No'):{
              echo '<span class="reg-country">';
             print t('no jordan');
            print '</span>';
         }
-         elseif($fields['field_recognized_qa']->content=='Yes'){
+        endif;
+         if($fields['field_recognized_qa']->content=='Yes'):{
             echo '<span class="reg-country">';
           print t('yes Qer');
             print '</span>';
          } 
-         elseif($fields['field_recognized_qa']->content=='No'){
+         endif;
+         if($fields['field_recognized_qa']->content=='No'):{
               echo '<span class="reg-country">';
           print t('no qatar');
             print '</span>';
          }
+     endif;
        
    
  
