@@ -15,17 +15,17 @@
           print t('Jordan yes');
             print '</span>';
          }
-         if(($fields['field_recognized_jo']->content)=='No'){
+        else if(($fields['field_recognized_jo']->content)=='No'){
              echo '<span class="reg-country">';
             print t('no jordan');
            print '</span>';
         }
-         if($fields['field_recognized_qa']->content=='Yes'){
+         else if($fields['field_recognized_qa']->content=='Yes'){
             echo '<span class="reg-country">';
           print t('yes Qer');
             print '</span>';
          } 
-         if($fields['field_recognized_qa']->content=='No'){
+         else if($fields['field_recognized_qa']->content=='No'){
              
               echo '<span class="reg-country">';
           print t('no qatar');
