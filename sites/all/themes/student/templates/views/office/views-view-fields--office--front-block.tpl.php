@@ -1,7 +1,7 @@
 <div class="office-block">
    <?php
    $extra_title = $fields['field_extra_title'];
-   if(!empty( $extra_title)){
+   if(!empty( $extra_title)):
     ?>
 
    <?php print ' <div class="ribbon-wrapper-green">
@@ -10,7 +10,7 @@
             print $extra_title->content;
        echo '</div>';
 ?>
-    <?php }?>
+    <?php endif;?>
     <div class="office-image">
         <?php print $fields['field_image']->content;?>
     </div>
