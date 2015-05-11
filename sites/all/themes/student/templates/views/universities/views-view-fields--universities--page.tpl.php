@@ -13,7 +13,7 @@ $allowed_values = list_allowed_values($field);
             echo '<span class="reg-country">';
           print t('Jordan yes');
             print '</span>';
-         }else{
+         }elseif(($fields['field_recognized_jo']->content=='No')){
              echo '<span class="reg-country">';
             print t('no jordan');
            print '</span>';
