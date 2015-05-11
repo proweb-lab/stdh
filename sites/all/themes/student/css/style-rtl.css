@@ -329,7 +329,10 @@ li.dropdown {
 
 
 #office .office-image{padding-bottom: 50px;}
-.office-block{float: right;position: relative;}
+.office-block{float: right; overflow: hidden;
+    position: absolute;
+    top: -3px;
+    right: -3px;}
 .office-block .office-title{text-align: center;}
 .office-block .office-image{
     border: 2px solid;
