@@ -3,6 +3,7 @@
    $extra_title = $fields['field_extra_title'];
    if(!empty( $extra_title)){
     ?>
+       <img class="clip-animation" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/building-to-be-clipped.jpg">
        <div class="extra-title">
            <?php print $extra_title->content;?>
        </div>
