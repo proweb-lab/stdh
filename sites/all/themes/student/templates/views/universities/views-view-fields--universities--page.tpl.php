@@ -3,9 +3,9 @@
 <?php
 //$country = intval($node->field_recognition['und'][0]['value']);
 // switch($country){
-print '<pre>';
-print_r($fields['field_recognition']);
-print '</pre>';
+//print '<pre>';
+//print_r($fields['field_recognition']);
+//print '</pre>';
         if(($fields['field_recognition']->content) == 'Jordan'){
           echo '<span class="reg-country">';
           print t('Jorn');
