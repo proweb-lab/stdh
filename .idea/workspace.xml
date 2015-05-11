@@ -28,20 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.321428" vertical-offset="7537" max-vertical-offset="8415">
-              <caret line="518" column="0" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6052632" vertical-offset="7537" max-vertical-offset="8415">
+              <caret line="527" column="18" selection-start-line="527" selection-start-column="18" selection-end-line="527" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views-view-fields--office--front-block.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views-view-fields--office--front-block.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19607843" vertical-offset="0" max-vertical-offset="612">
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="360">
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <marker date="1431335772026" expanded="true" signature="151:153" placeholder="..." />
@@ -528,12 +528,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00335" summary="div offices-block container">
-      <created>1431259070217</created>
-      <option name="number" value="00335" />
-      <option name="project" value="LOCAL" />
-      <updated>1431259070217</updated>
-    </task>
     <task id="LOCAL-00336" summary="div offices-block container">
       <created>1431259662757</created>
       <option name="number" value="00336" />
@@ -822,7 +816,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431335781368</updated>
     </task>
-    <option name="localTasksCounter" value="384" />
+    <task id="LOCAL-00384" summary="edit extra title office css">
+      <created>1431335886118</created>
+      <option name="number" value="00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1431335886118</updated>
+    </task>
+    <option name="localTasksCounter" value="385" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1238,17 +1238,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.321428" vertical-offset="7537" max-vertical-offset="8415">
-          <caret line="518" column="0" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19607843" vertical-offset="0" max-vertical-offset="612">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <marker date="1431335772026" expanded="true" signature="151:153" placeholder="..." />
@@ -1256,6 +1248,14 @@
             <marker date="1431335772026" expanded="true" signature="258:287" placeholder="..." />
             <marker date="1431335772026" expanded="true" signature="354:383" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6052632" vertical-offset="7537" max-vertical-offset="8415">
+          <caret line="527" column="18" selection-start-line="527" selection-start-column="18" selection-end-line="527" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
