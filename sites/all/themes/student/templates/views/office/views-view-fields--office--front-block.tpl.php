@@ -4,12 +4,12 @@
    if(!empty( $extra_title)){
     ?>
 
-       <div class="ribbon-wrapper-green">
-           <div class="ribbon-green">NEWS</div>
+   <?php echo' <div class="ribbon-wrapper-green">
+           <div class="ribbon-green">NEWS</div>';
 
-           <?php print $extra_title->content;?>
-       </div>
-
+            print $extra_title->content;
+       echo '</div>';
+?>
     <?php }?>
     <div class="office-image">
         <?php print $fields['field_image']->content;?>
