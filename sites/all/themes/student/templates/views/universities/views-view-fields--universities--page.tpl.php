@@ -17,7 +17,7 @@ $country = intval($fields['field_recognition']);
  switch($country){
         case 1:
           echo '<span class="reg-country">';
-          print t('Jordan');
+          print t('Jorn');
            print '</span>';
           break;
         case 2:
