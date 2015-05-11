@@ -436,11 +436,18 @@ li.dropdown {
     height: 39px;
 }
 
+.uni-table {text-align: center;}
 .uni-table .uni-name{float: right;  width: 20%;
   height: 50px;
   border: 1px solid #636467;
 }
-.uni-table .uni-name{float: right;  width: 20%;}
+.uni-table .recognition{ 
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid;
+  height: 50px;
+  float: right;
+}
 
 /*End style page universities*/
 
