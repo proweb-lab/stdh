@@ -34,10 +34,10 @@
   </tr>
   
 <!--        <span class="uni-name">
-            <?php print t('university')?>
+            <?php //print t('university')?>
         </span>
             <span class="regocnition">
-            <?php print t('regocnition')?>
+            <?php //print t('regocnition')?>
         </span>-->
        
         </div>
