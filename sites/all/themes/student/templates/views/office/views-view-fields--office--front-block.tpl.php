@@ -5,8 +5,9 @@
     ?>
 
        <div class="ribbon-wrapper-green">
-           <?php print $extra_title->content;?>
            <div class="ribbon-green">NEWS</div>
+
+           <?php print $extra_title->content;?>
        </div>
 
     <?php }?>
