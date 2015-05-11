@@ -47,7 +47,7 @@
          <span class="reg-uae">
             <?php print t('')?>
         </span>
-         <span class="reg--kw">
+         <span class="reg-kw">
             <?php print t('kwait')?>
         </span>
        
