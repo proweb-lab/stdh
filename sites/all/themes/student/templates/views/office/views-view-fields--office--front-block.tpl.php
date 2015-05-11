@@ -5,7 +5,7 @@
     ?>
 
  <div class="ribbon">
-<span>soon</span>
+     <div class="ribbon-green">قريبا</div>
      <?php print $extra_title;?>
    </div>
 
