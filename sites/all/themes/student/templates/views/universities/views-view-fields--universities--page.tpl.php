@@ -13,7 +13,7 @@
          
         </span>-->
 <?php
- switch($fields['field_recognition']['und'][0]['value']){
+ switch($fields['field_recognition']){
         case 1:
           echo '<span class="reg-country">';
           print t('Jordan');
