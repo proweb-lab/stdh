@@ -3,8 +3,10 @@
    $extra_title = $fields['field_extra_title'];
    if(!empty( $extra_title)){
     ?>
-       <div class="extra-title">
+
+       <div class="ribbon-wrapper-green">
            <?php print $extra_title->content;?>
+           <div class="ribbon-green">NEWS</div>
        </div>
 
     <?php }?>
