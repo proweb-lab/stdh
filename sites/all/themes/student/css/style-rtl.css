@@ -451,7 +451,7 @@ li.dropdown {
 .view-office .field-collection-container{border: none;}
 /*End style page office */
 /*Begin style front block services*/
-.box .ribbon .service-description
+.views-row.box.ribbon.service-description
 {
     margin-top: 65px;
 }
