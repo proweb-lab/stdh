@@ -31,7 +31,7 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6603774" vertical-offset="4350" max-vertical-offset="9435">
+            <state vertical-scroll-proportion="0.6839623" vertical-offset="4335" max-vertical-offset="9420">
               <caret line="318" column="1" selection-start-line="318" selection-start-column="1" selection-end-line="318" selection-end-column="1" />
               <folding />
             </state>
@@ -533,12 +533,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00318" summary="block-system-main-menu">
-      <created>1430894700037</created>
-      <option name="number" value="00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1430894700037</updated>
-    </task>
     <task id="LOCAL-00319" summary="block-system-main-menu">
       <created>1430895479115</created>
       <option name="number" value="00319" />
@@ -827,7 +821,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431350765222</updated>
     </task>
-    <option name="localTasksCounter" value="367" />
+    <task id="LOCAL-00367" summary="try fixed button in home page">
+      <created>1431352574183</created>
+      <option name="number" value="00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1431352574183</updated>
+    </task>
+    <option name="localTasksCounter" value="368" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1256,7 +1256,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6603774" vertical-offset="4350" max-vertical-offset="9435">
+        <state vertical-scroll-proportion="0.6839623" vertical-offset="4335" max-vertical-offset="9420">
           <caret line="318" column="1" selection-start-line="318" selection-start-column="1" selection-end-line="318" selection-end-column="1" />
           <folding />
         </state>
