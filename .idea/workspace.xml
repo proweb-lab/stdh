@@ -42,12 +42,11 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.24509804" vertical-offset="0" max-vertical-offset="612">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding>
-                <marker date="1431331767867" expanded="true" signature="170:218" placeholder="..." />
-                <marker date="1431331767867" expanded="true" signature="170:284" placeholder="..." />
-                <marker date="1431331767867" expanded="true" signature="332:361" placeholder="..." />
-                <marker date="1431331767867" expanded="true" signature="428:457" placeholder="..." />
+                <marker date="1431331861175" expanded="true" signature="136:236" placeholder="..." />
+                <marker date="1431331861175" expanded="true" signature="283:312" placeholder="..." />
+                <marker date="1431331861175" expanded="true" signature="379:408" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -528,12 +527,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00311" summary="style div in services view">
-      <created>1430825176950</created>
-      <option name="number" value="00311" />
-      <option name="project" value="LOCAL" />
-      <updated>1430825176950</updated>
-    </task>
     <task id="LOCAL-00312" summary="style div in services view">
       <created>1430826463245</created>
       <option name="number" value="00312" />
@@ -822,7 +815,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431331594160</updated>
     </task>
-    <option name="localTasksCounter" value="360" />
+    <task id="LOCAL-00360" summary="add extra title office css">
+      <created>1431331773410</created>
+      <option name="number" value="00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1431331773410</updated>
+    </task>
+    <option name="localTasksCounter" value="361" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1249,12 +1248,11 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24509804" vertical-offset="0" max-vertical-offset="612">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
-            <marker date="1431331767867" expanded="true" signature="170:218" placeholder="..." />
-            <marker date="1431331767867" expanded="true" signature="170:284" placeholder="..." />
-            <marker date="1431331767867" expanded="true" signature="332:361" placeholder="..." />
-            <marker date="1431331767867" expanded="true" signature="428:457" placeholder="..." />
+            <marker date="1431331861175" expanded="true" signature="136:236" placeholder="..." />
+            <marker date="1431331861175" expanded="true" signature="283:312" placeholder="..." />
+            <marker date="1431331861175" expanded="true" signature="379:408" placeholder="..." />
           </folding>
         </state>
       </provider>
