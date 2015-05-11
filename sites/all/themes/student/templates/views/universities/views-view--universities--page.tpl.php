@@ -24,7 +24,27 @@
       <?php print $attachment_before; ?>
     </div>
   <?php endif; ?>
-    <div class="gfdf">
+    <div class="uni-table">
+        <div class="first-row">
+        <span class="uni-name">
+            <?php print t('university')?>
+        </span>
+            <span class="regocnition">
+            <?php print t('regocnition')?>
+        </span>
+       
+        </div>
+        <div class="second-row">
+        <span class="uni-name">
+            <?php print t('')?>
+        </span>
+            <span class="regocnition">
+            <?php print t('jo')?>
+        </span>
+       
+        </div>
+        
+        
   <?php if ($rows): ?>
     <div class="view-content">
       <?php print $rows; ?>
