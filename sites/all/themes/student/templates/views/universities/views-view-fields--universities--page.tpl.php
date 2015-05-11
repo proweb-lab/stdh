@@ -20,7 +20,7 @@ $allowed_values = list_allowed_values($field);
         }
          if($fields['field_recognized_qa']->content=='Yes'){
             echo '<span class="reg-country">';
-          print t('Qater');
+          print t('Qer');
             print '</span>';
          }
        
