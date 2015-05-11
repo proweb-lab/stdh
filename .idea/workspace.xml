@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23519737" vertical-offset="8167" max-vertical-offset="9135">
-              <caret line="554" column="25" selection-start-line="554" selection-start-column="25" selection-end-line="554" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.9506579" vertical-offset="6982" max-vertical-offset="9135">
+              <caret line="504" column="1" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -495,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00369" summary="add extra title office css">
-      <created>1431333226690</created>
-      <option name="number" value="00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1431333226690</updated>
-    </task>
     <task id="LOCAL-00370" summary="add extra title office css">
       <created>1431333406276</created>
       <option name="number" value="00370" />
@@ -789,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431346138504</updated>
     </task>
-    <option name="localTasksCounter" value="418" />
+    <task id="LOCAL-00418" summary="edit style service-block front">
+      <created>1431346179373</created>
+      <option name="number" value="00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1431346179373</updated>
+    </task>
+    <option name="localTasksCounter" value="419" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -803,7 +803,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38970023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2720984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1223,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23519737" vertical-offset="8167" max-vertical-offset="9135">
-          <caret line="554" column="25" selection-start-line="554" selection-start-column="25" selection-end-line="554" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.9506579" vertical-offset="6982" max-vertical-offset="9135">
+          <caret line="504" column="1" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
           <folding />
         </state>
       </provider>
