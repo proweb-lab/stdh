@@ -6,7 +6,7 @@
 print '<pre>';
 print_r($fields['field_recognition']);
 print '</pre>';
-        if(($fields['field_recognition']->value) == 1){
+        if(($fields['field_recognition']->content) == 'Jordan'){
           echo '<span class="reg-country">';
           print t('Jorn');
            print '</span>';
