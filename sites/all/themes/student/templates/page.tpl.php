@@ -57,28 +57,28 @@
         </div>
         <div class="block-universities">
 
-            <button class="btn btn-test-universities btn-lg">
+            <div class="btn btn-test-universities btn-lg">
                 <?php  $link_test = l(t('Test university orientation '),
                     'http://myqyas.monadsoft.com/startMyQyas.aspx',array('html' => TRUE, 'attributes' =>
                         array('target' => '_blank')));
                 echo $link_test;?>
-            </button>
+            </div>
 
-            <button class="btn btn-universities btn-lg">
+            <div class="btn btn-universities btn-lg">
                 <?php  $link_universities = l(t('Search In Universities'), '/universities');
 
                 echo $link_universities;?>
-            </button>
+            </div>
             <div class="btn btn-learn-turkish btn-lg">
                 <?php  $link_learn_turkish = l(t('Learn Turkish'),
                     'http://ilanguages.org/ar/turkish_vocabulary.php',array('html' => TRUE, 'attributes' =>
                         array('target' => '_blank')));
                 echo $link_learn_turkish;?>
             </div>
-            <button class="btn btn-success-stories btn-lg">
+            <div class="btn btn-success-stories btn-lg">
                 <?php  $link_Stories = l(t('Success Stories'), '');
                 echo $link_Stories;?>
-            </button>
+            </div>
         </div>
         <div class="offices-block container">
             <h2 class="block-title"><?php echo t('Study Abroad'); ?></h2>
