@@ -3,7 +3,7 @@
 <?php
 //$country = intval($node->field_recognition['und'][0]['value']);
 // switch($country){
-pront_r($fields['field_recognized_jo']);
+print_r($fields['field_recognized_jo']);
         if(( $jo)==='Yes'){
           echo '<span class="reg-country">';
           print t('Jorn');
