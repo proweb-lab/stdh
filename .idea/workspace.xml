@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75328946" vertical-offset="8137" max-vertical-offset="8745">
-              <caret line="573" column="1" selection-start-line="573" selection-start-column="1" selection-end-line="573" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.9506579" vertical-offset="8317" max-vertical-offset="9030">
+              <caret line="593" column="1" selection-start-line="593" selection-start-column="1" selection-end-line="593" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -496,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00357" summary="add extra title office css">
-      <created>1431328695961</created>
-      <option name="number" value="00357" />
-      <option name="project" value="LOCAL" />
-      <updated>1431328695961</updated>
-    </task>
     <task id="LOCAL-00358" summary="add extra title office css">
       <created>1431331515541</created>
       <option name="number" value="00358" />
@@ -790,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431338901860</updated>
     </task>
-    <option name="localTasksCounter" value="406" />
+    <task id="LOCAL-00406" summary="add new style service-block front">
+      <created>1431343816358</created>
+      <option name="number" value="00406" />
+      <option name="project" value="LOCAL" />
+      <updated>1431343816358</updated>
+    </task>
+    <option name="localTasksCounter" value="407" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -835,7 +834,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="toggle title background color" />
     <MESSAGE value="disable search info" />
     <MESSAGE value="edit style dropdown language in page unversity" />
     <MESSAGE value="edit style dropdown office in page unversity" />
@@ -860,7 +858,8 @@
     <MESSAGE value="add extra title office css" />
     <MESSAGE value="edit extra title office css" />
     <MESSAGE value="edit style service-block front" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit style service-block front" />
+    <MESSAGE value="add new style service-block front" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new style service-block front" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1224,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75328946" vertical-offset="8137" max-vertical-offset="8745">
-          <caret line="573" column="1" selection-start-line="573" selection-start-column="1" selection-end-line="573" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.9506579" vertical-offset="8317" max-vertical-offset="9030">
+          <caret line="593" column="1" selection-start-line="593" selection-start-column="1" selection-end-line="593" selection-end-column="1" />
           <folding />
         </state>
       </provider>
