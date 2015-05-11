@@ -5,16 +5,7 @@
     <?php print $title; ?>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
-        <table>
-  <tr>
-    <td><?php print t('uni');?></td>
-    <td><?php print t('re');?></td> 
-  </tr>
-  <tr>
-    <td></td>
-    <td><?php print t('jo');?></td> 
-    <td>94</td>
-  </tr>
+
   <?php if ($header): ?>
     <div class="view-header">
       <?php print $header; ?>
@@ -26,6 +17,16 @@
       <?php print $exposed; ?>
     </div>
   <?php endif; ?>
+  <table>
+  <tr>
+    <td><?php print t('uni');?></td>
+    <td><?php print t('re');?></td> 
+  </tr>
+  <tr>
+    <td></td>
+    <td><?php print t('jo');?></td> 
+    <td>94</td>
+  </tr>
 
   <?php if ($attachment_before): ?>
     <div class="attachment attachment-before">
