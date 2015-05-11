@@ -307,7 +307,6 @@ li.dropdown {
 .block-universities a{
     text-decoration: none;
     color:#fff;
-    display: block;
 }
 .btn-test-universities,
 .btn-learn-turkish,
@@ -317,6 +316,9 @@ li.dropdown {
     border-color:#d8450b;
     width:270px;
     margin-left: 5px;
+}
+.btn-test-universities a{
+    display: block;
 }
 
 /*End style block universities*/
