@@ -15,8 +15,8 @@
           print t('Jordan yes');
             print '</span>';
          }
-         endif;
-       if($fields['field_recognized_jo']->content=='No'):{
+        
+       elseif($fields['field_recognized_jo']->content=='No'):{
              echo '<span class="reg-country">';
             print t('no jordan');
            print '</span>';
@@ -27,8 +27,8 @@
           print t('yes Qer');
             print '</span>';
          } 
-         endif;
-         if($fields['field_recognized_qa']->content=='No'):{
+        
+         elseif($fields['field_recognized_qa']->content=='No'):{
               echo '<span class="reg-country">';
           print t('no qatar');
             print '</span>';
