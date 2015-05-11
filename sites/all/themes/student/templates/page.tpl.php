@@ -56,12 +56,14 @@
             ?>
         </div>
         <div class="block-universities">
+
             <button class="btn btn-test-universities btn-lg">
                 <?php  $link_test = l(t('Test university orientation '),
                     'http://myqyas.monadsoft.com/startMyQyas.aspx',array('html' => TRUE, 'attributes' =>
                         array('target' => '_blank')));
                 echo $link_test;?>
             </button>
+
             <button class="btn btn-universities btn-lg">
                 <?php  $link_universities = l(t('Search In Universities'), '/universities');
 
