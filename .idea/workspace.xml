@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6792763" vertical-offset="8422" max-vertical-offset="9030">
-              <caret line="589" column="36" selection-start-line="589" selection-start-column="36" selection-end-line="589" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.23519737" vertical-offset="8167" max-vertical-offset="9135">
+              <caret line="554" column="25" selection-start-line="554" selection-start-column="25" selection-end-line="554" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -495,60 +495,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00360" summary="add extra title office css">
-      <created>1431331773410</created>
-      <option name="number" value="00360" />
-      <option name="project" value="LOCAL" />
-      <updated>1431331773410</updated>
-    </task>
-    <task id="LOCAL-00361" summary="add extra title office css">
-      <created>1431331864519</created>
-      <option name="number" value="00361" />
-      <option name="project" value="LOCAL" />
-      <updated>1431331864519</updated>
-    </task>
-    <task id="LOCAL-00362" summary="add extra title office css">
-      <created>1431331921975</created>
-      <option name="number" value="00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1431331921975</updated>
-    </task>
-    <task id="LOCAL-00363" summary="add extra title office css">
-      <created>1431332516834</created>
-      <option name="number" value="00363" />
-      <option name="project" value="LOCAL" />
-      <updated>1431332516834</updated>
-    </task>
-    <task id="LOCAL-00364" summary="add extra title office css">
-      <created>1431332680413</created>
-      <option name="number" value="00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1431332680413</updated>
-    </task>
-    <task id="LOCAL-00365" summary="add extra title office css">
-      <created>1431332937978</created>
-      <option name="number" value="00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1431332937978</updated>
-    </task>
-    <task id="LOCAL-00366" summary="add extra title office css">
-      <created>1431333024421</created>
-      <option name="number" value="00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1431333024421</updated>
-    </task>
-    <task id="LOCAL-00367" summary="add extra title office css">
-      <created>1431333091304</created>
-      <option name="number" value="00367" />
-      <option name="project" value="LOCAL" />
-      <updated>1431333091304</updated>
-    </task>
-    <task id="LOCAL-00368" summary="add extra title office css">
-      <created>1431333185361</created>
-      <option name="number" value="00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1431333185361</updated>
-    </task>
     <task id="LOCAL-00369" summary="add extra title office css">
       <created>1431333226690</created>
       <option name="number" value="00369" />
@@ -789,7 +735,61 @@
       <option name="project" value="LOCAL" />
       <updated>1431344083411</updated>
     </task>
-    <option name="localTasksCounter" value="409" />
+    <task id="LOCAL-00409" summary="edit color&#10; new style service-block front">
+      <created>1431344577911</created>
+      <option name="number" value="00409" />
+      <option name="project" value="LOCAL" />
+      <updated>1431344577911</updated>
+    </task>
+    <task id="LOCAL-00410" summary="edit style service-block front">
+      <created>1431344993134</created>
+      <option name="number" value="00410" />
+      <option name="project" value="LOCAL" />
+      <updated>1431344993134</updated>
+    </task>
+    <task id="LOCAL-00411" summary="edit style service-block front">
+      <created>1431345089803</created>
+      <option name="number" value="00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1431345089803</updated>
+    </task>
+    <task id="LOCAL-00412" summary="edit style service-block front">
+      <created>1431345139639</created>
+      <option name="number" value="00412" />
+      <option name="project" value="LOCAL" />
+      <updated>1431345139639</updated>
+    </task>
+    <task id="LOCAL-00413" summary="edit style service-block front">
+      <created>1431345218177</created>
+      <option name="number" value="00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1431345218177</updated>
+    </task>
+    <task id="LOCAL-00414" summary="edit style service-block front">
+      <created>1431345271849</created>
+      <option name="number" value="00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1431345271849</updated>
+    </task>
+    <task id="LOCAL-00415" summary="edit style service-block front">
+      <created>1431345784812</created>
+      <option name="number" value="00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1431345784812</updated>
+    </task>
+    <task id="LOCAL-00416" summary="edit style service-block front">
+      <created>1431345864412</created>
+      <option name="number" value="00416" />
+      <option name="project" value="LOCAL" />
+      <updated>1431345864412</updated>
+    </task>
+    <task id="LOCAL-00417" summary="edit style service-block front">
+      <created>1431346138504</created>
+      <option name="number" value="00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1431346138504</updated>
+    </task>
+    <option name="localTasksCounter" value="418" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -834,7 +834,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="disable search info" />
     <MESSAGE value="edit style dropdown language in page unversity" />
     <MESSAGE value="edit style dropdown office in page unversity" />
     <MESSAGE value="edit style dropdown edit-uni-recognition in page unversity" />
@@ -857,9 +856,10 @@
     <MESSAGE value="add extra title office" />
     <MESSAGE value="add extra title office css" />
     <MESSAGE value="edit extra title office css" />
-    <MESSAGE value="edit style service-block front" />
     <MESSAGE value="add new style service-block front" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new style service-block front" />
+    <MESSAGE value="edit color&#10; new style service-block front" />
+    <MESSAGE value="edit style service-block front" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit style service-block front" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1223,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6792763" vertical-offset="8422" max-vertical-offset="9030">
-          <caret line="589" column="36" selection-start-line="589" selection-start-column="36" selection-end-line="589" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.23519737" vertical-offset="8167" max-vertical-offset="9135">
+          <caret line="554" column="25" selection-start-line="554" selection-start-column="25" selection-end-line="554" selection-end-column="25" />
           <folding />
         </state>
       </provider>
