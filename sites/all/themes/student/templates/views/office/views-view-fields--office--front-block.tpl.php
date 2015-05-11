@@ -5,8 +5,7 @@
     ?>
 
  <div class="ribbon-wrapper-green">
-     <span>t('soon')</span>
-     <?php print $extra_title;?>
+     <span><?php print t('soon')?></span>
    </div>
 
     <?php }?>
