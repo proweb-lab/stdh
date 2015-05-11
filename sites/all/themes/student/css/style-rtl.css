@@ -384,8 +384,8 @@ li.dropdown {
    margin: 30px 0;
    position: relative;
   background-color: #eeeeee;
-  border-top: 1px solid #EEE;
-  border-bottom: 1px solid #EEE;
+  border-top: 2px solid #EEE;
+  border-bottom: 2px solid #EEE;
 }
 
 .page-office .page-title{display: none;}
