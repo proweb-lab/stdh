@@ -29,8 +29,8 @@
         <span class="uni-name">
             <?php print t('university')?>
         </span>
-            <span class="regocnition">
-            <?php print t('regocnition')?>
+            <span class="recognition">
+            <?php print t('recognition')?>
         </span>
        
         </div>
