@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66611844" vertical-offset="6420" max-vertical-offset="9135">
-              <caret line="455" column="21" selection-start-line="455" selection-start-column="21" selection-end-line="455" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.24671052" vertical-offset="6645" max-vertical-offset="9135">
+              <caret line="453" column="12" selection-start-line="453" selection-start-column="12" selection-end-line="453" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -495,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00361" summary="add extra title office css">
-      <created>1431331864519</created>
-      <option name="number" value="00361" />
-      <option name="project" value="LOCAL" />
-      <updated>1431331864519</updated>
-    </task>
     <task id="LOCAL-00362" summary="add extra title office css">
       <created>1431331921975</created>
       <option name="number" value="00362" />
@@ -789,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431344577911</updated>
     </task>
-    <option name="localTasksCounter" value="410" />
+    <task id="LOCAL-00410" summary="edit style service-block front">
+      <created>1431344993134</created>
+      <option name="number" value="00410" />
+      <option name="project" value="LOCAL" />
+      <updated>1431344993134</updated>
+    </task>
+    <option name="localTasksCounter" value="411" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -856,10 +856,10 @@
     <MESSAGE value="add extra title office" />
     <MESSAGE value="add extra title office css" />
     <MESSAGE value="edit extra title office css" />
-    <MESSAGE value="edit style service-block front" />
     <MESSAGE value="add new style service-block front" />
     <MESSAGE value="edit color&#10; new style service-block front" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit color&#10; new style service-block front" />
+    <MESSAGE value="edit style service-block front" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit style service-block front" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1223,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66611844" vertical-offset="6420" max-vertical-offset="9135">
-          <caret line="455" column="21" selection-start-line="455" selection-start-column="21" selection-end-line="455" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.24671052" vertical-offset="6645" max-vertical-offset="9135">
+          <caret line="453" column="12" selection-start-line="453" selection-start-column="12" selection-end-line="453" selection-end-column="12" />
           <folding />
         </state>
       </provider>
