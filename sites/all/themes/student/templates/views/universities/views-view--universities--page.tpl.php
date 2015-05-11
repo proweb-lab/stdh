@@ -25,7 +25,7 @@
     </div>
   <?php endif; ?>
     <div class="uni-table">
-        <div class="first-row">
+        <div class="first-row clearfix">
         <span class="uni-name">
             <?php print t('')?>
         </span>
@@ -34,7 +34,7 @@
         </span>
        
         </div>
-        <div class="second-row">
+        <div class="second-row clearfix">
         <span class="uni-name">
             <?php print t('university')?>
         </span>
