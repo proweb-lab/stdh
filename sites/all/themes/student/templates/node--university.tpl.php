@@ -3,6 +3,7 @@
 
 <?php
 $country = intval($node->field_recognition['und'][0]['value']);
+print_r($country);
  switch($country){
         case 1:
           echo '<span class="reg-country">';
