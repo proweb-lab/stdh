@@ -4,8 +4,8 @@
    if(!empty( $extra_title)){
     ?>
 
- <?php print '<div class="ribbon-wrapper-green">
-           <div class="ribbon-green">NEWS</div>';?>
+ <div class="ribbon-wrapper-green">
+           <div class="ribbon-green">NEWS</div>
 
            <?php print $extra_title->content;?>
        </div>
