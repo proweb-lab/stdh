@@ -4,8 +4,8 @@
    if(!empty( $extra_title)){
     ?>
 
- <div class="ribbon-wrapper-green">
-     <div class="ribbon-green">قريبا</div>
+ <div class="ribbon">
+<span>soon</span>
      <?php print $extra_title;?>
    </div>
 
