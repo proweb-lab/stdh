@@ -22,9 +22,14 @@ $allowed_values = list_allowed_values($field);
             echo '<span class="reg-country">';
           print t('Qer');
             print '</span>';
+         }else{
+             
+              echo '<span class="reg-country">';
+          print t('no qatar');
+            print '</span>';
          }
        
-     
+   
  
        ?>
 <!--$field = field_info_field('field_name');
