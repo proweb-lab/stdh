@@ -6,9 +6,9 @@
 
 
 
-           <?php print '<div class="ribbon-wrapper-green">
+           <?php print '
            <div class="ribbon-green">NEWS</div>'.$extra_title->content;?>
-       </div>
+
 
     <?php endif;?>
     <div class="office-image">
