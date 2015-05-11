@@ -10,7 +10,9 @@
             print $extra_title->content;
        echo '</div>';
 ?>
-    <?php }?>
+    <?php }else{?>
+
+    <?php}?>
     <div class="office-image">
         <?php print $fields['field_image']->content;?>
     </div>
