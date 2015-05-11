@@ -525,13 +525,15 @@ li.dropdown {
 }
 
 .ribbon-wrapper-green span {
-    font-size: 10px;
+    font-size: 15px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold; line-height: 20px;
+    font-family: 'Droid Arabic Kufi';
     transform: rotate(45deg);
     width: 100px; display: block;
+    height:25px;
     background: #636467;
     background: linear-gradient(#636467 0%, #636467 100%);
     box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
