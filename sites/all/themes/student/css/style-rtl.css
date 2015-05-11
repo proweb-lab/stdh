@@ -318,8 +318,7 @@ li.dropdown {
     margin-left: 5px;
 }
 .btn-test-universities a{
-    display: block;
-}
+    display: inline-block;}
 
 /*End style block universities*/
 /*Begin style block office*/
