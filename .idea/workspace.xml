@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7554" max-vertical-offset="8370">
-              <caret line="548" column="1" selection-start-line="548" selection-start-column="1" selection-end-line="548" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="7644" max-vertical-offset="8475">
+              <caret line="554" column="1" selection-start-line="554" selection-start-column="1" selection-end-line="554" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -41,14 +41,12 @@
       <file leaf-file-name="views-view-fields--office--front-block.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17156863" vertical-offset="0" max-vertical-offset="612">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="612">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding>
-                <marker date="1431333223163" expanded="true" signature="160:248" placeholder="..." />
-                <marker date="1431333223163" expanded="true" signature="160:248" placeholder="..." />
-                <marker date="1431333223163" expanded="true" signature="160:275" placeholder="..." />
-                <marker date="1431333223163" expanded="true" signature="337:366" placeholder="..." />
-                <marker date="1431333223163" expanded="true" signature="433:462" placeholder="..." />
+                <marker date="1431333462459" expanded="true" signature="171:222" placeholder="..." />
+                <marker date="1431333462459" expanded="true" signature="333:362" placeholder="..." />
+                <marker date="1431333462459" expanded="true" signature="429:458" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -529,18 +527,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00320" summary="block-system-main-menu">
-      <created>1430895685509</created>
-      <option name="number" value="00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1430895685510</updated>
-    </task>
-    <task id="LOCAL-00321" summary="block-system-main-menu">
-      <created>1430896024471</created>
-      <option name="number" value="00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1430896024471</updated>
-    </task>
     <task id="LOCAL-00322" summary="block-system-main-menu">
       <created>1430896084207</created>
       <option name="number" value="00322" />
@@ -823,7 +809,19 @@
       <option name="project" value="LOCAL" />
       <updated>1431333185361</updated>
     </task>
-    <option name="localTasksCounter" value="369" />
+    <task id="LOCAL-00369" summary="add extra title office css">
+      <created>1431333226690</created>
+      <option name="number" value="00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1431333226690</updated>
+    </task>
+    <task id="LOCAL-00370" summary="add extra title office css">
+      <created>1431333406276</created>
+      <option name="number" value="00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1431333406277</updated>
+    </task>
+    <option name="localTasksCounter" value="371" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1241,22 +1239,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7554" max-vertical-offset="8370">
-          <caret line="548" column="1" selection-start-line="548" selection-start-column="1" selection-end-line="548" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="7644" max-vertical-offset="8475">
+          <caret line="554" column="1" selection-start-line="554" selection-start-column="1" selection-end-line="554" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17156863" vertical-offset="0" max-vertical-offset="612">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="612">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
           <folding>
-            <marker date="1431333223163" expanded="true" signature="160:248" placeholder="..." />
-            <marker date="1431333223163" expanded="true" signature="160:248" placeholder="..." />
-            <marker date="1431333223163" expanded="true" signature="160:275" placeholder="..." />
-            <marker date="1431333223163" expanded="true" signature="337:366" placeholder="..." />
-            <marker date="1431333223163" expanded="true" signature="433:462" placeholder="..." />
+            <marker date="1431333462459" expanded="true" signature="171:222" placeholder="..." />
+            <marker date="1431333462459" expanded="true" signature="333:362" placeholder="..." />
+            <marker date="1431333462459" expanded="true" signature="429:458" placeholder="..." />
           </folding>
         </state>
       </provider>
