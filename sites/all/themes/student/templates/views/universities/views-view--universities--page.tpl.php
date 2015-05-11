@@ -48,7 +48,7 @@
             <?php print t('UAE')?>
         </span>
          <span class="reg-country">
-            <?php print t('kwait')?>
+            <?php print t('kuwait')?>
         </span>
        
         </div>
