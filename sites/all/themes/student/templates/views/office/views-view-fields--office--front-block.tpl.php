@@ -2,13 +2,14 @@
    <?php
    $extra_title = $fields['field_extra_title'];
    if(!empty( $extra_title)):
+       echo '<div class="ribbon-wrapper-green">
+           <div class="ribbon-green">NEWS</div>
+
+           <?php print $extra_title->'.content.';?>
+       </div>';
     ?>
 
-    <div class="ribbon-wrapper-green">
-           <div class="ribbon-green">NEWS</div>;
 
-           <?php print $extra_title->content;?>
-       </div>;
 
     <?php endif;?>
     <div class="office-image">
