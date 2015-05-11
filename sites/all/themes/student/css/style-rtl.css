@@ -435,6 +435,11 @@ li.dropdown {
 #edit-uni-specialties{
     height: 39px;
 }
+
+.uni-table .uni-name{float: right;  width: 20%;
+  height: 50px;
+  border: 1px solid #636467;
+}
 /*End style page universities*/
 
 /*Begin style button back to top*/
