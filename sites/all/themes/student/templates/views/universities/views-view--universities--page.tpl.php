@@ -26,12 +26,19 @@
   <?php endif; ?>
     <div class="uni-table">
         <div class="first-row">
-        <span class="uni-name">
+            <table border="1" style="width:100%">
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  
+<!--        <span class="uni-name">
             <?php print t('university')?>
         </span>
             <span class="regocnition">
             <?php print t('regocnition')?>
-        </span>
+        </span>-->
        
         </div>
         <div class="second-row">
