@@ -10,7 +10,7 @@
 //$allowed_values_jo = list_allowed_values($field);
 //print_r($allowed_values[2]);
 
-        if($fields['field_recognized_jo']->content=='Yes'){
+      if($fields['field_recognized_qa']->content=='Yes'){
             echo '<span class="reg-country">';
           print t('Jordan yes');
             print '</span>';
