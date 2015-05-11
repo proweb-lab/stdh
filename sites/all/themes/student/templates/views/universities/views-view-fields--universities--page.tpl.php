@@ -13,7 +13,7 @@
          
         </span>-->
 <?php
-$country = intval($fields['field_recognition'][0]['value']);
+$country = intval($fields['field_recognition']['value']);
  switch($country){
         case 1:
           echo '<span class="reg-country">';
