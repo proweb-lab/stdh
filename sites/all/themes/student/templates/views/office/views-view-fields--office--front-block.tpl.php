@@ -1,16 +1,14 @@
 <div class="office-block">
    <?php
-   $extra_title = $fields['field_extra_title'];
-   if(!empty( $extra_title)):
+   $extra_title = $fields['field_extra_title']->content;
+   if(!empty( $extra_title)){
     ?>
-
- <?php print '<div class="ribbon-wrapper-green">
-           <div class="ribbon-green">NEWS</div>';?>
-
-           <?php print $extra_title->content;?>
+ <div class="ribbon-wrapper-green">
+           <div class="ribbon-green">قريبا</div>
+           <?php print $extra_title;?>
        </div>
 
-    <?php endif;?>
+    <?php }?>
     <div class="office-image">
         <?php print $fields['field_image']->content;?>
     </div>
