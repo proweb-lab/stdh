@@ -1,4 +1,13 @@
 <div class="office-block">
+   <?php
+   $extra_title = $fields['field_extra_title'];
+   if(!empty( $extra_title)){
+    ?>
+       <div class="extra-title">
+           <?php print $extra_title->content;?>
+       </div>
+
+    <?php }?>
     <div class="office-image">
         <?php print $fields['field_image']->content;?>
     </div>
