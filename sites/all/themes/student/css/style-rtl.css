@@ -530,6 +530,7 @@ li.dropdown {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold; line-height: 20px;
+    font-family: 'Droid Arabic Kufi';
     transform: rotate(45deg);
     width: 100px; display: block;
     height:25px;
