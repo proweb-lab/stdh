@@ -46,13 +46,13 @@
       <file leaf-file-name="views-view-fields--office--front-block.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24509804" vertical-offset="0" max-vertical-offset="612">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.22058824" vertical-offset="0" max-vertical-offset="612">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding>
-                <marker date="1431334003466" expanded="true" signature="156:204" placeholder="..." />
-                <marker date="1431334003466" expanded="true" signature="230:255" placeholder="..." />
-                <marker date="1431334003466" expanded="true" signature="313:342" placeholder="..." />
-                <marker date="1431334003466" expanded="true" signature="409:438" placeholder="..." />
+                <marker date="1431334270906" expanded="true" signature="165:213" placeholder="..." />
+                <marker date="1431334270906" expanded="true" signature="239:255" placeholder="..." />
+                <marker date="1431334270906" expanded="true" signature="313:342" placeholder="..." />
+                <marker date="1431334270906" expanded="true" signature="409:438" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -533,12 +533,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00328" summary="style login">
-      <created>1430913846179</created>
-      <option name="number" value="00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1430913846180</updated>
-    </task>
     <task id="LOCAL-00329" summary="style login">
       <created>1430914010191</created>
       <option name="number" value="00329" />
@@ -827,7 +821,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431333956914</updated>
     </task>
-    <option name="localTasksCounter" value="377" />
+    <task id="LOCAL-00377" summary="add extra title office css">
+      <created>1431334006859</created>
+      <option name="number" value="00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1431334006859</updated>
+    </task>
+    <option name="localTasksCounter" value="378" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1278,13 +1278,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24509804" vertical-offset="0" max-vertical-offset="612">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.22058824" vertical-offset="0" max-vertical-offset="612">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
-            <marker date="1431334003466" expanded="true" signature="156:204" placeholder="..." />
-            <marker date="1431334003466" expanded="true" signature="230:255" placeholder="..." />
-            <marker date="1431334003466" expanded="true" signature="313:342" placeholder="..." />
-            <marker date="1431334003466" expanded="true" signature="409:438" placeholder="..." />
+            <marker date="1431334270906" expanded="true" signature="165:213" placeholder="..." />
+            <marker date="1431334270906" expanded="true" signature="239:255" placeholder="..." />
+            <marker date="1431334270906" expanded="true" signature="313:342" placeholder="..." />
+            <marker date="1431334270906" expanded="true" signature="409:438" placeholder="..." />
           </folding>
         </state>
       </provider>

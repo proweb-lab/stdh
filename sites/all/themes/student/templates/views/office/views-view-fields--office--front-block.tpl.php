@@ -1,13 +1,13 @@
 <div class="office-block">
    <?php
-   $extra_title = $fields['field_extra_title'];
+   $extra_title = $fields['field_extra_title']->content;
    if(!empty( $extra_title)){
     ?>
 
  <div class="ribbon-wrapper-green">
            <div class="ribbon-green">NEWS</div>
 
-           <?php print $extra_title->content;?>
+           <?php print $extra_title;?>
        </div>
 
     <?php }?>
