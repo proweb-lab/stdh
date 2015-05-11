@@ -448,7 +448,7 @@ li.dropdown {
   height: 50px;
   float: right;
 }
-.uni-table .reg-country{float:right;border:1px solid #636467;width: 15%;height: 50px;}
+.uni-table .reg-country{float:right;border-left:1px solid #636467;width: 15%;height: 50px;border-bottom:1px solid #636467;}
 
 /*End style page universities*/
 
