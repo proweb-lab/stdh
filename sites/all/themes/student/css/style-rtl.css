@@ -436,6 +436,7 @@ li.dropdown {
     height: 39px;
 }
 
+.uni-table {text-align: center;}
 .uni-table .uni-name{float: right;  width: 20%;
   height: 50px;
   border: 1px solid #636467;
