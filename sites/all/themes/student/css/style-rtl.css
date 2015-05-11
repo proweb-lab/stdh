@@ -545,7 +545,7 @@ li.dropdown {
 }
 /*Begin*/
 .box {
-    width:200px;height:300px;
+    width:200px;height:200px;
     position:relative;
     border:1px solid #BBB;
     background:#eee;
