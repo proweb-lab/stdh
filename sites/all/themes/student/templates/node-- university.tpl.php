@@ -1,19 +1,7 @@
-<span class="uni-name" ><?php print $fields['title']->content;?></span>
-<!--<span class="reg-country">
-    
-          
-        </span>
-         <span class="reg-country">
-          
-        </span>
-         <span class="reg-country">
-        
-        </span>
-         <span class="reg-country">
-         
-        </span>-->
+<span class="uni-name" ><?php print  render($title);?></span>
+
 <?php
-$country = intval($fields['field_recognition']);
+$country = intval($node->field_recognition['und'][0]['value']);
  switch($country){
         case 1:
           echo '<span class="reg-country">';
