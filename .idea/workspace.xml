@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24671052" vertical-offset="6645" max-vertical-offset="9135">
-              <caret line="453" column="0" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23519737" vertical-offset="8167" max-vertical-offset="9135">
+              <caret line="554" column="25" selection-start-line="554" selection-start-column="25" selection-end-line="554" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -495,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00366" summary="add extra title office css">
-      <created>1431333024421</created>
-      <option name="number" value="00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1431333024421</updated>
-    </task>
     <task id="LOCAL-00367" summary="add extra title office css">
       <created>1431333091304</created>
       <option name="number" value="00367" />
@@ -789,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431345271849</updated>
     </task>
-    <option name="localTasksCounter" value="415" />
+    <task id="LOCAL-00415" summary="edit style service-block front">
+      <created>1431345784812</created>
+      <option name="number" value="00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1431345784812</updated>
+    </task>
+    <option name="localTasksCounter" value="416" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1223,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24671052" vertical-offset="6645" max-vertical-offset="9135">
-          <caret line="453" column="0" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23519737" vertical-offset="8167" max-vertical-offset="9135">
+          <caret line="554" column="25" selection-start-line="554" selection-start-column="25" selection-end-line="554" selection-end-column="25" />
           <folding />
         </state>
       </provider>
