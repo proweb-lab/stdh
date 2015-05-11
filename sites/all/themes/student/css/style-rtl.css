@@ -450,6 +450,13 @@ li.dropdown {
 }
 .view-office .field-collection-container{border: none;}
 /*End style page office */
+/*Begin style front block services*/
+.box .front . service-description
+{
+    margin-top: 65px;
+}
+
+/*End style front block services*/
 /*Begin style page universities*/
 #edit-uni-language{
     height: 39px;
