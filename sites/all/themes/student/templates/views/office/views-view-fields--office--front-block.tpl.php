@@ -4,7 +4,7 @@
    if(!empty( $extra_title)):
     ?>
 
-   <?php  echo '<div class="ribbon-wrapper-green">'.
+   <?php  print '<div class="ribbon-wrapper-green">'.
            '<div class="ribbon-green">NEWS</div>';
 
             print $extra_title->content;?>
