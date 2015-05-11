@@ -110,7 +110,11 @@
             <a id="main-content"></a>
             <?php print render($title_prefix); ?>
             <?php if (!empty($title)): ?>
-                <div class="page-title"><h1><?php print t($title); ?></h1></div>
+                <div class="page-title">
+                    <h1 class="container">
+                        <?php print t($title); ?>
+                    </h1>
+                </div>
             <?php endif; ?>
             <?php print render($title_suffix); ?>
 
