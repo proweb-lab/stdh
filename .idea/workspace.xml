@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -548,12 +547,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00346" summary="add div service in front block services">
-      <created>1431263615277</created>
-      <option name="number" value="00346" />
-      <option name="project" value="LOCAL" />
-      <updated>1431263615277</updated>
-    </task>
     <task id="LOCAL-00347" summary="add div service in front block services">
       <created>1431264441176</created>
       <option name="number" value="00347" />
@@ -842,7 +835,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431336773413</updated>
     </task>
-    <option name="localTasksCounter" value="395" />
+    <task id="LOCAL-00395" summary="edit extra title office css">
+      <created>1431337169019</created>
+      <option name="number" value="00395" />
+      <option name="project" value="LOCAL" />
+      <updated>1431337169019</updated>
+    </task>
+    <option name="localTasksCounter" value="396" />
     <servers />
   </component>
   <component name="ToolWindowManager">
