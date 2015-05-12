@@ -466,6 +466,9 @@ color: #FFD700;
 .services .service-1 .service-title{
 color:#C0C0C0;
 }
+.services .views-row-1{
+    border-top: 5px solid #C0C0C0;
+}
 .services .service-3 .service-title{
 color:#B9F2FF;
 }
