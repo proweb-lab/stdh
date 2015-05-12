@@ -556,6 +556,7 @@ li.dropdown {
     float: right;
     padding: 15px;
 }
+.uni-table .second-row .reg-country{font-size:22px;}
 .uni-table .reg-country{
     float:right;
     border-left:1px solid #636467;
