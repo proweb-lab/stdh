@@ -460,6 +460,9 @@ li.dropdown {
   padding: 30px 30px;
     height: 300px;
 }
+.services .service-2 service-title{
+color: #FFD700;
+}
 /*Begin style services*/
 .front .service-block{
     border:1px solid  #d5d5d5;
