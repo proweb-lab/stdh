@@ -466,6 +466,11 @@ color: #FFD700;
 .services .service-1 .service-title{
 color:#C0C0C0;
 }
+.services .service-3 .service-title{
+color:#B9F2FF;
+}
+
+
 /*Begin style services*/
 .front .service-block{
     border:1px solid  #d5d5d5;
