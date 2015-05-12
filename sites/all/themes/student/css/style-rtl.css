@@ -285,10 +285,26 @@ li.dropdown {
 .footer{
     background-color:#636467;
     margin-top: 0px;
-    height:200px;
+    height:242px;
 
 }
 /*End Style footer*/
+/*Begin style address block*/
+.address-block
+{
+    float: left;
+}
+.address-block p
+{
+    color: #fff;
+
+}
+.address-block a
+{
+    color: #fff;
+
+}
+/*End style address block*/
 /*Begin style login*/
 #edit-name{
     width: 70%
@@ -472,6 +488,10 @@ li.dropdown {
 .field-content
 {
     margin-top: 65px;
+}
+.service-description
+{
+    padding: 10px 10px;
 }
 .box {
     width:200px;height:150px;
