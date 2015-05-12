@@ -293,6 +293,7 @@ li.dropdown {
 .address-block
 {
     float: left;
+    margin: 10px 64px;
 }
 .address-block p
 {
@@ -306,6 +307,12 @@ li.dropdown {
 }
 /*End style address block*/
 /*Begin style copyright block*/
+.copyright-block
+{
+    position: absolute;
+    bottom: 10px;
+    right: 86px;
+}
 .copyright-block p
 {
     color:#fff;

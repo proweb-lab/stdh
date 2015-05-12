@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6792763" vertical-offset="3892" max-vertical-offset="10005">
-              <caret line="287" column="14" selection-start-line="287" selection-start-column="14" selection-end-line="287" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.13651316" vertical-offset="4327" max-vertical-offset="10110">
+              <caret line="294" column="16" selection-start-line="294" selection-start-column="16" selection-end-line="294" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3333335" vertical-offset="2048" max-vertical-offset="2730">
-              <caret line="153" column="33" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
+            <state vertical-scroll-proportion="-3.2807016" vertical-offset="2138" max-vertical-offset="2730">
+              <caret line="155" column="9" selection-start-line="155" selection-start-column="9" selection-end-line="155" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -499,12 +499,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00337" summary="div offices-block container">
-      <created>1431259706867</created>
-      <option name="number" value="00337" />
-      <option name="project" value="LOCAL" />
-      <updated>1431259706867</updated>
-    </task>
     <task id="LOCAL-00338" summary="delete span title in office block">
       <created>1431260558297</created>
       <option name="number" value="00338" />
@@ -793,7 +787,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431423405021</updated>
     </task>
-    <option name="localTasksCounter" value="386" />
+    <task id="LOCAL-00386" summary="add style copyright block in footer">
+      <created>1431426249731</created>
+      <option name="number" value="00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1431426249731</updated>
+    </task>
+    <option name="localTasksCounter" value="387" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1214,16 +1214,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3333335" vertical-offset="2048" max-vertical-offset="2730">
-          <caret line="153" column="33" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
+        <state vertical-scroll-proportion="-3.2807016" vertical-offset="2138" max-vertical-offset="2730">
+          <caret line="155" column="9" selection-start-line="155" selection-start-column="9" selection-end-line="155" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6792763" vertical-offset="3892" max-vertical-offset="10005">
-          <caret line="287" column="14" selection-start-line="287" selection-start-column="14" selection-end-line="287" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.13651316" vertical-offset="4327" max-vertical-offset="10110">
+          <caret line="294" column="16" selection-start-line="294" selection-start-column="16" selection-end-line="294" selection-end-column="16" />
           <folding />
         </state>
       </provider>
