@@ -545,6 +545,7 @@ li.dropdown {
     border: 1px solid #636467;
     padding: 15px;
 }
+.uni-table .uni-name.list{border-top: none;}
 .uni-table .recognition{ 
     width: 80%;
     margin: 0 auto;
