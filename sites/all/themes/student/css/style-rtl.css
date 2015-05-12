@@ -289,6 +289,13 @@ li.dropdown {
 
 }
 /*End Style footer*/
+/*Begin style address block*/
+.address-block p
+{
+    color: #fff;
+    float:left;
+}
+/*End style address block*/
 /*Begin style login*/
 #edit-name{
     width: 70%
