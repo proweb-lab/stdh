@@ -1,4 +1,4 @@
-<span class="uni-name" ><?php print $fields['title']->content; ?></span>
+<span class="uni-name list" ><?php print $fields['title']->content; ?></span>
 
 <?php
 //$country = intval($node->field_recognition['und'][0]['value']);
