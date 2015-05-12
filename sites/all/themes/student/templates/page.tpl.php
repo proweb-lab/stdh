@@ -151,6 +151,12 @@
         print render($address_block['content']);
         ?>
     </div>
+    <div class="copyright-block">
+        <?php
+        $copyright_block = module_invoke('block', 'block_view', '5');
+        print render($copyright_block['content']);
+        ?>
+    </div>
 </footer>
 <script>
     (function (i, s, o, g, r, a, m) {
