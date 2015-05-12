@@ -499,12 +499,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00340" summary="return style span title in office block">
-      <created>1431262152206</created>
-      <option name="number" value="00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1431262152206</updated>
-    </task>
     <task id="LOCAL-00341" summary=" style span title in office block">
       <created>1431262213862</created>
       <option name="number" value="00341" />
@@ -793,7 +787,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431427679252</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <task id="LOCAL-00389" summary="add style copyright block in footer">
+      <created>1431427847965</created>
+      <option name="number" value="00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1431427847965</updated>
+    </task>
+    <option name="localTasksCounter" value="390" />
     <servers />
   </component>
   <component name="ToolWindowManager">
