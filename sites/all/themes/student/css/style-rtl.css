@@ -307,6 +307,12 @@ li.dropdown {
 }
 /*End style address block*/
 /*Begin style footer menu*/
+.footer-menu
+{
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+}
 .footer-menu a
 {
     color:#fff;
