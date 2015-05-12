@@ -469,6 +469,12 @@ color:#C0C0C0;
 .services .views-row-1{
     border-top: 5px solid #C0C0C0;
 }
+.services .views-row-2{
+    border-top: 5px solid #FFD700;
+}
+.services .views-row-3{
+    border-top: 5px solid #B9F2FF;
+}
 .services .service-3 .service-title{
 color:#B9F2FF;
 }
