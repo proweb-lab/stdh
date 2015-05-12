@@ -541,22 +541,22 @@ li.dropdown {
 .uni-table .uni-name{
     float: right;  
     width: 20%;
-    height: 50px;
+    height: 75px;
     border: 1px solid #636467;
     padding: 15px;
 }
 .uni-table .recognition{ 
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     border: 1px solid;
-    height: 50px;
+    height: 75px;
     float: right;
     padding: 15px;
 }
 .uni-table .reg-country{
     float:right;
     border-left:1px solid #636467;
-    width: 15%;height: 50px;
+    width: 20%;height: 75px;
     border-bottom:1px solid #636467;
     padding: 15px;
 }
