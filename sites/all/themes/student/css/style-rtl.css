@@ -449,7 +449,8 @@ li.dropdown {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   margin: 10px 5px;
   position: relative;
-  padding: 30px 30px 110px;
+  padding: 30px 30px;
+    height: 300px;
 }
 /*Begin style services*/
 .front .service-block{
