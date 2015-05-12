@@ -145,6 +145,12 @@
 </div>
 <footer class="footer">
 <?php print render($page['footer']); ?>
+    <div class="address-block">
+        <?php
+        $address_block = module_invoke('block', 'block_view', '4');
+        print render($address_block['content']);
+        ?>
+    </div>
 </footer>
 <script>
     (function (i, s, o, g, r, a, m) {
