@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.40625" vertical-offset="4088" max-vertical-offset="9630">
-              <caret line="289" column="23" selection-start-line="289" selection-start-column="23" selection-end-line="289" selection-end-column="23" />
+              <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -451,12 +451,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00323" summary="block-system-main-menu">
-      <created>1430896289826</created>
-      <option name="number" value="00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1430896289826</updated>
-    </task>
     <task id="LOCAL-00324" summary="block-system-main-menu">
       <created>1430899348324</created>
       <option name="number" value="00324" />
@@ -745,7 +739,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431419516093</updated>
     </task>
-    <option name="localTasksCounter" value="372" />
+    <task id="LOCAL-00372" summary="add style address block in footer">
+      <created>1431419604721</created>
+      <option name="number" value="00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1431419604721</updated>
+    </task>
+    <option name="localTasksCounter" value="373" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1175,7 +1175,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40625" vertical-offset="4088" max-vertical-offset="9630">
-          <caret line="289" column="23" selection-start-line="289" selection-start-column="23" selection-end-line="289" selection-end-column="23" />
+          <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
           <folding />
         </state>
       </provider>
