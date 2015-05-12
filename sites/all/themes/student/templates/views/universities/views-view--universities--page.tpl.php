@@ -17,13 +17,12 @@
       <?php print $exposed; ?>
     </div>
   <?php endif; ?>
-
-
+ <?php if ($empty): ?>
     <div class="view-empty">
       <?php print $empty; ?>
     </div>
- 
-      
+  <?php endif; ?>
+
   <?php if ($attachment_before): ?>
     <div class="attachment attachment-before">
       <?php print $attachment_before; ?>
@@ -64,7 +63,8 @@
       <?php print $rows; ?>
     </div>
   </div>
-  
+  <?php endif; ?>
+ 
 
   <?php if ($pager): ?>
     <?php print $pager; ?>
