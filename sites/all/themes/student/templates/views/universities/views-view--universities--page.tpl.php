@@ -26,7 +26,7 @@
   <?php endif; ?>
     <div class="uni-table">
         <div class="first-row clearfix">
-        <span class="uni-name">
+        <span class="uni-name empty">
             <?php print t('')?>
         </span>
             <span class="recognition">
