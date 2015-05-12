@@ -42,7 +42,7 @@
             <?php print t('Jordan')?>
         </span>
          <span class="reg-country">
-            <?php print t('Qater')?>
+            <?php print t('KSA')?>
         </span>
          <span class="reg-country">
             <?php print t('UAE')?>

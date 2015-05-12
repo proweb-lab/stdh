@@ -22,7 +22,7 @@
            print '</span>';
         }
        
-         if($fields['field_recognized_qa']->content=='Yes'){
+         if($fields['field_recognized_ksa']->content=='Yes'){
             echo '<span class="reg-country yes">';
         
             print '</span>';
