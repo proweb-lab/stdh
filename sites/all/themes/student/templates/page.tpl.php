@@ -152,10 +152,11 @@
         ?>
     </div>
     <div class="copyright-block">
-        <?php
-        $copyright_block = module_invoke('block', 'block_view', '5');
-        print render($copyright_block['content']);
-        ?>
+
+        //$copyright_block = module_invoke('block', 'block_view', '5');
+        //print render($copyright_block['content']);
+        Copyright <?php print date('Y', time());?> YOUR WEBSITE NAME. All rights reserved.
+
     </div>
 </footer>
 <script>
