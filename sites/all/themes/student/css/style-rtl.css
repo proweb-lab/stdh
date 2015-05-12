@@ -299,6 +299,11 @@ li.dropdown {
     color: #fff;
 
 }
+.address-block a
+{
+    color: #fff;
+
+}
 /*End style address block*/
 /*Begin style login*/
 #edit-name{
