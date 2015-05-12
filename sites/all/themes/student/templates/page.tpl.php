@@ -155,7 +155,7 @@
 
         //$copyright_block = module_invoke('block', 'block_view', '5');
         //print render($copyright_block['content']);
-        Copyright <?php print date('Y', time());?> YOUR WEBSITE NAME. All rights reserved.
+        Copyright <?php print format_date('Y', time());?> YOUR WEBSITE NAME. All rights reserved.
 
     </div>
 </footer>
