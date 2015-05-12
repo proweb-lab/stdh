@@ -290,10 +290,14 @@ li.dropdown {
 }
 /*End Style footer*/
 /*Begin style address block*/
+.address-block
+{
+    float: left;
+}
 .address-block p
 {
     color: #fff;
-    float:left;
+
 }
 /*End style address block*/
 /*Begin style login*/
