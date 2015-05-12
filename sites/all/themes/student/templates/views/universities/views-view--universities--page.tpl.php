@@ -30,13 +30,13 @@
             <?php print t('')?>
         </span>
             <span class="recognition">
-            <?php print t('recognition')?>
+            <?php print t('Uni Recognition')?>
         </span>
        
         </div>
         <div class="second-row clearfix">
         <span class="uni-name">
-            <?php print t('university')?>
+            <?php print t('University Name')?>
         </span>
         <span class="reg-country">
             <?php print t('Jordan')?>
