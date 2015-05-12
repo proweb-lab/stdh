@@ -463,6 +463,9 @@ li.dropdown {
 .services .service-2 .service-title{
 color: #FFD700;
 }
+.services .service-1 .service-title{
+color:#C0C0C0;
+}
 /*Begin style services*/
 .front .service-block{
     border:1px solid  #d5d5d5;
