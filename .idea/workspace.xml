@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
+    <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="add style address block in footer">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40625" vertical-offset="4088" max-vertical-offset="9630">
-              <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.30756578" vertical-offset="4088" max-vertical-offset="9630">
+              <caret line="285" column="19" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -451,12 +451,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00324" summary="block-system-main-menu">
-      <created>1430899348324</created>
-      <option name="number" value="00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1430899348324</updated>
-    </task>
     <task id="LOCAL-00325" summary="block-system-main-menu">
       <created>1430911858022</created>
       <option name="number" value="00325" />
@@ -745,7 +739,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431419604721</updated>
     </task>
-    <option name="localTasksCounter" value="373" />
+    <task id="LOCAL-00373" summary="add style address block in footer">
+      <created>1431419637935</created>
+      <option name="number" value="00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1431419637935</updated>
+    </task>
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1174,8 +1174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40625" vertical-offset="4088" max-vertical-offset="9630">
-          <caret line="289" column="17" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.30756578" vertical-offset="4088" max-vertical-offset="9630">
+          <caret line="285" column="19" selection-start-line="285" selection-start-column="19" selection-end-line="285" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -283,11 +283,11 @@ li.dropdown {
 /*End style body*/
 /*Begin Style footer*/
 .footer{
-    position: relative;
+    position: fixed;
     background-color:#636467;
     margin-top: 0px;
     height:200px;
-    margin-bottom: -150px;
+
 }
 /*End Style footer*/
 /*Begin style login*/
