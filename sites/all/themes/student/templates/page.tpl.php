@@ -151,6 +151,12 @@
         print render($address_block['content']);
         ?>
     </div>
+    <div class="footer-menu">
+        <?php
+        $footer_menu = module_invoke('block', 'block_view', '6');
+        print render($footer_menu['content']);
+        ?>
+    </div>
     <div class="copyright-block">
         <?php
         $copyright_block = module_invoke('block', 'block_view', '5');
