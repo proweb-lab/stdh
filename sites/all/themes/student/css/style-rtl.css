@@ -262,8 +262,9 @@ li.dropdown {
 .webform-submit{
     margin-top: 10px;
 }
-#edit-submitted-message{ width: 400px;
-                         height: 100px;
+#edit-submitted-message{
+    width: 400px;
+    height: 100px;
 
 }
 /*End style webform*/
