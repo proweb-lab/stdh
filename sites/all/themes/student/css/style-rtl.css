@@ -305,6 +305,12 @@ li.dropdown {
 
 }
 /*End style address block*/
+/*Begin style copyright block*/
+.copyright-block p
+{
+    color:#fff;
+}
+/*End style copyright block*/
 /*Begin style login*/
 #edit-name{
     width: 70%
