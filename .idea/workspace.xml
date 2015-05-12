@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13651316" vertical-offset="4327" max-vertical-offset="10110">
-              <caret line="294" column="16" selection-start-line="294" selection-start-column="16" selection-end-line="294" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.5805921" vertical-offset="4327" max-vertical-offset="10110">
+              <caret line="312" column="14" selection-start-line="312" selection-start-column="14" selection-end-line="312" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -499,12 +499,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00338" summary="delete span title in office block">
-      <created>1431260558297</created>
-      <option name="number" value="00338" />
-      <option name="project" value="LOCAL" />
-      <updated>1431260558297</updated>
-    </task>
     <task id="LOCAL-00339" summary="delete style span title in office block">
       <created>1431260773245</created>
       <option name="number" value="00339" />
@@ -793,7 +787,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431426249731</updated>
     </task>
-    <option name="localTasksCounter" value="387" />
+    <task id="LOCAL-00387" summary="add style copyright block in footer">
+      <created>1431427407061</created>
+      <option name="number" value="00387" />
+      <option name="project" value="LOCAL" />
+      <updated>1431427407061</updated>
+    </task>
+    <option name="localTasksCounter" value="388" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1222,8 +1222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13651316" vertical-offset="4327" max-vertical-offset="10110">
-          <caret line="294" column="16" selection-start-line="294" selection-start-column="16" selection-end-line="294" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.5805921" vertical-offset="4327" max-vertical-offset="10110">
+          <caret line="312" column="14" selection-start-line="312" selection-start-column="14" selection-end-line="312" selection-end-column="14" />
           <folding />
         </state>
       </provider>
