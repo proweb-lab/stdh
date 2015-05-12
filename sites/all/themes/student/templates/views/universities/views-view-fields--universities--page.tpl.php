@@ -18,7 +18,7 @@
         
        else{
              echo '<span class="reg-country">';
-            print t('no jordan');
+            print t('nojjjjj');
            print '</span>';
         }
        
