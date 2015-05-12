@@ -540,16 +540,16 @@ li.dropdown {
 .uni-table {text-align: center;}
 .uni-table .uni-name{
     float: right;  
-    width: 20%;
+    width: 30%;
     height: 75px;
     border: 1px solid #636467;
     padding: 15px;
     font-size: 22px;
 }
-.uni-table .uni-name.list{border-top: none;}
+.uni-table .uni-name.list{border-top: none;  font-size: 16px;}
 .uni-table .uni-name.empty{border-bottom: none;border-left: none;}
 .uni-table .recognition{ 
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     border: 1px solid;
     height: 75px;
@@ -559,7 +559,7 @@ li.dropdown {
 .uni-table .reg-country{
     float:right;
     border-left:1px solid #636467;
-    width: 20%;height: 75px;
+    width: 17%;height: 75px;
     border-bottom:1px solid #636467;
     padding: 15px;
 }
