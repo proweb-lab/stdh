@@ -565,6 +565,8 @@ li.dropdown {
     border-bottom:1px solid #636467;
     padding: 15px;
 }
+.uni-table .reg-country.yes{ background: url("../images/yes.png") no-repeat;}
+.uni-table .reg-country.no{ background: url("../images/no.png") no-repeat;}
 
 /*End style page universities*/
 
