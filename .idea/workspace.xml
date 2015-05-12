@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82730263" vertical-offset="8812" max-vertical-offset="9510">
-              <caret line="621" column="16" selection-start-line="621" selection-start-column="16" selection-end-line="621" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.3569079" vertical-offset="4058" max-vertical-offset="9600">
+              <caret line="285" column="23" selection-start-line="285" selection-start-column="23" selection-end-line="285" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -451,12 +451,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00321" summary="block-system-main-menu">
-      <created>1430896024471</created>
-      <option name="number" value="00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1430896024471</updated>
-    </task>
     <task id="LOCAL-00322" summary="block-system-main-menu">
       <created>1430896084207</created>
       <option name="number" value="00322" />
@@ -745,7 +739,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431415844339</updated>
     </task>
-    <option name="localTasksCounter" value="370" />
+    <task id="LOCAL-00370" summary="add style address block in footer">
+      <created>1431417819911</created>
+      <option name="number" value="00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1431417819911</updated>
+    </task>
+    <option name="localTasksCounter" value="371" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -790,7 +790,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="disable search info" />
     <MESSAGE value="edit style dropdown language in page unversity" />
     <MESSAGE value="edit style dropdown office in page unversity" />
     <MESSAGE value="edit style dropdown edit-uni-recognition in page unversity" />
@@ -815,7 +814,8 @@
     <MESSAGE value="clean code in front block office" />
     <MESSAGE value="try fixed button in home page" />
     <MESSAGE value="add address block in footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add address block in footer" />
+    <MESSAGE value="add style address block in footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add style address block in footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1174,8 +1174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82730263" vertical-offset="8812" max-vertical-offset="9510">
-          <caret line="621" column="16" selection-start-line="621" selection-start-column="16" selection-end-line="621" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.3569079" vertical-offset="4058" max-vertical-offset="9600">
+          <caret line="285" column="23" selection-start-line="285" selection-start-column="23" selection-end-line="285" selection-end-column="23" />
           <folding />
         </state>
       </provider>
