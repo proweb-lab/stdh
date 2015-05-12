@@ -143,7 +143,7 @@
  </div>
     </div>
 </div>
-<footer class="footer">
+<footer class="footer clearfix">
 <?php print render($page['footer']); ?>
     <div class="address-block">
         <?php

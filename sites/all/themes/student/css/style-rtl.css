@@ -285,7 +285,7 @@ li.dropdown {
 .footer{
     background-color:#636467;
     margin-top: 0px;
-    height:300px;
+    //height:300px;
 
 }
 /*End Style footer*/
@@ -293,7 +293,7 @@ li.dropdown {
 .address-block
 {
     float: left;
-    margin: 10px 64px;
+    margin: 0px 64px;
 }
 .address-block p
 {
@@ -310,8 +310,8 @@ li.dropdown {
 .copyright-block
 {
     position: absolute;
-    bottom: 10px;
-    right: 86px;
+    bottom: 1%;
+    right: 5%;
 }
 .copyright-block p
 {
