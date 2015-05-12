@@ -11,48 +11,48 @@
 //print_r($allowed_values[2]);
 
       if($fields['field_recognized_jo']->content=='Yes'){
-            echo '<span class="reg-country">';
-          print t('Jordan yes');
+            echo '<span class="reg-country yes">';
+         
             print '</span>';
          }
         
        else{
-             echo '<span class="reg-country">';
-            print t('no jordan');
+             echo '<span class="reg-country no">';
+           
            print '</span>';
         }
        
          if($fields['field_recognized_qa']->content=='Yes'){
-            echo '<span class="reg-country">';
-          print t('yes Qer');
+            echo '<span class="reg-country yes">';
+        
             print '</span>';
          } 
         
          else{
-              echo '<span class="reg-country">';
-          print t('no qatar');
+              echo '<span class="reg-country no">';
+       
             print '</span>';
          }
             if($fields['field_recognized_uae']->content=='Yes'){
-            echo '<span class="reg-country">';
-          print t('yes uae');
+            echo '<span class="reg-country yes">';
+         
             print '</span>';
          } 
         
          else{
-              echo '<span class="reg-country">';
-          print t('no uae');
+              echo '<span class="reg-country no">';
+        
             print '</span>';
          }
             if($fields['field_recognized_kw']->content=='Yes'){
-            echo '<span class="reg-country">';
-          print t('yes kw');
+            echo '<span class="reg-country yes">';
+         
             print '</span>';
          } 
         
          else{
-              echo '<span class="reg-country">';
-          print t('no kw');
+              echo '<span class="reg-country no">';
+        
             print '</span>';
          }
     
