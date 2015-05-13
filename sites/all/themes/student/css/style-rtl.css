@@ -314,7 +314,7 @@ li.dropdown {
     bottom: 8%;
     right: 8%;
 }
-.footer-menu ul li a
+.footer-menu ul,li,a
 {
     color:#fff;
     padding-left:10px;

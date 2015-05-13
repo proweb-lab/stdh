@@ -499,12 +499,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00352" summary="add extra title office">
-      <created>1431328213845</created>
-      <option name="number" value="00352" />
-      <option name="project" value="LOCAL" />
-      <updated>1431328213845</updated>
-    </task>
     <task id="LOCAL-00353" summary="add extra title office css">
       <created>1431328220088</created>
       <option name="number" value="00353" />
@@ -793,7 +787,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431499314065</updated>
     </task>
-    <option name="localTasksCounter" value="401" />
+    <task id="LOCAL-00401" summary="change style footer menu block to menu">
+      <created>1431499378864</created>
+      <option name="number" value="00401" />
+      <option name="project" value="LOCAL" />
+      <updated>1431499378864</updated>
+    </task>
+    <option name="localTasksCounter" value="402" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -838,7 +838,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="button back to up" />
     <MESSAGE value="style div in services view" />
     <MESSAGE value="add tag hr to services block" />
     <MESSAGE value="delete tag hr to services block" />
@@ -863,7 +862,8 @@
     <MESSAGE value="add footer menu page tbl" />
     <MESSAGE value="add style footer menu css" />
     <MESSAGE value="change footer menu block to menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="change footer menu block to menu" />
+    <MESSAGE value="change style footer menu block to menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="change style footer menu block to menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
