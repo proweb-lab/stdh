@@ -154,7 +154,7 @@
             ?>
         </div>
     <!--<div class="address-block ">-->
-        <div class="col-sm-3">
+        <div class="col-sm-3" id="secondfooter">
         <?php
          print render($page['footer_second']);
         ?>
