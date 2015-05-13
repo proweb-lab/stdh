@@ -6,7 +6,7 @@
             <?php print $fields['field_body']->content;?>
     </div>  
     <div class="service-price">
-         <?php print  strrev($fields['field_price']->content);?> 
+         <?php print  $fields['field_price']->content;?> 
     </div>
 </div>
 
