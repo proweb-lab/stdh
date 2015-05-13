@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.37313432" vertical-offset="0" max-vertical-offset="402">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -391,12 +391,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00418" summary="change style footer menu block to menu">
-      <created>1431503237459</created>
-      <option name="number" value="00418" />
-      <option name="project" value="LOCAL" />
-      <updated>1431503237459</updated>
-    </task>
     <task id="LOCAL-00419" summary="change style footer menu block to menu">
       <created>1431504027327</created>
       <option name="number" value="00419" />
@@ -685,7 +679,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431523582695</updated>
     </task>
-    <option name="localTasksCounter" value="467" />
+    <task id="LOCAL-00467" summary="add new template node 64">
+      <created>1431523702497</created>
+      <option name="number" value="00467" />
+      <option name="project" value="LOCAL" />
+      <updated>1431523702497</updated>
+    </task>
+    <option name="localTasksCounter" value="468" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1119,7 +1119,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37313432" vertical-offset="0" max-vertical-offset="402">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>
