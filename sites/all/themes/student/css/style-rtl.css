@@ -313,6 +313,7 @@ li.dropdown {
     position: absolute;
     bottom: 8%;
     right: 8%;
+    display: inline;
 }
 .footer-menu a
 {
