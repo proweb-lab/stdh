@@ -147,27 +147,18 @@
 <?php print render($page['footer']); ?>
     <div class="row">
         <div class="col-sm-3" id="firstfooter">
-            <?php /*print theme('links', array('links' => menu_navigation_links('menu-footer-menu'),
-            'attributes' => array('class'=> array('links', 'footer-menu')) ));*/
+            <?php
             print render($page['footer_first']);
-
             ?>
         </div>
-    <!--<div class="address-block ">-->
+
         <div class="col-sm-3" id="secondfooter">
         <?php
          print render($page['footer_second']);
         ?>
         </div>
-    <!--</div>-->
-    <!--<div class="footer-menu">-->
+    <div class="col-sm-3">
 
-    <!--</div>-->
-    <div class="copyright-block">
-        <?php
-       // $copyright_block = module_invoke('block', 'block_view', '5');
-       // print render($copyright_block['content']);
-        ?>
     </div>
     </div>
 </footer>
