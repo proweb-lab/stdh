@@ -286,11 +286,8 @@ li.dropdown {
 .footer{
     background-color:#636467;
     margin-top: 0px;
-    //height:300px;
-
+    height:300px;
 }
-/*End Style footer*/
-/*Begin style address block*/
 footer .row .col-sm-3 p
 {
     color: #fff;
@@ -300,38 +297,7 @@ footer .row .col-sm-3 a
     color: #fff;
 
 }
-/*End style address block*/
-/*Begin style footer menu*/
-.footer-menu
-{
-    position: absolute;
-    bottom: 8%;
-    right: 8%;
-
-}
-.footer-menu ul.links  li a{
-    display: inline;
-    list-style: none;
-}
-.footer-menu a
-{
-    color:#fff;
-    padding-left:10px;
-}
-
-/*End style footer menu*/
-/*Begin style copyright block*/
-.copyright-block
-{
-    position: absolute;
-    bottom: 1%;
-    right: 5%;
-}
-.copyright-block p
-{
-    color:#fff;
-}
-/*End style copyright block*/
+/*End Style footer*/
 /*Begin style login*/
 #edit-name{
     width: 70%
