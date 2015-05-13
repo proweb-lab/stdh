@@ -153,10 +153,7 @@
     </div>
     <div class="footer-menu">
         <?php print theme('links', array('links' => menu_navigation_links('menu-footer-menu'),
-            'attributes' => array('class'=> array('links', 'footer-menu')) ));?>
-        <?php
-       // $footer_menu = module_invoke('block', 'block_view', '6');
-       // print render($footer_menu['content']);
+            'attributes' => array('class'=> array('links', 'footer-menu')) ));
         ?>
     </div>
     <div class="copyright-block">
