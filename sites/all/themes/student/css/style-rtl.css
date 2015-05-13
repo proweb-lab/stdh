@@ -736,7 +736,7 @@ height: 35px;
   content: " ";
   position: absolute;
   bottom: -1px;
-  left: 0;
+  left:30%;
   width: 40%;
   border-bottom: 1px solid #d8450b ;
 }
