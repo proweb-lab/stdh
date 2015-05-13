@@ -315,7 +315,7 @@ li.dropdown {
     right: 8%;
 
 }
-.footer-menu ul.links  li {
+.footer-menu ul.links  li a{
     display: inline;
     list-style: none;
 }
