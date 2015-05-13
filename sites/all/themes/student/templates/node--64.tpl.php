@@ -1,6 +1,6 @@
 <h3 class="addresses"><?php print t('Addresses'); ?></h3>
 <?php
-print render($content['webform']);
+print render($content['webform-client-form-64']);
 ?>
 <?php
 //$html = drupal_render(drupal_get_form('webform-client-form-64'));

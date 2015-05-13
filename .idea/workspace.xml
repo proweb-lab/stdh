@@ -41,10 +41,10 @@
       <file leaf-file-name="node--64.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14925373" vertical-offset="0" max-vertical-offset="402">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.07462686" vertical-offset="0" max-vertical-offset="402">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
               <folding>
-                <element signature="e#108#175#0#PHP" expanded="true" />
+                <element signature="e#123#190#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -409,12 +409,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00423" summary="change style footer and convert old div to bootstrap div">
-      <created>1431504814355</created>
-      <option name="number" value="00423" />
-      <option name="project" value="LOCAL" />
-      <updated>1431504814355</updated>
-    </task>
     <task id="LOCAL-00424" summary="change style footer and convert old div to bootstrap div">
       <created>1431504844267</created>
       <option name="number" value="00424" />
@@ -703,7 +697,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431524491297</updated>
     </task>
-    <option name="localTasksCounter" value="472" />
+    <task id="LOCAL-00472" summary="add new template node 64">
+      <created>1431524945908</created>
+      <option name="number" value="00472" />
+      <option name="project" value="LOCAL" />
+      <updated>1431524945908</updated>
+    </task>
+    <option name="localTasksCounter" value="473" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1136,10 +1136,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14925373" vertical-offset="0" max-vertical-offset="402">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.07462686" vertical-offset="0" max-vertical-offset="402">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
           <folding>
-            <element signature="e#108#175#0#PHP" expanded="true" />
+            <element signature="e#123#190#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
