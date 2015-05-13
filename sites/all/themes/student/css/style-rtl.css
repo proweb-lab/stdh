@@ -458,6 +458,14 @@ color:#B9F2FF;
 .services .service-3  .service-price{
     background: #B9F2FF;
 }
+.services .service-block  .service-price{
+height: 35px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
 
 
 
