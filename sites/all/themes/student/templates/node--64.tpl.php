@@ -2,6 +2,5 @@
 
 
 <?php
-$form = drupal_get_form('webform-client-form-64');
-print drupal_render($form);
+print render(drupal_get_form('webform-client-form-64'));
 ?>

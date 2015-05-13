@@ -431,12 +431,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00409" summary="change style footer menu block to menu">
-      <created>1431501167936</created>
-      <option name="number" value="00409" />
-      <option name="project" value="LOCAL" />
-      <updated>1431501167936</updated>
-    </task>
     <task id="LOCAL-00410" summary="change style footer menu block to menu">
       <created>1431501366034</created>
       <option name="number" value="00410" />
@@ -725,7 +719,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431521447433</updated>
     </task>
-    <option name="localTasksCounter" value="458" />
+    <task id="LOCAL-00458" summary="add new template node 64">
+      <created>1431521655125</created>
+      <option name="number" value="00458" />
+      <option name="project" value="LOCAL" />
+      <updated>1431521655125</updated>
+    </task>
+    <option name="localTasksCounter" value="459" />
     <servers />
   </component>
   <component name="ToolWindowManager">
