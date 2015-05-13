@@ -181,3 +181,4 @@
     ga('send', 'pageview');
 
 </script>
+<?php print drupal_render($myform);?>
