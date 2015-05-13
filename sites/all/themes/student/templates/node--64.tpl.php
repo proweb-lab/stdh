@@ -1,8 +1,6 @@
 <h3 class="addresses"><?php print t('Addresses'); ?></h3>
 <?php
-//print render($content['webform']);
-$email_form = node_load(64);
-print render(node_view($email_form, false, true));
+print render($content['webform']);
 
 ?>
 <?php

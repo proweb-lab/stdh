@@ -42,9 +42,9 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.07462686" vertical-offset="0" max-vertical-offset="402">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
-                <element signature="e#191#258#0#PHP" expanded="true" />
+                <element signature="e#109#176#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -409,12 +409,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00425" summary="change style footer and convert old div to bootstrap div">
-      <created>1431504875021</created>
-      <option name="number" value="00425" />
-      <option name="project" value="LOCAL" />
-      <updated>1431504875021</updated>
-    </task>
     <task id="LOCAL-00426" summary="change style footer and convert old div to bootstrap div">
       <created>1431505930747</created>
       <option name="number" value="00426" />
@@ -703,7 +697,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431525097434</updated>
     </task>
-    <option name="localTasksCounter" value="474" />
+    <task id="LOCAL-00474" summary="add new template node 64">
+      <created>1431525259460</created>
+      <option name="number" value="00474" />
+      <option name="project" value="LOCAL" />
+      <updated>1431525259460</updated>
+    </task>
+    <option name="localTasksCounter" value="475" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1137,9 +1137,9 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07462686" vertical-offset="0" max-vertical-offset="402">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#191#258#0#PHP" expanded="true" />
+            <element signature="e#109#176#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
