@@ -155,11 +155,13 @@
         ?>
             </div>
     <!--</div>-->
-    <div class="footer-menu">
+    <!--<div class="footer-menu">-->
+        <div class="col-sm-3">
         <?php print theme('links', array('links' => menu_navigation_links('menu-footer-menu'),
             'attributes' => array('class'=> array('links', 'footer-menu')) ));
         ?>
-    </div>
+            </div>
+    <!--</div>-->
     <div class="copyright-block">
         <?php
         $copyright_block = module_invoke('block', 'block_view', '5');
