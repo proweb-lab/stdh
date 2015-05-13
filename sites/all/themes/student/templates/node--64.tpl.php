@@ -8,7 +8,7 @@
 ?>
 
 <?php
-$elements = drupal_get_form("webform-client-form-64");
+$elements = drupal_get_form("webform");
 $form = drupal_render($elements);
 echo $form;
 ?>

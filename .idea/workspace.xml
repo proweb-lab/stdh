@@ -41,8 +41,8 @@
       <file leaf-file-name="node--64.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48507464" vertical-offset="0" max-vertical-offset="402">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.37313432" vertical-offset="0" max-vertical-offset="402">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -391,12 +391,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00417" summary="change style footer menu block to menu">
-      <created>1431502973947</created>
-      <option name="number" value="00417" />
-      <option name="project" value="LOCAL" />
-      <updated>1431502973947</updated>
-    </task>
     <task id="LOCAL-00418" summary="change style footer menu block to menu">
       <created>1431503237459</created>
       <option name="number" value="00418" />
@@ -685,7 +679,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431523364802</updated>
     </task>
-    <option name="localTasksCounter" value="466" />
+    <task id="LOCAL-00466" summary="add new template node 64">
+      <created>1431523582695</created>
+      <option name="number" value="00466" />
+      <option name="project" value="LOCAL" />
+      <updated>1431523582695</updated>
+    </task>
+    <option name="localTasksCounter" value="467" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1118,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48507464" vertical-offset="0" max-vertical-offset="402">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.37313432" vertical-offset="0" max-vertical-offset="402">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding />
         </state>
       </provider>
