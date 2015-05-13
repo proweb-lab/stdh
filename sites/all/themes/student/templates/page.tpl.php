@@ -147,7 +147,7 @@
 <?php print render($page['footer']); ?>
     <div class="row">
     <!--<div class="address-block ">-->
-        <div class="col-sm-9">
+        <div class="col-sm-3">
         <?php
         //$address_block = module_invoke('block', 'block_view', '4');
         //print render($address_block['content']);
