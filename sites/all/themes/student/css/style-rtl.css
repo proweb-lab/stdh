@@ -288,8 +288,8 @@ li.dropdown {
     margin-top: 0px;
 }
 footer .row{
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 footer .row #block-menu-menu-footer-menu ul li a
 {
