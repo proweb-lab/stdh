@@ -146,21 +146,21 @@
 <footer class="footer clearfix">
 <?php print render($page['footer']); ?>
     <div class="row">
+        <div class="col-sm-3">
+            <?php /*print theme('links', array('links' => menu_navigation_links('menu-footer-menu'),
+            'attributes' => array('class'=> array('links', 'footer-menu')) ));*/
+            print render($page['footer_first']);
+            ?>
+        </div>
     <!--<div class="address-block ">-->
         <div class="col-sm-3">
         <?php
-        //$address_block = module_invoke('block', 'block_view', '4');
-        //print render($address_block['content']);
-         print render($page['footer_first']);
+         print render($page['footer_second']);
         ?>
-            </div>
+        </div>
     <!--</div>-->
     <!--<div class="footer-menu">-->
-        <div class="col-sm-3">
-        <?php print theme('links', array('links' => menu_navigation_links('menu-footer-menu'),
-            'attributes' => array('class'=> array('links', 'footer-menu')) ));
-        ?>
-            </div>
+
     <!--</div>-->
     <div class="copyright-block">
         <?php
