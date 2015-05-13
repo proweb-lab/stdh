@@ -710,9 +710,14 @@ height: 35px;
 .page-title,
 #office .office-title{
      width: 100%;
+      margin: 0 auto;
+    height: 55px;
+  text-align: center;
+  border-bottom: 1px solid #636467;
+  margin-bottom: 15px;
+  position: relative;
 }
-.page-title,
-#office .office-title,
+
 .offices-block .block-title,
 .services-blocks .block-title{
     width: 50%;
