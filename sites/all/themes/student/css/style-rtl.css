@@ -317,6 +317,7 @@ li.dropdown {
 }
 .footer-menu ul.links  li {
     display: inline;
+    list-style: none;
 }
 .footer-menu a
 {

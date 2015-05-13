@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70230263" vertical-offset="4328" max-vertical-offset="10875">
-              <caret line="317" column="22" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.17269737" vertical-offset="4680" max-vertical-offset="10890">
+              <caret line="319" column="20" selection-start-line="319" selection-start-column="20" selection-end-line="319" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -499,12 +499,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00357" summary="try fixed button in home page">
-      <created>1431348106185</created>
-      <option name="number" value="00357" />
-      <option name="project" value="LOCAL" />
-      <updated>1431348106185</updated>
-    </task>
     <task id="LOCAL-00358" summary="try fixed button in home page">
       <created>1431349108584</created>
       <option name="number" value="00358" />
@@ -793,7 +787,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431499612752</updated>
     </task>
-    <option name="localTasksCounter" value="406" />
+    <task id="LOCAL-00406" summary="change style footer menu block to menu">
+      <created>1431499729571</created>
+      <option name="number" value="00406" />
+      <option name="project" value="LOCAL" />
+      <updated>1431499729571</updated>
+    </task>
+    <option name="localTasksCounter" value="407" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1221,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70230263" vertical-offset="4328" max-vertical-offset="10875">
-          <caret line="317" column="22" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.17269737" vertical-offset="4680" max-vertical-offset="10890">
+          <caret line="319" column="20" selection-start-line="319" selection-start-column="20" selection-end-line="319" selection-end-column="20" />
           <folding />
         </state>
       </provider>
