@@ -146,17 +146,17 @@
 <footer class="footer clearfix">
 <?php print render($page['footer']); ?>
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-4">
             <?php
             print render($page['footer_first']);
             ?>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
          <?php
          print render($page['footer_second']);
         ?>
        </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
         <?php
          print render($page['footer_third']);
         ?>
