@@ -3,8 +3,8 @@
 <?php
 //$html = drupal_render(drupal_get_form('webform-client-form-64', $args));
 
-//$form = drupal_get_form('webform-client-form-64');
-//print drupal_render($form);
+$form = drupal_get_form('webform-client-form-64');
+print drupal_render($form);
 ?>
 
 <?php
@@ -12,4 +12,4 @@
 //$form = drupal_render($elements);
 //echo $form;
 ?>
-<?php print render(drupal_get_form('webform-client-form-64')); ?>
+<?php //print render(drupal_get_form('webform-client-form-64')); ?>
