@@ -286,27 +286,12 @@ li.dropdown {
 .footer{
     background-color:#636467;
     margin-top: 0px;
-    height:300px;
 }
 footer .row #block-block-5
 {
-    top: 154px;
-    right: 70px;
-}
-footer .row #secondfooter
-{
-    float:left;
-}
-
-footer .row .col-sm-3 p
-{
-    color: #fff;
-}
-footer .row .col-sm-3 a
-{
-    color: #fff;
 
 }
+
 /*End Style footer*/
 /*Begin style login*/
 #edit-name{
