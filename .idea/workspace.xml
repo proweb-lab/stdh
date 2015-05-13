@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node-64.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node-64.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node-64.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="node-64.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node-64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07462686" vertical-offset="0" max-vertical-offset="402">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="402">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -431,12 +431,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00404" summary="change style footer menu block to menu">
-      <created>1431499524321</created>
-      <option name="number" value="00404" />
-      <option name="project" value="LOCAL" />
-      <updated>1431499524321</updated>
-    </task>
     <task id="LOCAL-00405" summary="change style footer menu block to menu">
       <created>1431499612752</created>
       <option name="number" value="00405" />
@@ -725,7 +719,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431520943098</updated>
     </task>
-    <option name="localTasksCounter" value="453" />
+    <task id="LOCAL-00453" summary="add new template node 64">
+      <created>1431521132899</created>
+      <option name="number" value="00453" />
+      <option name="project" value="LOCAL" />
+      <updated>1431521132899</updated>
+    </task>
+    <option name="localTasksCounter" value="454" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1157,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node-64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07462686" vertical-offset="0" max-vertical-offset="402">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="402">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding />
         </state>
       </provider>
