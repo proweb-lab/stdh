@@ -733,10 +733,15 @@ height: 35px;
 }
 .offices-block .block-title:after,
 .services-blocks .block-title:after{
-  content: " ";
+   content: "";
   position: absolute;
-  bottom: -1px;
-  left:30%;
-  width: 40%;
-  border-bottom: 1px solid #d8450b ;
+  width: 24px;
+  height: 24px;
+  bottom: -11px;
+  left: 50%;
+  margin-left: -12px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  background: #d8450b;
+  
 }
