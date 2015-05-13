@@ -721,4 +721,9 @@ height: 35px;
 /*Begin*/
 
 /*End*/
-
+.offices-block .block-title,
+.services-blocks .block-title{
+    width: 15%;
+    margin: 0 auto;
+    
+}
