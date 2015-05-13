@@ -296,7 +296,7 @@ footer .row #block-menu-menu-footer-menu ul li a
     color:#fff;
 }
 footer .row #block-menu-menu-footer-menu ul li a, a:hover {
-background-color:transparent;
+    background-color:transparent;
 }
 footer .row #block-menu-menu-footer-menu ul li
 {
@@ -304,7 +304,7 @@ footer .row #block-menu-menu-footer-menu ul li
 }
 footer .row #block-block-5
 {
- color:#fff;
+    color:#fff;
     margin-top: 30%;
     margin-right: 15%;
 }
@@ -336,12 +336,12 @@ footer .row #block-block-4 a
     text-decoration: none;
     color:#fff;
     width: 270px!IMPORTANT;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 13px;
-  bottom: 0;
-  text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 13px;
+    bottom: 0;
+    text-align: center;
 }
 .btn-test-universities,
 .btn-learn-turkish,
@@ -446,17 +446,17 @@ footer .row #block-block-4 a
 
 
 .services .view-services  .views-row{  
-  background: none repeat scroll 0% 0% #FFF;
-  border: 1px solid #E7E7E7;
-  text-align: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 10px 40px;
-  position: relative;
-  padding: 30px 30px;
+    background: none repeat scroll 0% 0% #FFF;
+    border: 1px solid #E7E7E7;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 40px;
+    position: relative;
+    padding: 30px 30px;
     height: 300px;
 }
 .services .service-1 .service-title{
-color:#C0C0C0;
+    color:#C0C0C0;
 }
 .services .views-row-1{
     border-top: 5px solid #C0C0C0 !Important;
@@ -465,7 +465,7 @@ color:#C0C0C0;
     background: #C0C0C0;
 }
 .services .service-2 .service-title{
-color: #FFD700;
+    color: #FFD700;
 }
 .services .views-row-2{
     border-top: 5px solid #FFD700 !Important;
@@ -474,7 +474,7 @@ color: #FFD700;
     background: #FFD700;
 }
 .services .service-3 .service-title{
-color:#B9F2FF;
+    color:#B9F2FF;
 } 
 .services .views-row-3{
     border-top: 5px solid #B9F2FF !Important;
@@ -483,15 +483,15 @@ color:#B9F2FF;
     background: #B9F2FF;
 }
 .services .service-block  .service-price{
-height: 35px;
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
-  border-radius: 10%;
+    height: 35px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10%;
     margin-top: 35px;
 }
 .services .service-block  .service-price p{
-  padding: 10px;}
+    padding: 10px;}
 
 
 
@@ -709,13 +709,13 @@ height: 35px;
 /*End*/
 .page-title,
 #office .office-title{
-     width: 100%;
-      margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
     height: 65px;
-  text-align: center;
-  border-bottom: 1px solid #636467;
-  margin-bottom: 15px;
-  position: relative;
+    text-align: center;
+    border-bottom: 1px solid #636467;
+    margin-bottom: 15px;
+    position: relative;
 }
 
 .offices-block .block-title,
@@ -723,24 +723,24 @@ height: 35px;
     width: 50%;
     margin: 0 auto;
     height: 55px;
-  text-align: center;
-  border-bottom: 1px solid #636467;
-  margin-bottom: 15px;
-  position: relative;
+    text-align: center;
+    border-bottom: 1px solid #636467;
+    margin-bottom: 15px;
+    position: relative;
 }
 .page-title:after,
 #office .office-title:after,
 .offices-block .block-title:after,
 .services-blocks .block-title:after{
-   content: "";
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  bottom: -11px;
-  left: 48%;
-  //margin-left: -12px;
- border: 2px solid #fff;
-  border-radius: 20px;
-  background: #d8450b;
-  
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: -11px;
+    left: 48%;
+    //margin-left: -12px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: #d8450b;
+
 }
