@@ -291,17 +291,11 @@ li.dropdown {
 }
 /*End Style footer*/
 /*Begin style address block*/
-.address-block
-{
-    float: left;
-    margin: 0px 64px;
-}
-.address-block p
+footer .row .col-sm-3 p
 {
     color: #fff;
-
 }
-.address-block a
+footer .row .col-sm-3 a
 {
     color: #fff;
 
@@ -709,10 +703,7 @@ color:#B9F2FF;
     margin-top: 0 !important;
 }
 /*Begin style address block*/
-.address-block p
-{
-    color: #fff;
-}
+
 /*End style address block*/
 /*Begin*/
 
