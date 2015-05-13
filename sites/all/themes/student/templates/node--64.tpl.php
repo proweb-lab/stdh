@@ -1,6 +1,8 @@
 <h3 class="addresses"><?php print t('Addresses'); ?></h3>
 <?php
-print render($content['webform']);
+$block = module_invoke('webform', 'block_view', 'client-block-370');
+print render($block['content']);
+//print render($content['webform']);
 
 ?>
 <?php
