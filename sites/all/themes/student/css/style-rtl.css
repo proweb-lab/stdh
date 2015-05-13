@@ -708,6 +708,10 @@ height: 35px;
 
 /*End*/
 .page-title,
+#office .office-title{
+     width: 100%;
+}
+.page-title,
 #office .office-title,
 .offices-block .block-title,
 .services-blocks .block-title{
