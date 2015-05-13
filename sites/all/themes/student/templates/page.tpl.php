@@ -145,13 +145,16 @@
 </div>
 <footer class="footer clearfix">
 <?php print render($page['footer']); ?>
-    <div class="address-block ">
+    <div class="row">
+    <!--<div class="address-block ">-->
+        <div class="col-sm-9">
         <?php
         //$address_block = module_invoke('block', 'block_view', '4');
         //print render($address_block['content']);
          print render($page['footer_first']);
         ?>
-    </div>
+            </div>
+    <!--</div>-->
     <div class="footer-menu">
         <?php print theme('links', array('links' => menu_navigation_links('menu-footer-menu'),
             'attributes' => array('class'=> array('links', 'footer-menu')) ));
@@ -162,6 +165,7 @@
         $copyright_block = module_invoke('block', 'block_view', '5');
         print render($copyright_block['content']);
         ?>
+    </div>
     </div>
 </footer>
 <script>
