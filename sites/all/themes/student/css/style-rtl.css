@@ -295,6 +295,9 @@ footer .row #block-menu-menu-footer-menu ul li a
 {
     color:#fff;
 }
+footer .row #block-menu-menu-footer-menu ul li a:hover {
+color:#636467;
+}
 footer .row #block-menu-menu-footer-menu ul li
 {
     float:right;
