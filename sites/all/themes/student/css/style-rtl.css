@@ -709,7 +709,7 @@ color:#B9F2FF;
     margin-top: 0 !important;
 }
 /*Begin style address block*/
-footer.row.col-sm-3 p
+footer .row .col-sm-3 p
 {
     color: #fff;
 }
