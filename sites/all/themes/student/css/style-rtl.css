@@ -289,8 +289,11 @@ li.dropdown {
 }
 footer .row #block-menu-menu-footer-menu ul li a
 {
-    float:right;
     color:#fff;
+}
+footer .row #block-menu-menu-footer-menu ul li
+{
+    float:right;
 }
 footer .row #block-block-5
 {
