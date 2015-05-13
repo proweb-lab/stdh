@@ -731,12 +731,4 @@ height: 35px;
   margin-bottom: 15px;
   position: relative;
 }
-.offices-block .block-title:after,
-.services-blocks .block-title:after{
-  content: " ";
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  width: 40%;
-  border-bottom: 1px solid #d8450b ;
-}
+
