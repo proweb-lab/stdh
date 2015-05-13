@@ -466,7 +466,8 @@ height: 35px;
   border-radius: 10%;
     margin-top: 35px;
 }
-
+.services .service-block  .service-price span{
+  padding: 10px;}
 
 
 
