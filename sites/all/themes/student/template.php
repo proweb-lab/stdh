@@ -8,4 +8,10 @@ function stdh_theme($existing, $type, $theme, $path){
     ),
   );
 }
+function mytheme_preprocess_page(&$variables) {
+    // For node templates.
+    $variables['node']->my_form = drupal_get_form('webform-client-form-64');
+    // For page templates.
+    // $variables['my_form'] = drupal_get_form('form_name');
+}
 ?>
