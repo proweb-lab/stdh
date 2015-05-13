@@ -287,11 +287,35 @@ li.dropdown {
     background-color:#636467;
     margin-top: 0px;
 }
+footer .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+footer .row #block-menu-menu-footer-menu ul li a
+{
+    color:#fff;
+}
+footer .row #block-menu-menu-footer-menu ul li a, a:hover {
+background-color:transparent;
+}
+footer .row #block-menu-menu-footer-menu ul li
+{
+    float:right;
+}
 footer .row #block-block-5
 {
-
+ color:#fff;
+    margin-top: 30%;
+    margin-right: 15%;
 }
-
+footer .row #block-block-4
+{
+    color:#fff;
+}
+footer .row #block-block-4 a
+{
+    color:#fff;
+}
 /*End Style footer*/
 /*Begin style login*/
 #edit-name{

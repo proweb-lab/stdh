@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5049342" vertical-offset="4088" max-vertical-offset="10440">
-              <caret line="293" column="0" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23355263" vertical-offset="4328" max-vertical-offset="10800">
+              <caret line="298" column="29" selection-start-line="298" selection-start-column="29" selection-end-line="298" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.375" vertical-offset="2073" max-vertical-offset="2790">
-              <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
+            <state vertical-scroll-proportion="-7.375" vertical-offset="2103" max-vertical-offset="2820">
+              <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="student.info" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/student.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1110">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -499,102 +499,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00380" summary="add style address block in footer">
-      <created>1431420375932</created>
-      <option name="number" value="00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1431420375932</updated>
-    </task>
-    <task id="LOCAL-00381" summary="add style address block in footer">
-      <created>1431420954957</created>
-      <option name="number" value="00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1431420954957</updated>
-    </task>
-    <task id="LOCAL-00382" summary="add style address block in footer">
-      <created>1431421011468</created>
-      <option name="number" value="00382" />
-      <option name="project" value="LOCAL" />
-      <updated>1431421011468</updated>
-    </task>
-    <task id="LOCAL-00383" summary="add style address block in footer">
-      <created>1431421540743</created>
-      <option name="number" value="00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1431421540744</updated>
-    </task>
-    <task id="LOCAL-00384" summary="add style copyright block in footer">
-      <created>1431422851249</created>
-      <option name="number" value="00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1431422851249</updated>
-    </task>
-    <task id="LOCAL-00385" summary="add style copyright block in footer">
-      <created>1431423405020</created>
-      <option name="number" value="00385" />
-      <option name="project" value="LOCAL" />
-      <updated>1431423405021</updated>
-    </task>
-    <task id="LOCAL-00386" summary="add style copyright block in footer">
-      <created>1431426249731</created>
-      <option name="number" value="00386" />
-      <option name="project" value="LOCAL" />
-      <updated>1431426249731</updated>
-    </task>
-    <task id="LOCAL-00387" summary="add style copyright block in footer">
-      <created>1431427407061</created>
-      <option name="number" value="00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1431427407061</updated>
-    </task>
-    <task id="LOCAL-00388" summary="add style copyright block in footer">
-      <created>1431427679252</created>
-      <option name="number" value="00388" />
-      <option name="project" value="LOCAL" />
-      <updated>1431427679252</updated>
-    </task>
-    <task id="LOCAL-00389" summary="add style copyright block in footer">
-      <created>1431427847965</created>
-      <option name="number" value="00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1431427847965</updated>
-    </task>
-    <task id="LOCAL-00390" summary="add style copyright block in footer">
-      <created>1431427910716</created>
-      <option name="number" value="00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1431427910716</updated>
-    </task>
-    <task id="LOCAL-00391" summary="add style copyright block in footer">
-      <created>1431427998950</created>
-      <option name="number" value="00391" />
-      <option name="project" value="LOCAL" />
-      <updated>1431427998950</updated>
-    </task>
-    <task id="LOCAL-00392" summary="add style copyright block in footer">
-      <created>1431428337096</created>
-      <option name="number" value="00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1431428337096</updated>
-    </task>
-    <task id="LOCAL-00393" summary="add style copyright block in footer">
-      <created>1431428513813</created>
-      <option name="number" value="00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1431428513814</updated>
-    </task>
-    <task id="LOCAL-00394" summary="add style copyright block in footer">
-      <created>1431428680930</created>
-      <option name="number" value="00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1431428680930</updated>
-    </task>
-    <task id="LOCAL-00395" summary="add footer menu page tbl">
-      <created>1431432141256</created>
-      <option name="number" value="00395" />
-      <option name="project" value="LOCAL" />
-      <updated>1431432141257</updated>
-    </task>
     <task id="LOCAL-00396" summary="add style footer menu css">
       <created>1431432789116</created>
       <option name="number" value="00396" />
@@ -793,7 +697,103 @@
       <option name="project" value="LOCAL" />
       <updated>1431506323257</updated>
     </task>
-    <option name="localTasksCounter" value="429" />
+    <task id="LOCAL-00429" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431506943415</created>
+      <option name="number" value="00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1431506943415</updated>
+    </task>
+    <task id="LOCAL-00430" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431507257817</created>
+      <option name="number" value="00430" />
+      <option name="project" value="LOCAL" />
+      <updated>1431507257817</updated>
+    </task>
+    <task id="LOCAL-00431" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431507318269</created>
+      <option name="number" value="00431" />
+      <option name="project" value="LOCAL" />
+      <updated>1431507318269</updated>
+    </task>
+    <task id="LOCAL-00432" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431507366290</created>
+      <option name="number" value="00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1431507366290</updated>
+    </task>
+    <task id="LOCAL-00433" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431507429681</created>
+      <option name="number" value="00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1431507429681</updated>
+    </task>
+    <task id="LOCAL-00434" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431507470251</created>
+      <option name="number" value="00434" />
+      <option name="project" value="LOCAL" />
+      <updated>1431507470251</updated>
+    </task>
+    <task id="LOCAL-00435" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431507516861</created>
+      <option name="number" value="00435" />
+      <option name="project" value="LOCAL" />
+      <updated>1431507516861</updated>
+    </task>
+    <task id="LOCAL-00436" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431507573045</created>
+      <option name="number" value="00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1431507573045</updated>
+    </task>
+    <task id="LOCAL-00437" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431507918001</created>
+      <option name="number" value="00437" />
+      <option name="project" value="LOCAL" />
+      <updated>1431507918002</updated>
+    </task>
+    <task id="LOCAL-00438" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431508256197</created>
+      <option name="number" value="00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1431508256197</updated>
+    </task>
+    <task id="LOCAL-00439" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431508320990</created>
+      <option name="number" value="00439" />
+      <option name="project" value="LOCAL" />
+      <updated>1431508320990</updated>
+    </task>
+    <task id="LOCAL-00440" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431508902997</created>
+      <option name="number" value="00440" />
+      <option name="project" value="LOCAL" />
+      <updated>1431508902997</updated>
+    </task>
+    <task id="LOCAL-00441" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431509057951</created>
+      <option name="number" value="00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1431509057951</updated>
+    </task>
+    <task id="LOCAL-00442" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431509143811</created>
+      <option name="number" value="00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1431509143811</updated>
+    </task>
+    <task id="LOCAL-00443" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431509262146</created>
+      <option name="number" value="00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1431509262146</updated>
+    </task>
+    <task id="LOCAL-00444" summary="edit style footer and convert old div to bootstrap div">
+      <created>1431509301672</created>
+      <option name="number" value="00444" />
+      <option name="project" value="LOCAL" />
+      <updated>1431509301672</updated>
+    </task>
+    <option name="localTasksCounter" value="445" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -838,7 +838,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="add tag hr to services block" />
     <MESSAGE value="delete tag hr to services block" />
     <MESSAGE value="block-system-main-menu" />
     <MESSAGE value="style login" />
@@ -863,7 +862,8 @@
     <MESSAGE value="change footer menu block to menu" />
     <MESSAGE value="change style footer menu block to menu" />
     <MESSAGE value="change style footer and convert old div to bootstrap div" />
-    <option name="LAST_COMMIT_MESSAGE" value="change style footer and convert old div to bootstrap div" />
+    <MESSAGE value="edit style footer and convert old div to bootstrap div" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit style footer and convert old div to bootstrap div" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1205,24 +1205,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/student.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1110">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.375" vertical-offset="2073" max-vertical-offset="2790">
-          <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
+        <state vertical-scroll-proportion="-7.375" vertical-offset="2103" max-vertical-offset="2820">
+          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5049342" vertical-offset="4088" max-vertical-offset="10440">
-          <caret line="293" column="0" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23355263" vertical-offset="4328" max-vertical-offset="10800">
+          <caret line="298" column="29" selection-start-line="298" selection-start-column="29" selection-end-line="298" selection-end-column="29" />
           <folding />
         </state>
       </provider>
