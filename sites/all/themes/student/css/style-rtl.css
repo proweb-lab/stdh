@@ -333,15 +333,7 @@ footer .row #block-block-4 a
     padding-left: 20px;
 }
 .block-universities a{
-    text-decoration: none;
-    color:#fff;
-    width: 270px!IMPORTANT;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 13px;
-  bottom: 0;
-  text-align: center;
+   
 }
 .btn-test-universities,
 .btn-learn-turkish,
