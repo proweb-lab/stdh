@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -52,8 +51,8 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="402">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.4477612" vertical-offset="0" max-vertical-offset="402">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -134,8 +133,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node-64.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/student/template.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/student/template.php" />
       </list>
     </option>
   </component>
@@ -442,12 +441,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00412" summary="change style footer menu block to menu">
-      <created>1431502357060</created>
-      <option name="number" value="00412" />
-      <option name="project" value="LOCAL" />
-      <updated>1431502357060</updated>
-    </task>
     <task id="LOCAL-00413" summary="change style footer menu block to menu">
       <created>1431502424303</created>
       <option name="number" value="00413" />
@@ -736,7 +729,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431521931985</updated>
     </task>
-    <option name="localTasksCounter" value="461" />
+    <task id="LOCAL-00461" summary="add new template node 64">
+      <created>1431522249331</created>
+      <option name="number" value="00461" />
+      <option name="project" value="LOCAL" />
+      <updated>1431522249331</updated>
+    </task>
+    <option name="localTasksCounter" value="462" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1169,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="402">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.4477612" vertical-offset="0" max-vertical-offset="402">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
