@@ -299,7 +299,10 @@ footer .row #block-block-4
 {
     color:#fff;
 }
-
+footer .row #block-block-4 a
+{
+    color:#fff;
+}
 /*End Style footer*/
 /*Begin style login*/
 #edit-name{
