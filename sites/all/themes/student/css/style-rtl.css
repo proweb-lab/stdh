@@ -311,6 +311,13 @@ footer .row #block-block-5
 .block-universities a{
     text-decoration: none;
     color:#fff;
+    width: 270px!IMPORTANT;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 13px;
+  bottom: 0;
+  text-align: center;
 }
 .btn-test-universities,
 .btn-learn-turkish,
@@ -320,7 +327,9 @@ footer .row #block-block-5
     border-color:#d8450b;
     width:270px;
     margin-left: 5px;
+    position: relative;
 }
+
 /*End style block universities*/
 /*Begin style block office*/
 
