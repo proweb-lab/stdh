@@ -145,10 +145,11 @@
 </div>
 <footer class="footer clearfix">
 <?php print render($page['footer']); ?>
-    <div class="address-block">
+    <div class="address-block ">
         <?php
-        $address_block = module_invoke('block', 'block_view', '4');
-        print render($address_block['content']);
+        //$address_block = module_invoke('block', 'block_view', '4');
+        //print render($address_block['content']);
+         print render($page['footer_first']);
         ?>
     </div>
     <div class="footer-menu">
