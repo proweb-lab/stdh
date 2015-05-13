@@ -150,6 +150,7 @@
             <?php /*print theme('links', array('links' => menu_navigation_links('menu-footer-menu'),
             'attributes' => array('class'=> array('links', 'footer-menu')) ));*/
             print render($page['footer_first']);
+
             ?>
         </div>
     <!--<div class="address-block ">-->
@@ -164,8 +165,8 @@
     <!--</div>-->
     <div class="copyright-block">
         <?php
-        $copyright_block = module_invoke('block', 'block_view', '5');
-        print render($copyright_block['content']);
+       // $copyright_block = module_invoke('block', 'block_view', '5');
+       // print render($copyright_block['content']);
         ?>
     </div>
     </div>
