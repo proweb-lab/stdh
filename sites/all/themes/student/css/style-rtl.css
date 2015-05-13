@@ -288,6 +288,11 @@ li.dropdown {
     margin-top: 0px;
     height:300px;
 }
+footer .row #firstfooter
+{
+    top: 154px;
+    right: 70px;
+}
 footer .row #secondfooter
 {
     float:left;

@@ -146,7 +146,7 @@
 <footer class="footer clearfix">
 <?php print render($page['footer']); ?>
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3" id="firstfooter">
             <?php /*print theme('links', array('links' => menu_navigation_links('menu-footer-menu'),
             'attributes' => array('class'=> array('links', 'footer-menu')) ));*/
             print render($page['footer_first']);
