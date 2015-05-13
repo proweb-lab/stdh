@@ -426,24 +426,34 @@ footer .row .col-sm-3 a
   padding: 30px 30px;
     height: 300px;
 }
-.services .service-2 .service-title{
-color: #FFD700;
-}
 .services .service-1 .service-title{
 color:#C0C0C0;
 }
 .services .views-row-1{
     border-top: 5px solid #C0C0C0 !Important;
 }
+.services .service-1  .service-price{
+    background: #C0C0C0;
+}
+.services .service-2 .service-title{
+color: #FFD700;
+}
 .services .views-row-2{
     border-top: 5px solid #FFD700 !Important;
 }
-.services .views-row-3{
-    border-top: 5px solid #B9F2FF !Important;
+.services .service-2 .service-price{
+    background: #FFD700;
 }
 .services .service-3 .service-title{
 color:#B9F2FF;
+} 
+.services .views-row-3{
+    border-top: 5px solid #B9F2FF !Important;
 }
+.services .service-3  .service-price{
+    background: #B9F2FF ;
+}
+
 
 
 /*Begin style services*/
@@ -510,12 +520,10 @@ color:#B9F2FF;
 .view-office .field-collection-container{border: none;}
 /*End style page office */
 /*Begin style front block services*/
-.field-content
-{
+.field-content{
     margin-top: 65px;
 }
-.box .service-description
-{
+.box .service-description{
     padding: 10px 10px;
 }
 .box {
