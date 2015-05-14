@@ -365,7 +365,11 @@ footer .row #block-block-4 a
 }
 
 
-#office .office-image{padding-bottom: 50px;}
+#office .office-image{
+  padding-bottom: 50px; 
+  width: 19%;
+  margin: 0 auto;
+}
 .office-block{float: right;position: relative; }
 .office-block .office-title{text-align: center;}
 .office-block .office-image{
