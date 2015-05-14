@@ -754,7 +754,8 @@ footer .row #block-block-4 a
 /*Begin style contact us*/
 .addresses_label
 {
-    display:inline-flex;
+    display: inline;
+    postition: absolute;
 }
 .phone_label
 {
