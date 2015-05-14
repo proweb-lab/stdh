@@ -25,7 +25,7 @@
                   <?php echo render($item['field_country'][0]); ?>
 
 
-                            <?php echo render($item['field_countryphone'][0]); ?>
+                            <?php print render($item['field_countryphone'][0]); ?>
 
                 <?php echo render($item['field_email'][0]); ?>
 
