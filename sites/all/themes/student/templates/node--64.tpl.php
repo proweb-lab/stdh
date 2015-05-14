@@ -11,30 +11,9 @@
         <h4 class="addresses_label"><?php  print t("address:").render($content['field_address']);?></h4>
         <h4 class="phone_label"><?php print t("phone:").render($content['field_phone']);?></h4>
         <h4 class="email_label"><?php print t("email:").render($content['field_email']);?></h4>
-            <?php
-            $items = array();
-            if (count($variables['element']['#items']) > 0) {
-            foreach ($variables['element']['#items'] as $key => $value) {
-                $items[$key] = $value['value'];
-            }
-            ?>
-            <?php foreach ($items as $key => $value) { ?>
-
-                <?php $item = $variables['element'][$key]['entity']['field_collection_item'][$value]; ?>
-
-                  <?php echo render($item['field_country'][0]); ?>
-
-
-                            <?php print render($item['field_countryphone'][0]); ?>
-
-                <?php echo render($item['field_email'][0]); ?>
-
-
-            <?php } ?>
 
         </div>
     </div>
 
 
 </div>
-<?php } ?>
