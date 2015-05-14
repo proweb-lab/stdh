@@ -255,12 +255,17 @@ li.dropdown {
     width: 60%;
 }
 .form-textarea-wrapper{
-
+    width: 60%;
     height: 100%;
 
 }
 .webform-submit{
     margin-top: 10px;
+}
+#edit-submitted-message{
+
+    height: 100px;
+
 }
 /*End style webform*/
 /*Begin style body*/
