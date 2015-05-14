@@ -11,7 +11,7 @@
         <h5 class="phone_label"><?php print t("phone:").render($content['field_phone']);?></h5>
         <h5 class="email_label"><?php print t("email:").render($content['field_email']);?></h5>
         </div>
-        <a href="mailto:<?php print render($content['field_email'])?>" ></a>
+        <a href="'mailto:'.<?php print render($content['field_email'])?>."></a>
 
     </div>
 
