@@ -8,8 +8,8 @@
     <div class="col-sm-4" >
         <div class="box">
         <div class="addresses_header"><h4><?php print t('Addresses information'); ?></h4></div>
-        <h6 class="phone_label"><?php print t("phone:").render($content['field_phone']);?></h6>
-        <h6 class="email_label"><?php print t("email:").render($content['field_email']);?></h6>
+        <h5 class="phone_label"><?php print t("phone:").render($content['field_phone']);?></h5>
+        <h5 class="email_label"><?php print t("email:").render($content['field_email']);?></h5>
         </div>
     </div>
 
