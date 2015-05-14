@@ -31,7 +31,7 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="10704" max-vertical-offset="11400">
+            <state vertical-scroll-proportion="-18.5" vertical-offset="10732" max-vertical-offset="11400">
               <caret line="750" column="10" selection-start-line="750" selection-start-column="10" selection-end-line="750" selection-end-column="10" />
               <folding />
             </state>
@@ -41,8 +41,8 @@
       <file leaf-file-name="node--64.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17156863" vertical-offset="0" max-vertical-offset="612">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.024509804" vertical-offset="0" max-vertical-offset="612">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -534,12 +534,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00322" summary="block-system-main-menu">
-      <created>1430896084207</created>
-      <option name="number" value="00322" />
-      <option name="project" value="LOCAL" />
-      <updated>1430896084207</updated>
-    </task>
     <task id="LOCAL-00323" summary="block-system-main-menu">
       <created>1430896289826</created>
       <option name="number" value="00323" />
@@ -828,7 +822,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431590177869</updated>
     </task>
-    <option name="localTasksCounter" value="371" />
+    <task id="LOCAL-00371" summary="add extra title office css">
+      <created>1431590211162</created>
+      <option name="number" value="00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1431590211162</updated>
+    </task>
+    <option name="localTasksCounter" value="372" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1249,7 +1249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="10704" max-vertical-offset="11400">
+        <state vertical-scroll-proportion="-18.5" vertical-offset="10732" max-vertical-offset="11400">
           <caret line="750" column="10" selection-start-line="750" selection-start-column="10" selection-end-line="750" selection-end-column="10" />
           <folding />
         </state>
@@ -1257,8 +1257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17156863" vertical-offset="0" max-vertical-offset="612">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.024509804" vertical-offset="0" max-vertical-offset="612">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
         </state>
       </provider>
