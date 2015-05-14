@@ -9,7 +9,7 @@
         <h3 class="addresses_header"><?php print t('Addresses'); ?></h3>
         <h4 class="addresses_label"><?php  print t("address:").render($content['field_address']);?></h4>
         <div class="phone_label"><?php print t("phone:").render($content['field_phone']);?></div>
-        <divclass="email_label"><?php print t("email:").render($content['field_email']);?></div>
+        <div class="email_label"><?php print t("email:").render($content['field_email']);?></div>
     </div>
 
 
