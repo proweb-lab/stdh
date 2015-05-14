@@ -7,11 +7,12 @@
 ?>
 <div class="addresses">
     <?php //print render($filed_name['field_address']);
-    print t("address");
-    print render($content['field_address']);
-
-
-
+     print t("address");
+     print render($content['field_address']);
+     print t("phone");
+     print render($content['field_phone']);
+     print t("email");
+     print render($content['field_email']);
     ?>
 
 </div>
