@@ -6,7 +6,7 @@
    print render($block_contact['content']);
 ?>
 <div class="addresses">
-    <?php print render($filed_name['field_address']) ?>
+    <?php print rrender($item['field_title'][0]); ?>
 </div>
 
 
