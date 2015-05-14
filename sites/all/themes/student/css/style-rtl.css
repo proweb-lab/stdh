@@ -756,5 +756,12 @@ footer .row #block-block-4 a
 {
     display:inline-flex;
 }
-
+.phone_label
+{
+    display:inline-flex;
+}
+.email_label
+{
+    display:inline-flex;
+}
 /*End style contact us*/
