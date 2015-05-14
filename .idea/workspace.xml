@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.31862745" vertical-offset="0" max-vertical-offset="612">
-              <caret line="13" column="102" selection-start-line="13" selection-start-column="102" selection-end-line="13" selection-end-column="102" />
+              <caret line="13" column="118" selection-start-line="13" selection-start-column="118" selection-end-line="13" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -544,12 +544,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00358" summary="add extra title office css">
-      <created>1431588778323</created>
-      <option name="number" value="00358" />
-      <option name="project" value="LOCAL" />
-      <updated>1431588778324</updated>
-    </task>
     <task id="LOCAL-00359" summary="add extra title office css">
       <created>1431588819700</created>
       <option name="number" value="00359" />
@@ -838,7 +832,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431599864807</updated>
     </task>
-    <option name="localTasksCounter" value="407" />
+    <task id="LOCAL-00407" summary="add extra title office css">
+      <created>1431599958912</created>
+      <option name="number" value="00407" />
+      <option name="project" value="LOCAL" />
+      <updated>1431599958912</updated>
+    </task>
+    <option name="localTasksCounter" value="408" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1272,7 +1272,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31862745" vertical-offset="0" max-vertical-offset="612">
-          <caret line="13" column="102" selection-start-line="13" selection-start-column="102" selection-end-line="13" selection-end-column="102" />
+          <caret line="13" column="118" selection-start-line="13" selection-start-column="118" selection-end-line="13" selection-end-column="118" />
           <folding />
         </state>
       </provider>

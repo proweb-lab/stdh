@@ -11,7 +11,7 @@
         <h4 class="addresses_label"><?php  print t("address:").render($content['field_address']);?></h4>
         <h4 class="phone_label"><?php print t("phone:").render($content['field_phone']);?></h4>
         <h4 class="email_label"><?php print t("email:").render($content['field_email']);?></h4>
-            <h4 class="email_label"><?php print t("email:").render($content['field_branches']->field_1);?></h4>
+            <h4 class="email_label"><?php print t("email:").render($content['field_branches']->$content['field_country']);?></h4>
 
 
 
