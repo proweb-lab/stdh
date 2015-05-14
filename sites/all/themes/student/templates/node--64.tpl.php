@@ -1,4 +1,4 @@
-<div class="row">
+
 
 <h3 class="addresses"><?php print t('Addresses'); ?></h3>
 <?php
@@ -9,4 +9,3 @@
 
 
 
-</div>
