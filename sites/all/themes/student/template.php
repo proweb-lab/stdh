@@ -8,4 +8,5 @@ function stdh_theme($existing, $type, $theme, $path){
     ),
   );
 }
+
 ?>
