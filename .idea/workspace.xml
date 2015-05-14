@@ -41,8 +41,8 @@
       <file leaf-file-name="node--64.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26960784" vertical-offset="0" max-vertical-offset="612">
-              <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+            <state vertical-scroll-proportion="0.22058824" vertical-offset="0" max-vertical-offset="612">
+              <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -554,12 +554,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00392" summary="add extra title office css">
-      <created>1431594478186</created>
-      <option name="number" value="00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1431594478186</updated>
-    </task>
     <task id="LOCAL-00393" summary="add extra title office css">
       <created>1431594569404</created>
       <option name="number" value="00393" />
@@ -848,7 +842,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431603334990</updated>
     </task>
-    <option name="localTasksCounter" value="441" />
+    <task id="LOCAL-00441" summary="add extra title office css">
+      <created>1431603553760</created>
+      <option name="number" value="00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1431603553760</updated>
+    </task>
+    <option name="localTasksCounter" value="442" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1281,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26960784" vertical-offset="0" max-vertical-offset="612">
-          <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+        <state vertical-scroll-proportion="0.22058824" vertical-offset="0" max-vertical-offset="612">
+          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
           <folding />
         </state>
       </provider>
