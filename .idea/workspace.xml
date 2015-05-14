@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.192" vertical-offset="0" max-vertical-offset="625">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -417,12 +417,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00436" summary="edit style footer and convert old div to bootstrap div">
-      <created>1431507573045</created>
-      <option name="number" value="00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1431507573045</updated>
-    </task>
     <task id="LOCAL-00437" summary="edit style footer and convert old div to bootstrap div">
       <created>1431507918001</created>
       <option name="number" value="00437" />
@@ -711,7 +705,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431584490336</updated>
     </task>
-    <option name="localTasksCounter" value="485" />
+    <task id="LOCAL-00485" summary="add new template node 64">
+      <created>1431584556991</created>
+      <option name="number" value="00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1431584556991</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1140,7 +1140,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.192" vertical-offset="0" max-vertical-offset="625">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>

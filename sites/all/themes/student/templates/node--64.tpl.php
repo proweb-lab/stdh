@@ -6,8 +6,7 @@
    print render($block_contact['content']);
 ?>
 <div class="addresses">
-    <?php// print render($content['field_address']) ?>
-    <?php print $node->content['field_address']['field']['#title'] ?>
+    <?php print render($content['address']) ?>
 </div>
 
 
