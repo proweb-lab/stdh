@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -534,12 +533,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00319" summary="block-system-main-menu">
-      <created>1430895479115</created>
-      <option name="number" value="00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1430895479115</updated>
-    </task>
     <task id="LOCAL-00320" summary="block-system-main-menu">
       <created>1430895685509</created>
       <option name="number" value="00320" />
@@ -828,7 +821,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431589835928</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="add extra title office css">
+      <created>1431589995747</created>
+      <option name="number" value="00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1431589995747</updated>
+    </task>
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="ToolWindowManager">
