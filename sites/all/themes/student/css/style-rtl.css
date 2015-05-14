@@ -762,6 +762,6 @@ footer .row #block-block-4 a
 }
 .email_label
 {
-    display:inline-flex;
+   float:left;
 }
 /*End style contact us*/
