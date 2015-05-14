@@ -254,6 +254,11 @@ li.dropdown {
 #edit-submitted-email{
     width: 60%;
 }
+.form-textarea-wrapper{
+
+    height: 100%;
+
+}
 .webform-submit{
     margin-top: 10px;
 }
