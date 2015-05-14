@@ -554,12 +554,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00404" summary="add extra title office css">
-      <created>1431597563672</created>
-      <option name="number" value="00404" />
-      <option name="project" value="LOCAL" />
-      <updated>1431597563672</updated>
-    </task>
     <task id="LOCAL-00405" summary="add extra title office css">
       <created>1431599561360</created>
       <option name="number" value="00405" />
@@ -848,7 +842,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431607651641</updated>
     </task>
-    <option name="localTasksCounter" value="453" />
+    <task id="LOCAL-00453" summary="add extra title office css">
+      <created>1431607720064</created>
+      <option name="number" value="00453" />
+      <option name="project" value="LOCAL" />
+      <updated>1431607720064</updated>
+    </task>
+    <option name="localTasksCounter" value="454" />
     <servers />
   </component>
   <component name="ToolWindowManager">
