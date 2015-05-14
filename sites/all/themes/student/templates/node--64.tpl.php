@@ -7,7 +7,7 @@
         </div>
     <div class="col-sm-2">
     <h3 class="addresses_header"><?php print t('Addresses'); ?></h3>
-    <h4 class="addresses_label"><?php  print render($content['field_address']).t("address");?></h4>
+    <h4 class="addresses_label"><?php  print t("address").render($content['field_address']);?></h4>
    <?php//  print render($content['field_address']);?>
         <h4 class="phone_label"><?php print t("phone");?></h4>
      <?php print render($content['field_phone']);?>
