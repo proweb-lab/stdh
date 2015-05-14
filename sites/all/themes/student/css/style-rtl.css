@@ -234,7 +234,7 @@ li.dropdown {
 /*Begin style webform*/
 .webform-client-form-64 .form-control,
 .webform-client-form-64  .form-email{
-    display:inline-block; width: 35%;
+    display:inline-block; width: 60%;
     height: 34px; padding: 6px 12px;
     font-size: 14px;
     line-height: 1.428571429;
@@ -252,10 +252,9 @@ li.dropdown {
     padding-top: 20px;
 }
 #edit-submitted-email{
-    width: 399px;
+    width: 60%;
 }
 .form-textarea-wrapper{
-    width: 400px;
     height: 100%;
 
 }
@@ -263,9 +262,13 @@ li.dropdown {
     margin-top: 10px;
 }
 #edit-submitted-message{
-    width: 400px;
-    height: 100px;
 
+    height: 20%;
+
+}
+.grippie
+{
+    width:60%;
 }
 /*End style webform*/
 /*Begin style body*/
