@@ -9,11 +9,11 @@
      //print render($filed_name['field_address']);
     <h2 class="addresses"><?php  print t("address");?>
    <?php  print render($content['field_address']);?>
-     print t("phone");
-     print render($content['field_phone']);
-     print t("email");
-     print render($content['field_email']);
-    ?>
+        <h2 class="phone"><?php print t("phone");?>
+     <?php print render($content['field_phone']);?>
+            <h2 class="phone"><?php print t("email");?>
+     <?php print render($content['field_email']);?>
+
 
 </div>
 
