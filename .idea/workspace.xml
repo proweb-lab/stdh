@@ -417,12 +417,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00440" summary="edit style footer and convert old div to bootstrap div">
-      <created>1431508902997</created>
-      <option name="number" value="00440" />
-      <option name="project" value="LOCAL" />
-      <updated>1431508902997</updated>
-    </task>
     <task id="LOCAL-00441" summary="edit style footer and convert old div to bootstrap div">
       <created>1431509057951</created>
       <option name="number" value="00441" />
@@ -711,7 +705,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431584892565</updated>
     </task>
-    <option name="localTasksCounter" value="489" />
+    <task id="LOCAL-00489" summary="add new template node 64">
+      <created>1431584949340</created>
+      <option name="number" value="00489" />
+      <option name="project" value="LOCAL" />
+      <updated>1431584949340</updated>
+    </task>
+    <option name="localTasksCounter" value="490" />
     <servers />
   </component>
   <component name="ToolWindowManager">
