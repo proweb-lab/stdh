@@ -748,3 +748,7 @@ footer .row #block-block-4 a
     background: #d8450b;
 
 }
+.addresses_header
+{
+    float:left;
+}

@@ -3,7 +3,7 @@
    print render($block_contact['content']);
 ?>
 <div class="addresses">
-    <h3 class="addresses"><?php print t('Addresses'); ?></h3>
+    <h3 class="addresses_header"><?php print t('Addresses'); ?></h3>
     <h4 class="addresses"><?php  print t("address");?></h4>
    <?php  print render($content['field_address']);?>
         <h4 class="phone"><?php print t("phone");?></h4>
