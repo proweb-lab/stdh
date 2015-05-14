@@ -762,6 +762,10 @@ footer .row #block-block-4 a
 {
     display:inline-flex;
 }
+.email_label a
+{
+ color:#47494C;
+}
 .box
 {
     border:2px solid #d8a044;
