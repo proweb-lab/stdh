@@ -6,7 +6,14 @@
    print render($block_contact['content']);
 ?>
 <div class="addresses">
-    <?php print render($filed_name['field_address']); ?>
+    <?php //print render($filed_name['field_address']);
+    $content['field_address']['#title'] = t('Something new');
+    print render($content['field_address']);
+
+
+
+    ?>
+
 </div>
 
 
