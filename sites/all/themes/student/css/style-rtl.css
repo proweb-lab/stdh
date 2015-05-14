@@ -765,6 +765,7 @@ footer .row #block-block-4 a
 .box
 {
     border:1px solid #BBB;
+    border-radius: 1px;
     background:#eee;
     margin-top: 15px;
     margin-left: 15px;
