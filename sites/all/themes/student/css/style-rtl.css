@@ -380,9 +380,9 @@ footer .row #block-block-4 a
     height: 100%;
 }
 .front .offices-block{
-    margin:30px;
-    margin-top: 100px;
-    margin-right: 0px;
+   
+    margin-top: 12%;
+    //margin-right: 0px;
     padding-bottom: 30px;
     border-bottom: 3px double #E5E5E5;
 }
@@ -502,7 +502,7 @@ footer .row #block-block-4 a
 }
 .front .services-blocks{
     margin-top: 30px;
-    padding-top: 30px;
+    //padding-top: 30px;
     position: relative;
     margin-bottom: 70px;
 }
@@ -725,7 +725,7 @@ footer .row #block-block-4 a
     height: 55px;
     text-align: center;
     border-bottom: 2px solid #636467;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     position: relative;
 }
 .page-title:after,
