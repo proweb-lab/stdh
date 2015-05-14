@@ -7,7 +7,7 @@
 ?>
 <div class="addresses">
     <?php //print render($filed_name['field_address']);
-    $content['field_address']['#title'] = t('Something new');
+    print t("address");
     print render($content['field_address']);
 
 
