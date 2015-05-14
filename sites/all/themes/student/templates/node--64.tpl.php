@@ -5,7 +5,7 @@
    print render($block_contact['content']);
 ?>
         </div>
-    <div class="col-sm-8">
+    <div class="col-sm-4">
     <h3 class="addresses_header"><?php print t('Addresses'); ?></h3>
     <h4 class="addresses_label"><?php  print t("address").render($content['field_address']);?></h4>
    <?php//  print render($content['field_address']);?>
