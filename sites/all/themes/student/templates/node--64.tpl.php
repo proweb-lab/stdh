@@ -7,11 +7,11 @@
 ?>
 <div class="addresses">
 
-    <h2 class="addresses"><?php  print t("address");?></h2>
+    <h4 class="addresses"><?php  print t("address");?></h4>
    <?php  print render($content['field_address']);?>
-        <h2 class="phone"><?php print t("phone");?></h2>
+        <h4 class="phone"><?php print t("phone");?></h4>
      <?php print render($content['field_phone']);?>
-            <h2 class="phone"><?php print t("email");?></h2>
+            <h4 class="phone"><?php print t("email");?></h4>
      <?php print render($content['field_email']);?>
 
 
