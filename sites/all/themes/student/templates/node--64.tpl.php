@@ -4,11 +4,11 @@
 ?>
 <div class="addresses">
     <h3 class="addresses_header"><?php print t('Addresses'); ?></h3>
-    <h4 class="addresses"><?php  print t("address");?></h4>
+    <h4 class="addresses_label"><?php  print t("address");?></h4>
    <?php  print render($content['field_address']);?>
-        <h4 class="phone"><?php print t("phone");?></h4>
+        <h4 class="phone_label"><?php print t("phone");?></h4>
      <?php print render($content['field_phone']);?>
-            <h4 class="phone"><?php print t("email");?></h4>
+            <h4 class="email_label"><?php print t("email");?></h4>
      <?php print render($content['field_email']);?>
 
 
