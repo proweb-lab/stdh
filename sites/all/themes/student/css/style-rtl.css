@@ -851,4 +851,9 @@ background-color:#d8450b ;
     color: #d8450b;
 }
 .search-form ul,li a { color:#d8450b; }
+
+.search-form ul,li a:hover
+{
+    color:#d8450b;
+}
 /*End style pagination in page search*/

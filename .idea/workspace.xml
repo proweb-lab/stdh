@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8113208" vertical-offset="12264" max-vertical-offset="12900">
-              <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.9056604" vertical-offset="12264" max-vertical-offset="12975">
+              <caret line="856" column="18" selection-start-line="856" selection-start-column="18" selection-end-line="856" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -523,12 +523,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00318" summary="block-system-main-menu">
-      <created>1430894700037</created>
-      <option name="number" value="00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1430894700037</updated>
-    </task>
     <task id="LOCAL-00319" summary="block-system-main-menu">
       <created>1430895479115</created>
       <option name="number" value="00319" />
@@ -817,7 +811,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431775257483</updated>
     </task>
-    <option name="localTasksCounter" value="367" />
+    <task id="LOCAL-00367" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;sites/all/themes/student/css/style-rtl.css&#10;">
+      <created>1431775316430</created>
+      <option name="number" value="00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1431775316431</updated>
+    </task>
+    <option name="localTasksCounter" value="368" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1244,8 +1244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8113208" vertical-offset="12264" max-vertical-offset="12900">
-          <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.9056604" vertical-offset="12264" max-vertical-offset="12975">
+          <caret line="856" column="18" selection-start-line="856" selection-start-column="18" selection-end-line="856" selection-end-column="18" />
           <folding />
         </state>
       </provider>
