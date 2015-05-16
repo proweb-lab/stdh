@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6883117" vertical-offset="12020" max-vertical-offset="12405">
-              <caret line="819" column="29" selection-start-line="819" selection-start-column="29" selection-end-line="819" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.6103896" vertical-offset="12155" max-vertical-offset="12540">
+              <caret line="826" column="40" selection-start-line="826" selection-start-column="40" selection-end-line="826" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -548,12 +548,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00438" summary="add extra title office css">
-      <created>1431603153448</created>
-      <option name="number" value="00438" />
-      <option name="project" value="LOCAL" />
-      <updated>1431603153448</updated>
-    </task>
     <task id="LOCAL-00439" summary="add extra title office css">
       <created>1431603294518</created>
       <option name="number" value="00439" />
@@ -842,7 +836,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431771069660</updated>
     </task>
-    <option name="localTasksCounter" value="487" />
+    <task id="LOCAL-00487" summary="style pagenation">
+      <created>1431771984019</created>
+      <option name="number" value="00487" />
+      <option name="project" value="LOCAL" />
+      <updated>1431771984020</updated>
+    </task>
+    <option name="localTasksCounter" value="488" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -887,7 +887,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="new buuton bottom up" />
     <MESSAGE value="toggle title background color" />
     <MESSAGE value="disable search info" />
     <MESSAGE value="edit style dropdown language in page unversity" />
@@ -912,7 +911,8 @@
     <MESSAGE value="add extra title office" />
     <MESSAGE value="add extra title office css" />
     <MESSAGE value="add test our serivces" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test our serivces" />
+    <MESSAGE value="style pagenation" />
+    <option name="LAST_COMMIT_MESSAGE" value="style pagenation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1272,8 +1272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6883117" vertical-offset="12020" max-vertical-offset="12405">
-          <caret line="819" column="29" selection-start-line="819" selection-start-column="29" selection-end-line="819" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.6103896" vertical-offset="12155" max-vertical-offset="12540">
+          <caret line="826" column="40" selection-start-line="826" selection-start-column="40" selection-end-line="826" selection-end-column="40" />
           <folding />
         </state>
       </provider>
