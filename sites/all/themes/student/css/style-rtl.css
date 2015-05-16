@@ -464,7 +464,8 @@ footer .row #block-block-4 a
     z-index: 10000;
     top:50%;
     background: #fff;
-    width: 30px;
+   width: 50px;
+  padding: 24px 14px 10px;
 }
 .social-block .fb{
  background: url('../images/share-fb.png') no-repeat ;
