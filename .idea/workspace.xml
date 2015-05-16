@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27360776" vertical-offset="11707" max-vertical-offset="12120">
-              <caret line="788" column="30" selection-start-line="788" selection-start-column="30" selection-end-line="788" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.27360776" vertical-offset="11707" max-vertical-offset="12135">
+              <caret line="788" column="31" selection-start-line="788" selection-start-column="31" selection-end-line="788" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -554,12 +554,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00421" summary="add extra title office css">
-      <created>1431601550220</created>
-      <option name="number" value="00421" />
-      <option name="project" value="LOCAL" />
-      <updated>1431601550220</updated>
-    </task>
     <task id="LOCAL-00422" summary="add extra title office css">
       <created>1431601585538</created>
       <option name="number" value="00422" />
@@ -848,13 +842,20 @@
       <option name="project" value="LOCAL" />
       <updated>1431611744893</updated>
     </task>
-    <option name="localTasksCounter" value="470" />
+    <task id="LOCAL-00470" summary="add test our serivces">
+      <created>1431765112522</created>
+      <option name="number" value="00470" />
+      <option name="project" value="LOCAL" />
+      <updated>1431765112546</updated>
+    </task>
+    <option name="localTasksCounter" value="471" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -870,7 +871,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -893,7 +893,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="edit button success story" />
     <MESSAGE value="new buuton bottom up" />
     <MESSAGE value="toggle title background color" />
     <MESSAGE value="disable search info" />
@@ -918,7 +917,8 @@
     <MESSAGE value="add div service in front block services" />
     <MESSAGE value="add extra title office" />
     <MESSAGE value="add extra title office css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add extra title office css" />
+    <MESSAGE value="add test our serivces" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test our serivces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1277,8 +1277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27360776" vertical-offset="11707" max-vertical-offset="12120">
-          <caret line="788" column="30" selection-start-line="788" selection-start-column="30" selection-end-line="788" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.27360776" vertical-offset="11707" max-vertical-offset="12135">
+          <caret line="788" column="31" selection-start-line="788" selection-start-column="31" selection-end-line="788" selection-end-column="31" />
           <folding />
         </state>
       </provider>
