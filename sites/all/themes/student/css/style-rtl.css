@@ -826,3 +826,7 @@ background-color:#d8450b ;
 }
 /*End style contact us*/
 
+.text-center .pagination ul li:active
+{
+    background-color: #d8450b ;
+}
