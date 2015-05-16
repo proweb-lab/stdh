@@ -1,3 +1,3 @@
 <div class="office-title">
-    <?php print render($content['title']); ?>
+    <?php print render($title); ?>
 </div>
