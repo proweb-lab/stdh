@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33246753" vertical-offset="11467" max-vertical-offset="11985">
-              <caret line="773" column="0" selection-start-line="773" selection-start-column="0" selection-end-line="773" selection-end-column="0" />
+            <state vertical-scroll-proportion="3.4642856" vertical-offset="4282" max-vertical-offset="11985">
+              <caret line="279" column="42" selection-start-line="279" selection-start-column="34" selection-end-line="279" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--64.tpl.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="node--64.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.3084833" vertical-offset="0" max-vertical-offset="389">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php" />
       </list>
     </option>
   </component>
@@ -564,12 +564,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00431" summary="add extra title office css">
-      <created>1431602333328</created>
-      <option name="number" value="00431" />
-      <option name="project" value="LOCAL" />
-      <updated>1431602333328</updated>
-    </task>
     <task id="LOCAL-00432" summary="add extra title office css">
       <created>1431602448946</created>
       <option name="number" value="00432" />
@@ -858,7 +852,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431766790263</updated>
     </task>
-    <option name="localTasksCounter" value="480" />
+    <task id="LOCAL-00480" summary="add test our serivces">
+      <created>1431767121194</created>
+      <option name="number" value="00480" />
+      <option name="project" value="LOCAL" />
+      <updated>1431767121194</updated>
+    </task>
+    <option name="localTasksCounter" value="481" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1278,18 +1278,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state vertical-scroll-proportion="3.4642856" vertical-offset="4282" max-vertical-offset="11985">
+          <caret line="279" column="42" selection-start-line="279" selection-start-column="34" selection-end-line="279" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--64.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33246753" vertical-offset="11467" max-vertical-offset="11985">
-          <caret line="773" column="0" selection-start-line="773" selection-start-column="0" selection-end-line="773" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3084833" vertical-offset="0" max-vertical-offset="389">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
