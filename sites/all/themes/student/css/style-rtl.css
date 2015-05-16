@@ -574,9 +574,12 @@ padding: 20px 0;
 /*Begin style services*/
 .front .service-block{
     border:1px solid  #d5d5d5;
+
 }
 .front .services-blocks{
     margin-top: 30px;
+    //padding-top: 30px;
+    position: relative;
     margin-bottom: 70px;
 }
 
