@@ -850,5 +850,5 @@ background-color:#d8450b ;
 .text-center  a {
     color: #d8450b;
 }
-.search-form  a { color:#d8450b; }
+.search-form ul,li a { color:#d8450b; }
 /*End style pagination in page search*/

@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8113208" vertical-offset="12264" max-vertical-offset="12900">
-              <caret line="852" column="13" selection-start-line="852" selection-start-column="13" selection-end-line="852" selection-end-column="13" />
+              <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -523,12 +523,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00317" summary="block-system-main-menu">
-      <created>1430894545832</created>
-      <option name="number" value="00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1430894545832</updated>
-    </task>
     <task id="LOCAL-00318" summary="block-system-main-menu">
       <created>1430894700037</created>
       <option name="number" value="00318" />
@@ -817,7 +811,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431775181682</updated>
     </task>
-    <option name="localTasksCounter" value="366" />
+    <task id="LOCAL-00366" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;sites/all/themes/student/css/style-rtl.css&#10;">
+      <created>1431775257483</created>
+      <option name="number" value="00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1431775257483</updated>
+    </task>
+    <option name="localTasksCounter" value="367" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1245,7 +1245,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8113208" vertical-offset="12264" max-vertical-offset="12900">
-          <caret line="852" column="13" selection-start-line="852" selection-start-column="13" selection-end-line="852" selection-end-column="13" />
+          <caret line="852" column="18" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
           <folding />
         </state>
       </provider>
