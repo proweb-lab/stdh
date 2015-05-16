@@ -31,8 +31,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48831168" vertical-offset="11302" max-vertical-offset="11835">
-              <caret line="766" column="15" selection-start-line="766" selection-start-column="15" selection-end-line="766" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.4552058" vertical-offset="11707" max-vertical-offset="12135">
+              <caret line="793" column="16" selection-start-line="793" selection-start-column="16" selection-end-line="793" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -61,7 +61,7 @@
       <file leaf-file-name="field--field_information.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/fields/field--field_information.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="495">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="495">
               <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
@@ -71,7 +71,7 @@
       <file leaf-file-name="page.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.625" vertical-offset="1974" max-vertical-offset="2835">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1974" max-vertical-offset="2835">
               <caret line="147" column="21" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
               <folding />
             </state>
@@ -529,9 +529,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -539,6 +536,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -553,42 +553,6 @@
       <created>1429079359855</created>
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
-    </task>
-    <task id="LOCAL-00420" summary="add extra title office css">
-      <created>1431601201827</created>
-      <option name="number" value="00420" />
-      <option name="project" value="LOCAL" />
-      <updated>1431601201827</updated>
-    </task>
-    <task id="LOCAL-00421" summary="add extra title office css">
-      <created>1431601550220</created>
-      <option name="number" value="00421" />
-      <option name="project" value="LOCAL" />
-      <updated>1431601550220</updated>
-    </task>
-    <task id="LOCAL-00422" summary="add extra title office css">
-      <created>1431601585538</created>
-      <option name="number" value="00422" />
-      <option name="project" value="LOCAL" />
-      <updated>1431601585538</updated>
-    </task>
-    <task id="LOCAL-00423" summary="add extra title office css">
-      <created>1431601736116</created>
-      <option name="number" value="00423" />
-      <option name="project" value="LOCAL" />
-      <updated>1431601736116</updated>
-    </task>
-    <task id="LOCAL-00424" summary="add extra title office css">
-      <created>1431602014339</created>
-      <option name="number" value="00424" />
-      <option name="project" value="LOCAL" />
-      <updated>1431602014339</updated>
-    </task>
-    <task id="LOCAL-00425" summary="add extra title office css">
-      <created>1431602033376</created>
-      <option name="number" value="00425" />
-      <option name="project" value="LOCAL" />
-      <updated>1431602033376</updated>
     </task>
     <task id="LOCAL-00426" summary="add extra title office css">
       <created>1431602118467</created>
@@ -848,7 +812,43 @@
       <option name="project" value="LOCAL" />
       <updated>1431611275097</updated>
     </task>
-    <option name="localTasksCounter" value="469" />
+    <task id="LOCAL-00469" summary="add extra title office css">
+      <created>1431611744893</created>
+      <option name="number" value="00469" />
+      <option name="project" value="LOCAL" />
+      <updated>1431611744893</updated>
+    </task>
+    <task id="LOCAL-00470" summary="add test our serivces">
+      <created>1431765112522</created>
+      <option name="number" value="00470" />
+      <option name="project" value="LOCAL" />
+      <updated>1431765112546</updated>
+    </task>
+    <task id="LOCAL-00471" summary="add test our serivces">
+      <created>1431765216239</created>
+      <option name="number" value="00471" />
+      <option name="project" value="LOCAL" />
+      <updated>1431765216239</updated>
+    </task>
+    <task id="LOCAL-00472" summary="add test our serivces">
+      <created>1431765249574</created>
+      <option name="number" value="00472" />
+      <option name="project" value="LOCAL" />
+      <updated>1431765249574</updated>
+    </task>
+    <task id="LOCAL-00473" summary="add test our serivces">
+      <created>1431765278549</created>
+      <option name="number" value="00473" />
+      <option name="project" value="LOCAL" />
+      <updated>1431765278550</updated>
+    </task>
+    <task id="LOCAL-00474" summary="add test our serivces">
+      <created>1431765307159</created>
+      <option name="number" value="00474" />
+      <option name="project" value="LOCAL" />
+      <updated>1431765307160</updated>
+    </task>
+    <option name="localTasksCounter" value="475" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -868,14 +868,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -893,7 +893,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="edit button success story" />
     <MESSAGE value="new buuton bottom up" />
     <MESSAGE value="toggle title background color" />
     <MESSAGE value="disable search info" />
@@ -918,7 +917,8 @@
     <MESSAGE value="add div service in front block services" />
     <MESSAGE value="add extra title office" />
     <MESSAGE value="add extra title office css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add extra title office css" />
+    <MESSAGE value="add test our serivces" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test our serivces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1217,7 +1217,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.625" vertical-offset="1974" max-vertical-offset="2835">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1974" max-vertical-offset="2835">
           <caret line="147" column="21" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
           <folding />
         </state>
@@ -1227,7 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="625">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.192" vertical-offset="0" max-vertical-offset="625">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,6 +1248,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.048" vertical-offset="0" max-vertical-offset="625">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/fields/field--field_information.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="495">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1259,14 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/fields/field--field_information.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="495">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1281,8 +1277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48831168" vertical-offset="11302" max-vertical-offset="11835">
-          <caret line="766" column="15" selection-start-line="766" selection-start-column="15" selection-end-line="766" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.4552058" vertical-offset="11707" max-vertical-offset="12135">
+          <caret line="793" column="16" selection-start-line="793" selection-start-column="16" selection-end-line="793" selection-end-column="16" />
           <folding />
         </state>
       </provider>

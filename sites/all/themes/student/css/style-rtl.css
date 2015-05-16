@@ -786,3 +786,18 @@ footer .row #block-block-4 a
     border-bottom: 1px solid;
 }
 /*End style contact us*/
+.service-description p:before {
+    content: "›";
+    display: block;
+    height: 19px;
+    width: 16px;
+    float: right;
+    background: #bfbfbf;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
