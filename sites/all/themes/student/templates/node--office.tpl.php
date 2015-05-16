@@ -5,7 +5,7 @@
         </h1>
     </div>
     <div class="office-image">
-        <?php print $fields['field_image']->content; ?>
+        <?php print render($content['field_image']); ?>
     </div>
     <div class="office-information">
         <?php print $fields['field_information']->content; ?>
