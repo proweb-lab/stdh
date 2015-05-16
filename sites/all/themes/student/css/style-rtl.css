@@ -467,6 +467,12 @@ footer .row #block-block-4 a
 .social-block .fb{
  background: url('../images/share-fb.png') no-repeat transparent;
 }
+.social-block .tw{
+ background: url('../images/share-twitter.png') no-repeat transparent;
+}
+.social-block .yt{
+ background: url('../images/share-youtube.png') no-repeat transparent;
+}
 /*End style social-block */
 
 
