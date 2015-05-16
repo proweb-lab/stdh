@@ -1,11 +1,11 @@
-<div class="service-block service-<?php print $fields['field_weight']->content;?>">
+<div class="service-block service">
     <h3 class="service-title">
-        <?php print $fields['title']->content;?>
+        <?php print render($content['title']);?>
     </h3>
     <div class="service-description">
-        <?php print $fields['field_body']->content;?>
+        <?php print render($content['field_body']);?>
     </div>
     <div class="service-price">
-        <p><?php print  $fields['field_price']->content;?></p>
+        <p><?php print  render($content['field_price']);?></p>
     </div>
 </div>
