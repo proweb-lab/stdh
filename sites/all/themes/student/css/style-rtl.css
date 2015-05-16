@@ -24,6 +24,12 @@ body,h1,h2,h3,h4,h5,h6{
     font-family: 'Droid Arabic Kufi' !important;
 }
 
+.container {
+    width: 100%;
+    margin: 0px auto;
+    overflow-x: hidden;
+    max-width: 1200px;
+}
 /*Begin style top menu*/
 #block-menu-menu-top-menu{
     float: left;
