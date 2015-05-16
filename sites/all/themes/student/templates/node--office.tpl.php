@@ -1,5 +1,4 @@
 <div id="office">
-
     <div class="office-image">
         <?php print render($content['field_image']); ?>
     </div>
