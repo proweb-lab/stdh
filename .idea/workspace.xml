@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node--office.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node--office.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -589,12 +588,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00335" summary="div offices-block container">
-      <created>1431259070217</created>
-      <option name="number" value="00335" />
-      <option name="project" value="LOCAL" />
-      <updated>1431259070217</updated>
-    </task>
     <task id="LOCAL-00336" summary="div offices-block container">
       <created>1431259662757</created>
       <option name="number" value="00336" />
@@ -883,7 +876,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431779028608</updated>
     </task>
-    <option name="localTasksCounter" value="384" />
+    <task id="LOCAL-00384" summary="done template node office 9">
+      <created>1431779325909</created>
+      <option name="number" value="00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1431779325909</updated>
+    </task>
+    <option name="localTasksCounter" value="385" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -928,7 +927,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="disable search info" />
     <MESSAGE value="edit style dropdown language in page unversity" />
     <MESSAGE value="edit style dropdown office in page unversity" />
     <MESSAGE value="edit style dropdown edit-uni-recognition in page unversity" />
@@ -953,7 +951,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;sites/all/themes/student/css/style-rtl.css&#10;" />
     <MESSAGE value="create template node office 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="create template node office 9" />
+    <MESSAGE value="done template node office 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="done template node office 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
