@@ -466,15 +466,15 @@ footer .row #block-block-4 a
 }
 .social-block .fb{
  background: url('../images/share-fb.png') no-repeat ;
- height: 25px;
+padding: 20px 0;
 }
 .social-block .tw{
  background: url('../images/share-twitter.png') no-repeat ;
- height: 25px;
+padding: 20px 0;
 }
 .social-block .yt{
  background: url('../images/share-youtube.png') no-repeat;
- height: 25px;
+padding: 20px 0;
 }
 /*End style social-block */
 
