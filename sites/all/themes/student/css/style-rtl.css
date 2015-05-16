@@ -471,6 +471,10 @@ footer .row #block-block-4 a
  background: url('../images/share-fb.png') no-repeat ;
 padding: 20px 0;
 }
+.social-block .fb:hover{
+ background: url('../images/share-fb-org.png') no-repeat ;
+padding: 20px 0;
+}
 .social-block .tw{
  background: url('../images/share-twitter.png') no-repeat ;
 padding: 20px 0;
