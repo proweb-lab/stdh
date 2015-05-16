@@ -838,5 +838,8 @@ background-color:#d8450b ;
     background-color:  #d8450b;
     border-color: #BB4D2D;
 }
-
+.text-center a {
+    color: #d8450b;
+    text-decoration: none;
+}
 
