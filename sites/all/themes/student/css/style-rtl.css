@@ -27,7 +27,7 @@ body,h1,h2,h3,h4,h5,h6{
 .container {
     width: 100%;
     margin: 0px auto;
-    overflow-x: hidden;
+    //overflow-x: hidden;
     max-width: 1200px;
 }
 /*Begin style top menu*/
