@@ -6,7 +6,7 @@ $extra_title = $fields['field_extra_title']->content;
 if (!empty($extra_title)) {
 
     $html .= '<div class="ribbon-wrapper-green">';
-    $html .='<span>' . print t('soon') . '</span>';
+    $html .='<span>' . $fields['field_extra_title']->content. '</span>';
     $html .='</div>';
 }
 $html .='<div class="office-image">';
