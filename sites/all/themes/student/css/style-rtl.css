@@ -838,8 +838,7 @@ background-color:#d8450b ;
     background-color:  #d8450b;
     border-color: #d8450b;
 }
-.text-center a {
+.text-center ul li a {
     color: #d8450b;
-    text-decoration: none;
 }
 /*End style pagination in page search*/
