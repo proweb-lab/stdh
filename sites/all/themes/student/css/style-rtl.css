@@ -250,7 +250,7 @@ li.dropdown {
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 .webform-client-form-64 .webform-submit.btn-primary{
-    color: #d8450b;
+    background-color: #d8450b;
     border-color: #d8450b;
 }
 .form-item{
