@@ -6,6 +6,6 @@
         <?php print render($content['field_body']);?>
     </div>
     <div class="service-price">
-        <p><?php print  $fields['field_price']->content;?></p>
+        <p><?php print  render($content['field_price']);?></p>
     </div>
 </div>
