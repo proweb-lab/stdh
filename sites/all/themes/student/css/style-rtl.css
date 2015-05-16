@@ -381,7 +381,7 @@ footer .row #block-block-4 a
 .office-block{float: right;position: relative; }
 .office-block .office-title{text-align: center;}
 .office-block .office-image{
-    border: 2px solid #bbb;
+    border: 1px solid #bbb;
     // width: 240px;
     height: 160px;
 }
