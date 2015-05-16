@@ -11,10 +11,10 @@ $html = '<div class="office-block">';
 
    }
     $html .='<div class="office-image">';
-       print $fields['field_image']->content;
+     $html .= $fields['field_image']->content;
     $html .='</div>';
     $html .='<h3 class="office-title">';
-      print $fields['title']->content; 
+    $html .= $fields['title']->content; 
     $html .='</h3>';
 
 $html .= '</div>';
