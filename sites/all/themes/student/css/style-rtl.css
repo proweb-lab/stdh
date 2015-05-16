@@ -503,8 +503,22 @@ footer .row #block-block-4 a
     margin-top: 35px;
 }
 .services .service-block  .service-price p{
-    padding: 10px;}
-
+    padding: 10px;
+}
+.service-description p:before {
+    content: "›";
+    display: block;
+    height: 19px;
+    width: 16px;
+    float: right;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 16px;
+    line-height: 100%;
+    color: #47494C;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
 
 
 /*Begin style services*/
@@ -772,22 +786,14 @@ footer .row #block-block-4 a
 {
  color:#47494C;
 }
+.contact_info
+{
+    margin-top: 50px;
+}
+
 .addresses_header
 {
     border-bottom: 1px solid;
 }
 /*End style contact us*/
-.service-description p:before {
-    content: "›";
-    display: block;
-    height: 19px;
-    width: 16px;
-    float: right;
-    text-align: center;
-    margin: 0 5px;
-    font-size: 16px;
-    line-height: 100%;
-    color: #47494C;
-    padding-bottom: 4px;
-    cursor: pointer;
-}
+
