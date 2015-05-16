@@ -14,7 +14,7 @@
 <div class="uni-recognition">
      <h3><?php print t('Univrsity Recognition ')?></h3>
   
-     <table style="width:100%">
+     <table  border="1" style="width:100%">
   <tr>
     <td><?php print t('Jordan');?></td>
     <td><?php print t('KSA');?></td> 
