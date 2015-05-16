@@ -394,6 +394,10 @@ footer .row #block-block-4 a
     padding-bottom: 30px;
     border-bottom: 3px double #E5E5E5;
 }
+.front .offices-block .view-office{
+    width: 100%;
+    margin-right: 25%;
+}
 .ribbon-wrapper-green {
     width: 85px;
     height: 88px;
