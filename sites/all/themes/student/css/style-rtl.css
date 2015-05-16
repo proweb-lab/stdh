@@ -464,7 +464,7 @@ footer .row #block-block-4 a
     z-index: 10000;
     top:50%;
 }
-.social-block span.fb{
+.social-block .fb{
  background: url('../images/share-fb.png') no-repeat transparent;
 }
 /*End style social-block */
