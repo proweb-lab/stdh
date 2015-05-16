@@ -482,6 +482,7 @@ position: relative;
 padding: 20px 0;
 position: relative;
 }
+.social-block .tw a{position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .social-block .tw:hover{
  background: url('../images/share-twitter-org.png') no-repeat ;
 
@@ -492,6 +493,7 @@ position: relative;
 padding: 20px 0;
 position: relative;
 }
+.social-block .yt a{position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .social-block .yt:hover{
  background: url('../images/share-youtube-org.png') no-repeat;
 
