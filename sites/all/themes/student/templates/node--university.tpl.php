@@ -16,10 +16,10 @@
   
      <table style="width:100%">
   <tr>
-    <td><?php print t('Jordan')?></td>
-    <td><?php print t('KSA')?></td> 
-    <td><?php print t('UAE')?></td>
-    <td><?php print t('Kwait')?></td>
+    <td><?php print t('Jordan');?></td>
+    <td><?php print t('KSA');?></td> 
+    <td><?php print t('UAE');?></td>
+    <td><?php print t('Kwait');?></td>
   </tr>
   <tr>
     <td><?php print render($content['field_recognized_jo']);?></td>
