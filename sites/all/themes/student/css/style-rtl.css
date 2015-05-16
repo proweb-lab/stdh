@@ -786,7 +786,7 @@ footer .row #block-block-4 a
     border-bottom: 1px solid;
 }
 /*End style contact us*/
-.service-description p br:after {
+.service-description p:after {
     content: "›";
     display: block;
     height: 19px;
