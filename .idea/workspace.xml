@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="add test our serivces">
+    <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,8 +31,18 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6883117" vertical-offset="11750" max-vertical-offset="12180">
-              <caret line="801" column="29" selection-start-line="801" selection-start-column="29" selection-end-line="801" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.18181819" vertical-offset="11060" max-vertical-offset="12300">
+              <caret line="742" column="26" selection-start-line="742" selection-start-column="26" selection-end-line="742" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views-view-fields--universities--page.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/universities/views-view-fields--universities--page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="930">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -262,6 +272,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,12 +547,6 @@
       <created>1429079359855</created>
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
-    </task>
-    <task id="LOCAL-00436" summary="add extra title office css">
-      <created>1431602880319</created>
-      <option name="number" value="00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1431602880319</updated>
     </task>
     <task id="LOCAL-00437" summary="add extra title office css">
       <created>1431602977693</created>
@@ -828,7 +836,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431767639207</updated>
     </task>
-    <option name="localTasksCounter" value="485" />
+    <task id="LOCAL-00485" summary="add test our serivces">
+      <created>1431768308179</created>
+      <option name="number" value="00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1431768308179</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -905,14 +919,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
@@ -1256,10 +1262,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/universities/views-view-fields--universities--page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="930">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6883117" vertical-offset="11750" max-vertical-offset="12180">
-          <caret line="801" column="29" selection-start-line="801" selection-start-column="29" selection-end-line="801" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.18181819" vertical-offset="11060" max-vertical-offset="12300">
+          <caret line="742" column="26" selection-start-line="742" selection-start-column="26" selection-end-line="742" selection-end-column="26" />
           <folding />
         </state>
       </provider>
