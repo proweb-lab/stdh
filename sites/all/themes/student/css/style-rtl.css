@@ -411,8 +411,8 @@ footer .row #block-block-4 a
     border-bottom: 3px double #E5E5E5;
 }
 .front .offices-block .view-office{
-    width: 100%;
-    margin-right: 26%;
+  
+   padding-right: 18%;
 
 }
 .front .offices-block .view-office a{
