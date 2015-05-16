@@ -1,3 +1,4 @@
+<div class="university-node">
 <div class="office-title">
     <div class="label"><?php print t('Country')?></div>
 <?php print render($content['field_office']); ?>
@@ -16,6 +17,7 @@
      <div><?php print t('KSA: ').render($content['field_recognized_ksa']);?></div>
      <div><?php print t('UAE: ').render($content['field_recognized_uae']);?></div>
      <div><?php print t('kwait: ').render($content['field_recognized_kw']);?></div>
+</div>
 </div>
 
 
