@@ -20,7 +20,7 @@ body {
     background: #f9f9f9 url(../images/page-bg-1.jpg);
     color: #636467;
 }
-body,h1,h2,h3{
+body,h1,h2,h3,h4,h5,h6{
     font-family: 'Droid Arabic Kufi' !important;
 }
 
@@ -396,7 +396,7 @@ footer .row #block-block-4 a
 }
 .front .offices-block .view-office{
     width: 100%;
-    margin-right: 25%;
+    margin-right: 26%;
 }
 .ribbon-wrapper-green {
     width: 85px;
