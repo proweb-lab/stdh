@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node--office.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node--office.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -589,12 +588,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00332" summary="menu">
-      <created>1430983195553</created>
-      <option name="number" value="00332" />
-      <option name="project" value="LOCAL" />
-      <updated>1430983195553</updated>
-    </task>
     <task id="LOCAL-00333" summary="menu">
       <created>1430983276057</created>
       <option name="number" value="00333" />
@@ -883,7 +876,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431778784288</updated>
     </task>
-    <option name="localTasksCounter" value="381" />
+    <task id="LOCAL-00381" summary="create template node office 9">
+      <created>1431778904960</created>
+      <option name="number" value="00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1431778904961</updated>
+    </task>
+    <option name="localTasksCounter" value="382" />
     <servers />
   </component>
   <component name="ToolWindowManager">
