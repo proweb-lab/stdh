@@ -102,6 +102,7 @@ ul.secondary li
     text-transform:uppercase; 
     font-size:16px; 
     padding: 10px 15px 10px;
+    outline: none;
 }
 #block-system-main-menu ul li.active  a,
 #block-system-main-menu .ul li.active  a:hover,
