@@ -568,6 +568,7 @@ footer .row #block-block-4 a
     position:relative;
     border:1px solid #BBB;
     background:#eee;
+    border:2px solid #d8a044;
 }
 .ribbon {
     position: absolute;
@@ -771,7 +772,6 @@ footer .row #block-block-4 a
 {
  color:#47494C;
 }
-
 .addresses_header
 {
     border-bottom: 1px solid;
