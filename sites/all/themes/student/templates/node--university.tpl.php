@@ -1,5 +1,5 @@
 <div class="university-node">
-<div class="office-title">
+<div class="uni-office-title">
     <h3 class="label"><?php print t('Country')?></h3>
 <?php print render($content['field_office']); ?>
 </div>
