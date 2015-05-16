@@ -465,7 +465,16 @@ footer .row #block-block-4 a
     top:50%;
 }
 .social-block .fb{
- background: url('../images/share-fb.png') no-repeat transparent;
+ background: url('../images/share-fb.png') no-repeat ;
+padding: 20px 0;
+}
+.social-block .tw{
+ background: url('../images/share-twitter.png') no-repeat ;
+padding: 20px 0;
+}
+.social-block .yt{
+ background: url('../images/share-youtube.png') no-repeat;
+padding: 20px 0;
 }
 /*End style social-block */
 
