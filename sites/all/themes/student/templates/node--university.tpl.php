@@ -1,7 +1,7 @@
 <div class="university-node">
 <div class="uni-office-title">
     <h3 class="label"><?php print t('Country')?></h3>
-<?php print render($content['field_office']); ?>
+<?php print ($content['field_office']); ?>
 </div>
 <div class="uni-specialtiesy">
     <h3 class="label"><?php print t('Specialties')?></h3>
