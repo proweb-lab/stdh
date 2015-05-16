@@ -568,6 +568,7 @@ footer .row #block-block-4 a
     position:relative;
     border:1px solid #BBB;
     background:#eee;
+    border:2px solid #d8a044;
 }
 .ribbon {
     position: absolute;
@@ -771,16 +772,6 @@ footer .row #block-block-4 a
 {
  color:#47494C;
 }
-.box
-{
-    border:2px solid #d8a044;
-    border-radius: 4px;
-    background:#eee;
-    margin-top: 15px;
-    margin-left: 15px;
-    padding-right: 10px;
-
-}
 .addresses_header
 {
     border-bottom: 1px solid;
@@ -796,7 +787,7 @@ footer .row #block-block-4 a
     margin: 0 5px;
     font-size: 16px;
     line-height: 100%;
-    color: #fff;
+    color: #47494C;
     padding-bottom: 4px;
     cursor: pointer;
 }
