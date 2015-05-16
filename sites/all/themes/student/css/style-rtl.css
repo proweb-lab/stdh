@@ -838,7 +838,7 @@ background-color:#d8450b ;
     background-color:  #d8450b;
     border-color: #d8450b;
 }
-.text-center ul li a {
+.text-center  a.title {
     color: #d8450b;
 }
 /*End style pagination in page search*/
