@@ -1,7 +1,7 @@
 <div id="office">
     <div class="office-title">
         <h1 class="container">
-            <?php print $fields['title']->content; ?>
+            <?php print render($title); ?>
         </h1>
     </div>
     <div class="office-image">
