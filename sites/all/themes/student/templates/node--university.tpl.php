@@ -4,7 +4,7 @@
 <?php print render($content['field_office']); ?>
 </div>
 <div class="uni-specialtiesy">
-    <h3 class="label"><?php print t('Specialties')?></div>
+    <h3 class="label"><?php print t('Specialties')?></h3>
     <?php print render($content['field_specialties']); ?>
 </div>
 <div class="uni-language">
