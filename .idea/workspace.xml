@@ -101,8 +101,8 @@
       <file leaf-file-name="node--office.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--office.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24509804" vertical-offset="0" max-vertical-offset="612">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.024509804" vertical-offset="0" max-vertical-offset="612">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -589,24 +589,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00331" summary="menu">
-      <created>1430983084550</created>
-      <option name="number" value="00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1430983084556</updated>
-    </task>
-    <task id="LOCAL-00332" summary="menu">
-      <created>1430983195553</created>
-      <option name="number" value="00332" />
-      <option name="project" value="LOCAL" />
-      <updated>1430983195553</updated>
-    </task>
-    <task id="LOCAL-00333" summary="menu">
-      <created>1430983276057</created>
-      <option name="number" value="00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1430983276058</updated>
-    </task>
     <task id="LOCAL-00334" summary="office fornt">
       <created>1431252465816</created>
       <option name="number" value="00334" />
@@ -883,7 +865,25 @@
       <option name="project" value="LOCAL" />
       <updated>1431778733381</updated>
     </task>
-    <option name="localTasksCounter" value="380" />
+    <task id="LOCAL-00380" summary="create template node office 9">
+      <created>1431778784288</created>
+      <option name="number" value="00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1431778784288</updated>
+    </task>
+    <task id="LOCAL-00381" summary="create template node office 9">
+      <created>1431778904960</created>
+      <option name="number" value="00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1431778904961</updated>
+    </task>
+    <task id="LOCAL-00382" summary="create template node office 9">
+      <created>1431778982923</created>
+      <option name="number" value="00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1431778982923</updated>
+    </task>
+    <option name="localTasksCounter" value="383" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1318,8 +1318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--office.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24509804" vertical-offset="0" max-vertical-offset="612">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.024509804" vertical-offset="0" max-vertical-offset="612">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
