@@ -8,7 +8,8 @@
         <?php print render($content['field_image']); ?>
     </div>
     <div class="office-information">
-        <?php print $fields['field_information']->content; ?>
+        <?php print views_embed_view('office','page');?>
+
     </div>
     <div class="office-map">
         <?php print $fields['field_map']->content; ?>
