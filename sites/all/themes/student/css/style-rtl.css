@@ -363,6 +363,17 @@ footer .row #block-block-4 a
     height: 50px;
 }
 
+.university-node .label{
+  display: inline;
+  padding:0;
+  font-size: 100%;
+  font-weight: bold;
+  color:#636467;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 0;
+}
+
 /*End style block universities*/
 /*Begin style block office*/
 
