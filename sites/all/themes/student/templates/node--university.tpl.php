@@ -25,7 +25,7 @@
     <td><?php print render($content['field_recognized_jo']);?></td>
     <td><?php print render($content['field_recognized_ksa']);?></td> 
     <td><?php print  render($content['field_recognized_uae']);?></td>
-     <td><?php print ender($content['field_recognized_kw']);?></td>
+     <td><?php print render($content['field_recognized_kw']);?></td>
   </tr>
 </table>
 </div>
