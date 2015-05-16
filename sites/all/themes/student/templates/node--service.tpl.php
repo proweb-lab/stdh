@@ -1,4 +1,4 @@
-<div class="service-block service-<?php print $fields['field_weight']->content;?>">
+<div class="service-block service-<?php print render($content['field_weight']);?>">
 <h3 class="service-title">
         <?php print render($content['title']);?>
     </h3>
