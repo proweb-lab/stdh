@@ -397,6 +397,12 @@ footer .row #block-block-4 a
 .front .offices-block .view-office{
     width: 100%;
     margin-right: 26%;
+
+}
+.front .offices-block .view-office a{
+   color: #636467;
+   text-decoration: none;
+
 }
 .ribbon-wrapper-green {
     width: 85px;
