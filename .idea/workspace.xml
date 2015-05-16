@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
-              <caret line="0" column="75" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
+              <caret line="0" column="78" selection-start-line="0" selection-start-column="78" selection-end-line="0" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -590,12 +590,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00347" summary="add div service in front block services">
-      <created>1431264441176</created>
-      <option name="number" value="00347" />
-      <option name="project" value="LOCAL" />
-      <updated>1431264441176</updated>
-    </task>
     <task id="LOCAL-00348" summary="add div service in front block services">
       <created>1431264529686</created>
       <option name="number" value="00348" />
@@ -884,7 +878,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431782863482</updated>
     </task>
-    <option name="localTasksCounter" value="396" />
+    <task id="LOCAL-00396" summary="create template node 69">
+      <created>1431782914435</created>
+      <option name="number" value="00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1431782914435</updated>
+    </task>
+    <option name="localTasksCounter" value="397" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1331,7 +1331,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="625">
-          <caret line="0" column="75" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
+          <caret line="0" column="78" selection-start-line="0" selection-start-column="78" selection-end-line="0" selection-end-column="78" />
           <folding />
         </state>
       </provider>
