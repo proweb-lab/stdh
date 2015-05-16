@@ -470,9 +470,7 @@ footer .row #block-block-4 a
 .social-block .fb{
  background: url('../images/share-fb.png') no-repeat ;
 padding: 20px 0;
-position: relative;
 }
-.social-block .fb a{position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .social-block .fb:hover{
  background: url('../images/share-fb-org.png') no-repeat ;
 
@@ -480,9 +478,7 @@ position: relative;
 .social-block .tw{
  background: url('../images/share-twitter.png') no-repeat ;
 padding: 20px 0;
-position: relative;
 }
-.social-block .tw a{position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .social-block .tw:hover{
  background: url('../images/share-twitter-org.png') no-repeat ;
 
@@ -491,9 +487,7 @@ position: relative;
 .social-block .yt{
  background: url('../images/share-youtube.png') no-repeat;
 padding: 20px 0;
-position: relative;
 }
-.social-block .yt a{position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
 .social-block .yt:hover{
  background: url('../images/share-youtube-org.png') no-repeat;
 
@@ -855,5 +849,11 @@ background-color:#d8450b ;
 }
 .text-center  a {
     color: #d8450b;
+}
+.search-form ul,li a { color:#d8450b; }
+
+.search-form ul,li a:hover
+{
+    color:#d8450b;
 }
 /*End style pagination in page search*/
