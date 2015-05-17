@@ -578,12 +578,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00375" summary="create template node office 9">
-      <created>1431778142446</created>
-      <option name="number" value="00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1431778142446</updated>
-    </task>
     <task id="LOCAL-00376" summary="create template node office 9">
       <created>1431778361101</created>
       <option name="number" value="00376" />
@@ -872,7 +866,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431850348327</updated>
     </task>
-    <option name="localTasksCounter" value="424" />
+    <task id="LOCAL-00424" summary="style node services">
+      <created>1431850379894</created>
+      <option name="number" value="00424" />
+      <option name="project" value="LOCAL" />
+      <updated>1431850379894</updated>
+    </task>
+    <option name="localTasksCounter" value="425" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1284,18 +1284,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.285714" vertical-offset="12802" max-vertical-offset="13410">
-          <caret line="882" column="0" selection-start-line="882" selection-start-column="0" selection-end-line="882" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="270">
           <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.285714" vertical-offset="12802" max-vertical-offset="13410">
+          <caret line="882" column="0" selection-start-line="882" selection-start-column="0" selection-end-line="882" selection-end-column="0" />
           <folding />
         </state>
       </provider>

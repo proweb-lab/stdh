@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-6">
 <div class="service-block-template">
 <h3 class="service-title-template">
         <?php print render($content['title']);?>
