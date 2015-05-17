@@ -1,5 +1,5 @@
-<div class="service">
-<div class="service-block">
+
+<div class="service-block-<?php print render($content['field_weight']);?>">
 <h3 class="service-title">
         <?php print render($content['title']);?>
     </h3>
@@ -9,5 +9,4 @@
     <div class="service-price">
         <p><?php print  render($content['field_price']);?></p>
     </div>
-</div>
 </div>
