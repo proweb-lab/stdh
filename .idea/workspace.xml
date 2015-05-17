@@ -509,12 +509,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00390" summary="create template node 69">
-      <created>1431780740108</created>
-      <option name="number" value="00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1431780740108</updated>
-    </task>
     <task id="LOCAL-00391" summary="create template node 69">
       <created>1431782027095</created>
       <option name="number" value="00391" />
@@ -803,7 +797,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431864201261</updated>
     </task>
-    <option name="localTasksCounter" value="439" />
+    <task id="LOCAL-00439" summary="create new node other services">
+      <created>1431864418335</created>
+      <option name="number" value="00439" />
+      <option name="project" value="LOCAL" />
+      <updated>1431864418335</updated>
+    </task>
+    <option name="localTasksCounter" value="440" />
     <servers />
   </component>
   <component name="ToolWindowManager">
