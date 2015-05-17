@@ -99,7 +99,7 @@ function student_member_registration_form_submit($form, &$form_state) {
           'mail' => $account['email'],
           'status' => 1, // status active
           'init' => $account['email'],
-          'roles' => array(2 => 'authenticated user', 4 => 'member'),
+          'roles' => array(1 => 'authenticated user', 4 => 'member'),
           'language' => $language->language,
         );
 
