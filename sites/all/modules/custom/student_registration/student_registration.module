@@ -325,3 +325,4 @@ function student_registration_user_register_form($form, &$form_state){
     );
 
 
+}
