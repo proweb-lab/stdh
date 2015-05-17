@@ -1,5 +1,4 @@
 name = Stdh Registration
 description = Student registration.
-package = Stdh
-version = 1.0
+package = Student's House Modules
 core = 7.x
