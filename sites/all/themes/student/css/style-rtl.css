@@ -870,7 +870,7 @@ background-color:#d8450b ;
 }
 /*End style pagination in page search*/
 /*Begin style template services*/
-.service-block
+.service-block-template
 {
     background: none repeat scroll 0% 0% #FFF;
     border: 1px solid #E7E7E7;
@@ -882,7 +882,7 @@ background-color:#d8450b ;
     height: 300px;
     width:40%;
 }
-.service-block .service-price
+.service-block-template .service-price
 {
     background: rgba(216, 140, 10, 0.02);
 }

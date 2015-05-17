@@ -1,6 +1,6 @@
 
-<div class="service-block">
-<h3 class="service-title">
+<div class="service-block-template">
+<h3 class="service-title-template">
         <?php print render($content['title']);?>
     </h3>
     <div class="service-introduction">
