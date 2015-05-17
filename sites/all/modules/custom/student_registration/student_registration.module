@@ -298,42 +298,133 @@
 //  return $form;
 //}
 
-function student_registration_user_register_form_alter($form, &$form_state){
-   $form['name'] = array(
-        '#title' => 'username',
-        '#description' => 'choose a username',
-        '#type' => 'textfield',
-        '#required' => TRUE,
-    );
-    $form['mail'] = array(
-        '#title' => 'email',
-        '#description' => 'enter a valid email address',
-        '#type' => 'textfield',
-        '#required' => TRUE,
-    );
-        $form['field_full_name'] = array(
-        '#title' => 'First Name',
-        '#type' => 'textfield',
-    );
-        $form['field_id_number'] = array(
-        '#title' => 'Last Name',
-        '#type' => 'textfield',
-    );
-    
 
+/**
+ * @file 
+ * Customizations to the Drupal registration system.
+ */
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function student_registration_form_user_register_form_alter(&$form, &$form_state) {
+  // Make this a multi-step form.
+  if (!empty($form_state['step']) && $form_state['step'] == 2) {
+    student_registration_register_alter_page_two($form, $form_state);
+  }
+  else {
+    // Otherwise we build page 1.
+    student_registration_register_alter_page_one($form, $form_state);
+  }
 }
 
-function student_registration_user_register_form_submit($form, &$form_state){
-    $edit = array(
-          'name' => $form_state['values']['name'], 
-          'pass' => user_password(),
-          'mail' => $form_state['values']['mail'],
-          'init' => $form_state['values']['mail'], 
-          'status' => 1, 
-          'access' => REQUEST_TIME,
-              'field_full_name' => array(LANGUAGE_NONE => array(array('value' => $form_state['values']['field_full_name']))),
-          'field_id_number' => array(LANGUAGE_NONE => array(array('value' => $form_state['values']['field_id_number']))),
-    );
-    user_save(drupal_anonymous_user(), $edit);
+/**
+ * Form alter - Step 1 of user registration.
+ */
+function student_registration_register_alter_page_one(&$form, &$form_state) {
+  // Set the step.
+  $form_state['step'] = 1;
+
+  // Add text for step 1.
+  $form['step'] = array(
+    '#markup' => '<h3>' . t('Step 1 of 2: Account information') . '</h3>',
+    '#weight' => -10,
+  );
+
+  // Hide the information for step 2.
+  $form['field_stuff']['#access'] = FALSE;
+  $form['field_abc']['#access'] = FALSE;
+  $form['field_whatevs']['#access'] = FALSE;
+
+  // Set default values (so they work with back button).
+  $form['account']['name']['#default_value'] = !empty($form_state['values']['name']) ? $form_state['values']['name'] : '';
+  $form['account']['mail']['#default_value'] = !empty($form_state['values']['mail']) ? $form_state['values']['mail'] : '';
+
+  // Add a next button.
+  $form['actions']['next'] = array(
+    '#type' => 'submit',
+    '#value' => 'Next >>',
+    '#submit' => array('mymodule_register_next'),
+  );
+
+  // Remove the 'Create new account' button from step 1.
+  unset($form['actions']['submit']);
+}
+
+
+/**
+ * Form alter - Step 2 of user registration.
+ */
+function student_registration_register_alter_page_two(&$form, &$form_state) {
+  // Add text for step 2.
+  $form['step'] = array(
+    '#markup' => '<h3>' . t('Step 2 of 2: Establishment information') . '</h3>',
+    '#weight' => -10,
+  );
+
+  // Hide the fields completed on step 1.
+  $form['account']['name']['#access'] = FALSE;
+  $form['account']['mail']['#access'] = FALSE;
+
+  // Set default values (so they validate).
+  $form['account']['name']['#default_value'] = !empty($form_state['values']['name']) ? $form_state['values']['name'] : '';
+  $form['account']['mail']['#default_value'] = !empty($form_state['values']['mail']) ? $form_state['values']['mail'] : '';
+
+  // Add a back button.
+  $form['actions']['back'] = array(
+    '#type' => 'submit',
+    '#value' => t('<< Back'),
+    '#submit' => array('mymodule_register_back'),
+    '#limit_validation_errors' => array(),
+  );
+
+   // Adjust the submit button to come last.
+  $form['actions']['submit']['#weight'] = 100;
+  // Add our own validation handler.
+  $form['actions']['submit']['#validate'] = array('mymodule_register_validate');
+
+  // Add an additional submit handler to the whole form.
+  $form['#submit'][] = 'mymodule_register_submit';
+}
+
+/**
+ * Validate handler.
+ */
+
+
+/**
+ * Submit handler for next button.
+ *
+ * Capture the values from page one and store them away so they can be used
+ * at final submit time.
+ */
+function student_registration_register_next($form, &$form_state) {
+  // Save the page 1 values.
+  $form_state['page_values'][1] = $form_state['values'];
+
+  // Load the page 2 values.
+  if (!empty($form_state['page_values'][2])) {
+    $form_state['values'] = $form_state['page_values'][2];
+  }
+
+  // Set the step.
+  $form_state['step'] = 2;
+  // Rebuild the form.
+  $form_state['rebuild'] = TRUE;
+}
+
+/**
+ * Submit handler for back button.
+ *
+ * Since #limit_validation_errors = array() is set, values from page 2
+ * will be discarded.
+ */
+function student_registration_register_back($form, &$form_state) {
+  // Load the page 1 values.
+  $form_state['values'] = $form_state['page_values'][1];
+  // Set the step.
+  $form_state['step'] = 1;
+  // Rebuild the form.
+  $form_state['rebuild'] = TRUE;
 }
 ?>
