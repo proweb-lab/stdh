@@ -1,4 +1,5 @@
-<div class="service-block">
+<div class="services">
+
 <h3 class="service-title">
         <?php print render($content['title']);?>
     </h3>
