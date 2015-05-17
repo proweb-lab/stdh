@@ -507,7 +507,7 @@ padding: 20px 0;
 /*End style social-block */
 
 
-.services .view-services  .views-row{  
+.services .view-services  .views-row{
     background: none repeat scroll 0% 0% #FFF;
     border: 1px solid #E7E7E7;
     text-align: center;
@@ -869,3 +869,21 @@ background-color:#d8450b ;
     color:#d8450b;
 }
 /*End style pagination in page search*/
+/*Begin style template services*/
+.service-block-template
+{
+    background: none repeat scroll 0% 0% #FFF;
+    border: 1px solid #E7E7E7;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 40px;
+    position: relative;
+    padding: 30px 30px;
+    height: 300px;
+
+}
+.service-block-template .service-price
+{
+    background: rgba(216, 140, 10, 0.02);
+}
+/*End style template services*/
