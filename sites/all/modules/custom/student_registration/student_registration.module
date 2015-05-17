@@ -245,10 +245,6 @@ function _member_registration_detailed_form($form, &$form_state){
 if (isset($form_state['steps']['form_build_id'])) {
     $form_state['values']['form_build_id'] = $form_state['steps']['form_build_id'];
   }
-  $form_state['steps']['form_build_id'] = $form_state['values']['form_build_id'];
-  $form_state['stage'] = $form_state['new_stage'];
-  $form_state['rebuild'] = TRUE;
-}
 
 
    
