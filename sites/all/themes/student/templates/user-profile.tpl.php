@@ -34,7 +34,7 @@
 ?>
 <?php
 global $user ;
-$userId = render($user_profile['field_first_name']['#object']->uid);
+$userId = render($user_profile['field_full_name']['#object']->uid);
 
 $groups = array();
 foreach($user_profile['group_audience'] as $key => $value) {
@@ -59,11 +59,11 @@ foreach($user_profile['group_audience'] as $key => $value) {
         </div>
         <div class="field username">
           <div class="field-label"><?php t('username:'); ?></div>
-          <div class="field-value"><?php print render($user_profile['field_first_name']['#object']->name);?></div>
+          <div class="field-value"><?php print render($user_profile['field_full_name']['#object']->name);?></div>
         </div>
         <div class="field email">
           <div class="field-label"><?php t('Email:'); ?></div>
-          <div class="field-value"><a href="mailto:<?php print (render($user_profile['field_first_name']['#object']->mail));?>"><?php print (render($user_profile['field_first_name']['#object']->mail));?></a></div>
+          <div class="field-value"><a href="mailto:<?php print (render($user_profile['field_full_name']['#object']->mail));?>"><?php print (render($user_profile['field_full_name']['#object']->mail));?></a></div>
         </div>
       </div>
     </div>
