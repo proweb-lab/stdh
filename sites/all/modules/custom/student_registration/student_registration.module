@@ -331,8 +331,8 @@ function student_registration_user_register_form_submit($form, &$form_state){
           'init' => $form_state['values']['mail'], 
           'status' => 1, 
           'access' => REQUEST_TIME,
-              'field_full_name' => array(LANGUAGE_NONE => array(array('value' => $form_state['values']['field_fname']))),
-          'field_id_number' => array(LANGUAGE_NONE => array(array('value' => $form_state['values']['field_lname']))),
+              'field_full_name' => array(LANGUAGE_NONE => array(array('value' => $form_state['values']['field_full_name']))),
+          'field_id_number' => array(LANGUAGE_NONE => array(array('value' => $form_state['values']['field_id_number']))),
     );
     user_save(drupal_anonymous_user(), $edit);
 }
