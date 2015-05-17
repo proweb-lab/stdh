@@ -34,6 +34,7 @@
        };
 
 })(jQuery, Drupal, this, this.document);
+//Begin function calculate other services
 function checkTotal() {
     document.listForm.total.value = '';
     var sum = 0;
@@ -44,3 +45,4 @@ function checkTotal() {
     }
     document.listForm.total.value = sum;
 }
+//End function calculate other services
