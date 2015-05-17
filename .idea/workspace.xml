@@ -41,11 +41,9 @@
       <file leaf-file-name="node--service.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.384" vertical-offset="0" max-vertical-offset="625">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-              <folding>
-                <marker date="1431850240822" expanded="true" signature="519:526" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.336" vertical-offset="0" max-vertical-offset="625">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -580,12 +578,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00372" summary="create template node office 9">
-      <created>1431777521859</created>
-      <option name="number" value="00372" />
-      <option name="project" value="LOCAL" />
-      <updated>1431777521859</updated>
-    </task>
     <task id="LOCAL-00373" summary="create template node office 9">
       <created>1431777709543</created>
       <option name="number" value="00373" />
@@ -874,7 +866,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431849940602</updated>
     </task>
-    <option name="localTasksCounter" value="421" />
+    <task id="LOCAL-00421" summary="create template node 69">
+      <created>1431850245237</created>
+      <option name="number" value="00421" />
+      <option name="project" value="LOCAL" />
+      <updated>1431850245237</updated>
+    </task>
+    <option name="localTasksCounter" value="422" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1304,11 +1302,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.384" vertical-offset="0" max-vertical-offset="625">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <marker date="1431850240822" expanded="true" signature="519:526" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.336" vertical-offset="0" max-vertical-offset="625">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
