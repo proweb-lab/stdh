@@ -190,6 +190,7 @@ function _member_registration_get_header($form, &$form_state) {
   $form['header'] = array('#markup' => $stages_list . $mandatory_text, '#weight' => -2);
   return $form;
 }
+
 function _member_registration_detailed_form($form, &$form_state){
   $values = isset($form_state['steps']['detailed']) ? $form_state['steps']['detailed'] : array();
   
@@ -234,24 +235,8 @@ function _member_registration_detailed_form($form, &$form_state){
     '#required' => TRUE,
     '#suffix' => '</div>',
   );
-  $form['detailed']['major'] = array(
-    '#type' => 'checkboxes',
-    '#title' => t('What is your major?'),
-    '#options' =>  => array('s', 't','e'),
-//    '#default_value' => isset($values['area']) ? $values['area'] : NULL,
-    '#required' => TRUE,
-    '#prefix' => '<div class="row clearfix">',
-    '#suffix' => '</div>',
-  );
-//  $form['detailed']['offer'] = array(
-//    '#type' => 'checkboxes',
-//    '#title' => t('What skill set can you offer?'),
-//    '#options' => get_taxonomy_options(6, FALSE),
-////    '#default_value' => isset($values['offer']) ? $values['offer'] : NULL,
-//    '#required' => TRUE,
-//    '#prefix' => '<div class="row clearfix">',
-//    '#suffix' => '</div>',
-//  );
+
+
 
   
   $form['back'] = array('#type' => 'submit', '#value' => t('Back'), '#attributes' => array('class' => array('cancel')),
