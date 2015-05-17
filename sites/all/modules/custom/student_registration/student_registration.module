@@ -49,3 +49,28 @@ function student_member_registration_form($form, $form_state) {
       break;
   }
 }
+function student_member_registration_form_validate($form, &$form_state) {
+  if ($form_state['triggering_element']['#value'] == t('Back')) {
+    return;
+  }
+  if ($form_state['triggering_element']['#value'] == t('Cancel')) {
+    drupal_goto('<front>');
+  }
+  
+  switch ($form_state['stage']) {
+    case 'account':
+      if (!filter_var($form_state['values']['email'], FILTER_VALIDATE_EMAIL)) {
+        form_set_error('email', t('Please enter a valid email address.'));
+      }
+      else{
+        if ($user = user_load_by_name($form_state['values']['email'])) {
+          form_set_error('email', t('Email is already registered.'));
+        }
+      }
+      if ($form_state['values']['password'] != $form_state['values']['re_password']) {
+        form_set_error('password', t('Password does not match.'));
+      }
+      break;
+ 
+  }
+}
