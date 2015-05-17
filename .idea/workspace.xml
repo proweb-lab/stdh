@@ -578,12 +578,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00368" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;sites/all/themes/student/css/style-rtl.css&#10;">
-      <created>1431775525204</created>
-      <option name="number" value="00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1431775525204</updated>
-    </task>
     <task id="LOCAL-00369" summary="create template node office 9">
       <created>1431776897829</created>
       <option name="number" value="00369" />
@@ -872,7 +866,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431849636773</updated>
     </task>
-    <option name="localTasksCounter" value="417" />
+    <task id="LOCAL-00417" summary="create template node 69">
+      <created>1431849657703</created>
+      <option name="number" value="00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1431849657703</updated>
+    </task>
+    <option name="localTasksCounter" value="418" />
     <servers />
   </component>
   <component name="ToolWindowManager">
