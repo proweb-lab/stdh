@@ -11,14 +11,14 @@ function student_registration_menu() {
     'description' => t('Student Registration'),
     'page callback' => '_student_register_member',
     'access callback' => 'student_registration_access',
-    'type' => MENU_NORMAL_ITEM,
+   
   );
   $items['register/success'] = array(
     'title' => t('REGISTRATION '),
     'description' => t('User Registration'),
     'page callback' => '_student_register_success',
     'access callback' => 'student_registration_access',
-      'type' => MENU_NORMAL_ITEM,
+     
   );
   return $items;
 }
@@ -99,7 +99,7 @@ function student_member_registration_form_submit($form, &$form_state) {
           'mail' => $account['email'],
           'status' => 1, // status active
           'init' => $account['email'],
-          'roles' => array(2 => 'authenticated user', 5 => 'member'),
+          'roles' => array(1 => 'authenticated user', 4 => 'member'),
           'language' => $language->language,
         );
 
@@ -110,7 +110,7 @@ function student_member_registration_form_submit($form, &$form_state) {
         $profile->field_user_sname[$lang][0]['value'] = $detailed['sname'];
         $profile->field_user_location[$lang][0]['value'] = $detailed['country'];
         $profile->field_user_year[$lang]['0']['value'] = $detailed['birth'];
-        $profile->field_user_city[$lang]['0']['value'] = $detailed['city'];
+        
         
 
         // get selected areas
