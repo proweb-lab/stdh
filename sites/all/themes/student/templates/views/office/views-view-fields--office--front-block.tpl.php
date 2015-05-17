@@ -20,4 +20,4 @@ $html .= '</div>';
 
 
 
-//echo l($html, $fields['field_link']->content, array('html' => TRUE));
+echo l($html, $fields['field_link']->content, array('html' => TRUE));
