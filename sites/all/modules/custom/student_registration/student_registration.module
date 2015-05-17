@@ -29,3 +29,23 @@ function _student_register_member() {
   $output .= render(drupal_get_form('student_member_registration_form'));
   return $output;
 }
+/**
+ * 
+ * Implementation of hook_form
+ */
+function student_member_registration_form($form, $form_state) {
+  if (!isset($form_state['stage'])) $form_state['stage'] = 'account';
+  $form = array('#attributes' => array('class' => array('registration-form')));
+  $form = _member_registration_get_header($form, $form_state);
+  
+  switch ($form_state['stage']){
+    case 'account':
+      $form['registration_steps'] = array('#markup' => '<div class="registration-steps account"></div>');
+      return _registration_account_form($form, $form_state);
+      break;
+    case 'detailed':
+      $form['registration_steps'] = array('#markup' => '<div class="registration-steps detailed"></div>');
+      return _member_registration_detailed_form($form, $form_state);
+      break;
+  }
+}
