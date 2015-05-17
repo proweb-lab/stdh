@@ -881,4 +881,9 @@ background-color:#d8450b ;
     padding: 30px 30px;
     height: 300px;
 }
+.service-block .service-price
+{
+    background: #d8450b;
+
+}
 /*End style template services*/
