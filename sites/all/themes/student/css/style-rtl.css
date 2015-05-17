@@ -883,6 +883,6 @@ background-color:#d8450b ;
 }
 .service-block .service-price
 {
-    background: #d88c0a;
+    background: rgba(216, 140, 10, 0.02);
 }
 /*End style template services*/
