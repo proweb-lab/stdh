@@ -3,7 +3,7 @@
 <h3 class="service-title">
         <?php print render($content['title']);?>
     </h3>
-    <div class="service-description">
+    <div class="service-introduction">
         <?php print render($content['field_introduction']);?>
     </div>
     <div class="service-description">
