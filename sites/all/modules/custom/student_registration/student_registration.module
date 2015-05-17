@@ -190,5 +190,75 @@ function _member_registration_get_header($form, &$form_state) {
   $form['header'] = array('#markup' => $stages_list . $mandatory_text, '#weight' => -2);
   return $form;
 }
+function _member_registration_detailed_form($form, &$form_state){
+  $values = isset($form_state['steps']['detailed']) ? $form_state['steps']['detailed'] : array();
+  
+ 
+  $form['detailed']['name'] = array(
+    '#type' => 'textfield',
+    '#title' => t('First name'),
+    '#maxlength' => 60,
+    '#default_value' => isset($values['name']) ? $values['name'] : NULL,
+    '#required' => TRUE,
+    '#prefix' => '<div class="row clearfix">',
+  );
+  $form['detailed']['sname'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Second name'),
+    '#maxlength' => 60,
+    '#default_value' => isset($values['sname']) ? $values['sname'] : NULL,
+    '#required' => TRUE,
+    '#suffix' => '</div>',
+  );
+  $form['detailed']['country'] = array(
+    '#type' => 'select',
+    '#title' => t('Location'),
+    '#options' => array('' => t('Choose Country')) + list_predefined_options_list_option_countries(),
+//    '#description' => t('Choose country of operation'),
+    '#default_value' => isset($values['country']) ? $values['country'] : NULL,
+    '#required' => TRUE,
+    '#prefix' => '<div class="row clearfix">',
+  );
+ 
+ 
+  $years = array();
+  for($i=1900; $i<=intval(date('Y')); $i++){
+    $years[$i] = $i;
+  }
+  $form['detailed']['birth'] = array(
+    '#type' => 'select',
+    '#title' => t('Year of birth'),
+    '#options' => $years,
+//    '#description' => t('Year'),
+    '#default_value' => isset($values['birth']) ? $values['birth'] : NULL,
+    '#required' => TRUE,
+    '#suffix' => '</div>',
+  );
+  $form['detailed']['major'] = array(
+    '#type' => 'checkboxes',
+    '#title' => t('What is your major?'),
+    '#options' =>  => array('s', 't','e'),
+//    '#default_value' => isset($values['area']) ? $values['area'] : NULL,
+    '#required' => TRUE,
+    '#prefix' => '<div class="row clearfix">',
+    '#suffix' => '</div>',
+  );
+//  $form['detailed']['offer'] = array(
+//    '#type' => 'checkboxes',
+//    '#title' => t('What skill set can you offer?'),
+//    '#options' => get_taxonomy_options(6, FALSE),
+////    '#default_value' => isset($values['offer']) ? $values['offer'] : NULL,
+//    '#required' => TRUE,
+//    '#prefix' => '<div class="row clearfix">',
+//    '#suffix' => '</div>',
+//  );
+
+  
+  $form['back'] = array('#type' => 'submit', '#value' => t('Back'), '#attributes' => array('class' => array('cancel')),
+                                      '#limit_validation_errors' => array(), '#submit' => array(), '#prefix' => '<div class="row clearfix">',);
+  $form['register'] = array('#type' => 'submit', '#value' => t('Register'), '#suffix' => '</div>',);
+  
+  return $form;
+}
 
 
