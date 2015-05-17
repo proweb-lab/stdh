@@ -261,16 +261,6 @@ function _member_registration_detailed_form($form, &$form_state){
   
   return $form;
 }
-        // Send notification email
-        student_emails_send_email('confirmation_student', array('receiver' => $user));
-        //_user_mail_notify('registt3er_pending_approval_admin', $user);
-        drupal_goto(' /register/success');
-      }
-      else{
-        $form_state['new_stage'] = 'basic';
-      }
-     break;
-  }
   if (isset($form_state['steps']['form_build_id'])) {
     $form_state['values']['form_build_id'] = $form_state['steps']['form_build_id'];
   }
