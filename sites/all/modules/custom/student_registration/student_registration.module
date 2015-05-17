@@ -299,18 +299,7 @@
 //}
 
 function student_registration_user_register_form($form, &$form_state){
-    $form['name'] = array(
-        '#title' => 'username',
-        '#description' => 'choose a username',
-        '#type' => 'textfield',
-        '#required' => TRUE,
-    );
-    $form['mail'] = array(
-        '#title' => 'email',
-        '#description' => 'enter a valid email address',
-        '#type' => 'textfield',
-        '#required' => TRUE,
-    );
+  
         $form['field_full_name'] = array(
         '#title' => 'First Name',
         '#type' => 'textfield',
@@ -319,10 +308,6 @@ function student_registration_user_register_form($form, &$form_state){
         '#title' => 'Last Name',
         '#type' => 'textfield',
     );
-        $form['submit'] = array(
-        '#type' => 'submit',
-        '#value' => t('Save'),
-    );
-
+    
 
 }
