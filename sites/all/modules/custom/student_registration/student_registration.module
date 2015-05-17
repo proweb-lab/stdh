@@ -74,3 +74,118 @@ function student_member_registration_form_validate($form, &$form_state) {
  
   }
 }
+
+function student_member_registration_form_submit($form, &$form_state) {
+  global $language;
+  switch ($form_state['stage']) {
+    case 'account':
+      $form_state['steps']['account'] = $form_state['values'];
+      if ($form_state['triggering_element']['#value'] == t('Next')){
+        $form_state['new_stage'] = 'detailed';
+      }
+     break;
+     
+    case 'detailed':
+      $form_state['steps']['detailed'] = $form_state['values'];
+      if ($form_state['triggering_element']['#value'] == t('Register')) {
+        $account = $form_state['steps']['account'];
+        $detailed = $form_state['steps']['detailed'];
+
+        $new_user = array(
+          'name' => $account['email'],
+          'pass' => $account['password'],
+          'mail' => $account['email'],
+          'status' => 1, // status active
+          'init' => $account['email'],
+          'roles' => array(2 => 'authenticated user', 5 => 'member'),
+          'language' => $language->language,
+        );
+
+        $user = user_save(null, $new_user); // create new user
+        $profile = profile_create(array('type' => 'member', 'uid' => $user->uid));
+        $lang = LANGUAGE_NONE;
+        $profile->field_user_name[$lang][0]['value'] = $detailed['name'];
+        $profile->field_user_sname[$lang][0]['value'] = $detailed['sname'];
+        $profile->field_user_location[$lang][0]['value'] = $detailed['country'];
+        $profile->field_user_year[$lang]['0']['value'] = $detailed['birth'];
+        $profile->field_user_city[$lang]['0']['value'] = $detailed['city'];
+        
+
+        // get selected areas
+        $areas = array();
+        foreach ($detailed['area'] as $key => $value) {
+          if ($value != 0) {
+            $areas[]['tid'] = $value;
+          }
+        }
+        $profile->field_user_areas[$lang] = $areas;
+
+        // get selected skills
+        $skills = array();
+        foreach ($detailed['offer'] as $key => $value) {
+          if ($value != 0) {
+            $skills[]['tid'] = $value;
+          }
+        }
+        $profile->field_member_skills[$lang] = $skills;
+
+        // get selected serves
+        $serves = array();
+        foreach ($detailed['support'] as $key => $value) {
+          if ($value != 0) {
+            $serves[]['tid'] = $value;
+          }
+        }
+        $profile->field_member_serve[$lang] = $serves;
+
+        $form_state = array();
+        $form_state['values'] = array();
+        $form_state['values']['profile_member'] = array();
+        $form = array();
+        $form['#parents'] = array();
+        field_attach_submit('profile2', $profile, $form, $form_state); // attach $profile to profile2 submit
+        $profile->bundle = 'member'; // main is the profile type which is created in step 3
+        profile2_save($profile);
+
+        // Send notification email
+        student_emails_send_email('confirmation_individual', array('receiver' => $user));
+        //_user_mail_notify('register_no_approval_required', $user);
+        drupal_goto('/register/success');
+      }
+      else{
+        $form_state['new_stage'] = 'account';
+      }
+    break;
+  }
+  
+  if (isset($form_state['steps']['form_build_id'])) {
+    $form_state['values']['form_build_id'] = $form_state['steps']['form_build_id'];
+  }
+  $form_state['steps']['form_build_id'] = $form_state['values']['form_build_id'];
+  $form_state['stage'] = $form_state['new_stage'];
+  $form_state['rebuild'] = TRUE;
+}
+
+function _member_registration_get_header($form, &$form_state) {
+  $form_state['stage'] = isset($form_state['stage']) ? $form_state['stage'] : 1; 
+  $form_stages = array('account' => 1, 'detailed' => 2);
+  if (isset($form_stages[$form_state['stage']])) {
+   $current_step = $form_stages[$form_state['stage']];
+  }
+  else {
+   $current_step = 1;
+  }
+   
+  $stages = array(
+    1 => array('data' => t('Email and Password')),
+    2 => array('data' => t('Detailed Information')),
+  );
+   
+  $stages[$current_step]['class'] = array('active');
+  $stages_list = theme('item_list', array('items' => $stages, 'attributes' => array('class' => array('registration-header'))));
+  $mandatory_text = '<div class="messages--status messages status">'.
+                                      t('All fields are required except for the Profile Picture.').
+                                   '</div>';
+  $form['header'] = array('#markup' => $stages_list . $mandatory_text, '#weight' => -2);
+  return $form;
+}
