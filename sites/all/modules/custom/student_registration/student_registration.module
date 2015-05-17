@@ -24,7 +24,7 @@ function student_registration_menu() {
 }
 /**
  * 
- * Menu Call back bilbaal/register/member
+ * Menu Call back /register/member
  */
 function _student_register_member() {
   $output = '';
