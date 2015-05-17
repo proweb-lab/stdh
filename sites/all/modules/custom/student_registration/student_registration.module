@@ -6,14 +6,14 @@
 function student_registration_menu() {
   $items = array();
 
-  $items['/register/member'] = array(
+  $items['register/member'] = array(
     'title' => t('REGISTRATION - Student'),
     'description' => t('Student Registration'),
     'page callback' => '_student_register_member',
     'access callback' => 'student_registration_access',
     'type' => MENU_NORMAL_ITEM,
   );
-  $items['/register/success'] = array(
+  $items['register/success'] = array(
     'title' => t('REGISTRATION '),
     'description' => t('User Registration'),
     'page callback' => '_student_register_success',
