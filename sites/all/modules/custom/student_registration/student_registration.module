@@ -299,7 +299,18 @@
 //}
 
 function student_registration_user_register_form($form, &$form_state){
-  
+   $form['name'] = array(
+        '#title' => 'username',
+        '#description' => 'choose a username',
+        '#type' => 'textfield',
+        '#required' => TRUE,
+    );
+    $form['mail'] = array(
+        '#title' => 'email',
+        '#description' => 'enter a valid email address',
+        '#type' => 'textfield',
+        '#required' => TRUE,
+    );
         $form['field_full_name'] = array(
         '#title' => 'First Name',
         '#type' => 'textfield',
@@ -311,3 +322,18 @@ function student_registration_user_register_form($form, &$form_state){
     
 
 }
+
+function student_registration_user_register_form_submit($form, &$form_state){
+    $edit = array(
+          'name' => $form_state['values']['name'], 
+          'pass' => user_password(),
+          'mail' => $form_state['values']['mail'],
+          'init' => $form_state['values']['mail'], 
+          'status' => 1, 
+          'access' => REQUEST_TIME,
+              'field_full_name' => array(LANGUAGE_NONE => array(array('value' => $form_state['values']['field_fname']))),
+          'field_id_number' => array(LANGUAGE_NONE => array(array('value' => $form_state['values']['field_lname']))),
+    );
+    user_save(drupal_anonymous_user(), $edit);
+}
+?>
