@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -32,7 +31,7 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.892857" vertical-offset="12787" max-vertical-offset="13410">
+            <state vertical-scroll-proportion="-16.357143" vertical-offset="12802" max-vertical-offset="13410">
               <caret line="884" column="23" selection-start-line="884" selection-start-column="23" selection-end-line="884" selection-end-column="23" />
               <folding />
             </state>
@@ -42,9 +41,11 @@
       <file leaf-file-name="node--service.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36" vertical-offset="0" max-vertical-offset="625">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.384" vertical-offset="0" max-vertical-offset="625">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <marker date="1431850240822" expanded="true" signature="519:526" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +108,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--69.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--68.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--block.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php" />
       </list>
     </option>
   </component>
@@ -579,12 +580,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00371" summary="create template node office 9">
-      <created>1431777347648</created>
-      <option name="number" value="00371" />
-      <option name="project" value="LOCAL" />
-      <updated>1431777347648</updated>
-    </task>
     <task id="LOCAL-00372" summary="create template node office 9">
       <created>1431777521859</created>
       <option name="number" value="00372" />
@@ -873,7 +868,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431849795133</updated>
     </task>
-    <option name="localTasksCounter" value="420" />
+    <task id="LOCAL-00420" summary="create template node 69">
+      <created>1431849940602</created>
+      <option name="number" value="00420" />
+      <option name="project" value="LOCAL" />
+      <updated>1431849940602</updated>
+    </task>
+    <option name="localTasksCounter" value="421" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1285,14 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.892857" vertical-offset="12787" max-vertical-offset="13410">
-          <caret line="884" column="23" selection-start-line="884" selection-start-column="23" selection-end-line="884" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="270">
@@ -1301,11 +1294,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.357143" vertical-offset="12802" max-vertical-offset="13410">
+          <caret line="884" column="23" selection-start-line="884" selection-start-column="23" selection-end-line="884" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36" vertical-offset="0" max-vertical-offset="625">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.384" vertical-offset="0" max-vertical-offset="625">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <marker date="1431850240822" expanded="true" signature="519:526" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
