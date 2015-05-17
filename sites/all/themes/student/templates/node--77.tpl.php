@@ -10,7 +10,7 @@
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>تامين قبول الجامعي($25)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>محاضرة تعريفية في تركيا ($25)</label><br/>
                     <br/>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>($25)YOS, TOFEL, ILTES  التحضير لإمتحان   </label><br/>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>($25)التحضير لإمتحان YOS, TOFEL, ILTES  التحضير لإمتحان   </label><br/>
                     <br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>اصدار الاقامة($25)</label><br/>
                     <br/>
