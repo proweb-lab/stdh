@@ -332,9 +332,8 @@ function student_registration_register_alter_page_one(&$form, &$form_state) {
   );
 
   // Hide the information for step 2.
-  $form['field_stuff']['#access'] = FALSE;
-  $form['field_abc']['#access'] = FALSE;
-  $form['field_whatevs']['#access'] = FALSE;
+  $form['field_first_name']['#access'] = FALSE;
+
 
   // Set default values (so they work with back button).
   $form['account']['name']['#default_value'] = !empty($form_state['values']['name']) ? $form_state['values']['name'] : '';
@@ -344,7 +343,7 @@ function student_registration_register_alter_page_one(&$form, &$form_state) {
   $form['actions']['next'] = array(
     '#type' => 'submit',
     '#value' => 'Next >>',
-    '#submit' => array('mymodule_register_next'),
+    '#submit' => array('student_registration_register_next'),
   );
 
   // Remove the 'Create new account' button from step 1.
@@ -374,17 +373,17 @@ function student_registration_register_alter_page_two(&$form, &$form_state) {
   $form['actions']['back'] = array(
     '#type' => 'submit',
     '#value' => t('<< Back'),
-    '#submit' => array('mymodule_register_back'),
+    '#submit' => array('student_registration_register_back'),
     '#limit_validation_errors' => array(),
   );
 
    // Adjust the submit button to come last.
   $form['actions']['submit']['#weight'] = 100;
   // Add our own validation handler.
-  $form['actions']['submit']['#validate'] = array('mymodule_register_validate');
+  $form['actions']['submit']['#validate'] = array('student_registration_register_validate');
 
   // Add an additional submit handler to the whole form.
-  $form['#submit'][] = 'mymodule_register_submit';
+  $form['#submit'][] = 'student_registration_register_submit';
 }
 
 /**
