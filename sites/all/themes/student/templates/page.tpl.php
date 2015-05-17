@@ -55,6 +55,7 @@
             print(drupal_render($about));
             ?>
         </div>
+    <?php print $messages; ?>
         <div class="block-universities">
 
             <div class="btn btn-test-universities btn-lg">
@@ -120,7 +121,7 @@
             <?php endif; ?>
             <?php print render($title_suffix); ?>
 
-            <?php print $messages; ?>
+            
             <?php if (!empty($tabs)): ?>
                 <?php print render($tabs); ?>
             <?php endif; ?>
