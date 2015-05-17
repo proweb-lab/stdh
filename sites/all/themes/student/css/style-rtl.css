@@ -869,6 +869,7 @@ background-color:#d8450b ;
     color:#d8450b;
 }
 /*End style pagination in page search*/
+/*Begin style template services*/
 .service-block
 {
     background: none repeat scroll 0% 0% #FFF;
@@ -880,3 +881,4 @@ background-color:#d8450b ;
     padding: 30px 30px;
     height: 300px;
 }
+/*End style template services*/
