@@ -49,7 +49,6 @@ function student_member_registration_form($form, $form_state) {
       break;
   }
 }
-
 function student_member_registration_form_validate($form, &$form_state) {
   if ($form_state['triggering_element']['#value'] == t('Back')) {
     return;
@@ -168,6 +167,7 @@ function student_member_registration_form_submit($form, &$form_state) {
 }
 
 function _member_registration_get_header($form, &$form_state) {
+
   $form_state['stage'] = isset($form_state['stage']) ? $form_state['stage'] : 1; 
   $form_stages = array('account' => 1, 'detailed' => 2);
   if (isset($form_stages[$form_state['stage']])) {
@@ -235,16 +235,8 @@ function _member_registration_detailed_form($form, &$form_state){
     '#required' => TRUE,
     '#suffix' => '</div>',
   );
+ 
 
-//  $form['detailed']['offer'] = array(
-//    '#type' => 'checkboxes',
-//    '#title' => t('What skill set can you offer?'),
-//    '#options' => get_taxonomy_options(6, FALSE),
-////    '#default_value' => isset($values['offer']) ? $values['offer'] : NULL,
-//    '#required' => TRUE,
-//    '#prefix' => '<div class="row clearfix">',
-//    '#suffix' => '</div>',
-//  );
 
   
   $form['back'] = array('#type' => 'submit', '#value' => t('Back'), '#attributes' => array('class' => array('cancel')),
@@ -253,64 +245,5 @@ function _member_registration_detailed_form($form, &$form_state){
   
   return $form;
 }
-  if (isset($form_state['steps']['form_build_id'])) {
-    $form_state['values']['form_build_id'] = $form_state['steps']['form_build_id'];
-  }
-  $form_state['steps']['form_build_id'] = $form_state['values']['form_build_id'];
-  $form_state['stage'] = $form_state['new_stage'];
-  $form_state['rebuild'] = TRUE;
-}
-
-
-   
-
-function _registration_account_form($form, &$form_state) {
-  $values = isset($form_state['steps']['account']) ? $form_state['steps']['account'] : array();
- 
-  if(arg(2) == 'member'){
-    $form['account'] = array(
-      '#type' => 'container',
-      '#attributes' => array('class' => array('clearfix')),
-      '#tree' => FALSE,
-      '#weight' => -1,
-    );
-   
-  }
-  
-  $form['account']['email'] = array(
-    '#type' => 'textfield',
-    '#title' => t('Email Address'),
-    '#maxlength' => 100,
-    '#description' => t('A Valid email address'),
-    '#default_value' => isset($values['email']) ? $values['email'] : NULL,
-    '#required' => TRUE,
-    '#rules' => array('email'),
-    '#prefix' => '<div class="row clearfix">',
-    '#suffix' => '</div>',
-  );
-  $form['account']['password'] = array(
-    '#type' => 'password',
-    '#title' => t('Password'),
-    '#maxlength' => 15,
-    '#description' => t('6-15 characters'),
-    '#required' => TRUE,
-    '#rules' => array('length[6,15]'),
-    '#prefix' => '<div class="row clearfix">',
-  );
-  $form['account']['re_password'] = array(
-    '#type' => 'password',
-    '#title' => t('Repeat Password'),
-    '#maxlength' => 15,
-    '#required' => TRUE,
-    '#rules' => array('length[6,15]', 'match_field[re_password]'),
-    '#suffix' => '</div>',
-  );
-  $form['cancel'] = array('#type' => 'submit', '#value' => t('Cancel'), '#attributes' => array('class' => array('cancel')),
-                                      '#limit_validation_errors' => array(), '#submit' => array(), '#prefix' => '<div class="row clearfix">',);
-  $form['next'] = array('#type' => 'submit', '#value' => t('Next'), '#suffix' => '</div>',);
-     
-  return $form;
-}
-
 
 
