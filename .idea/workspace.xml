@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node--77.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node--77.tpl.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sites/all/themes/student/templates/node--77.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/student/templates/node--78.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -31,18 +31,28 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.107143" vertical-offset="7792" max-vertical-offset="13755">
-              <caret line="529" column="27" selection-start-line="529" selection-start-column="27" selection-end-line="529" selection-end-column="27" />
+            <state vertical-scroll-proportion="-20.642857" vertical-offset="14347" max-vertical-offset="15030">
+              <caret line="995" column="1" selection-start-line="995" selection-start-column="1" selection-end-line="995" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--77.tpl.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--77.tpl.php">
+      <file leaf-file-name="node--78.tpl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--78.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5147059" vertical-offset="0" max-vertical-offset="612">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.5392157" vertical-offset="0" max-vertical-offset="612">
+              <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="node--68.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--68.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -85,9 +95,9 @@
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--68.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--service.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/js/script.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/student/templates/node--77.tpl.php" />
       </list>
     </option>
@@ -432,32 +442,6 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stdh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stdh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -534,48 +518,6 @@
       <created>1429079359855</created>
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
-    </task>
-    <task id="LOCAL-00389" summary="create template node 69">
-      <created>1431780705165</created>
-      <option name="number" value="00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1431780705165</updated>
-    </task>
-    <task id="LOCAL-00390" summary="create template node 69">
-      <created>1431780740108</created>
-      <option name="number" value="00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1431780740108</updated>
-    </task>
-    <task id="LOCAL-00391" summary="create template node 69">
-      <created>1431782027095</created>
-      <option name="number" value="00391" />
-      <option name="project" value="LOCAL" />
-      <updated>1431782027095</updated>
-    </task>
-    <task id="LOCAL-00392" summary="create template node 69">
-      <created>1431782082156</created>
-      <option name="number" value="00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1431782082156</updated>
-    </task>
-    <task id="LOCAL-00393" summary="create template node 69">
-      <created>1431782541257</created>
-      <option name="number" value="00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1431782541257</updated>
-    </task>
-    <task id="LOCAL-00394" summary="create template node 69">
-      <created>1431782741116</created>
-      <option name="number" value="00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1431782741117</updated>
-    </task>
-    <task id="LOCAL-00395" summary="create template node 69">
-      <created>1431782863482</created>
-      <option name="number" value="00395" />
-      <option name="project" value="LOCAL" />
-      <updated>1431782863482</updated>
     </task>
     <task id="LOCAL-00396" summary="create template node 69">
       <created>1431782914435</created>
@@ -829,12 +771,54 @@
       <option name="project" value="LOCAL" />
       <updated>1431863119600</updated>
     </task>
-    <option name="localTasksCounter" value="438" />
+    <task id="LOCAL-00438" summary="create new node other services">
+      <created>1431864201261</created>
+      <option name="number" value="00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1431864201261</updated>
+    </task>
+    <task id="LOCAL-00439" summary="create new node other services">
+      <created>1431864418335</created>
+      <option name="number" value="00439" />
+      <option name="project" value="LOCAL" />
+      <updated>1431864418335</updated>
+    </task>
+    <task id="LOCAL-00440" summary="create new node other services">
+      <created>1431864482346</created>
+      <option name="number" value="00440" />
+      <option name="project" value="LOCAL" />
+      <updated>1431864482346</updated>
+    </task>
+    <task id="LOCAL-00441" summary="create new node other services">
+      <created>1431864553748</created>
+      <option name="number" value="00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1431864553748</updated>
+    </task>
+    <task id="LOCAL-00442" summary="create new node other services">
+      <created>1431864618883</created>
+      <option name="number" value="00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1431864618883</updated>
+    </task>
+    <task id="LOCAL-00443" summary="add new style node other services">
+      <created>1431864890983</created>
+      <option name="number" value="00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1431864890983</updated>
+    </task>
+    <task id="LOCAL-00444" summary="add new style node other services">
+      <created>1431865147234</created>
+      <option name="number" value="00444" />
+      <option name="project" value="LOCAL" />
+      <updated>1431865147235</updated>
+    </task>
+    <option name="localTasksCounter" value="445" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -843,7 +827,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39508072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39508072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -874,7 +858,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="edit style dropdown edit-uni-specialties in page unversity" />
     <MESSAGE value="button back to up" />
     <MESSAGE value="style div in services view" />
     <MESSAGE value="add tag hr to services block" />
@@ -899,7 +882,8 @@
     <MESSAGE value="style node services" />
     <MESSAGE value="test" />
     <MESSAGE value="create new node other services" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new node other services" />
+    <MESSAGE value="add new style node other services" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new style node other services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1196,14 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--68.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024" vertical-offset="0" max-vertical-offset="625">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/services/views-view-fields--services--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="210">
@@ -1220,28 +1196,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/student_registration/student_registration.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="185.625" vertical-offset="4455" max-vertical-offset="5160">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#12#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/views/office/views-view-fields--office--front-block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85820895" vertical-offset="0" max-vertical-offset="435">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.107143" vertical-offset="7792" max-vertical-offset="13755">
-          <caret line="529" column="27" selection-start-line="529" selection-start-column="27" selection-end-line="529" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1262,10 +1220,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--77.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5147059" vertical-offset="0" max-vertical-offset="612">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state vertical-scroll-proportion="-20.642857" vertical-offset="14347" max-vertical-offset="15030">
+          <caret line="995" column="1" selection-start-line="995" selection-start-column="1" selection-end-line="995" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--68.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/student/templates/node--78.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5392157" vertical-offset="0" max-vertical-offset="612">
+          <caret line="22" column="108" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
           <folding />
         </state>
       </provider>
