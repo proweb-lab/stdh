@@ -110,7 +110,7 @@ function student_member_registration_form_submit($form, &$form_state) {
         $profile->field_user_sname[$lang][0]['value'] = $detailed['sname'];
         $profile->field_user_location[$lang][0]['value'] = $detailed['country'];
         $profile->field_user_year[$lang]['0']['value'] = $detailed['birth'];
-        $profile->field_user_city[$lang]['0']['value'] = $detailed['city'];
+        
         
 
         // get selected areas
