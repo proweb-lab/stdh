@@ -511,6 +511,11 @@ position: relative;
  background: url('../images/share-twitter-org.png') no-repeat ;
 
 }
+.social-block .tw:hover{
+ background: url('../images/share-twitter-org.png') no-repeat ;
+
+}
+
 .social-block .yt{
  background: url('../images/share-youtube.png') no-repeat;
 padding: 20px 0;
@@ -522,6 +527,10 @@ position: relative;
     bottom: 0;
     right: 0;
     left: 0;
+}
+.social-block .yt:hover{
+ background: url('../images/share-youtube-org.png') no-repeat;
+
 }
 .social-block .yt:hover{
  background: url('../images/share-youtube-org.png') no-repeat;
