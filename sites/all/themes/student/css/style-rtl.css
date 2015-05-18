@@ -658,10 +658,11 @@ position: relative;
 .box .service-description{
     padding: 10px 10px;
 }
-.box {
+.services-blocks .box {
     position:relative;
     border:1px solid #BBB;
     background:#eee;
+    height:150px;
    
 }
 .ribbon {
