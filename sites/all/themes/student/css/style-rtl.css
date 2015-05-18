@@ -1004,3 +1004,8 @@ background-color:#d8450b ;
     display:inline;
 }
 /*End style node other services*/
+.profile #content-main {
+  background: none repeat scroll 0 0 #FFFFFF;
+  padding: 32px;
+  width: 664px;
+}
