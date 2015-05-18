@@ -35,7 +35,7 @@
 <?php
 global $user ;
 $userId = render($user_profile['field_full_name']['#object']->uid);
-print_r($userId);
+print_r('$userId');
 ?>
 <section class="profile"<?php print $attributes; ?>>
   <div id="content-header">
