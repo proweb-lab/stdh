@@ -45,7 +45,7 @@ foreach($user_profile['group_audience'] as $key => $value) {
 ?>
 <section class="profile"<?php print $attributes; ?>>
   <div id="content-header">
-    <h1><?php print t(''); ?></h1>
+    <h1><?php print t('Profile'); ?></h1>
     <div class="field field-name-field-teaser">
       <p><?php print t(''); ?></p>
     </div>
