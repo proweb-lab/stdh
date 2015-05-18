@@ -1044,8 +1044,6 @@ float: right;
 }
 #user-profile-form .form-item{
 	display: block;
-	font-size: 0;
-	content: " ";
 	clear: both;
 
 	
