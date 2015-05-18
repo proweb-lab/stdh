@@ -1044,8 +1044,8 @@ background: #EDEDEB none repeat scroll 0% ;}
     padding: 15px 35px;
     background: #FFF none repeat scroll 0% 0%;
 }
-#user-register-form .field-label, 
-#user-profile-form .field-label {
+#user-register-form label, 
+#user-profile-form label {
     width: 185px;
     color: #d8450b;
     font-size: 1.16667em;
