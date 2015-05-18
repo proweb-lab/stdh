@@ -1034,3 +1034,6 @@ background-color:#d8450b ;
 .profile-links-container .edit-profile {
   float: left;
 }
+
+#edit-account .password-strength,
+#edit-account div.password-confirm { float: left;}
