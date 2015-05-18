@@ -1041,9 +1041,10 @@ background-color:#d8450b ;
 {width: 250px;border: 0px none;
 background: #EDEDEB none repeat scroll 0% ;
 float: right;
-margin-bottom: 10px;
-margin-top: 10px;}
-#user-profile-form .form-item{
+}
+#user-profile-form input{
+    margin-bottom: 10px;
+margin-top: 10px;
 
 }
 #user-register-form, 
