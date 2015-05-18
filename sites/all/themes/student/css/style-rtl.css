@@ -654,16 +654,15 @@ position: relative;
 .view-office .field-collection-container{border: none;}
 /*End style page office */
 /*Begin style front block services*/
-.field-content{
-    margin-top: 65px;
-}
+
 .box .service-description{
     padding:55px 10px 10px;
 }
-.box {
+.services-blocks .box {
     position:relative;
     border:1px solid #BBB;
     background:#eee;
+    height:150px;
    
 }
 .ribbon {
