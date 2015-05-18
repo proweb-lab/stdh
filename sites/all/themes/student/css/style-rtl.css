@@ -1043,7 +1043,6 @@ background: #EDEDEB none repeat scroll 0% ;
 float: right;
 }
 #user-profile-form .form-item{
-	visibility: hidden;
 	display: block;
 	font-size: 0;
 	content: " ";
