@@ -1037,7 +1037,8 @@ background-color:#d8450b ;
 
 #edit-account .password-strength,
 #edit-account div.password-confirm { float: left;}
-#user-profile-form .form-control{
+#user-profile-form .form-control,
+#user-profile-form  .form-group{
     width: 250px;border: 0px none;
 background: #EDEDEB none repeat scroll 0% ;
 float: right;
