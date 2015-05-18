@@ -1004,6 +1004,12 @@ background-color:#d8450b ;
     display:inline;
 }
 /*End style node other services*/
+.profile  #content-header {
+  background: none repeat scroll 0 0 #FFFFFF;
+  margin-bottom: 15px;
+  padding: 14px 15px 15px 366px;
+  position: relative;
+  width: 690px;}
 .profile #content-main {
   background: none repeat scroll 0 0 #FFFFFF;
   padding: 32px;
