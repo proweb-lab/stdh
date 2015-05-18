@@ -654,9 +654,7 @@ position: relative;
 .view-office .field-collection-container{border: none;}
 /*End style page office */
 /*Begin style front block services*/
-.field-content{
-    margin-top: 65px;
-}
+
 .box .service-description{
     padding: 10px 10px;
 }
