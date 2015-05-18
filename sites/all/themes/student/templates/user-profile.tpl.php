@@ -36,12 +36,6 @@
 global $user ;
 $userId = render($user_profile['field_full_name']['#object']->uid);
 
-$groups = array();
-foreach($user_profile['group_audience'] as $key => $value) {
-  if(is_numeric($key)) {
-    $groups[$key] = $value;
-  }
-}
 ?>
 <section class="profile"<?php print $attributes; ?>>
   <div id="content-header">
