@@ -84,8 +84,9 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
     </div>
     <div class="profile-links-container">
       <div class="edit-profile">
-        <?php if($userId == $user->uid) print l(t('Edit your profile'), 'user/' . $userId . '/edit');?>
+        <?php  print l(t('Edit your profile'), 'user/' . $userId . '/edit');?>
       </div>
     </div>
   </div>
 </section>
+<!--//if($userId == $user->uid-->
