@@ -35,7 +35,7 @@
 <?php
 global $user ;
 $userId = render($user_profile['field_full_name']['#object']->uid);
-print_r('$userId');
+
 ?>
 <section class="profile"<?php print $attributes; ?>>
   <div id="content-header">
@@ -84,11 +84,8 @@ print_r('$userId');
     </div>
     <div class="profile-links-container">
       <div class="edit-profile">
-        <?php  print l(t('Edit your profile'), 'user/' . $user->uid . '/edit');?>
+        <?php if($userId == $user->uid) print l(t('Edit your profile'), 'user/' . $userId . '/edit');?>
       </div>
     </div>
   </div>
 </section>
-
-
-<!--//if($userId == $user->uid-->
