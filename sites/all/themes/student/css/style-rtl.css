@@ -1042,11 +1042,7 @@ background-color:#d8450b ;
 background: #EDEDEB none repeat scroll 0% ;
 float: right;
 }
-#user-profile-form .form-item{
-    margin-bottom: 10px;
-margin-top: 10px;
 
-}
 #user-register-form, 
 #user-profile-form {
     padding: 15px 35px;
