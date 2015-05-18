@@ -1002,3 +1002,34 @@ background-color:#d8450b ;
     display:inline;
 }
 /*End style node other services*/
+.profile  #content-header {
+  background: none repeat scroll 0 0 #FFFFFF;
+  margin-bottom: 15px;
+  padding: 14px 15px 15px 366px;
+  position: relative;
+  width: 60%;}
+.profile #content-main {
+  background: none repeat scroll 0 0 #FFFFFF;
+  padding: 32px;
+  width: 50%
+}
+.profile  .field-label {
+  float: right;
+  margin-right: 7px;
+}
+.user-profile-bottom {
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  padding: 20px 0px 17px 0px;
+  clear: both;
+  margin-bottom: 20px;
+}
+.profile-links-container .edit-profile a {
+  text-decoration: none;
+  color: #FFF;
+  background: #d8450b;
+  padding: 2px 10px;
+}
+.profile-links-container .edit-profile {
+  float: left;
+}

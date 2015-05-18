@@ -36,16 +36,10 @@
 global $user ;
 $userId = render($user_profile['field_full_name']['#object']->uid);
 
-$groups = array();
-foreach($user_profile['group_audience'] as $key => $value) {
-  if(is_numeric($key)) {
-    $groups[$key] = $value;
-  }
-}
 ?>
 <section class="profile"<?php print $attributes; ?>>
   <div id="content-header">
-    <h1><?php print t(''); ?></h1>
+    <h1><?php print t('Profile'); ?></h1>
     <div class="field field-name-field-teaser">
       <p><?php print t(''); ?></p>
     </div>
@@ -55,43 +49,30 @@ foreach($user_profile['group_audience'] as $key => $value) {
       <div class="image"><?php print render($user_profile['field_profile_picture']);?></div>
       <div class="content">
         <div class="field user-full-name">
+           <div class="field-label"><?php print t('Full name:'); ?></div>
           <?php print $user_profile['field_full_name'][0]['#markup']; ?>          
         </div>
         <div class="field username">
-          <div class="field-label"><?php t('username:'); ?></div>
+          <div class="field-label"><?php print t('username:'); ?></div>
           <div class="field-value"><?php print render($user_profile['field_full_name']['#object']->name);?></div>
         </div>
         <div class="field email">
-          <div class="field-label"><?php t('Email:'); ?></div>
+          <div class="field-label"><?php print t('Email:'); ?></div>
           <div class="field-value"><a href="mailto:<?php print (render($user_profile['field_full_name']['#object']->mail));?>"><?php print (render($user_profile['field_full_name']['#object']->mail));?></a></div>
         </div>
       </div>
     </div>
     <div class="user-profile-bottom">
+      
       <?php 
-      if(!empty($user_profile['field_country'])){
-        print render($user_profile['field_country']);
-      }
-      else {
-        print '<div class="field"><div class="field-label">'. t('Country:') .'</div></div>';
-      }
+//      if(!empty($user_profile['field_organization'])){
+//        print render($user_profile['field_organization']);
+//      }
+//      else {
+//        print '<div class="field"><div class="field-label">'. t('Organization:') .'</div></div>';
+//      }
       ?>
-      <?php 
-      if(!empty($user_profile['field_organization'])){
-        print render($user_profile['field_organization']);
-      }
-      else {
-        print '<div class="field"><div class="field-label">'. t('Organization:') .'</div></div>';
-      }
-      ?>
-      <?php 
-      if(!empty($user_profile['field_position'])){
-        print render($user_profile['field_position']);
-      }
-      else {
-        print '<div class="field"><div class="field-label">'. t('Position:') .'</div></div>';
-      }
-      ?>
+      
       <?php 
       if(!empty($user_profile['field_phone'])){
         print render($user_profile['field_phone']);
