@@ -1032,3 +1032,6 @@ background-color:#d8450b ;
   background: #d8450b;
   padding: 2px 10px;
 }
+.profile-links-container .edit-profile {
+  float: left;
+}
