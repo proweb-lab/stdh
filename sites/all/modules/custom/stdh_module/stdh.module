@@ -51,6 +51,8 @@ function stdh_form_user_register_form_alter(&$form, &$form_state, $form_id) {
   $form['#theme'] = 'user_register';
   $form['actions']['submit']['#value'] = t('REGISTER');
   $form['account']['mail']['#title'] = t('E-mail');
+  $form['locale']['#access'] = 0;
+  
 }
 
    ?>
