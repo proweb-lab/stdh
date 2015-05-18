@@ -1049,6 +1049,7 @@ background: #EDEDEB none repeat scroll 0% ;
 	clear: both;
 }
 #user-profile-form .container-inline-date .date-padding{float: right;}
+#edit-field-graduate-date{width: 50%;}
 #user-register-form, 
 #user-profile-form {
     padding: 15px 35px;
