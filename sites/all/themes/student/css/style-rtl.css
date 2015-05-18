@@ -1015,3 +1015,7 @@ background-color:#d8450b ;
   padding: 32px;
   width: 50%
 }
+.profile .user-profile-bottom .field-label {
+  float: left;
+  margin-right: 7px;
+}
