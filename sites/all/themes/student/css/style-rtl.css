@@ -1048,6 +1048,7 @@ background: #EDEDEB none repeat scroll 0% ;
 	display: block;
 	clear: both;
 }
+#user-profile-form .container-inline-date .date-padding{float: right;}
 #user-register-form, 
 #user-profile-form {
     padding: 15px 35px;
