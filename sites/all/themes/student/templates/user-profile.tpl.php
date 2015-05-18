@@ -55,14 +55,15 @@ foreach($user_profile['group_audience'] as $key => $value) {
       <div class="image"><?php print render($user_profile['field_profile_picture']);?></div>
       <div class="content">
         <div class="field user-full-name">
+           <div class="field-label"><?php print t('Full name:'); ?></div>
           <?php print $user_profile['field_full_name'][0]['#markup']; ?>          
         </div>
         <div class="field username">
-          <div class="field-label"><?php t('username:'); ?></div>
+          <div class="field-label"><?php print t('username:'); ?></div>
           <div class="field-value"><?php print render($user_profile['field_full_name']['#object']->name);?></div>
         </div>
         <div class="field email">
-          <div class="field-label"><?php t('Email:'); ?></div>
+          <div class="field-label"><?php print t('Email:'); ?></div>
           <div class="field-value"><a href="mailto:<?php print (render($user_profile['field_full_name']['#object']->mail));?>"><?php print (render($user_profile['field_full_name']['#object']->mail));?></a></div>
         </div>
       </div>
@@ -70,12 +71,12 @@ foreach($user_profile['group_audience'] as $key => $value) {
     <div class="user-profile-bottom">
       
       <?php 
-      if(!empty($user_profile['field_organization'])){
-        print render($user_profile['field_organization']);
-      }
-      else {
-        print '<div class="field"><div class="field-label">'. t('Organization:') .'</div></div>';
-      }
+//      if(!empty($user_profile['field_organization'])){
+//        print render($user_profile['field_organization']);
+//      }
+//      else {
+//        print '<div class="field"><div class="field-label">'. t('Organization:') .'</div></div>';
+//      }
       ?>
       
       <?php 
