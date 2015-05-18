@@ -1,5 +1,0 @@
-name = Bilbaal Registration
-description = Individual and organizations registration.
-package = Bilbaal
-version = 1.0
-core = 7.x
