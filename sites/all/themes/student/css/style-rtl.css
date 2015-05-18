@@ -1038,7 +1038,8 @@ background-color:#d8450b ;
 #edit-account .password-strength,
 #edit-account div.password-confirm { float: left;}
 #user-profile-form .form-control{width: 250px;border: 0px none;
-background: #EDEDEB none repeat scroll 0% ;}
+background: #EDEDEB none repeat scroll 0% ;
+float: right;}
 #user-register-form, 
 #user-profile-form {
     padding: 15px 35px;
@@ -1047,10 +1048,10 @@ background: #EDEDEB none repeat scroll 0% ;}
 #user-register-form label, 
 #user-profile-form label {
     width: 185px;
-    color: #d8450b;
-    font-size: 1.16667em;
+    color: #636467;
     vertical-align: top;
     padding-top: 5px;
     margin-right: 5px;
     font-weight: 400;
+    float: right;
 }
