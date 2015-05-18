@@ -1040,10 +1040,11 @@ background-color:#d8450b ;
 #user-profile-form .form-control
 {width: 250px;border: 0px none;
 background: #EDEDEB none repeat scroll 0% ;
-float: right;}
-#user-profile-form .form-item{
+float: right;
 margin-bottom: 10px;
-margin-top: 10px;
+margin-top: 10px;}
+#user-profile-form .form-item{
+
 }
 #user-register-form, 
 #user-profile-form {
