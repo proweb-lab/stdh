@@ -68,14 +68,7 @@ foreach($user_profile['group_audience'] as $key => $value) {
       </div>
     </div>
     <div class="user-profile-bottom">
-      <?php 
-      if(!empty($user_profile['field_country'])){
-        print render($user_profile['field_country']);
-      }
-      else {
-        print '<div class="field"><div class="field-label">'. t('Country:') .'</div></div>';
-      }
-      ?>
+      
       <?php 
       if(!empty($user_profile['field_organization'])){
         print render($user_profile['field_organization']);
@@ -84,14 +77,7 @@ foreach($user_profile['group_audience'] as $key => $value) {
         print '<div class="field"><div class="field-label">'. t('Organization:') .'</div></div>';
       }
       ?>
-      <?php 
-      if(!empty($user_profile['field_position'])){
-        print render($user_profile['field_position']);
-      }
-      else {
-        print '<div class="field"><div class="field-label">'. t('Position:') .'</div></div>';
-      }
-      ?>
+      
       <?php 
       if(!empty($user_profile['field_phone'])){
         print render($user_profile['field_phone']);
