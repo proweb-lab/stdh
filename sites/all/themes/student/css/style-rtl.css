@@ -30,9 +30,8 @@ body,h1,h2,h3,h4,h5,h6{
     //overflow-x: hidden;
     max-width: 1200px;
 }
-#user-profile-form  #edit-timezone,
-
-#user-profile-form #edit-contact{
+ #edit-timezone,
+ #edit-contact{
     display: none;}
   .localhidden .panel{
     display: none !important;
