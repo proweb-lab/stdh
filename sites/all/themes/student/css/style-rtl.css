@@ -1050,7 +1050,8 @@ background: #EDEDEB none repeat scroll 0% ;
 }
 #user-profile-form .container-inline-date .date-padding{float: right;}
 #user-profile-form  #edit-field-graduate-date,
-#user-profile-form  #edit-picture{width: 50%;}
+#user-profile-form  #edit-picture,
+#user-profile-form .form-item-mail .help-block{width: 50%;}
 #user-register-form, 
 #user-profile-form {
     padding: 15px 35px;
