@@ -1067,6 +1067,8 @@ background: #EDEDEB none repeat scroll 0% ;
     font-weight: 400;
     float: right;
 }
+#user-profile-form .edit-field-agpa-und-0-value{float: right;}
+
 #user-profile-form  #edit-timezone,
 #user-profile-form  #edit-locale,
 #user-profile-form #edit-contact,
