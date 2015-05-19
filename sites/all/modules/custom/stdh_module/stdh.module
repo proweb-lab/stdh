@@ -62,7 +62,7 @@ function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
  // $form['locale']['#access'] = FALSE;
 //  unset($form['locale']); 
    $form['contact']['#title'] = '';
- $form['contact']['#collapsible'] = 0;
+ $form['contact']['#collapsible'] = FALSE;
    $form['locale']['#title'] = '';
   
  
