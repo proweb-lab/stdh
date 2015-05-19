@@ -30,12 +30,6 @@ body,h1,h2,h3,h4,h5,h6{
     //overflow-x: hidden;
     max-width: 1200px;
 }
- #edit-timezone,
- #edit-contact{
-    display: none;}
-  .localhidden .panel{
-    display: none !important;
-  background: red;}
 /*Begin style top menu*/
 #block-menu-menu-top-menu{
     float: left;
@@ -1071,3 +1065,9 @@ background: #EDEDEB none repeat scroll 0% ;
     font-weight: 400;
     float: right;
 }
+#user-profile-form  #edit-timezone,
+#user-profile-form  #edit-locale,
+#user-profile-form #edit-contact,
+.localhidden{
+    display: none;}
+ 
