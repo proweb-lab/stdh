@@ -35,18 +35,19 @@ if ($form['#id']== 'webform-client-form-64'){
 
      if ($form['#id']== 'user_login'){
      //print_r($form);
-           $form['name']['#description']="";
+    $form['name']['#description']="";
       $form['pass']['#description']="";
       $items = array();
       $items[] = l(t('Request new password'), 'user/password', 
               array('attributes' => array('title' => t('Request new password via e-mail.'))));
       $form['links'] = array('#markup' => theme('item_list', array('items' => $items)), '#weight' => 200);
+      }
+
   if ($form['#id']== 'user_profile_form'){
          print '<pre>';
   print_r($form);
   print '</pre>';
   }
-}
 }
 
 
