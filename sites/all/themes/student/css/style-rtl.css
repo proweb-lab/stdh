@@ -1066,7 +1066,7 @@ background: #EDEDEB none repeat scroll 0% ;
     float: right;
 }
 #user-profile-form  #edit-timezone,
-#user-profile-form  #edit-locale,
+
 #user-profile-form #edit-contact{
     display: none;}
   .localhidden .panel{
