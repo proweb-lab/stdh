@@ -62,8 +62,8 @@ function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
   print_r($form);
   print '</pre>';
   
-  $form['locale']['#access'] = FALSE;
-
+ // $form['locale']['#access'] = FALSE;
+  unset($form['locale']); 
   
  
 }
