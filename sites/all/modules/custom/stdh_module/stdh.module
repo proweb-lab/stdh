@@ -43,8 +43,8 @@ if ($form['#id']== 'webform-client-form-64'){
       $form['links'] = array('#markup' => theme('item_list', array('items' => $items)), '#weight' => 200);
       }
 
-  if ($form['#id']== 'user_profile_form'){
-         print '<pre>';
+  if ($form['#id']== 'user-profile-form'){
+  print '<pre>';
   print_r($form);
   print '</pre>';
   }
