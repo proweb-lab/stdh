@@ -43,9 +43,13 @@ if ($form['#id']== 'webform-client-form-64'){
       $form['links'] = array('#markup' => theme('item_list', array('items' => $items)), '#weight' => 200);
       }
 
-  if ($form['#id']== 'user-profile-form'){
-
-  }
+ if ($form_id == 'user_register_form' || ($form_id == 'user_profile_form' && $form['#user_category'] == 'account')) {
+      if (count(element_children($form['locale'])) > 1) {
+        $form['locale']['language']['#access'] = FALSE;
+      }
+      else {
+        $form['locale']['#access'] = FALSE;
+      }
 }
 
 
