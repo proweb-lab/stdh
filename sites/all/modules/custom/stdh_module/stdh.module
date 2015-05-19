@@ -61,8 +61,9 @@ function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
   $form['locale']['#suffix'] = '</div>';
  // $form['locale']['#access'] = FALSE;
 //  unset($form['locale']); 
-   $form['contact']['#title'] = '0';
+   $form['contact']['#title'] = '';
  $form['contact']['#collapsible'] = 0;
+   $form['locale']['#title'] = '';
   
  
 }
