@@ -54,9 +54,9 @@ function stdh_form_user_register_form_alter(&$form, &$form_state, $form_id) {
   
 }
 function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
-      print '<pre>';
-  print_r($form);
-  print '</pre>';
+//      print '<pre>';
+//  print_r($form);
+//  print '</pre>';
   $form['locale']['#prefix'] = '<div class="localhidden">';
   $form['locale']['#suffix'] = '</div>';
   $form['timezone']['#prefix'] = '<div class="timezonehidden">';
@@ -65,7 +65,7 @@ function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
 //  unset($form['locale']); 
    $form['contact']['#title'] = '';
  $form['contact']['#collapsible'] = FALSE;
-   $form['locale']['#title'] = '';
+   $form['timezone']['#title'] = '';
   $form['locale']['#collapsible'] = FALSE;
  unset($form['timezone']);
 }
