@@ -100,5 +100,5 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
 <?php if ($userId == $user->uid) print l(t('Edit your profile'), 'user/' . $userId . '/edit'); ?>
             </div>
         </div>
-    </div>
+    
 </section>
