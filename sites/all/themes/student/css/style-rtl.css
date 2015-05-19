@@ -1075,4 +1075,6 @@ background: #EDEDEB none repeat scroll 0% ;
 .localhidden,.timezonehidden{
     display: none;}
 #user-profile-form .form-actions .btn-primary{background: #d8450b;border-color: #d8450b;}
- 
+#user-profile-form .form-actions{
+   width: 0%;
+  margin: 0 auto;}
