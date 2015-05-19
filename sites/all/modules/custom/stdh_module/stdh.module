@@ -67,7 +67,7 @@ function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
  $form['contact']['#collapsible'] = FALSE;
    $form['locale']['#title'] = '';
   $form['locale']['#collapsible'] = FALSE;
- 
+ unset($form['timezone']);
 }
 
 
