@@ -69,7 +69,11 @@ function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
   $form['locale']['#collapsible'] = FALSE;
 
 }
-function stdh_form_user_profile_form_submit($form, &$form_state) {
+function stdh_form_user_profile_form_alter(&$form, $form_state, $form_id) {
+  $form['#submit'][] = 'stdh_user_profile_form_submit';
+}
+
+function stdh_user_profile_form_submit($form, &$form_state) {
   global $user;
   drupal_goto('user/' . $user->uid);
 }
