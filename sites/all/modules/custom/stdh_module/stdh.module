@@ -2,9 +2,9 @@
 
 function stdh_form_alter(&$form, &$form_state, $form_id) {
 //print_r($form['#id']);
-   print '<pre>';
-  print_r($form);
-  print '</pre>';
+//   print '<pre>';
+//  print_r($form);
+//  print '</pre>';
     $pos = strpos($form_id, "webform_client_form");
   if ($pos !== FALSE) {
     foreach (element_children($form['submitted']) as $element) {
@@ -44,9 +44,7 @@ if ($form['#id']== 'webform-client-form-64'){
       }
 
   if ($form['#id']== 'user-profile-form'){
-  print '<pre>';
-  print_r($form);
-  print '</pre>';
+
   }
 }
 
@@ -59,6 +57,12 @@ function stdh_form_user_register_form_alter(&$form, &$form_state, $form_id) {
   
   
 }
+function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
+      print '<pre>';
+  print_r($form);
+  print '</pre>';
+}
+
 
    ?>
 
