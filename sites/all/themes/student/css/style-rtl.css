@@ -1070,4 +1070,4 @@ background: #EDEDEB none repeat scroll 0% ;
 #user-profile-form #edit-contact{
     display: none;}
   .localhidden{
-    display: none;}
+    display: none !important;}
