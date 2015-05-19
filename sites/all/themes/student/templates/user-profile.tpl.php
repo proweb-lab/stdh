@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * Default theme implementation to present all user profile data.
@@ -33,59 +32,73 @@
  */
 ?>
 <?php
-global $user ;
+global $user;
 $userId = render($user_profile['field_full_name']['#object']->uid);
-
 ?>
 <section class="profile"<?php print $attributes; ?>>
-  <div id="content-header">
-    <h1><?php print t('Profile'); ?></h1>
-    <div class="field field-name-field-teaser">
-      <p><?php print t(''); ?></p>
-    </div>
-  </div>
-  <div id="content-main">
-    <div class="user-profile-header">
-      <div class="image"><?php print render($user_profile['field_profile_picture']);?></div>
-      <div class="content">
-        <div class="field user-full-name">
-           <div class="field-label"><?php print t('Full name:'); ?></div>
-          <?php print $user_profile['field_full_name'][0]['#markup']; ?>          
+    <div id="content-header">
+        <h1><?php print t('Profile'); ?></h1>
+        <div class="field field-name-field-teaser">
+            <p><?php print t(''); ?></p>
         </div>
-        <div class="field username">
-          <div class="field-label"><?php print t('username:'); ?></div>
-          <div class="field-value"><?php print render($user_profile['field_full_name']['#object']->name);?></div>
+    </div>
+    <div id="content-main">
+        <div class="user-profile-header">
+            <div class="image"><?php print render($user_profile['field_profile_picture']); ?></div>
+            <div class="content">
+                <div class="field user-full-name">
+                    <div class="field-label"><?php print t('Full name:'); ?></div>
+<?php print $user_profile['field_full_name'][0]['#markup']; ?>          
+                </div>
+                <div class="field username">
+                    <div class="field-label"><?php print t('username:'); ?></div>
+                    <div class="field-value"><?php print render($user_profile['field_full_name']['#object']->name); ?></div>
+                </div>
+                <div class="field email">
+                    <div class="field-label"><?php print t('Email:'); ?></div>
+                    <div class="field-value"><a href="mailto:<?php print (render($user_profile['field_full_name']['#object']->mail)); ?>"><?php print (render($user_profile['field_full_name']['#object']->mail)); ?></a></div>
+                </div>
+            </div>
         </div>
-        <div class="field email">
-          <div class="field-label"><?php print t('Email:'); ?></div>
-          <div class="field-value"><a href="mailto:<?php print (render($user_profile['field_full_name']['#object']->mail));?>"><?php print (render($user_profile['field_full_name']['#object']->mail));?></a></div>
+        <div class="user-profile-bottom">
+
+
+            <div class="field id">
+                <div class="field-label"><?php print t('ID Number:'); ?></div>
+                <div class="field-value"><?php print (render($user_profile['field_id_number'])); ?></div>
+            </div>
+
+
+
+            <div class="field phone">
+                <div class="field-label"><?php print t('Phone Number:'); ?></div>
+                <div class="field-value"><?php print (render($user_profile['field_phone'])); ?></div>
+            </div>
+            <div class="field phone">
+                <div class="field-label"><?php print t('Major:'); ?></div>
+                <div class="field-value"><?php print (render($user_profile['field_major'])); ?></div>
+            </div>
+            <div class="field phone">
+                <div class="field-label"><?php print t('Graduate Date'); ?></div>
+                <div class="field-value"><?php print (render($user_profile['field_graduate_date'])); ?></div>
+            </div>
+               <div class="field-label"><?php print t('Certificate Country'); ?></div>
+                <div class="field-value"><?php print (render($user_profile['field_certificate_country'])); ?></div>
+            </div>  
+        <div class="field phone">
+                <div class="field-label"><?php print t('Certificate Country'); ?></div>
+                <div class="field-value"><?php print (render($user_profile['field_certificate_country'])); ?></div>
+            </div>
+              <div class="field phone">
+                <div class="field-label"><?php print t('AGPA'); ?></div>
+                <div class="field-value"><?php print (render($user_profile['field_agpa'])); ?></div>
+            </div>
+
         </div>
-      </div>
+        <div class="profile-links-container">
+            <div class="edit-profile">
+<?php if ($userId == $user->uid) print l(t('Edit your profile'), 'user/' . $userId . '/edit'); ?>
+            </div>
+        </div>
     </div>
-    <div class="user-profile-bottom">
-      
-      <?php 
-//      if(!empty($user_profile['field_organization'])){
-//        print render($user_profile['field_organization']);
-//      }
-//      else {
-//        print '<div class="field"><div class="field-label">'. t('Organization:') .'</div></div>';
-//      }
-      ?>
-      
-      <?php 
-      if(!empty($user_profile['field_phone'])){
-        print render($user_profile['field_phone']);
-      }
-      else {
-        print '<div class="field"><div class="field-label">'. t('Phone:') .'</div></div>';
-      }
-      ?>
-    </div>
-    <div class="profile-links-container">
-      <div class="edit-profile">
-        <?php if($userId == $user->uid) print l(t('Edit your profile'), 'user/' . $userId . '/edit');?>
-      </div>
-    </div>
-  </div>
 </section>
