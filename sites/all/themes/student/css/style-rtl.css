@@ -1065,4 +1065,5 @@ background: #EDEDEB none repeat scroll 0% ;
     font-weight: 400;
     float: right;
 }
-#user-profile-form  #edit-timezone{display: none;}
+#user-profile-form  #edit-timezone,
+#user-profile-form  #edit-locale{display: none;}
