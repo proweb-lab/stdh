@@ -41,19 +41,21 @@ if ($form['#id']== 'webform-client-form-64'){
       $items[] = l(t('Request new password'), 'user/password', 
               array('attributes' => array('title' => t('Request new password via e-mail.'))));
       $form['links'] = array('#markup' => theme('item_list', array('items' => $items)), '#weight' => 200);
-
+  if ($form['#id']== 'user_profile_form'){
+         print '<pre>';
+  print_r($form);
+  print '</pre>';
+  }
 }
 }
 
 
 function stdh_form_user_register_form_alter(&$form, &$form_state, $form_id) {
-    print '<pre>';
-  print_r($form);
-  print '</pre>';
+ 
   $form['#theme'] = 'user_register';
   $form['actions']['submit']['#value'] = t('REGISTER');
   $form['account']['mail']['#title'] = t('E-mail');
-  $form['locale']['#access'] = '0';
+  
   
 }
 
