@@ -90,7 +90,7 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
                 <div class="field-value"><?php print (render($user_profile['field_certificate_country'])); ?></div>
             </div>
               <div class="field phone">
-                <div class="field-label"><?php print t('AGPA'); ?></div>
+                <div class="field-label"><?php print t('PA'); ?></div>
                 <div class="field-value"><?php print (render($user_profile['field_agpa'])); ?></div>
             </div>
 
