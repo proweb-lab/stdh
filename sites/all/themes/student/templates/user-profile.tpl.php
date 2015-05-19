@@ -62,37 +62,57 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
         </div>
         <div class="user-profile-bottom">
 
-
-            <div class="field id">
-                <div class="field-label"><?php print t('ID Number:'); ?></div>
-                <div class="field-value"><?php print (render($user_profile['field_id_number'])); ?></div>
-            </div>
-
-
-
-            <div class="field phone">
-                <div class="field-label"><?php print t('Phone Number:'); ?></div>
-                <div class="field-value"><?php print (render($user_profile['field_phone'])); ?></div>
-            </div>
-            <div class="field phone">
-                <div class="field-label"><?php print t('Major:'); ?></div>
-                <div class="field-value"><?php print (render($user_profile['field_major'])); ?></div>
-            </div>
-            <div class="field phone">
-                <div class="field-label"><?php print t('Graduate Date'); ?></div>
-                <div class="field-value"><?php print (render($user_profile['field_graduate_date'])); ?></div>
-            </div>
-               <div class="field-label"><?php print t('Certificate Country'); ?></div>
-                <div class="field-value"><?php print (render($user_profile['field_certificate_country'])); ?></div>
-            </div>  
-        <div class="field phone">
-                <div class="field-label"><?php print t('Certificate Country'); ?></div>
-                <div class="field-value"><?php print (render($user_profile['field_certificate_country'])); ?></div>
-            </div>
-              <div class="field phone">
-                <div class="field-label"><?php print t('PA'); ?></div>
-                <div class="field-value"><?php print (render($user_profile['field_agpa'])); ?></div>
-            </div>
+     <?php 
+      if(!empty($user_profile['field_id_number'])){
+        print render($user_profile['field_id_number']);
+      }
+      else {
+        print '<div class="field"><div class="field-label">'. t('ID Number:') .'</div></div>';
+      }
+      ?>
+      <?php 
+      if(!empty($user_profile['field_phone'])){
+        print render($user_profile['field_phone']);
+      }
+      else {
+        print '<div class="field"><div class="field-label">'. t('Phone Number:') .'</div></div>';
+      }
+      ?>
+            <?php 
+      if(!empty($user_profile['field_major'])){
+        print render($user_profile['field_major']);
+      }
+      else {
+        print '<div class="field"><div class="field-label">'. t('Major:') .'</div></div>';
+      }
+      ?>
+       <?php 
+      if(!empty($user_profile['field_graduate_date'])){
+        print render($user_profile['field_graduate_date']);
+      }
+      else {
+        print '<div class="field"><div class="field-label">'. t('Graduate Date:') .'</div></div>';
+      }
+      ?>
+             <?php 
+      if(!empty($user_profile['field_certificate_country'])){
+        print render($user_profile['field_certificate_country']);
+      }
+      else {
+        print '<div class="field"><div class="field-label">'. t('Certificate Country:') .'</div></div>';
+      }
+      ?>
+        <?php 
+      if(!empty($user_profile['field_agpa'])){
+        print render($user_profile['field_agpa']);
+      }
+      else {
+        print '<div class="field"><div class="field-label">'. t('AGPA') .'</div></div>';
+        
+      }
+      ?>
+          
+             
 
         </div>
         <div class="profile-links-container">
