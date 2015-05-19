@@ -1069,5 +1069,5 @@ background: #EDEDEB none repeat scroll 0% ;
 #user-profile-form  #edit-locale,
 #user-profile-form #edit-contact{
     display: none;}
-  .localhidden{
+  .localhidden .panel{
     display: none !important;}
