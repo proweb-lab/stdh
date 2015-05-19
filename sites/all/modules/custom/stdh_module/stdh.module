@@ -59,6 +59,8 @@ function stdh_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
   print '</pre>';
   $form['locale']['#prefix'] = '<div class="localhidden">';
   $form['locale']['#suffix'] = '</div>';
+  $form['timezone']['#prefix'] = '<div class="timezonehidden">';
+  $form['timezone']['#suffix'] = '</div>';
  // $form['locale']['#access'] = FALSE;
 //  unset($form['locale']); 
    $form['contact']['#title'] = '';
