@@ -1070,4 +1070,5 @@ background: #EDEDEB none repeat scroll 0% ;
 #user-profile-form #edit-contact,
 .localhidden,.timezonehidden{
     display: none;}
+#user-profile-form .form-actions .btn-primary{background: #d8450b;border-color: #d8450b;}
  
