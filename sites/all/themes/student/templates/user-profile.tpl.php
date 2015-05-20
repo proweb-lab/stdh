@@ -111,9 +111,6 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
         
       }
       ?>
-          
-             
-
         </div>
         <div class="profile-links-container">
             <div class="edit-profile">
