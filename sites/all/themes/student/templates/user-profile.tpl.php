@@ -46,15 +46,15 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
         <div class="user-profile-header">
             <div class="image"><?php print render($user_profile['field_profile_picture']); ?></div>
             <div class="content">
-                <div class="field user-full-name">
+                <div class="field user-full-name clearfix">
                     <div class="field-label"><?php print t('Full name:'); ?></div>
 <?php print $user_profile['field_full_name'][0]['#markup']; ?>          
                 </div>
-                <div class="field username">
+                <div class="field username clearfix">
                     <div class="field-label"><?php print t('username:'); ?></div>
                     <div class="field-value"><?php print render($user_profile['field_full_name']['#object']->name); ?></div>
                 </div>
-                <div class="field email">
+                <div class="field email clearfix">
                     <div class="field-label"><?php print t('Email:'); ?></div>
                     <div class="field-value"><a href="mailto:<?php print (render($user_profile['field_full_name']['#object']->mail)); ?>"><?php print (render($user_profile['field_full_name']['#object']->mail)); ?></a></div>
                 </div>
@@ -67,7 +67,7 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
         print render($user_profile['field_id_number']);
       }
       else {
-        print '<div class="field"><div class="field-label">'. t('ID Number:') .'</div></div>';
+        print '<div class="field clearfix"><div class="field-label">'. t('ID Number:') .'</div></div>';
       }
       ?>
       <?php 
@@ -75,7 +75,7 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
         print render($user_profile['field_phone']);
       }
       else {
-        print '<div class="field"><div class="field-label">'. t('Phone Number:') .'</div></div>';
+        print '<div class="field clearfix"><div class="field-label">'. t('Phone Number:') .'</div></div>';
       }
       ?>
             <?php 
@@ -83,7 +83,7 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
         print render($user_profile['field_major']);
       }
       else {
-        print '<div class="field"><div class="field-label">'. t('Major:') .'</div></div>';
+        print '<div class="field clearfix"><div class="field-label">'. t('Major:') .'</div></div>';
       }
       ?>
        <?php 
@@ -91,15 +91,15 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
         print render($user_profile['field_graduate_date']);
       }
       else {
-        print '<div class="field"><div class="field-label">'. t('Graduate Date:') .'</div></div>';
+        print '<div class="field clearfix"><div class="field-label">'. t('Graduate Date:') .'</div></div>';
       }
       ?>
-             <?php 
+       <?php 
       if(!empty($user_profile['field_certificate_country'])){
         print render($user_profile['field_certificate_country']);
       }
       else {
-        print '<div class="field"><div class="field-label">'. t('Certificate Country:') .'</div></div>';
+        print '<div class="field clearfix"><div class="field-label">'. t('Certificate Country:') .'</div></div>';
       }
       ?>
         <?php 
@@ -107,7 +107,7 @@ $userId = render($user_profile['field_full_name']['#object']->uid);
         print render($user_profile['field_agpa']);
       }
       else {
-        print '<div class="field"><div class="field-label">'. t('AGPA') .'</div></div>';
+        print '<div class="field clearfix"><div class="field-label">'. t('AGPA') .'</div></div>';
         
       }
       ?>
