@@ -641,7 +641,7 @@ position: relative;
 #office .collection-title.active {
     background: url('../images/support-exp.png') no-repeat left bottom transparent;
     border-bottom: 1px solid #636467;
-    color:orange;
+    color:#d8450b;
 }
 #office .colloction-info-body{
     padding: 15px 15px;
