@@ -904,3 +904,8 @@ footer .row #block-block-4 a
           margin-top: 35%;
     }
 }
+@media only screen and (max-width:320px){
+    .navbar-header{
+        float: none;
+    }
+}
