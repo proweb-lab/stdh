@@ -886,6 +886,9 @@ footer .row #block-block-4 a
 }
 
 @media only screen and (max-width:480px){
+    .navbar-header{
+        float: none;
+    }
     .uni-table .second-row .reg-country{
         font-size: 8px;
     }
@@ -893,8 +896,6 @@ footer .row #block-block-4 a
         font-size: 10px;
     }
     #block-system-main-menu{
-        
           margin-top: 40%;
-
     }
 }
