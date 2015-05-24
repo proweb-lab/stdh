@@ -1082,3 +1082,8 @@ background: #EDEDEB none repeat scroll 0% ;
 }
 #user-register-form .form-submit.btn{background: #d8450b;border-color: #d8450b;color: #fff;}
 #user-register-form #edit-mail{width: 70%;}
+
+.first-row
+{
+    overflow-x: auto;
+}
