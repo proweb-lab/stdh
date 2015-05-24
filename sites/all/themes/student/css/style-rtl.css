@@ -853,3 +853,7 @@ background-color:#d8450b ;
 color:#d8450b;
 }
 /*End style pagination in page search*/
+
+@media only screen and (max-width:768px){
+.services .service-block .service-description{width: 190px;}
+}
