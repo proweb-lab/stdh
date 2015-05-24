@@ -864,8 +864,15 @@ color:#d8450b;
 }
 .uni-table .second-row .reg-country{
       font-size: 16px;
-      font-size: 16px;
+
+}
+.uni-table .uni-name.list{ font-size: 15px;}
 
 }
 
+
+@media only screen and (max-width:480px){
+.uni-table .second-row .reg-country{
+    font-size: 12px;
+}
 }
