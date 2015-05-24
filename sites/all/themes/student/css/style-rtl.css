@@ -610,10 +610,11 @@ padding: 20px 0;
 .box .service-description{
     padding: 10px 10px;
 }
-.box {
+ .services-block .box {
     position:relative;
     border:1px solid #BBB;
     background:#eee;
+    height: 160px;
    
 }
 .ribbon {
