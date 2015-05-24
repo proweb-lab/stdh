@@ -867,5 +867,16 @@ color:#d8450b;
       font-size: 16px;
 
 }
+}
+@media only screen and (max-width:768px){
+.uni-table .reg-country,
+.uni-table .uni-name{
+  height: 50px;
+}
+}
 
+@media only screen and (max-width:480px){
+.uni-table .second-row .reg-country{
+    font-size: 12px;
+}
 }
