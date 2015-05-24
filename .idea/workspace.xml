@@ -30,6 +30,8 @@
       <file leaf-file-name="style-rtl.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4555921" vertical-offset="10913" max-vertical-offset="16365">
+              <caret line="746" column="48" selection-start-line="746" selection-start-column="48" selection-end-line="746" selection-end-column="48" />
             <state vertical-scroll-proportion="0.5542763" vertical-offset="10163" max-vertical-offset="12810">
               <caret line="700" column="1" selection-start-line="700" selection-start-column="1" selection-end-line="700" selection-end-column="1" />
               <folding />
@@ -610,6 +612,12 @@
       <option name="project" value="LOCAL" />
       <updated>1430983195553</updated>
     </task>
+    <task id="LOCAL-00332" summary="menu">
+      <created>1430983195553</created>
+      <option name="number" value="00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1430983195553</updated>
+    </task>
     <task id="LOCAL-00333" summary="menu">
       <created>1430983276057</created>
       <option name="number" value="00333" />
@@ -820,7 +828,85 @@
       <option name="project" value="LOCAL" />
       <updated>1432455331272</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="add extra title office css">
+      <created>1431937457313</created>
+      <option name="number" value="00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1431937457313</updated>
+    </task>
+    <task id="LOCAL-00369" summary="add extra title office css">
+      <created>1431940124142</created>
+      <option name="number" value="00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1431940124143</updated>
+    </task>
+    <task id="LOCAL-00370" summary="edit css">
+      <created>1432103857726</created>
+      <option name="number" value="00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1432103857726</updated>
+    </task>
+    <task id="LOCAL-00371" summary="edit css">
+      <created>1432103941759</created>
+      <option name="number" value="00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1432103941759</updated>
+    </task>
+    <task id="LOCAL-00372" summary="edit css">
+      <created>1432103996332</created>
+      <option name="number" value="00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1432103996332</updated>
+    </task>
+    <task id="LOCAL-00373" summary="try make table univesity responsive">
+      <created>1432453155487</created>
+      <option name="number" value="00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1432453155493</updated>
+    </task>
+    <task id="LOCAL-00374" summary="try make table univesity responsive">
+      <created>1432453309460</created>
+      <option name="number" value="00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1432453309461</updated>
+    </task>
+    <task id="LOCAL-00375" summary="try make table univesity responsive">
+      <created>1432453352617</created>
+      <option name="number" value="00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1432453352617</updated>
+    </task>
+    <task id="LOCAL-00376" summary="try make table univesity responsive">
+      <created>1432453366373</created>
+      <option name="number" value="00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1432453366373</updated>
+    </task>
+    <task id="LOCAL-00377" summary="try make table univesity responsive">
+      <created>1432453551377</created>
+      <option name="number" value="00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1432453551377</updated>
+    </task>
+    <task id="LOCAL-00378" summary="try make table univesity responsive">
+      <created>1432454240614</created>
+      <option name="number" value="00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1432454240614</updated>
+    </task>
+    <task id="LOCAL-00379" summary="try make table univesity responsive">
+      <created>1432454470539</created>
+      <option name="number" value="00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1432454470539</updated>
+    </task>
+    <task id="LOCAL-00380" summary="try make table univesity responsive">
+      <created>1432454543922</created>
+      <option name="number" value="00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1432454543922</updated>
+    </task>
+    <option name="localTasksCounter" value="381" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1247,8 +1333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5542763" vertical-offset="10163" max-vertical-offset="12810">
-          <caret line="700" column="1" selection-start-line="700" selection-start-column="1" selection-end-line="700" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.4555921" vertical-offset="10913" max-vertical-offset="16365">
+          <caret line="746" column="48" selection-start-line="746" selection-start-column="48" selection-end-line="746" selection-end-column="48" />
           <folding />
         </state>
       </provider>
