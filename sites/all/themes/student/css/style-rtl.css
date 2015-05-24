@@ -877,6 +877,10 @@ footer .row #block-block-4 a
         float: none;
         width: 100% !important;
     }
+    .dropdown-menu{
+        position:static;
+        float: none;
+    }
     .uni-table .reg-country,
     .uni-table .uni-name{
         height: 50px;
