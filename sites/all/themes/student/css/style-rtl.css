@@ -24,12 +24,6 @@ body,h1,h2,h3,h4,h5,h6{
     font-family: 'Droid Arabic Kufi' !important;
 }
 
-.container {
-    width: 100%;
-    margin: 0px auto;
-    //overflow-x: hidden;
-    max-width: 1200px;
-}
 /*Begin style top menu*/
 #block-menu-menu-top-menu{
     float: left;
@@ -369,12 +363,6 @@ footer .row #block-block-4 a
     height: 50px;
 }
 
-.university-node a{
-    color: #636467;
-    text-decoration: none;
-
-}
-
 /*End style block universities*/
 /*Begin style block office*/
 
@@ -411,8 +399,8 @@ footer .row #block-block-4 a
     border-bottom: 3px double #E5E5E5;
 }
 .front .offices-block .view-office{
-  
-   padding-right: 18%;
+    width: 100%;
+    margin-right: 26%;
 
 }
 .front .offices-block .view-office a{
@@ -482,64 +470,23 @@ footer .row #block-block-4 a
 .social-block .fb{
  background: url('../images/share-fb.png') no-repeat ;
 padding: 20px 0;
-position: relative;
-}
-.social-block .fb a{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }
 .social-block .fb:hover{
  background: url('../images/share-fb-org.png') no-repeat ;
-
+padding: 20px 0;
 }
 .social-block .tw{
  background: url('../images/share-twitter.png') no-repeat ;
 padding: 20px 0;
-position: relative;
 }
-.social-block .tw a{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
-.social-block .tw:hover{
- background: url('../images/share-twitter-org.png') no-repeat ;
-
-}
-.social-block .tw:hover{
- background: url('../images/share-twitter-org.png') no-repeat ;
-
-}
-
 .social-block .yt{
  background: url('../images/share-youtube.png') no-repeat;
 padding: 20px 0;
-position: relative;
-}
-.social-block .yt a{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
-.social-block .yt:hover{
- background: url('../images/share-youtube-org.png') no-repeat;
-
-}
-.social-block .yt:hover{
- background: url('../images/share-youtube-org.png') no-repeat;
-
 }
 /*End style social-block */
 
 
-.services .view-services  .views-row{
+.services .view-services  .views-row{  
     background: none repeat scroll 0% 0% #FFF;
     border: 1px solid #E7E7E7;
     text-align: center;
@@ -641,7 +588,6 @@ position: relative;
 #office .collection-title.active {
     background: url('../images/support-exp.png') no-repeat left bottom transparent;
     border-bottom: 1px solid #636467;
-    color:#d8450b;
 }
 #office .colloction-info-body{
     padding: 15px 15px;
@@ -655,15 +601,16 @@ position: relative;
 .view-office .field-collection-container{border: none;}
 /*End style page office */
 /*Begin style front block services*/
-
-.box .service-description{
-    padding:55px 10px 10px;
+.field-content{
+    margin-top: 65px;
 }
-.services-blocks .box {
+.box .service-description{
+    padding: 10px 10px;
+}
+.box {
     position:relative;
     border:1px solid #BBB;
     background:#eee;
-    height:150px;
    
 }
 .ribbon {
@@ -876,7 +823,6 @@ background-color:#d8450b ;
 {
     margin-top: 50px;
 }
-.page-node-64 .col-sm-4{float: left;}
 
 .addresses_header
 {
@@ -895,193 +841,8 @@ background-color:#d8450b ;
 .text-center  a {
     color: #d8450b;
 }
-.search-form ul,li a { color:#d8450b; }
-
-.search-form ul,li a:hover
+.search-form .title a
 {
-    color:#d8450b;
+color:#d8450b;
 }
 /*End style pagination in page search*/
-/*Begin style template services*/
-.service-block-template
-{
-    background: none repeat scroll 0% 0% #FFF;
-    border: 1px solid #E7E7E7;
-    text-align: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px 40px;
-    position: relative;
-    padding: 30px 30px;
-    height: 300px;
-}
-.service-block-template .service-price
-{
-    background: rgba(216, 140, 10, 0.02);
-}
-/*End style template services*/
-/*Begin style node other services*/
-
-#wrap{
-    width:400px;
-    margin:0 auto;
-    text-align:left;
-    margin-top:8px;
-    padding:5px;
-    background:#fff;
-    font-family:AvenirLTStd, Arial, Helvetica, sans-serif;
-    font-size:13px;
-    line-height:16px;
-}
-#wrap .cont_details fieldset,.cont_order fieldset{
-    margin:10px;
-    padding:20px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-}
-#wrap legend{
-    font-size:16px;
-    font-family:Georgia, "Times New Roman", Times, serif;
-    color:#000;
-    font-weight:bold;
-    font-style:italic;
-    padding-bottom:10px;
-}
-#wrap .cont_details input{
-    margin-bottom:10px;
-    color:#000;
-}
-#wrap .input1:hover,.input1:active{
-
-}
-#wrap label{
-    display:block;
-    font-size:12px;
-    color:#000;
-    font-weight:bold;
-}
-#wrap label.inlinelabel
-{
-    display:inline;
-}
-#wrap .cont_order input{
-    margin-bottom:5px;
-}
-#wrap .cont_order p{
-    padding-top:5px;
-}
-
-#wrap input[type="radio"]
-{
-    margin-top:8px;
-    margin-bottom:8px;
-}
-
-#wrap input[type="text"]:hover,
-#wrap input[type="text"]:active {
-    background-color: #FAF398;
-}
-
-#wrap input#submit
-{
-    margin:10px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:10px;
-    padding-bottom:10px;
-}
-
-#wrap div#totalPrice
-{
-    padding:10px;
-    font-weight:bold;
-    background-color:#ff0;
-}
-
-#wrap label.radiolabel
-{
-    font-weight:normal;
-    display:inline;
-}
-/*End style node other services*/
-.profile  #content-header {
-  background: none repeat scroll 0 0 #FFFFFF;
-  margin-bottom: 15px;
-  padding: 14px 15px 15px 366px;
-  position: relative;
-  width: 60%;}
-.profile #content-main {
-  background: none repeat scroll 0 0 #FFFFFF;
-  padding: 32px;
-  width: 50%
-}
-.profile  .field-label {
-  float: right;
-  margin-right: 7px;
-}
-.user-profile-bottom {
-  border-top: 2px solid #ccc;
-  border-bottom: 2px solid #ccc;
-  padding: 20px 0px 17px 0px;
-  clear: both;
-  margin-bottom: 20px;
-}
-.profile-links-container .edit-profile a {
-  text-decoration: none;
-  color: #FFF;
-  background: #d8450b;
-  padding: 2px 10px;
-}
-.profile-links-container .edit-profile {
-  float: left;
-}
-
-#edit-account .password-strength,
-#edit-account div.password-confirm { float: left;}
-#user-profile-form .form-control{
-    width: 250px;
-    border: 0px none;
-background: #EDEDEB none repeat scroll 0% ;
-
-}
-/*#user-profile-form  .form-group{float: right;}*/
-#user-profile-form .form-item{
-	display: block;
-	clear: both;
-}
-#user-profile-form .container-inline-date .date-padding{float: right;}
-#user-profile-form  #edit-field-graduate-date,
-#user-profile-form  #edit-picture,
-#user-profile-form .form-item-mail .help-block{width: 50%;}
-#user-register-form, 
-#user-profile-form {
-    padding: 15px 35px;
-    background: #FFF none repeat scroll 0% 0%;
-}
-#user-register-form label, 
-#user-profile-form label {
-    width: 140px;
-    color: #636467;
-    vertical-align: top;
-    padding-top: 5px;
-    margin-right: 5px;
-    font-weight: 400;
-    float: right;
-}
-#user-profile-form #edit-field-agpa-und-0-value{float: right;}
-
-#user-profile-form  #edit-timezone,
-#user-profile-form  #edit-locale,
-#user-profile-form #edit-contact,
-.localhidden,.timezonehidden{
-    display: none;}
-#user-profile-form .form-actions .btn-primary{background: #d8450b;border-color: #d8450b;}
-#user-profile-form .form-actions{
-   width: 0%;
-  margin: 0 auto;
-}
-#user-register-form .form-submit.btn{background: #d8450b;border-color: #d8450b;color: #fff;}
-#user-register-form #edit-mail{width: 70%;}
-
-
