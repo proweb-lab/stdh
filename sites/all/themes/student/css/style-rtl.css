@@ -891,6 +891,7 @@ footer .row #block-block-4 a
     #office .office-image{
         margin: 0;
     }
+    #office .collection-title{font-size: 20px;}
 }
 
 @media only screen and (max-width:480px){
