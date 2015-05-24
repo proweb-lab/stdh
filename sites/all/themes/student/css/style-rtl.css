@@ -868,21 +868,36 @@ footer .row #block-block-4 a
     }
 }
 @media only screen and (max-width:768px){
-    #block-system-main-menu{float: none;margin-top: 27%;}
-    #block-system-main-menu ul.menu{padding: 0;}
-    #block-system-main-menu ul.menu li{float: none; width: 100% !important;}
-    .dropdown-menu{ position:static;float: none;}
+    #block-system-main-menu{
+        float: none;
+          margin-top: 27%;
+    }
+   #block-system-main-menu ul.menu{padding: 0;}
+    #block-system-main-menu ul.menu li{
+        float: none;
+        width: 100% !important;
+    }
+    .dropdown-menu{
+        position:static;
+        float: none;
+    }
     .uni-table .reg-country,
-    .uni-table .uni-name{height: 50px;}
-    .uni-table .uni-name.list{font-size: 12px;}
-    #office .office-image{margin: 0;}
+    .uni-table .uni-name{
+        height: 50px;
+    }
+    .uni-table .uni-name.list{
+        font-size: 12px;
+    }
+    #office .office-image{
+        margin: 0;
+    }
     #office .collection-title{font-size: 20px;}
 }
 
 @media only screen and (max-width:480px){
-    /*    .navbar-header{
-            float: none;
-        }*/
+/*    .navbar-header{
+        float: none;
+    }*/
     .uni-table .second-row .reg-country{
         font-size: 8px;
     }
@@ -890,7 +905,7 @@ footer .row #block-block-4 a
         font-size: 10px;
     }
     #block-system-main-menu{
-        margin-top: 35%;
+          margin-top: 35%;
     }
 }
 @media only screen and (max-width:320px){
