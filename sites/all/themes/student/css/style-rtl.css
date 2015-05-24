@@ -691,7 +691,7 @@ padding: 20px 0;
     padding: 15px;
     font-size: 22px;
 }
-.uni-table .second-row .reg-country{font-size:50%;}
+.uni-table .second-row .reg-country{font-size:22px;}
 .uni-table .reg-country{
     float:right;
     border-left:1px solid #636467;
