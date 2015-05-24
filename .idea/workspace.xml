@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60156590-cd59-4a5a-83f7-e43d99690227" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" afterPath="$PROJECT_DIR$/sites/all/themes/student/css/style-rtl.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="student.iws" />
@@ -675,12 +674,6 @@
       <option name="number" value="Default" />
       <updated>1429079359855</updated>
     </task>
-    <task id="LOCAL-00326" summary="block-system-main-menu">
-      <created>1430913680924</created>
-      <option name="number" value="00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1430913680924</updated>
-    </task>
     <task id="LOCAL-00327" summary="style login">
       <created>1430913814112</created>
       <option name="number" value="00327" />
@@ -969,7 +962,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432453309461</updated>
     </task>
-    <option name="localTasksCounter" value="375" />
+    <task id="LOCAL-00375" summary="try make table univesity responsive">
+      <created>1432453352617</created>
+      <option name="number" value="00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1432453352617</updated>
+    </task>
+    <option name="localTasksCounter" value="376" />
     <servers />
   </component>
   <component name="ToolWindowManager">
