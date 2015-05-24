@@ -888,6 +888,9 @@ footer .row #block-block-4 a
     .uni-table .uni-name.list{
         font-size: 12px; 
     }
+    #office .office-image{
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width:480px){
