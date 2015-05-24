@@ -1086,4 +1086,5 @@ background: #EDEDEB none repeat scroll 0% ;
 .first-row
 {
     overflow-x: auto;
+    width:100%;
 }
