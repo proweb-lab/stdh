@@ -876,7 +876,8 @@ color:#d8450b;
 }
 
 @media only screen and (max-width:480px){
-.uni-table .second-row .reg-country{
+.uni-table .second-row .reg-country,
+.uni-table .uni-name.list{
     font-size: 12px;
 }
 .uni-table .uni-name.list{
