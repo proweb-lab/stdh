@@ -610,7 +610,7 @@ padding: 20px 0;
 .box .service-description{
     padding: 10px 10px;
 }
- .front.services-block .view-services .box {
+ .front .view-services .box {
     position:relative;
     border:1px solid #BBB;
     background:#eee;
