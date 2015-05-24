@@ -552,6 +552,7 @@ padding: 20px 0;
     padding-bottom: 4px;
     cursor: pointer;
 }
+.services .service-block .service-description{width: 260px;}
 
 
 /*Begin style services*/
