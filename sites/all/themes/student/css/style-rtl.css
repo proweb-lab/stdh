@@ -494,7 +494,7 @@ padding: 20px 0;
     border: 1px solid #E7E7E7;
     text-align: center;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px 40px;
+    margin: 10px 18px;
     position: relative;
     padding: 30px 30px;
     height: 300px;
@@ -551,7 +551,9 @@ padding: 20px 0;
     padding-bottom: 4px;
     cursor: pointer;
 }
-.services .service-block .service-description{width: 260px;}
+.services .service-block .service-description{height: 120px;}
+
+
 
 
 /*Begin style services*/
@@ -852,3 +854,8 @@ background-color:#d8450b ;
 color:#d8450b;
 }
 /*End style pagination in page search*/
+
+@media only screen and (max-width:960px){
+.services .service-block .service-description{width: 190px;}
+
+}
