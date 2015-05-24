@@ -871,7 +871,7 @@ color:#d8450b;
 }
 @media only screen and (max-width:768px){
 .uni-table .reg-country,
-.uni-table .uni-name
+.uni-table .uni-name{
   height: 50px;
 }
 }
