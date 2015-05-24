@@ -733,7 +733,7 @@ position: relative;
     padding: 20px;
     font-size: 22px;
 }
-.uni-table .uni-name.list{border-top: none;  font-size: 10px;}
+.uni-table .uni-name.list{border-top: none;  font-size: 16px;}
 .uni-table .uni-name.empty{border-bottom: none;border-left: none;}
 .uni-table .recognition{ 
     width: 68%;
@@ -742,7 +742,7 @@ position: relative;
     height: 75px;
     float: right;
     padding: 15px;
-    font-size: 22px;
+    font-size: 10px;
 }
 .uni-table .second-row .reg-country{font-size:22px;}
 .uni-table .reg-country{
