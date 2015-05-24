@@ -891,6 +891,7 @@ footer .row #block-block-4 a
     }
     #office .collection-title{font-size: 20px;}
     .front .offices-block .col-sm-6{width: 100%;}
+    .front .offices-block .view-office{margin: 0;}
 }
 
 @media only screen and (max-width:480px){
