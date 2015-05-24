@@ -829,6 +829,7 @@ background-color:#d8450b ;
 {
     margin-top: 50px;
 }
+.contact_info.col-sm-4{float: left;} 
 
 .addresses_header
 {
