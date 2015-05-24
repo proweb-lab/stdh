@@ -374,9 +374,9 @@ footer .row #block-block-4 a
 
 
 #office .office-image{
-  padding-bottom: 50px; 
-  width: 19%;
-  margin: 0 auto;
+    padding-bottom: 50px; 
+    width: 19%;
+    margin: 0 auto;
 }
 .office-block{float: right;position: relative; }
 .office-block .office-title{text-align: center;}
@@ -392,7 +392,7 @@ footer .row #block-block-4 a
     height: 100%;
 }
 .front .offices-block{
-   
+
     margin-top: 12%;
     //margin-right: 0px;
     padding-bottom: 30px;
@@ -404,8 +404,8 @@ footer .row #block-block-4 a
 
 }
 .front .offices-block .view-office a{
-   color: #636467;
-   text-decoration: none;
+    color: #636467;
+    text-decoration: none;
 
 } 
 .front .offices-block .col-sm-6{
@@ -467,24 +467,24 @@ footer .row #block-block-4 a
     z-index: 10000;
     top:50%;
     background: #fff;
-   width: 50px;
-  padding: 24px 14px 10px;
+    width: 50px;
+    padding: 24px 14px 10px;
 }
 .social-block .fb{
- background: url('../images/share-fb.png') no-repeat ;
-padding: 20px 0;
+    background: url('../images/share-fb.png') no-repeat ;
+    padding: 20px 0;
 }
 .social-block .fb:hover{
- background: url('../images/share-fb-org.png') no-repeat ;
-padding: 20px 0;
+    background: url('../images/share-fb-org.png') no-repeat ;
+    padding: 20px 0;
 }
 .social-block .tw{
- background: url('../images/share-twitter.png') no-repeat ;
-padding: 20px 0;
+    background: url('../images/share-twitter.png') no-repeat ;
+    padding: 20px 0;
 }
 .social-block .yt{
- background: url('../images/share-youtube.png') no-repeat;
-padding: 20px 0;
+    background: url('../images/share-youtube.png') no-repeat;
+    padding: 20px 0;
 }
 /*End style social-block */
 
@@ -615,13 +615,13 @@ padding: 20px 0;
 .box .service-description{
     padding: 10px 10px;
 }
- .front .view-services .box {
+.front .view-services .box {
     position:relative;
     border:1px solid #BBB;
     background:#eee;
     height: 160px;
-     margin-bottom: 10px;
-   
+    margin-bottom: 10px;
+
 }
 .ribbon {
     position: absolute;
@@ -769,7 +769,7 @@ padding: 20px 0;
 }
 #fancy_login_login_box button
 {
-background-color:#d8450b ;
+    background-color:#d8450b ;
 }
 /*Begin style address block*/
 
@@ -827,7 +827,7 @@ background-color:#d8450b ;
 }
 .email_label a
 {
- color:#47494C;
+    color:#47494C;
 }
 
 .contact_info.col-sm-4{float: left;} 
@@ -851,37 +851,40 @@ background-color:#d8450b ;
 }
 .search-form .title a
 {
-color:#d8450b;
+    color:#d8450b;
 }
 /*End style pagination in page search*/
 
 @media only screen and (max-width:960px){
-.services .service-block .service-description{width: 190px;}
-.uni-table .recognition,
-.uni-table .uni-name{
-    padding: 1px;
-  font-size: 16px;
-}
-.uni-table .second-row .reg-country{
-      font-size: 16px;
+    .services .service-block .service-description{width: 190px;}
+    .uni-table .recognition,
+    .uni-table .uni-name{
+        padding: 1px;
+        font-size: 16px;
+    }
+    .uni-table .second-row .reg-country{
+        font-size: 16px;
 
-}
+    }
 }
 @media only screen and (max-width:768px){
-.uni-table .reg-country,
-.uni-table .uni-name{
-  height: 50px;
-}
-.uni-table .uni-name.list{
-   font-size: 12px; 
-}
+    #block-system-main-menu ul.menu li{
+        float: none;
+    }
+    .uni-table .reg-country,
+    .uni-table .uni-name{
+        height: 50px;
+    }
+    .uni-table .uni-name.list{
+        font-size: 12px; 
+    }
 }
 
 @media only screen and (max-width:480px){
-.uni-table .second-row .reg-country{
-    font-size: 8px;
-}
-.uni-table .uni-name.list{
-     font-size: 10px;
-}
+    .uni-table .second-row .reg-country{
+        font-size: 8px;
+    }
+    .uni-table .uni-name.list{
+        font-size: 10px;
+    }
 }
