@@ -407,6 +407,9 @@ footer .row #block-block-4 a
    color: #636467;
    text-decoration: none;
 
+} 
+.front .offices-block .col-sm-6{
+    width: 25%;
 }
 .ribbon-wrapper-green {
     width: 85px;
