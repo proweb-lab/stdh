@@ -594,6 +594,7 @@ padding: 20px 0;
     border-bottom: 1px solid #636467;
     color:#d8450b;
 }
+collection-title active
 #office .colloction-info-body{
     padding: 15px 15px;
 }
@@ -825,10 +826,8 @@ background-color:#d8450b ;
 {
  color:#47494C;
 }
-.contact_info
-{
-    margin-top: 50px;
-}
+
+.contact_info.col-sm-4{float: left;} 
 
 .addresses_header
 {
