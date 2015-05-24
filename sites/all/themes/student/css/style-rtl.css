@@ -399,8 +399,8 @@ footer .row #block-block-4 a
     border-bottom: 3px double #E5E5E5;
 }
 .front .offices-block .view-office{
-    width: 100%;
-    margin-right: 26%;
+   
+    margin-right: 25%;
 
 }
 .front .offices-block .view-office a{
@@ -409,7 +409,7 @@ footer .row #block-block-4 a
 
 } 
 .front .offices-block .col-sm-6{
-    width: 25%;
+    width: 32%;
 }
 .ribbon-wrapper-green {
     width: 85px;
