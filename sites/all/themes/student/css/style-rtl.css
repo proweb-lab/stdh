@@ -690,7 +690,7 @@ padding: 20px 0;
     padding: 20px;
     font-size: 22px;
 }
-
+.uni-table .uni-name.list{border-top: none; }
 .uni-table .uni-name.empty{border-bottom: none;border-left: none;}
 .uni-table .recognition{ 
     width: 68%;
@@ -857,14 +857,10 @@ color:#d8450b;
 
 @media only screen and (max-width:960px){
 .services .service-block .service-description{width: 190px;}
-
 .uni-table .recognition,
 .uni-table .uni-name{
     padding: 1px;
   font-size: 16px;
 }
-
-    
-
 
 }
