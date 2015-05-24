@@ -4,7 +4,7 @@
             <h5 class="phone_label"><?php print t("phone:") . render($content['field_phone']); ?></h5>
             <h5 class="email_label"><?php print t("email:"); ?><a href="mailto:info@studenthome.com">info@studenthome.com</a></h5>
 
-</div>
+
         </div>
         <div class="col-sm-8">
             <?php
@@ -12,5 +12,5 @@
             print render($block_contact['content']);
             ?>
         </div>
-    
+    </div>
 </div>
