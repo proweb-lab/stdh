@@ -857,9 +857,14 @@ color:#d8450b;
 
 @media only screen and (max-width:960px){
 .services .service-block .service-description{width: 190px;}
+
+.uni-table .recognition,
 .uni-table .uni-name{
     padding: 1px;
   font-size: 16px;
 }
+
+    
+
 
 }
