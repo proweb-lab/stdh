@@ -891,9 +891,9 @@ footer .row #block-block-4 a
 }
 
 @media only screen and (max-width:480px){
-    .navbar-header{
+/*    .navbar-header{
         float: none;
-    }
+    }*/
     .uni-table .second-row .reg-country{
         font-size: 8px;
     }
