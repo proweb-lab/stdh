@@ -875,6 +875,7 @@ footer .row #block-block-4 a
    #block-system-main-menu ul.menu{padding: 0;}
     #block-system-main-menu ul.menu li{
         float: none;
+        width: 100%;
     }
     .uni-table .reg-country,
     .uni-table .uni-name{
