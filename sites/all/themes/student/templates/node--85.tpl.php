@@ -17,8 +17,8 @@
     
     
 $my_form = drupal_get_form('application_node_form',$application);
-$variable = drupal_render($my_form);
-echo $variable;
+$application_variable = drupal_render($my_form);
+echo $application_variable;
     ?>
    
   </div>
