@@ -13,7 +13,7 @@
     // Hidden through form alter
     $application->field_app_position['und'][0]['nid'] = $node->nid;
     node_object_prepare($application);
-    echo drupal_render(drupal_get_form( 'application_node_form', '$application' ));
+    echo drupal_render(drupal_get_form( 'application_node_form', $application ));
     ?>
    
   </div>
