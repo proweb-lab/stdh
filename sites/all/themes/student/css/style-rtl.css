@@ -727,6 +727,7 @@ footer .row #block-block-4 a
     display: none;
     z-index: 1000;
     padding: 0 !important;
+    border-radius: 30%; 
 
 }
 .back-to-top i {
