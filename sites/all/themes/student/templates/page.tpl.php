@@ -148,8 +148,9 @@
 <?php print render($page['footer']); ?>
     <div class="row">
         <div class="col-sm-4">
+
             <?php
-            print render($page['footer_first']);
+            print render($page['footer_third']);
             ?>
         </div>
         <div class="col-sm-4">
@@ -158,9 +159,9 @@
         ?>
        </div>
         <div class="col-sm-4">
-        <?php
-         print render($page['footer_third']);
-        ?>
+            <?php
+            print render($page['footer_first']);
+            ?>
         </div>
     
     </div>
