@@ -149,6 +149,11 @@
     <div class="row">
         <div class="col-sm-4">
             <?php
+            print render($page['footer_third']);
+            ?>
+        </div>
+        <div class="col-sm-4">
+            <?php
             print render($page['footer_first']);
             ?>
         </div>
@@ -157,11 +162,7 @@
          print render($page['footer_second']);
         ?>
        </div>
-        <div class="col-sm-4">
-        <?php
-         print render($page['footer_third']);
-        ?>
-        </div>
+
     
     </div>
 </footer>
