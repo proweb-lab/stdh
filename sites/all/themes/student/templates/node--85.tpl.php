@@ -16,11 +16,6 @@
 
     echo drupal_render(drupal_get_form( 'application_node_form', $application ));
     ?>
-    <?php //print render(node_view(node_load(1), 'full', NULL)); ?>
+   
   </div>
-</div>
 </article>
-<?php
-//  $block = module_invoke('menu_block', 'block_view', 2);
-// print render($block['content']);
-?>
