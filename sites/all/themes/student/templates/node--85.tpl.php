@@ -10,8 +10,8 @@
         $application->type = 'application';
         $application->uid = $user->uid;
         $application->name = (isset($user->name) ? $user->name : '');
-        print_r($application->name);
-        $application->field_full_name= $user->uid;
+        print_r($application);
+        $application->field_full_name= $user->name;
         // Hidden through form alter
         //$application->field_app_position['und'][0]['nid'] = $user->uid$node->nid;
         node_object_prepare($application);
