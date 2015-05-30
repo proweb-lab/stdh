@@ -1,1 +1,9 @@
-<label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>الاستقبال في المطار ($25)</label><br/>
+<?php
+$form['expire_date'] = array(
+'#type' => 'checkbox',
+'#title' => t('Set Expiration Date for this Group'),
+'#description' => t('Change this date to set Expiration of Role.'),
+'#default_value' => $date_default_value,
+);
+
+?>
