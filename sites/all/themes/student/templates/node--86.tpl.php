@@ -1,9 +1,1 @@
-<?php
-print drupal_render_children($form['field_custom_image']);
-print drupal_render($form['submitted']);
-
-
-
-
-
-?>
+<label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>الاستقبال في المطار ($25)</label><br/>
