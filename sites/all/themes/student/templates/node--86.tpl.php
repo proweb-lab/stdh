@@ -1,5 +1,5 @@
 <?php
-print drupal_render($form['field_1']);
+print drupal_render_children($form['field_custom_image']);
 print drupal_render($form['submitted']);
 
 
