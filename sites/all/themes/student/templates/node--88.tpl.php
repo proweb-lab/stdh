@@ -1,6 +1,8 @@
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-
-    <div class="apply">
+    <div class="container">
+    <div class="apply row">
+        <div class="col-sm-6">
+        
         <?php
         global $user;
 
@@ -19,6 +21,7 @@
         $application_variable = drupal_render($application_form);
         echo $application_variable;
         ?>
-
+        </div>    
+        </div>
     </div>
 </article>
