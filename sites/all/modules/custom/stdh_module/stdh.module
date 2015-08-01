@@ -54,6 +54,7 @@ if ($form['#id']== 'webform-client-form-64'){
     case 'application_node_form';
               $form['title']['#default_value'] = 'New Application';
           $form['title']['#access'] = 0;
+          $form['language']['#access'] = 0;
              
       break;
     
