@@ -48,7 +48,7 @@ if ($form['#id']== 'webform-client-form-64'){
     case 'register_university_node_form':
       $form['title']['#default_value'] = 'New ';
           $form['title']['#access'] = 0;
-    $form['field_university']['und']['#options']['_none'] = t('Select University');
+    $form['field_universiry']['und']['#options']['_none'] = t('Select University');
      $form['actions']['submit']['#value'] = t('Next');
       
       break;
