@@ -42,16 +42,22 @@ if ($form['#id']== 'webform-client-form-64'){
               array('attributes' => array('title' => t('Request new password via e-mail.'))));
       $form['links'] = array('#markup' => theme('item_list', array('items' => $items)), '#weight' => 200);
       }
-       if ($form['#id']== 'register_university_node_form'){
-          $form['title']['#default_value'] = 'New ';
-          $form['title']['#access'] = 0;
       
-       }
-        if ($form['#id']== 'application_node_form'){
-            $form['title']['#default_value'] = 'New Application';
-          $form['title']['#access'] = 0;
       
-       }
+        switch ($form_id) {
+    case 'register_university_node_form':
+      $form['title']['#default_value'] = 'New ';
+          $form['title']['#access'] = 0;
+//      
+      
+      break;
+    case 'application_node_form';
+              $form['title']['#default_value'] = 'New Application';
+          $form['title']['#access'] = 0;
+             
+      break;
+    
+        }
       
        
       
