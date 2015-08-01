@@ -43,7 +43,7 @@ if ($form['#id']== 'webform-client-form-64'){
       $form['links'] = array('#markup' => theme('item_list', array('items' => $items)), '#weight' => 200);
       }
        if ($form['#id']== 'register_university_node_form'){
-            $form['title']['#default_value'] = 'New ';
+          $form['title']['#default_value'] = 'New ';
           $form['title']['#access'] = 0;
       
        }
