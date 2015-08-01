@@ -48,7 +48,7 @@ if ($form['#id']== 'webform-client-form-64'){
     case 'register_university_node_form':
       $form['title']['#default_value'] = 'New ';
           $form['title']['#access'] = 0;
-//      
+    $form['field_uni_major']['und']['#options']['_none'] = t('ادخل التخصص');
       
       break;
     case 'application_node_form';
