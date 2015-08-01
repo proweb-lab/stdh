@@ -49,12 +49,14 @@ if ($form['#id']== 'webform-client-form-64'){
       $form['title']['#default_value'] = 'New ';
           $form['title']['#access'] = 0;
     $form['field_university']['und']['#options']['_none'] = t('Select University');
+     $form['actions']['submit']['#value'] = t('Next');
       
       break;
     case 'application_node_form';
               $form['title']['#default_value'] = 'New Application';
           $form['title']['#access'] = 0;
           $form['language']['#access'] = 0;
+           $form['actions']['submit']['#value'] = t('Next');
              
       break;
     
