@@ -398,7 +398,9 @@ footer .row #block-block-4 a
     padding-bottom: 30px;
     border-bottom: 3px double #E5E5E5;
 }
-
+.front .offices-block .view-office{
+    margin-right: 6%;
+}
 .front .offices-block .view-office a{
     color: #636467;
     text-decoration: none;
