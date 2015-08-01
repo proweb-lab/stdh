@@ -60,7 +60,7 @@
 
             <div class="btn btn-test-universities btn-lg">
                 <?php  $link_test = l(t('Test university orientation '),
-                    'http://myqyas.monadsoft.com/startMyQyas.aspx',array('html' => TRUE, 'attributes' =>
+                    'http://www.eyeonfuture.com/main/',array('html' => TRUE, 'attributes' =>
                         array('target' => '_blank')));
                 echo $link_test;?>
             </div>
