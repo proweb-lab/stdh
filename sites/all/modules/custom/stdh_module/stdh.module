@@ -1,4 +1,42 @@
 <?php
+function stdh_menu() {
+
+
+  $items['admin/stdh/applications'] = array(
+    'title' => t('Students Applications'),
+    'page callback' => 'stdh_get_students_applications',
+    'access arguments' => array('administer stdh'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+ 
+
+
+  return $items;
+}
+/*
+ * Implementation of hook_permission
+ */
+
+function stdh_permission() {
+  return array(
+    'administer stdh' => array(
+      'title' => t('Administer stdh'),
+    ),
+   
+  );
+}
+/**
+ * Return vacancy applications page.
+ */
+function stdh_get_students_applications() {
+  return views_embed_view('students_applications', 'main_block');
+}
+
+
+
+
+
+
 
 function stdh_form_alter(&$form, &$form_state, $form_id) {
 //print_r($form['#id']);
