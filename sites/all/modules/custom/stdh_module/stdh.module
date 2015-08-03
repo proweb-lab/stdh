@@ -140,11 +140,11 @@ $form['field_exam_center_guidance']['und']['#type'] = 'checkboxes';
        function stdh_register_university_submit($form, &$form_state) {
 
 
-  $form_state['redirect'] = 'ar/select-service';
+  $form_state['redirect'] = 'select-service';
       }
 
       
-      stdh_register_university_submit
+    //  stdh_register_university_submit
 function stdh_form_user_register_form_alter(&$form, &$form_state, $form_id) {
  
   $form['#theme'] = 'user_register';
