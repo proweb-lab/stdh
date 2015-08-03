@@ -89,7 +89,7 @@ if ($form['#id']== 'webform-client-form-64'){
           $form['title']['#access'] = 0;
     $form['field_universiry']['und']['#options']['_none'] = t('Select University');
      $form['actions']['submit']['#value'] = t('Next');
-      
+      $form['actions']['submit']['#submit'][] = 'stdh_register_university_submit';
       break;
     case 'application_node_form';
               $form['title']['#default_value'] = 'New Application';
@@ -137,7 +137,14 @@ $form['field_exam_center_guidance']['und']['#type'] = 'checkboxes';
 
   $form_state['redirect'] = 'select-university';
       }
+       function stdh_register_university_submit($form, &$form_state) {
 
+
+  $form_state['redirect'] = 'select-service';
+      }
+
+      
+      stdh_register_university_submit
 function stdh_form_user_register_form_alter(&$form, &$form_state, $form_id) {
  
   $form['#theme'] = 'user_register';
