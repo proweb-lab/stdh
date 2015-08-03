@@ -99,6 +99,14 @@ if ($form['#id']== 'webform-client-form-64'){
            $form['actions']['submit']['#submit'][] = 'stdh_application_submit';
              
       break;
+  case 'single_service_node_form';
+      print_r($form);
+          $form['title']['#default_value'] = 'New Service';
+          $form['title']['#access'] = 0;
+          $form['language']['#access'] = 0;
+          $form['actions']['submit']['#value'] = t('Next');
+          //$form['actions']['submit']['#submit'][] = 'stdh_application_submit';
+
     
         }
       
