@@ -106,8 +106,8 @@ if ($form['#id']== 'webform-client-form-64'){
           $form['language']['#access'] = 0;
           $form['actions']['submit']['#value'] = t('Next');
           //$form['actions']['submit']['#submit'][] = 'stdh_application_submit';
-
-    
+$form['field_flight_reservation']['#type'] = 'checkboxes';
+ //  field_flight_reservation
         }
       
        
