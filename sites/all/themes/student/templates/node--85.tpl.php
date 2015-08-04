@@ -21,7 +21,7 @@
         
           $form_state = array();
   form_load_include($form_state, "inc", "node", "node.pages");
-  $form = node_add('application');
+  $form = node_add(application);
   return drupal_render($form);
         ?>
         </div>
