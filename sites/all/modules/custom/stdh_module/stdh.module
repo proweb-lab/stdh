@@ -185,15 +185,15 @@ function stdh_user_profile_form_submit($form, &$form_state) {
 function getNew_form($node_type) {
   global $user;
   $form_state = array();
-  form_load_include($form_state, "inc", "node", "node.pages");
-  $form = node_add($node_type);
-  return drupal_render($form);
+//  form_load_include($form_state, "inc", "node", "node.pages");
+//  $form = node_add($node_type);
+//  return drupal_render($form);
 //  
-// $nodeNew = (object) array('uid' => $user->uid, 'name' => (isset($user->name) ? $user->name : ''), 'type' => $node_type, 'language' => LANGUAGE_NONE);
-// $form_state['build_info']['args'] = array($nodeNew);
-//  form_load_include($form_state, 'inc', 'node', 'node.pages');
-// $form = drupal_get_form($node_type . '_node_form', $nodeNew);
-// return drupal_render($form);
+ $nodeNew = (object) array('uid' => $user->uid, 'name' => (isset($user->name) ? $user->name : ''), 'type' => $node_type, 'language' => LANGUAGE_NONE);
+ $form_state['build_info']['args'] = array($nodeNew);
+  form_load_include($form_state, 'inc', 'node', 'node.pages');
+ $form = drupal_get_form($node_type . '_node_form', $nodeNew);
+ return drupal_render($form);
 }
 
 
