@@ -19,10 +19,10 @@
         $application_variable = drupal_render($application_form);
         echo $application_variable;
         
-          $form_state = array();
-  form_load_include($form_state, "inc", "node", "node.pages");
-  $form = node_add(application);
-  return drupal_render($form);
+//          $form_state = array();
+//  form_load_include($form_state, "inc", "node", "node.pages");
+//  $form = node_add(application);
+//  return drupal_render($form);
         ?>
         </div>
     </div>
