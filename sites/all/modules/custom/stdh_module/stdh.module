@@ -181,31 +181,21 @@ function stdh_user_profile_form_submit($form, &$form_state) {
 }
 
 
-function stdh_service_form(){
 
+function getNew_form($node_type) {
+  global $user;
+  $form_state = array();
+  //form_load_include($form_state, "inc", "node", "node.pages");
+  //$form = node_add($node_type);
+ // return drupal_render($form);
   
-  $form['year'] = array(
-    '#type' => 'select',
-    '#title' => '',
-    '#options' => array('' => t('-Year'), 2012 => 2012, 2013 => 2013, 2014 => 2014, 2015 => 2015, 2016 => 2016),
-    '#default_value' => $year,
-  );
-  $form['month'] = array(
-    '#type' => 'select',
-    '#title' => '',
-    '#options' => array('' => t('-Month'), 1 => t('Jan'), 2 => t('Feb'), 3 => t('Mar'), 4 => t('Apr'), 5 => t('May'), 6 => t('Jun'), 7 => t('Jul'), 8 => t('Aug'), 
-                                    9 => t('Sep'), 10 => t('Oct'), 11 => t('Nov'), 12 => t('Dec')),
-    '#default_value' => $month,
-  );
-  
-  $form['submit'] = array('#type' => 'submit', '#value' => t('Apply'));
-  
-  return $form;
+ $nodeNew = (object) array('uid' => $user->uid, 'name' => (isset($user->name) ? $user->name : ''), 'type' => $node_type, 'language' => LANGUAGE_NONE);
+ $form_state['build_info']['args'] = array($nodeNew);
+  form_load_include($form_state, 'inc', 'node', 'node.pages');
+ $form = drupal_get_form($node_type . '_node_form', $nodeNew);
+ return drupal_render($form);
 }
 
-function stdh_service_form_submit($form, &$form_state){
-
-}
 
 
    ?>
