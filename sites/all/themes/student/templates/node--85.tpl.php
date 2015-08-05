@@ -4,7 +4,7 @@
         <div class="col-sm-6">
         <?php
         global $user;
-        print getNewTopic_form('application'); 
+        print getNew_form('application'); 
 //<!--     $form_state = array();
 //      form_load_include($form_state, "inc", "node", "node.pages");
 //        $application = new stdClass();
