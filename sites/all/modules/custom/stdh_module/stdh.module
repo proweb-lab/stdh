@@ -197,7 +197,7 @@ function stdh_user_profile_form_submit($form, &$form_state) {
 
 
 function getNew_form($node_type) {
-  //global $user;
+global $user;
   $form_state = array();
   form_load_include($form_state, "inc", "node", "node.pages");
   $form = node_add($node_type);
