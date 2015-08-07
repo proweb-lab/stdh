@@ -495,7 +495,7 @@ footer .row #block-block-4 a
     margin: 10px 40px;
     position: relative;
     padding: 30px 30px;
-    height: 300px;
+    min-height: 450px;
 }
 .services .service-1 .service-title{
     color:#C0C0C0;
@@ -549,7 +549,7 @@ footer .row #block-block-4 a
     padding-bottom: 4px;
     cursor: pointer;
 }
-.services .service-block .service-description{height: 120px;}
+.services .service-block .service-description{min-height: 230px;}
 
 
 
