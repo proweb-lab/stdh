@@ -26,7 +26,7 @@
     if (!function_exists('node_add')) {
   module_load_include('inc', 'node', 'node.pages');
 }
- $from = node_add('application_node_form');
+ $from = node_add('application');
 print drupal_render($form);
 
 //          $form_state = array();
