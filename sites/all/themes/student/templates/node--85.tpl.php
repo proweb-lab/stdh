@@ -19,7 +19,7 @@
         //$application->field_app_position['und'][0]['nid'] = $user->uid$node->nid;
         node_object_prepare($applications);
         $applications_form = drupal_get_form('application_node_form', $applications);
-        $applications_variable = drupal_render(node_add($applications_form));
+        $applications_variable = drupal_render($applications_form);
         echo $applications_variable;
         
 //          $form_state = array();
