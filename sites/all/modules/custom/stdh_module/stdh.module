@@ -40,7 +40,7 @@ function stdh_get_students_applications() {
 
 
 function stdh_form_alter(&$form, &$form_state, $form_id) {
-print_r($form['#id']);
+//print_r($form['#id']);
 //   print '<pre>';
 //  print_r($form);
 //  print '</pre>';
