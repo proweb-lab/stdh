@@ -617,7 +617,7 @@ footer .row #block-block-4 a
     position:relative;
     border:1px solid #BBB;
     background:#eee;
-    height: 160px;
+    height: auto;
     margin-bottom: 10px;
 
 }
