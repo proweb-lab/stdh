@@ -612,6 +612,7 @@ footer .row #block-block-4 a
 }
 .box .service-description{
     padding: 10px 10px;
+    overflow: hidden;
 }
 .front .view-services .box {
     position:relative;
