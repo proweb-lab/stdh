@@ -613,6 +613,9 @@ footer .row #block-block-4 a
 .box .service-description{
     padding: 10px 10px;
 }
+.front .view-services{
+    display:table;
+}
 .front .view-services .box {
     position:relative;
     border:1px solid #BBB;
