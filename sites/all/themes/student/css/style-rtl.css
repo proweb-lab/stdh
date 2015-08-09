@@ -617,9 +617,8 @@ footer .row #block-block-4 a
     position:relative;
     border:1px solid #BBB;
     background:#eee;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
+    min-height:370px;
+    display: inline-flex;
     margin-bottom: 10px;
 
 }
