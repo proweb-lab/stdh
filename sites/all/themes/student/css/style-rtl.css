@@ -618,7 +618,7 @@ footer .row #block-block-4 a
     position:relative;
     border:1px solid #BBB;
     background:#eee;
-    height: auto;
+    min-height: 270px;
     margin-bottom: 10px;
 
 }
