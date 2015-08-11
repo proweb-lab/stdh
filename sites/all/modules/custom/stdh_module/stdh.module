@@ -1,6 +1,11 @@
 <?php
 
 function stdh_menu() {
+  $items['admin/stdh'] = array(
+    'title' => t('Students Info'),
+    'access arguments' => array('administer stdh'),
+    'type' => MENU_NORMAL_ITEM,
+  );
 
   $items['admin/stdh/applications'] = array(
     'title' => t('Students Applications'),
