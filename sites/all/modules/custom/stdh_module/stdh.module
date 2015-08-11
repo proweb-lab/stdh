@@ -9,11 +9,39 @@ function stdh_menu() {
     'access arguments' => array('administer stdh'),
     'type' => MENU_NORMAL_ITEM,
   );
+  $items['admin/stdh/payments'] = array(
+    'title' => t('Students Payments'),
+    'page callback' => 'stdh_get_students_payment',
+    'access arguments' => array('administer stdh'),
+    'type' => MENU_NORMAL_ITEM,
+  );
  
-
-
+  $items['paypal/%'] = array(
+    'title' => t(''),
+    'page callback' => 'payment_paypal_return_page',
+    'page arguments' => array(1),
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,
+  );
+  
+  $items['paypal-notify-url'] = array(
+    'title' => t(''),
+    'page callback' => 'stdh_paypal_notify_url',
+    'type' => MENU_CALLBACK,
+    'access callback' => TRUE,
+  );
+  
+  $items['admin/paypal/config'] = array(
+    'title' => t('Paypal Configuration'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('stdh_paypal_configuration'),
+    'type' => MENU_NORMAL_ITEM,
+    'access callback' => TRUE,
+  );
   return $items;
 }
+
+
 /*
  * Implementation of hook_permission
  */
@@ -23,6 +51,10 @@ function stdh_permission() {
     'administer stdh' => array(
       'title' => t('Administer stdh'),
     ),
+        'administer paypal' => array(
+      'title' => 'Administer PayPal',
+      'description' => 'View and modify PayPal Settings and payments.'
+    )
    
   );
 }
@@ -186,36 +218,250 @@ function stdh_user_profile_form_submit($form, &$form_state) {
 }
 
 
-//
-//function getNew_form($node_type) {
-//  global $user;
-// // $form_state = array();
-////  form_load_include($form_state, "inc", "node", "node.pages");
-////  $form = node_add($node_type);
-////  return drupal_render($form);
-////  
-// $nodeNew = (object) array('uid' => $user->uid, 'name' => (isset($user->name) ? $user->name : ''), 'type' => $node_type, 'language' => LANGUAGE_NONE);
-// $form_state['build_info']['args'] = array($nodeNew);
-//  form_load_include($form_state, 'inc', 'node', 'node.pages');
-// $form = drupal_get_form($node_type . '_node_form', $nodeNew);
-// return drupal_render($form);
-
-
-function getNew_form($node_type) {
-global $user;
-  $form_state = array();
-  form_load_include($form_state, "inc", "node", "node.pages");
-  $form = node_add($node_type);
-  return drupal_render($form);
+/*
+ * Configuration page
+ */
+function stdh_paypal_configuration($form, &$form_state) {
+  // Show these in order of most likely to be changed
+  $site_name = variable_get('site_name', 'بيت الطالب');
+  $form['stdh_paypal_host'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Paypal Host'),
+    '#default_value' => variable_get('stdh_paypal_host', 'www.paypal.com'),
+    '#maxlength' => 100,
+    '#required' => TRUE,
+  );
+  $form['stdh_paypal_email'] = array(
+    '#type' => 'textfield',
+    '#title' => t('PayPal Business/Premier Email'),
+    '#default_value' => variable_get('stdh_paypal_email', 'compta@efi-ife.org'),
+    '#maxlength' => 100,
+    '#required' => TRUE,
+  );
+  $form['stdh_paypal_skip_validation'] = array(
+    '#type' => 'select',
+    '#title' => t('Skip Paypal Validation'),
+    '#default_value' => variable_get('stdh_paypal_skip_validation', 0),
+    '#options' => array(0 => t('No'), 1 => t('Yes')),
+    '#required' => TRUE,
+  );
   
-//  $nodeNew = (object) array('uid' => $user->uid, 'name' => (isset($user->name) ? $user->name : ''), 'type' => $node_type, 'language' => LANGUAGE_NONE);
-//  $form_state['build_info']['args'] = array($nodeNew);
-//  form_load_include($form_state, 'inc', 'node', 'node.pages');
-//  $form = drupal_get_form($node_type . '_node_form', $nodeNew);
-//  return drupal_render($form);
+
+   $form['stdh_paypal_thanks_text'] = array(
+    '#type' => 'textarea',
+    '#title' => t('PayPal Thank You Text'),
+    '#default_value' => variable_get('stdh_paypal_thanks_text', ''),
+    '#required' => TRUE,
+  );
+  
+  $form['stdh_paypal_cancel_text'] = array(
+    '#type' => 'textarea',
+    '#title' => t('PayPal Cancel Text'),
+    '#default_value' => variable_get('stdh_paypal_cancel_text', ''),
+    '#required' => TRUE,
+  );
+
+
+  $form['stdh_fixed_payment_header_text'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Header Text'),
+    '#default_value' => variable_get('stdh_fixed_payment_header_text', ''),
+  );
+
+  
+  
+  return system_settings_form($form);
+}
+
+/*
+ * Return page and cancel page
+ */
+function stdh_paypal_return_page($type){
+  global $language;
+  if($type == 'cancel'){
+    drupal_set_message(variable_get('stdh_paypal_cancel_text_'.$language->language, ''));
+  }
+  else{
+    drupal_set_message(variable_get('stdh_paypal_thanks_text_'.$language->language, ''));
+  }
+  
+  if($language->language == 'ar'){
+    drupal_goto('node/36');
+  }
+}
+
+/*
+ * Payment form
+ */
+function stdh_fixed_payment_form(){
+  global $language;
+  $form = array();
+  $form['header'] = array('#markup' => variable_get('stdh_payment_header_text', ''));
+  $form['amount'] = array(
+    '#type' => 'select',
+    '#options' => drupal_map_assoc(array(1000, t('other'))),
+    '#required' => TRUE,
+    '#title' => t('Amount of Payment')
+  );
+  $form['other'] = array(
+    '#type' => 'textfield',
+    '#title' => t(''),
+  );
+  $form['currency'] = array(
+    '#type' => 'select',
+    '#options' => array('USD' => t('U.S. Dollar'),),
+    '#required' => TRUE,
+    '#default_value' => 'USD',
+    '#title' => t('Currency')
+  );
+  $form['note'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Note'),
+  );
+  
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Pay'),
+  );
+  
+  return $form;
+}
+
+function stdh_fixed_payment_form_validate($form, &$form_state){
+  $value = trim($form_state['values']['other']);
+  if($form_state['values']['amount'] == 'other'){
+    if(empty($value)){
+      form_set_error('other');
+    }
+    elseif(!is_numeric($value)){
+      form_set_error('other');
+    }
+  }
+}
+
+function stdh_fixed_payment_form_submit($form, &$form_state){
+  global $language;
+  // first save the form to a fixed_payment node
+  $node = new stdClass();
+  $node->type = 'fixed_payment';
+  $node->title = 'Payment at ' . date('d/m/Y H:i:s', time());
+  $node->field_fixed_payment_amount['und'][0]['value'] = ($form_state['values']['amount'] != 'other') ? $form_state['values']['amount'] : $form_state['values']['other'];
+  $node->field_fixed_payment_currency['und'][0]['value'] = $form_state['values']['currency'];
+  if(!empty($form_state['values']['note'])){
+    $node->field_body['und'][0]['value'] = check_plain($form_state['values']['note']);
+    $node->field_body['und'][0]['format'] = 'plain_text';
+    $node->field_body['und'][0]['safe_value'] = check_plain($form_state['values']['note']);
+  }
+  $node->field_fixed_payment_status['und'][0]['value'] = 0;
+  $node->language = $language->language;
+  $node->status = 0;
+  node_submit($node);
+  node_save($node);
+
+  global $base_url;
+  // Get vars from LM Paypal if it exists
+  $business_email = variable_get('stdh_paypal_email');
+  $paypal_host = 'https://' . variable_get('stdh_paypal_host') . '/cgi-bin/webscr?';
+
+  $query = '';
+  $query .= "business=".urlencode($business_email) . "&";
+  $query .= "cmd=".urlencode("_fixed_payments") . "&";
+  $query .= "currency_code=".urlencode($form_state['values']['currency']) . "&";
+  $query .= "item_name=".urlencode("IFE-EFI Donation") . "&";
+  $query .= "tax=".urlencode(0) . "&";
+  $query .= "no_note=".urlencode(1) . "&";
+  $query .= "no_shipping=".urlencode(1) . "&";
+  $query .= "custom=".urlencode($node->nid) . "&";
+  $query .= "return=".urlencode(stripslashes($base_url . "/paypal/thanks")) . "&";
+  $query .= "cancel_return=".urlencode(stripslashes($base_url . "/paypal/cancel")) . "&";
+  $query .= "notify_url=".urlencode(stripslashes($base_url . "/paypal-notify-url")) . "&";
+  $query .= "amount=".urlencode($form_state['values']['amount']);
+
+  $url = $paypal_host . $query;
+
+  // Redirect user to PayPal...
+  header('location:'.$url);
+  exit();
+}
+
+/*
+ * Notify URL
+ */
+function stdh_paypal_notify_url(){
+  $validated = stdh_paypal_validate_ipn($_POST);
+  $nid = $_POST['custom'];
+  $node = node_load($nid);
+  $donor_email = $_POST['payer_email'];
+  $txn_id = $_POST['txn_id'];
+
+  $node->field_fixed_payment_email['und'][0]['value'] = $donor_email;
+  $node->field_fixed_payment_txn['und'][0]['value'] = $txn_id;
+  
+  if ($validated) {
+    $node->field_fixed_payment_status['und'][0]['value'] = 1;
+    watchdog('paypal', 'validated fixed_payment for node: ' . $nid);
+  }
+  else{
+    $node->field_fixed_payment_status['und'][0]['value'] = 2;
+    watchdog('paypal', 'not validated fixed_payment for node: ' . $nid);
+  }
+  
+  node_save($node);
+}
+
+/**
+ * Given the full $_POST data from an incoming IPN, check with PayPal that this
+ * is a real IPN.  Without this check, IPNs may be spoofed.
+ *
+ * @param array $post
+ *   The key-value pairs from an incoming IPN (presumably straight from $_POST)
+ * @return
+ *   TRUE if PayPal successfully validated the request.  This will not happen if
+ *   there was an error communicating with the service, the IPN did not
+ *   originate from PayPal, or it was tampered with in any way.
+ */
+function stdh_paypal_validate_ipn($post) {
+  // If lm_paypal_skip_validation is set, then don't validate the incoming IPN
+  // with PayPal. Never enable this on a real website!!
+  if (variable_get('stdh_paypal_skip_validation', FALSE)) {
+    return TRUE;
+  }
+  
+  // Build the IPN validation request from the $post fields
+  $req = 'cmd=_notify-validate';
+  foreach ($post as $key => $value) {
+    $req .= "&$key=" . urlencode(stripslashes($value));
+  }
+  
+  /* From the exmaple in PayPal's documentation */
+  $hostname = 'https://' . variable_get('stdh_paypal_host', 'www.paypal.com') . '/cgi-bin/webscr';
+  $ch = curl_init($hostname);
+  curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
+  curl_setopt($ch, CURLOPT_POST, 1);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $req);
+  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1);
+  curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
+  curl_setopt($ch, CURLOPT_FORBID_REUSE, 1);
+  curl_setopt($ch, CURLOPT_HTTPHEADER, array('Connection: Close'));
+   
+  // In wamp-like environments that do not come bundled with root authority certificates,
+  // please download 'cacert.pem' from "http://curl.haxx.se/docs/caextract.html" and set 
+  // the directory path of the certificate as shown below:
+  // curl_setopt($ch, CURLOPT_CAINFO, dirname(__FILE__) . '/cacert.pem');
+  if( !($res = curl_exec($ch)) ) {
+    watchdog('paypal', "Got " . curl_error($ch) . " when processing IPN data");
+      curl_close($ch);
+      exit;
+  }
+  curl_close($ch);
+
+  return (trim($res) == 'VERIFIED');
 }
 
 
 
-   ?>
 
+
+
+   ?>
