@@ -678,6 +678,8 @@ footer .row #block-block-4 a
 }
 #edit-uni-specialties{
     height: 39px;
+    position:relative;
+    z-index: 1000;    
 }
 
 .uni-table {text-align: center;}
