@@ -552,8 +552,8 @@ footer .row #block-block-4 a
 .services .service-block .service-description{min-height: 230px;}
 
 
-.node-form node-single_service-form  .radio:first-child, 
-.node-form node-single_service-form .checkbox:first-child{
+.node-single_service-form  .radio:first-child, 
+.node-single_service-form .checkbox:first-child{
     display: none !important;
 }
 
