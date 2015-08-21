@@ -142,6 +142,7 @@ if ($form['#id']== 'webform-client-form-64'){
       break;
   case 'single_service_node_form';
     //  print_r($form);
+  
           $form['title']['#default_value'] = 'New Service';
           $form['title']['#access'] = 0;
           $form['language']['#access'] = 0;
@@ -165,6 +166,10 @@ $form['field_exam_center_guidance']['und']['#type'] = 'checkboxes';
 $form['field_service_bundle']['und']['#options']['_none'] = '';
 
 $form['field_service_bundle']['#suffix']='<div class="divider"></div><hr>';
+
+   $form['field_total']['#prefix']='<div class="total-count">';
+    $form['field_total']['#suffix']='</div>';
+   
 
         }
       
