@@ -557,11 +557,12 @@ footer .row #block-block-4 a
     display: none !important;
 }
 .total-count{
-    position: fixed;
+       position: fixed;
     top: 100px;
-    left: 10px;
-    width: 100px;
+    left: 10%;
+    width: 25%;
     background: #fff;
+    color: #d8450b;
 }
 
 #edit-field-service-bundle-und > div
