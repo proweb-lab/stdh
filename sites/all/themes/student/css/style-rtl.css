@@ -556,6 +556,13 @@ footer .row #block-block-4 a
 .node-single_service-form .checkbox:first-child{
     display: none !important;
 }
+.total-count{
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    width: 100px;
+    background: #fff;
+}
 
 #edit-field-service-bundle-und > div
 {
