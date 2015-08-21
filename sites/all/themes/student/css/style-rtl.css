@@ -564,6 +564,9 @@ footer .row #block-block-4 a
     background: #fff;
     color: #d8450b;
 }
+.total-count .form-control{
+    border:none;
+}
 
 #edit-field-service-bundle-und > div
 {
