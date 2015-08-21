@@ -46,3 +46,13 @@ function checkTotal() {
     document.listForm.total.value = sum;
 }
 //End function calculate other services
+
+
+ $('input:checkbox').change(function(){
+var tot=0;
+$('input:checkbox:checked').each(function(){
+tot+=parseInt($(this).val());
+});
+ tot+=parseInt($('#more').val());
+alert(tot);
+});
