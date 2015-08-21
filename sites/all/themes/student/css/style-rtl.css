@@ -565,7 +565,13 @@ footer .row #block-block-4 a
     display: none;
 }
 
-
+.field-name-field-service-bundle:nth-child(1),
+.field-name-field-service-bundle:nth-child(2),
+.field-name-field-service-bundle:nth-child(3),
+.field-name-field-service-bundle:nth-child(4){
+    float: right;
+    padding: 0 30px;
+}
 
 
 
