@@ -554,8 +554,7 @@ footer .row #block-block-4 a
 #edit-field-flight-reservation-und-none,
 #edit-field-outer-accommodation-und-none,
 #edit-field-issuance-of-residence-und-none,
-#edit-field-service-bundle-und-none,
-.form-item label:first{
+#edit-field-service-bundle-und-none{
     display: none;
 }
 
