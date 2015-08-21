@@ -564,6 +564,10 @@ footer .row #block-block-4 a
 #edit-field-service-bundle-und--none{
     display: none;
 }
+.node-form node-single_service-form  .radio:first-child, 
+.node-form node-single_service-form.checkbox:first-child{
+    display: none;
+}
 
 #edit-field-service-bundle-und > div
 {
