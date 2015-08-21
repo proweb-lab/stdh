@@ -551,19 +551,7 @@ footer .row #block-block-4 a
 }
 .services .service-block .service-description{min-height: 230px;}
 
-.form-item-field-flight-reservation-und--none,
-#edit-field-service-bundle-und-none,
-#edit-field-tour-und-none,
-#edit-field-complete-registration-und--none,
-#edit-field-inner-accommodation-und--none,
-#edit-field-university-admission-und--none,
-#edit-field-exam-center-guidance-und--none,
-#edit-field-flight-reservation-und--none,
-#edit-field-outer-accommodation-und--none,
-#edit-field-issuance-of-residence-und--none,
-#edit-field-service-bundle-und--none{
-    display: none;
-}
+
 .node-form node-single_service-form  .radio:first-child, 
 .node-form node-single_service-form.checkbox:first-child{
     display: none;
