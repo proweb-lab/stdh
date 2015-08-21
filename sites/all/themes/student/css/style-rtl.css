@@ -553,8 +553,8 @@ footer .row #block-block-4 a
 
 
 .node-form node-single_service-form  .radio:first-child, 
-.node-form node-single_service-form.checkbox:first-child{
-    display: none;
+.node-form node-single_service-form .checkbox:first-child{
+    display: none !important;
 }
 
 #edit-field-service-bundle-und > div
