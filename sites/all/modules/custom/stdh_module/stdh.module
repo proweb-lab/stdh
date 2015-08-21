@@ -163,7 +163,7 @@ $form['field_introductory_lecture']['und']['#type'] = 'checkboxes';
 $form['field_exam_center_guidance']['und']['#options']['_none'] = '';
 $form['field_exam_center_guidance']['und']['#type'] = 'checkboxes';
 $form['field_service_bundle']['und']['#options']['_none'] = '';
-$form['field_service_bundle']['und']['#type'] = 'checkboxes';
+
 $form['field_service_bundle']['#suffix']='<div class="divider"></div><hr>';
 
         }
