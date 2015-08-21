@@ -550,6 +550,9 @@ footer .row #block-block-4 a
     cursor: pointer;
 }
 .services .service-block .service-description{min-height: 230px;}
+
+.form-item-field-flight-reservation-und--none,
+.form-item-field-service-bundle-und,
 #edit-field-tour-und-none,
 #edit-field-complete-registration-und-none,
 #edit-field-inner-accommodation-und-none,
