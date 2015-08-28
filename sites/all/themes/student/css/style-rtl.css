@@ -883,10 +883,10 @@ footer .row #block-block-4 a
 {
   color:green;
 }
- #txtResult
- {
-    width:200px;
- }
+#txtResult
+{
+  width:200px;
+}
 /*End style node 78 */
 @media only screen and (max-width:960px){
     .services .service-block .service-description{width: 190px;}
