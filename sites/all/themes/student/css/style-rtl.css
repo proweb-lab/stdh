@@ -879,6 +879,10 @@ footer .row #block-block-4 a
 }
 /*End style pagination in page search*/
 /*Begin style node 78*/
+#noteprice
+{
+  color:green;
+}
  #txtResult
  {
     width:200px;
