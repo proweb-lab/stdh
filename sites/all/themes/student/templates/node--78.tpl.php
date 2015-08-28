@@ -4,7 +4,7 @@
             <div class="cont_order">
                 <fieldset>
                     <legend>خدمات متفرقة</legend>
-                    <label >قائمة الخدمات</label>
+                    <label >قائمة الخدمات</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>الاستقبال في المطار ($25)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>تامين السكن الداخلي ($25)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>تامين قبول الجامعي($25)</label><br/>
