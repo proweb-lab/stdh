@@ -5,7 +5,7 @@
                 <fieldset>
                     <legend>خدمات متفرقة</legend>
                     <label >قائمة الخدمات</label><br>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>الاستقبال في المطار ($25)</label><br/>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="498.58" onchange="checkTotal()"/>تامين القبول الجامعي ($498.58)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>تامين السكن الداخلي ($25)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>تامين قبول الجامعي($25)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>محاضرة تعريفية في تركيا ($25)</label><br/>
