@@ -10,9 +10,7 @@
                     <label class='radiolabel'><input type="checkbox" name="choice" value="85.47" onchange="checkTotal()"/>الاستقبال في المطار($85.47)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="42.74" onchange="checkTotal()"/>تأمين السكن الداخلي في الجامعة ($42.74)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="71.23" onchange="checkTotal()"/>محاضرة تعريفية عن دولة الدراسة في دولة الدراسة ($71.23)</label><br/>
-                    <br/>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>اصدار الاقامة($25)</label><br/>
-                    <br/>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="28.49" onchange="checkTotal()"/>المساعدة في التحضير لامتحانات القبول الجامعي من خلال إرشادهم إلى المراكز المعنية($28.49)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>تأمين السكن خارجي($25)</label><br/>
                     <br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>تدريب على اللغة التركية($25)</label><br/>
