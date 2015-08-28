@@ -20,7 +20,7 @@
                     <br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>رحلات تعريفية بالتركيا بخصم 70%($25)</label><br/>
                     <br/>
-                    <div id="totalPrice"> السعر: <input type="text" size="2" name="total" readonly="readonly" value="0"/></div>
+                    <div id="totalPrice"> السعر: <input type="text" size="2" id="txtResult"name="total" readonly="readonly" value="0"/></div>
 
                 </fieldset>
             </div>
