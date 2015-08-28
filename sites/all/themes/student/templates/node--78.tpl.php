@@ -17,7 +17,7 @@
                     <label class='radiolabel'><input type="checkbox" name="choice" value="213.68" onchange="checkTotal()"/>استكمال إجراءات التسجيل ($213.68)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="356.13" onchange="checkTotal()"/>دورة أساسية في اللغة التركية تعقد في تركيا ($356.13)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="170.94" onchange="checkTotal()"/>المساعدة في استخراج الرقم الضريبي وفتح الحساب البنكي  ($170.94)</label><br/>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="142.45" onchange="checkTotal()"/>رحلة ترفيهية وتعليمية خلال السنة الدراسية للطلبة  ($142.45)</label><br/>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="142.45" onchange="checkTotal()"/>رحلة ترفيهية وتعليمية خلال السنة الدراسية للطلبة  ($142.45)</label><br><br><br>
                     <div id="totalPrice"> السعر: <input type="text" size="2" id="txtResult"name="total" readonly="readonly" value="0"/></div>
 
                 </fieldset>
