@@ -5,7 +5,7 @@
                 <fieldset>
                     <legend>خدمات متفرقة</legend>
                     <label>قائمة الخدمات</label><br>
-                    <p id="noteprice">ملاحظة العملة المتداولة في اسعار الخدمات بالدولار الامريكي فقط*</p>
+                    <p id="noteprice">*ملاحظة العملة المتداولة في اسعار الخدمات بالدولار الامريكي فقط</p>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="498.58" onchange="checkTotal()"/>تامين القبول الجامعي ($498.58)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="21.37" onchange="checkTotal()"/>تأمين حجوزات الطيران ($21.37)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="85.47" onchange="checkTotal()"/>الاستقبال في المطار($85.47)</label><br>
