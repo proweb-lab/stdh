@@ -9,7 +9,6 @@
                     <label class='radiolabel'><input type="checkbox" name="choice" value="21.37" onchange="checkTotal()"/>تأمين حجوزات الطيران ($21.37)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="85.47" onchange="checkTotal()"/>الاستقبال في المطار($85.47)</label><br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="42.74" onchange="checkTotal()"/>تأمين السكن الداخلي في الجامعة ($42.74)</label><br/>
-                    <br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="71.23" onchange="checkTotal()"/>محاضرة تعريفية عن دولة الدراسة في دولة الدراسة ($71.23)</label><br/>
                     <br/>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="25" onchange="checkTotal()"/>اصدار الاقامة($25)</label><br/>
