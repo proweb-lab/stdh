@@ -384,7 +384,7 @@ function stdh_fixed_payment_submit($form, &$form_state){
   $query = '';
   $query .= "business=".urlencode($business_email) . "&";
   $query .= "cmd=".urlencode("_fixed_payments") . "&";
-  $query .= "currency_code=".urlencode($form_state['values']['currency']) . "&";
+  $query .= "currency_code=".urlencode($form_state['values']['field_currency']) . "&";
   $query .= "item_name=".urlencode("بيت الطالب") . "&";
   $query .= "tax=".urlencode(0) . "&";
   $query .= "no_note=".urlencode(1) . "&";
@@ -393,7 +393,7 @@ function stdh_fixed_payment_submit($form, &$form_state){
 //  $query .= "return=".urlencode(stripslashes($base_url . "/paypal/thanks")) . "&";
 //  $query .= "cancel_return=".urlencode(stripslashes($base_url . "/paypal/cancel")) . "&";
 //  $query .= "notify_url=".urlencode(stripslashes($base_url . "/paypal-notify-url")) . "&";
-  $query .= "amount=".urlencode($form_state['values']['amount']);
+  $query .= "amount=".urlencode($form_state['values']['field_amount']);
 
   $url = $paypal_host . $query;
 
