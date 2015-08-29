@@ -28,11 +28,11 @@ function paymentform_field_schema($field) {
           'length' => '255',
           'not null' => TRUE,
         ),
-        'quantity' => array(
-          'type' => 'int',
-          'not null' => TRUE,
-          'value' => '1',
-        ),
+//        'quantity' => array(
+//          'type' => 'int',
+//          'not null' => TRUE,
+//          'value' => '1',
+//        ),
         'tax_rate' => array(
           'type' => 'float',
           'size' => 'big',
