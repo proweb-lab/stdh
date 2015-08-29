@@ -25,7 +25,7 @@
               $form_state = array();
        form_load_include($form_state, "inc", "node", "node.pages");
           module_load_include('inc', 'node', 'node.pages');    
-  $form = drupal_get_form("fixed_payment_node_form", $node_form);
+  $form = drupal_get_form("fixed_payment_node_form");
   echo $rtn = drupal_render($form);
         
         
