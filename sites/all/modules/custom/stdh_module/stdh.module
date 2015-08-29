@@ -21,14 +21,6 @@ function stdh_menu() {
     'type' => MENU_NORMAL_ITEM,
   );
  
-
-  $items['admin/paypal/config'] = array(
-    'title' => t('Paypal Configuration'),
-    'page callback' => 'drupal_get_form',
-    'page arguments' => array('stdh_paypal_configuration'),
-    'type' => MENU_NORMAL_ITEM,
-    'access callback' => TRUE,
-  );
   return $items;
 }
 
