@@ -413,8 +413,8 @@ function stdh_paypal_notify_url(){
   $student_email = $_POST['payer_email'];
   $txn_id = $_POST['txn_id'];
 
-  $node->field_email['und'][0]['value'] = $student_email;
-  $node->field_txn['und'][0]['value'] = $txn_id;
+  $node->field_payer_email['und'][0]['value'] = $student_email;
+  $node->field_payment_txn['und'][0]['value'] = $txn_id;
   
   if ($validated) {
     $node->field_status['und'][0]['value'] = 1;
