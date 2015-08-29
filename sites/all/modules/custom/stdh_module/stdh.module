@@ -390,7 +390,6 @@ function stdh_fixed_payment_submit($form, &$form_state){
   $query .= "tax=".urlencode(0) . "&";
   $query .= "no_note=".urlencode(1) . "&";
   $query .= "no_shipping=".urlencode(1) . "&";
-  $query .= "custom=".urlencode($node->nid) . "&";
   $query .= "return=".urlencode(stripslashes($base_url . "/paypal/thanks")) . "&";
   $query .= "cancel_return=".urlencode(stripslashes($base_url . "/paypal/cancel")) . "&";
   $query .= "notify_url=".urlencode(stripslashes($base_url . "/paypal-notify-url")) . "&";
