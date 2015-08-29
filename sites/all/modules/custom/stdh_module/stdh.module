@@ -148,20 +148,20 @@ if ($form['#id']== 'webform-client-form-64'){
           $form['language']['#access'] = 0;
           $form['actions']['submit']['#value'] = t('Next');
           //$form['actions']['submit']['#submit'][] = 'stdh_application_submit';
-$form['field_flight_reservation']['und']['#options']['_none'] = '';
-$form['field_flight_reservation']['und']['#type'] = 'checkboxes';
+          $form['field_flight_reservation']['und']['#options']['_none'] = '';
+          $form['field_flight_reservation']['und']['#type'] = 'checkboxes';
  //  field_flight_reservation
 
-$form['field_university_admission']['und']['#options']['_none'] = '';
-$form['field_university_admission']['und']['#type'] = 'checkboxes';
-$form['field_reception_airport']['und']['#options']['_none'] = '';
-$form['field_reception_airport']['und']['#type'] = 'checkboxes';
+          $form['field_university_admission']['und']['#options']['_none'] = '';
+          $form['field_university_admission']['und']['#type'] = 'checkboxes';
+          $form['field_reception_airport']['und']['#options']['_none'] = '';
+          $form['field_reception_airport']['und']['#type'] = 'checkboxes';
 
-$form['field_inner_accommodation']['und']['#options']['_none'] = '';
-$form['field_inner_accommodation']['und']['#type'] = 'checkboxes';
-$form['field_introductory_lecture']['und']['#options']['_none'] = '';
-$form['field_introductory_lecture']['und']['#type'] = 'checkboxes';
-$form['field_exam_center_guidance']['und']['#options']['_none'] = '';
+          $form['field_inner_accommodation']['und']['#options']['_none'] = '';
+          $form['field_inner_accommodation']['und']['#type'] = 'checkboxes';
+          $form['field_introductory_lecture']['und']['#options']['_none'] = '';
+          $form['field_introductory_lecture']['und']['#type'] = 'checkboxes';
+          $form['field_exam_center_guidance']['und']['#options']['_none'] = '';
 $form['field_exam_center_guidance']['und']['#type'] = 'checkboxes';
 $form['field_service_bundle']['und']['#options']['_none'] = '';
 
@@ -252,7 +252,7 @@ function stdh_paypal_configuration($form, &$form_state) {
   $form['stdh_paypal_email'] = array(
     '#type' => 'textfield',
     '#title' => t('PayPal Business/Premier Email'),
-    '#default_value' => variable_get('stdh_paypal_email', 'compta@efi-ife.org'),
+    '#default_value' => variable_get('stdh_paypal_email', 'mf.saadeldin@gmail.com'),
     '#maxlength' => 100,
     '#required' => TRUE,
   );
@@ -311,39 +311,39 @@ function stdh_paypal_return_page($type){
 /*
  * Payment form
  */
-function stdh_fixed_payment_form(){
-  global $language;
-  $form = array();
-  $form['header'] = array('#markup' => variable_get('stdh_payment_header_text', ''));
-  $form['amount'] = array(
-    '#type' => 'select',
-    '#options' => drupal_map_assoc(array(1000, t('other'))),
-    '#required' => TRUE,
-    '#title' => t('Amount of Payment')
-  );
-  $form['other'] = array(
-    '#type' => 'textfield',
-    '#title' => t(''),
-  );
-  $form['currency'] = array(
-    '#type' => 'select',
-    '#options' => array('USD' => t('U.S. Dollar'),),
-    '#required' => TRUE,
-    '#default_value' => 'USD',
-    '#title' => t('Currency')
-  );
-  $form['note'] = array(
-    '#type' => 'textfield',
-    '#title' => t('Note'),
-  );
-  
-  $form['submit'] = array(
-    '#type' => 'submit',
-    '#value' => t('Pay'),
-  );
-  
-  return $form;
-}
+//function stdh_fixed_payment_form(){
+//  global $language;
+//  $form = array();
+//  $form['header'] = array('#markup' => variable_get('stdh_payment_header_text', ''));
+//  $form['amount'] = array(
+//    '#type' => 'select',
+//    '#options' => drupal_map_assoc(array(1000, t('other'))),
+//    '#required' => TRUE,
+//    '#title' => t('Amount of Payment')
+//  );
+//  $form['other'] = array(
+//    '#type' => 'textfield',
+//    '#title' => t(''),
+//  );
+//  $form['currency'] = array(
+//    '#type' => 'select',
+//    '#options' => array('USD' => t('U.S. Dollar'),),
+//    '#required' => TRUE,
+//    '#default_value' => 'USD',
+//    '#title' => t('Currency')
+//  );
+//  $form['note'] = array(
+//    '#type' => 'textfield',
+//    '#title' => t('Note'),
+//  );
+//  
+//  $form['submit'] = array(
+//    '#type' => 'submit',
+//    '#value' => t('Pay'),
+//  );
+//  
+//  return $form;
+//}
 
 function stdh_fixed_payment_form_validate($form, &$form_state){
   $value = trim($form_state['values']['other']);
@@ -385,14 +385,14 @@ function stdh_fixed_payment_submit($form, &$form_state){
   $query .= "business=".urlencode($business_email) . "&";
   $query .= "cmd=".urlencode("_fixed_payments") . "&";
   $query .= "currency_code=".urlencode($form_state['values']['currency']) . "&";
-  $query .= "item_name=".urlencode("IFE-EFI Donation") . "&";
+  $query .= "item_name=".urlencode("بيت الطالب") . "&";
   $query .= "tax=".urlencode(0) . "&";
   $query .= "no_note=".urlencode(1) . "&";
   $query .= "no_shipping=".urlencode(1) . "&";
   $query .= "custom=".urlencode($node->nid) . "&";
-  $query .= "return=".urlencode(stripslashes($base_url . "/paypal/thanks")) . "&";
-  $query .= "cancel_return=".urlencode(stripslashes($base_url . "/paypal/cancel")) . "&";
-  $query .= "notify_url=".urlencode(stripslashes($base_url . "/paypal-notify-url")) . "&";
+//  $query .= "return=".urlencode(stripslashes($base_url . "/paypal/thanks")) . "&";
+//  $query .= "cancel_return=".urlencode(stripslashes($base_url . "/paypal/cancel")) . "&";
+//  $query .= "notify_url=".urlencode(stripslashes($base_url . "/paypal-notify-url")) . "&";
   $query .= "amount=".urlencode($form_state['values']['amount']);
 
   $url = $paypal_host . $query;
