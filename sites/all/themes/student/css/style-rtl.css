@@ -878,7 +878,16 @@ footer .row #block-block-4 a
     color:#d8450b;
 }
 /*End style pagination in page search*/
-
+/*Begin style node 78*/
+#noteprice
+{
+  color:green;
+}
+#txtResult
+{
+  width:200px;
+}
+/*End style node 78 */
 @media only screen and (max-width:960px){
     .services .service-block .service-description{width: 190px;}
     .uni-table .recognition,

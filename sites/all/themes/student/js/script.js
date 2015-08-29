@@ -40,7 +40,7 @@ function checkTotal() {
     var sum = 0;
     for (i=0;i<document.listForm.choice.length;i++) {
         if (document.listForm.choice[i].checked) {
-            sum = sum + parseInt(document.listForm.choice[i].value);
+            sum = sum + parseFloat(document.listForm.choice[i].value);
         }
     }
     document.listForm.total.value = sum;
@@ -51,8 +51,8 @@ function checkTotal() {
  $('input:checkbox').change(function(){
 var tot=0;
 $('input:checkbox:checked').each(function(){
-tot+=parseInt($(this).val());
+tot+=parseFloat($(this).val());
 });
- tot+=parseInt($('#more').val());
+ tot+=parseFloat($('#more').val());
 alert(tot);
 });
