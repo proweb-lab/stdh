@@ -7,6 +7,7 @@ function stdh_menu() {
     'type' => MENU_NORMAL_ITEM,
   );
 
+
   $items['admin/stdh/applications'] = array(
     'title' => t('Students Applications'),
     'page callback' => 'stdh_get_students_applications',
@@ -390,9 +391,9 @@ function stdh_fixed_payment_submit($form, &$form_state){
   $query .= "no_note=".urlencode(1) . "&";
   $query .= "no_shipping=".urlencode(1) . "&";
   $query .= "custom=".urlencode($node->nid) . "&";
-//  $query .= "return=".urlencode(stripslashes($base_url . "/paypal/thanks")) . "&";
-//  $query .= "cancel_return=".urlencode(stripslashes($base_url . "/paypal/cancel")) . "&";
-//  $query .= "notify_url=".urlencode(stripslashes($base_url . "/paypal-notify-url")) . "&";
+  $query .= "return=".urlencode(stripslashes($base_url . "/paypal/thanks")) . "&";
+  $query .= "cancel_return=".urlencode(stripslashes($base_url . "/paypal/cancel")) . "&";
+  $query .= "notify_url=".urlencode(stripslashes($base_url . "/paypal-notify-url")) . "&";
   $query .= "amount=".urlencode($form_state['values']['field_amount']['und'][0]['value']);
 
   $url = $paypal_host . $query;
@@ -409,14 +410,14 @@ function stdh_paypal_notify_url(){
   $validated = stdh_paypal_validate_ipn($_POST);
   $nid = $_POST['custom'];
   $node = node_load($nid);
-  $donor_email = $_POST['payer_email'];
+  $student_email = $_POST['payer_email'];
   $txn_id = $_POST['txn_id'];
 
-  $node->field_fixed_payment_email['und'][0]['value'] = $donor_email;
-  $node->field_fixed_payment_txn['und'][0]['value'] = $txn_id;
+  $node->field_email['und'][0]['value'] = $student_email;
+  $node->field_txn['und'][0]['value'] = $txn_id;
   
   if ($validated) {
-    $node->field_fixed_payment_status['und'][0]['value'] = 1;
+    $node->field_status['und'][0]['value'] = 1;
     watchdog('paypal', 'validated fixed_payment for node: ' . $nid);
   }
   else{
