@@ -158,10 +158,10 @@ $form['field_service_bundle']['#suffix']='<div class="divider"></div><hr>';
     $form['field_total']['#suffix']='</div>';
   break;
   case 'fixed_payment_node_form';
-     
+       print_r($form);
        $form['title']['#default_value'] = 'Payment at ' . date('d/m/Y H:i:s', time());
           $form['title']['#access'] = 0;
-          //$form['actions']['submit']['#submit'][] = 'stdh_fixed_payment_submit';
+        
                   
        break;
         }
