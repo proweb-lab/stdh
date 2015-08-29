@@ -20,25 +20,21 @@ function paymentform_field_schema($field) {
         'description' => array(
           'type' => 'varchar',
           'length' => 255,
-          'value' => 'Student fees',
-           'not null' => FALSE,
-            
+          'default' => '',
         ),
         'name' => array(
           'type' => 'varchar',
           'length' => '255',
-          'not null' => FALSE,
+          'not null' => TRUE,
         ),
-//        'quantity' => array(
-//          'type' => 'int',
-//          'not null' => TRUE,
-//          'value' => '1',
-//        ),
+        'quantity' => array(
+          'type' => 'int',
+          'not null' => TRUE,
+        ),
         'tax_rate' => array(
           'type' => 'float',
           'size' => 'big',
-          'not null' => FALSE,
-          'value' => '1',
+          'not null' => TRUE,
         ),
       ),
     );
