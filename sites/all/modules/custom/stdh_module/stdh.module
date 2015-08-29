@@ -384,9 +384,9 @@ function stdh_fixed_payment_submit($form, &$form_state){
 
   $query = '';
   $query .= "business=".urlencode($business_email) . "&";
-  $query .= "cmd=".urlencode("_fixed_payments") . "&";
+  $query .= "cmd=".urlencode("_payments") . "&";
   $query .= "currency_code=".urlencode($form_state['values']['field_currency']['und'][0]['value']) . "&";
-  $query .= "item_name=".urlencode("بيت الطالب") . "&";
+  $query .= "item_name=".urlencode("stdh") . "&";
   $query .= "tax=".urlencode(0) . "&";
   $query .= "no_note=".urlencode(1) . "&";
   $query .= "no_shipping=".urlencode(1) . "&";
