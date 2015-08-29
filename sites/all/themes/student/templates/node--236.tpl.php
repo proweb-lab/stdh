@@ -22,10 +22,10 @@
 //        $application_variable = drupal_render($application_form);
 //        echo $application_variable;
         
-              $form_state = array();
-       form_load_include($form_state, "inc", "node", "node.pages");
-          module_load_include('inc', 'node', 'node.pages');    
-  $form = drupal_get_form("fixed_payment_node_form");
+//              $form_state = array();
+//       form_load_include($form_state, "inc", "node", "node.pages");
+//          module_load_include('inc', 'node', 'node.pages');    
+  $form = drupal_get_form("stdh_fixed_payment_form");
   echo $rtn = drupal_render($form);
         
         
