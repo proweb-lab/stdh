@@ -8,6 +8,11 @@
     $(this).toggleClass("active");
   });
           $('.payment-line-item-amount.form-control').val('100');
+          $('#edit-field-pay-und-line-item-container-0-quantity').val('1');
+          $('#edit-field-pay-und-line-item-container-0-tax-rate').val('1');
+          $('#edit-field-pay-und-line-item-container-0-description').val('Service fees');
+          
+          
 
         //End Script toggle
 
