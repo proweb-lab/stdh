@@ -174,7 +174,7 @@ $form['field_service_bundle']['#suffix']='<div class="divider"></div><hr>';
      
        $form['title']['#default_value'] = 'Payment at ' . date('d/m/Y H:i:s', time());
           $form['title']['#access'] = 0;
-          $form['actions']['submit']['#submit'][] = 'stdh_fixed_payment_submit'
+          $form['actions']['submit']['#submit'][] = 'stdh_fixed_payment_submit';
                   
        break;
         }
