@@ -357,8 +357,8 @@ function stdh_fixed_payment_form_submit($form, &$form_state){
   $node = new stdClass();
   $node->type = 'fixed_payment';
   $node->title = 'Payment at ' . date('d/m/Y H:i:s', time());
-  $node->field_fixed_payment_amount['und'][0]['value'] = ($form_state['values']['amount'] != 'other') ? $form_state['values']['amount'] : $form_state['values']['other'];
-  $node->field_fixed_payment_currency['und'][0]['value'] = $form_state['values']['currency'];
+  $node->field_amount['und'][0]['value'] = ($form_state['values']['amount'] != 'other') ? $form_state['values']['amount'] : $form_state['values']['other'];
+  $node->field_currency['und'][0]['value'] = $form_state['values']['currency'];
   if(!empty($form_state['values']['note'])){
     $node->field_body['und'][0]['value'] = check_plain($form_state['values']['note']);
     $node->field_body['und'][0]['format'] = 'plain_text';
