@@ -7,7 +7,7 @@
     $(this).next('.colloction-info').slideToggle("slow");
     $(this).toggleClass("active");
   });
-          $('.payment-line-item-amount ').val('100');
+          $('.payment-line-item-amount.form-control').val('100');
 
         //End Script toggle
 
