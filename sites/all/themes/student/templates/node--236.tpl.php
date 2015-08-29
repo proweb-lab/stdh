@@ -9,7 +9,8 @@
 //        $form_state = array();
 //        form_load_include($form_state, "inc", "node", "node.pages");
 //        $application = new stdClass();
-//        $application->type = 'fixed_payment';
+//        $application->type = 'fixed_payment';te = array();
+//        form_load_include($form_state, "inc", "node", "node.pages
 //        $application->uid = $user->uid;
 //        $application->name = (isset($user->name) ? $user->name : '');
 //    
@@ -21,7 +22,8 @@
 //        $application_variable = drupal_render($application_form);
 //        echo $application_variable;
         
-        
+              $form_state = array();
+       form_load_include($form_state, "inc", "node", "node.pages");
           module_load_include('inc', 'node', 'node.pages');    
   $form = drupal_get_form("fixed_payment_node_form", $node_form);
   echo $rtn = drupal_render($form);
