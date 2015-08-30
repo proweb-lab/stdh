@@ -13,6 +13,7 @@ function stdh_preprocess_page(&$variables, $hook) {
   global $user;
   if (isset($variables['node'])) {
       $type = $variables['node']->type;
+      print_r($type);
 if(($type == 'application' || $type == 'register_university' || $type == 'single_service' || $type == 'fixed_payment' || $type == 'payment') && !$user->uid){
       drupal_goto('user/login');
     }
