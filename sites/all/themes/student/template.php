@@ -9,6 +9,12 @@ function stdh_theme($existing, $type, $theme, $path){
   );
 }
   
+function stdh_preprocess_page(&$variables, $hook) {
+  global $user;
+if(($type == 'application' || $type == 'register_university' || $type == 'single_service' || $type == 'fixed_payment' || $type == 'payment') && !$user->uid){
+      drupal_goto('user/login');
+    }
+  }
 function stdh_preprocess_html(&$variables, $hook) {
   drupal_add_js('http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js', 'external');
   
@@ -21,11 +27,6 @@ function stdh_preprocess_html(&$variables, $hook) {
     'dir' => $variables['language']->dir,
   );
 }
-function stdh_preprocess_page(&$variables, $hook) {
-  global $user;
-if(($type == 'application' || $type == 'register_university' || $type == 'single_service' || $type == 'fixed_payment' || $type == 'payment') && !$user->uid){
-      drupal_goto('user/login');
-    }
-  }
+
 
 ?>
