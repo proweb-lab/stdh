@@ -15,7 +15,7 @@ function student_preprocess_page(&$variables, $hook) {
       $type = $variables['node']->type;
      
       print_r($type);
-if(($type == 'page' || $type == 'register_university' || $type == 'single_service' || $type == 'fixed_payment' || $type == 'payment') && !$user->uid){
+if(($type == 'page' || $type == 'register_university' || $type == 'single_servic' || $type == 'fixed_payment' || $type == 'payment') && !$user->uid){
       drupal_goto('user/login');
     }
   }
