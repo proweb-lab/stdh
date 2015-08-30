@@ -181,12 +181,12 @@ $form['field_service_bundle']['#suffix']='<div class="divider"></div><hr>';
   function stdh_application_submit($form, &$form_state) {
 
 
-  $form_state['redirect'] = 'select-university';
+  $form_state['redirect'] = '/node/add/register_university';
       }
        function stdh_register_university_submit($form, &$form_state) {
 
 
-  $form_state['redirect'] = 'select-service';
+  $form_state['redirect'] = '/node/add/single-service';
       }
 
       
