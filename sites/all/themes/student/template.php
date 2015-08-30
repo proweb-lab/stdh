@@ -1,6 +1,6 @@
 <?php
 
-function stdh_theme($existing, $type, $theme, $path){
+function student_theme($existing, $type, $theme, $path){
   return array(
     'user_register' => array(
       'render element' => 'form',
@@ -9,7 +9,7 @@ function stdh_theme($existing, $type, $theme, $path){
   );
 }
   
-function stdh_preprocess_page(&$variables, $hook) {
+function student_preprocess_page(&$variables, $hook) {
   global $user;
   if (isset($variables['node'])) {
       $type = $variables['node']->type;
@@ -19,7 +19,7 @@ if(($type == 'application' || $type == 'register_university' || $type == 'single
     }
   }
 }
-function stdh_preprocess_html(&$variables, $hook) {
+function student_preprocess_html(&$variables, $hook) {
   drupal_add_js('http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js', 'external');
   
   // Add variables and paths needed for HTML5 and responsive support.
