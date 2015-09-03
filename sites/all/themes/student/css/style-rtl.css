@@ -211,7 +211,7 @@ li.dropdown {
     list-style: none;
 }
 .flexslider .slides img{
-    height: 300px !important;
+    height: auto !important;
 }
 .flex-direction-nav a.flex-prev:before{content: '';}
 .flex-direction-nav a.flex-prev{ background: no-repeat url("../images/arrow-left.png");text-indent: -3000px;height:90px;width: 75px;}
