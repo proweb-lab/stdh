@@ -69,15 +69,10 @@
         var totalB = 0;
         var totalC = 0;
 
-        $(".serviceA:checkbox:checked").each(function() {
+        $(".form-type-checkbox:checkbox:checked").each(function() {
             totalA += parseInt($(this).val());
         });
-        $(".serviceB:checkbox:checked").each(function() {
-            totalB += parseInt($(this).val());
-        });
-        $(".serviceC:checkbox:checked").each(function() {
-            totalC += parseInt($(this).val());
-        });
+      
 
         total = totalA*a + totalB*b + totalC*c;
 
