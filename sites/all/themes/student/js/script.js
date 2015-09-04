@@ -38,7 +38,7 @@
 
        };
        
-        $('.form-type-checkbox input').change(function(){
+ $('.form-type-checkbox input').click(function(){
      var t=$(this).val();
      alert(t);
 var tot=0;
