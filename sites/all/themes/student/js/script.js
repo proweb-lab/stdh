@@ -40,9 +40,9 @@
 // });
 // 
 // 
-('.form-type-checkbox').click(function(){
+('.form-type-checkbox input').change(function(){
   var totalPoints = 0;
-  $(this).find('input').each(function(){
+  $(this).each(function(){
     totalPoints += $(this).val();
   });
   alert(totalPoints);
