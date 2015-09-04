@@ -49,14 +49,14 @@ var tot=0;
 //alert(tot);
 });
 
- $('input:checkbox').change(function(){
-var tot=0;
-$('input:checkbox:checked').each(function(){
-tot+=parseFloat($(this).val());
-});
- tot+=parseFloat($('#more').val());
-alert(tot);
-});
+// $('input:checkbox').change(function(){
+//var tot=0;
+//$('input:checkbox:checked').each(function(){
+//tot+=parseFloat($(this).val());
+//});
+// tot+=parseFloat($('#more').val());
+//alert(tot);
+//});
 
 
 
