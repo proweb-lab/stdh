@@ -34,11 +34,11 @@
         })
      //End Script button back to top
  $('.form-type-checkbox input').change(function() {
-       
-  $(this).each(function(){
-   t += $(this).val();
+    var totalPoints=0;   
+ $(this).each(function(i,n){
+        totalPoints += parseInt($(n).val(),10); 
  });
- alert(t);
+ alert(totalPoints);
  });
  
  
