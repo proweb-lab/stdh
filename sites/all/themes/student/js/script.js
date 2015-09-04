@@ -38,16 +38,17 @@
 
        };
        
- $('.form-type-checkbox input').click(function(){
-     var t=$(this).val();
-     alert(t);
-var tot=0;
-//$('.form-type-checkbox:checkbox:checked').each(function(){
-//tot+=parseFloat($(this).val());
+ $('.form-type-checkbox input').attr("onchange", "checkTotal()");
+// '] = '';
+//     var t=$(this).val();
+//     alert(t);
+//var tot=0;
+////$('.form-type-checkbox:checkbox:checked').each(function(){
+////tot+=parseFloat($(this).val());
+////});
+//// tot+=parseFloat($('#more').val());
+////alert(tot);
 //});
-// tot+=parseFloat($('#more').val());
-//alert(tot);
-});
 
 // $('input:checkbox').change(function(){
 //var tot=0;
