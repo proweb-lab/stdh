@@ -37,7 +37,7 @@
        
  var t= $(this).val();
  alert(t);
- }
+ });
 //     var t=$(this).val();
 //     alert(t);
 //var tot=0;
