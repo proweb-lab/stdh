@@ -63,7 +63,8 @@ alert(tot);
 });
 
  $('.form-type-checkbox input').change(function(){
-     alert($(this.val()));
+     var t=$(this).val();
+     alert(t);
 var tot=0;
 //$('.form-type-checkbox:checkbox:checked').each(function(){
 //tot+=parseFloat($(this).val());
