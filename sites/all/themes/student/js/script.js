@@ -40,13 +40,12 @@
 // });
 // 
 // 
-$('.form-type-checkbox input').change(function () {
-    var sum = 0;
-   
-        sum += ($(this).val());
-   
-
-    alert(sum)
+('.form-type-checkbox').each(function(){
+  var totalPoints = 0;
+  $(this).find('input').each(function(){
+    totalPoints += $(this).val();
+  });
+  alert(totalPoints);
 });
 
 // $('input:checkbox').change(function(){
