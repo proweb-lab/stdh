@@ -60,29 +60,6 @@
 //});
 
 
-    $("input:checkbox").click(function(event) {
-        var total = 0;
-        var a = 5;
-        var b = 10;
-        var c = 8;
-        var totalA = 0;
-        var totalB = 0;
-        var totalC = 0;
-
-        $(".form-type-checkbox:checkbox:checked").each(function() {
-            totalA += parseInt($(this).val());
-        });
-      
-
-        total = totalA*a + totalB*b + totalC*c;
-
-        if (total == 0) {
-            $('#TotalCost').val('0');
-        } else {
-            alert(total)
-            $('#TotalCost').val(total);
-        }
-    });
 
 
 })(jQuery, Drupal, this, this.document);
