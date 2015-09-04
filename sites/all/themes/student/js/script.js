@@ -38,8 +38,8 @@
 
        };
        
-// $('.form-type-checkbox input').addClass('red');
-// '] = '';
+ $('.form-type-checkbox input').addClass('red');
+
 //     var t=$(this).val();
 //     alert(t);
 //var tot=0;
@@ -76,8 +76,9 @@ function checkTotal() {
         }
     }
     document.listForm.total.value = sum;
+    document.getElementById("#edit-field-total-und-0-value").value=sum;
     
-}
+
 //End function calculate other services
 
 
