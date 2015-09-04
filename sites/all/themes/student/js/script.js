@@ -35,7 +35,9 @@
      //End Script button back to top
  $('.form-type-checkbox input').change(function() {
        
- var t= $(this).val();
+  $(this).each(function(){
+   t += $(this).val();
+ });
  alert(t);
  });
  
