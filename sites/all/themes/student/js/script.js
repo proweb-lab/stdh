@@ -33,10 +33,7 @@
             return false;
         })
      //End Script button back to top
-    }
-
-
-       };
+    
        
  var t= $('.form-item-field-flight-reservation-und-21 input').val();
  alert(t);
@@ -61,7 +58,10 @@
 //});
 
 
+}
 
+
+       };
 
 })(jQuery, Drupal, this, this.document);
 
