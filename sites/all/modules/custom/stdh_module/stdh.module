@@ -159,8 +159,9 @@ $form['field_service_bundle']['#suffix']='<div class="divider"></div><hr>';
     $form['field_total']['#suffix']='</div>';
     
      
-    $form['field_service_bundle']['#onchange'] = 'checkTotal';
-    $form['field_flight_reservation']['#onchange'] = 'checkTotal';
+//    $form['field_service_bundle']['#onchange'] = 'checkTotal';
+//    $form['field_flight_reservation']['#onchange'] = 'checkTotal';
+    $form['submitted']['field_flight_reservation']['#attributes']['onchange'] = 'changevalue';
   }
 }
     
