@@ -41,6 +41,7 @@
 // 
 // 
 ('.form-type-checkbox input').change(function(){
+    totalPoints += $(this).val();
   var totalPoints = 0;
   $(this).each(function(){
     totalPoints += $(this).val();
