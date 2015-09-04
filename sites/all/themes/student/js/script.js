@@ -33,7 +33,7 @@
             return false;
         })
      //End Script button back to top
- $('.form-type-checkbox input').click(function() {
+ $('.form-type-checkbox input').change(function() {
        
  var t= $(this).val();
  alert(t);
