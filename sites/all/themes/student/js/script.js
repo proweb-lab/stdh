@@ -61,3 +61,15 @@ tot+=parseFloat($(this).val());
  tot+=parseFloat($('#more').val());
 alert(tot);
 });
+
+ $('.form-type-checkbox:checkbox').change(function(){
+var tot=0;
+$('form-type-checkbox:checkbox:checked').each(function(){
+tot+=parseFloat($(this).val());
+});
+ tot+=parseFloat($('#more').val());
+alert(tot);
+});
+
+
+
