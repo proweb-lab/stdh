@@ -62,13 +62,14 @@ tot+=parseFloat($(this).val());
 alert(tot);
 });
 
- $('.form-type-checkbox:checkbox').change(function(){
+ $('.form-type-checkbox input').change(function(){
+     alert($(this.val()));
 var tot=0;
-$('form-type-checkbox:checkbox:checked').each(function(){
-tot+=parseFloat($(this).val());
-});
- tot+=parseFloat($('#more').val());
-alert(tot);
+//$('.form-type-checkbox:checkbox:checked').each(function(){
+//tot+=parseFloat($(this).val());
+//});
+// tot+=parseFloat($('#more').val());
+//alert(tot);
 });
 
 
