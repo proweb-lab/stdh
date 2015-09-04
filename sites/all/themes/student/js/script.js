@@ -60,6 +60,34 @@
 //});
 
 
+    $("input:checkbox").click(function(event) {
+        var total = 0;
+        var a = 5;
+        var b = 10;
+        var c = 8;
+        var totalA = 0;
+        var totalB = 0;
+        var totalC = 0;
+
+        $(".serviceA:checkbox:checked").each(function() {
+            totalA += parseInt($(this).val());
+        });
+        $(".serviceB:checkbox:checked").each(function() {
+            totalB += parseInt($(this).val());
+        });
+        $(".serviceC:checkbox:checked").each(function() {
+            totalC += parseInt($(this).val());
+        });
+
+        total = totalA*a + totalB*b + totalC*c;
+
+        if (total == 0) {
+            $('#TotalCost').val('0');
+        } else {
+            $('#TotalCost').val(total);
+        }
+    });
+
 
 })(jQuery, Drupal, this, this.document);
 
@@ -71,10 +99,11 @@ function checkTotal() {
     for (i=0;i<document.listForm.choice.length;i++) {
         if (document.listForm.choice[i].checked) {
             sum = sum + parseFloat(document.listForm.choice[i].value);
-            alert(sum);
+            //alert(sum);
         }
     }
     document.listForm.total.value = sum;
+    
 }
 //End function calculate other services
 
