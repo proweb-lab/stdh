@@ -42,9 +42,9 @@
 // 
 $('.form-type-checkbox input').change(function () {
     var sum = 0;
-    $('.form-type-checkbox input').each(function() {
+   
         sum += ($(this).val());
-    });
+   
 
     alert(sum)
 });
