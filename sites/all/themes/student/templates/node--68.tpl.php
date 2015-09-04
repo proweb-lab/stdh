@@ -1,4 +1,4 @@
-<div class="services">
+<div class="services clearfix">
    <?php print views_embed_view('services','block');?>
 </div>
 <div id="wrap" class="clearfix">
