@@ -38,7 +38,7 @@
  $(this).each(function(i,n){
         totalPoints += parseInt($(n).val(),10); 
  });
- alert(totalPoints);
+$('#edit-field-total-und-0-value').val(totalPoints);
  });
  
  
