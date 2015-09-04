@@ -38,7 +38,7 @@
 
        };
        
- $('.form-type-checkbox input').attr("onchange", "checkTotal()");
+ $('.form-type-checkbox input').addClass('red');
 // '] = '';
 //     var t=$(this).val();
 //     alert(t);
