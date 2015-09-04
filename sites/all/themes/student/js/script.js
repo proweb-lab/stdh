@@ -38,7 +38,8 @@
 
        };
        
- $('.form-type-checkbox input').addClass('red');
+ var t= $('.form-item-field-flight-reservation-und-21 input').val();
+ alert(t);
 
 //     var t=$(this).val();
 //     alert(t);
