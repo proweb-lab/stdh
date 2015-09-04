@@ -33,20 +33,21 @@
             return false;
         })
      //End Script button back to top
- $('.form-type-checkbox input').change(function() {
-       
- var t= $(this).val();
- alert(t);
- });
-//     var t=$(this).val();
-//     alert(t);
-//var tot=0;
-////$('.form-type-checkbox:checkbox:checked').each(function(){
-////tot+=parseFloat($(this).val());
-////});
-//// tot+=parseFloat($('#more').val());
-////alert(tot);
-//});
+// $('.form-type-checkbox input').change(function() {
+//       
+// var t+= $(this).val();
+// alert(t);
+// });
+// 
+// 
+$('.form-type-checkbox input').blur(function () {
+    var sum = 0;
+    $('.form-type-checkbox input').each(function() {
+        sum += Number($(this).val());
+    });
+
+    alert(sum)
+});
 
 // $('input:checkbox').change(function(){
 //var tot=0;
