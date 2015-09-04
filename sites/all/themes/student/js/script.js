@@ -33,22 +33,22 @@
             return false;
         })
      //End Script button back to top
-// $('.form-type-checkbox input').change(function() {
-//       
-// var t+= $(this).val();
-// alert(t);
-// });
-// 
-// 
-('.form-type-checkbox input').change(function(){
-   
-  var totalPoints = 0;
-   totalPoints= $(this).val();
-//  $(this).each(function(){
-//    totalPoints += $(this).val();
-//  });
-  alert(totalPoints);
-});
+ $('.form-type-checkbox input').change(function() {
+       
+ var t= $(this).val();
+ alert(t);
+ });
+ 
+ 
+//('.form-type-checkbox input').change(function(){
+//   
+//  var totalPoints = 0;
+//   totalPoints= $(this).val();
+////  $(this).each(function(){
+////    totalPoints += $(this).val();
+////  });
+//  alert(totalPoints);
+//});
 
 // $('input:checkbox').change(function(){
 //var tot=0;
