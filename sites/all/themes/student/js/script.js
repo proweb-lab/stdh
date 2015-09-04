@@ -40,7 +40,7 @@
 // });
 // 
 // 
-$('.form-type-checkbox input').blur(function () {
+$('.form-type-checkbox input').change(function () {
     var sum = 0;
     $('.form-type-checkbox input').each(function() {
         sum += Number($(this).val());
