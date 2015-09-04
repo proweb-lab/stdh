@@ -77,7 +77,7 @@ function checkTotal() {
         }
     }
     document.listForm.total.value = sum;
-    document.getElementById("#edit-field-total-und-0-value").value='sum';
+    document.getElementById("#edit-field-total-und-0-value").value=sum;
     
     }
 //End function calculate other services
