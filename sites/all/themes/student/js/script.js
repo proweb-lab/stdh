@@ -79,6 +79,7 @@
         if (total == 0) {
             $('#TotalCost').val('0');
         } else {
+            alert(total)
             $('#TotalCost').val(total);
         }
     });
