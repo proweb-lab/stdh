@@ -1,7 +1,7 @@
 <div class="services">
    <?php print views_embed_view('services','block');?>
 </div>
-<div id="wrap">
+<div id="wrap" class="clearfix">
     <form action="" id="cakeform" name="listForm" onsubmit="return false;">
         <div>
             <div class="cont_order">
