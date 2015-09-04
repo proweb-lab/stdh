@@ -33,9 +33,9 @@
             return false;
         })
      //End Script button back to top
-    
+ $('.form-type-checkbox input').click(function() {
        
- var t= $('.form-item-field-flight-reservation-und-21 input').val();
+ var t= $(this).val();
  alert(t);
 
 //     var t=$(this).val();
