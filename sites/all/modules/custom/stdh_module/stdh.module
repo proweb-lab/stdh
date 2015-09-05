@@ -111,7 +111,7 @@ if ($form['#id']== 'webform-client-form-64'){
      $form['actions']['submit']['#value'] = t('Next');
       $form['actions']['submit']['#submit'][] = 'stdh_register_university_submit';
       break;
-    case 'context_admin_node_form_wrapper';
+    case 'application_node_form';
          // print_r($form);
           $form['#prefix']='<div class="container">';
            $form['#prefix']='<div class="col-sm-6">';
@@ -138,7 +138,6 @@ if ($form['#id']== 'webform-client-form-64'){
           $form['actions']['submit']['#submit'][] = 'stdh_service_submit';
           $form['field_flight_reservation']['und']['#options']['_none'] = '';
           $form['field_flight_reservation']['und']['#type'] = 'checkboxes';
- //  field_flight_reservation
 
           $form['field_university_admission']['und']['#options']['_none'] = '';
           $form['field_university_admission']['und']['#type'] = 'checkboxes';
