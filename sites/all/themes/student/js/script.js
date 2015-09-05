@@ -70,21 +70,8 @@ $('#edit-field-total-und-0-value').val(totalPoints);
 })(jQuery, Drupal, this, this.document);
 
 
-//Begin function calculate other services
-function checkTotal() {
-    document.listForm.total.value = '';
-    var sum = 0;
-    for (i=0;i<document.listForm.choice.length;i++) {
-        if (document.listForm.choice[i].checked) {
-            sum = sum + parseFloat(document.listForm.choice[i].value);
-            //alert(sum);
-        }
-    }
-    document.listForm.total.value = sum;
-    document.getElementById("#edit-field-total-und-0-value").value=sum;
-    
-    }
-//End function calculate other services
+
+
 function checkTotal() {
     document.listForm.total.value = '';
     var sum = 0;
