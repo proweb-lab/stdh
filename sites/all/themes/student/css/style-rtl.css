@@ -557,11 +557,11 @@ footer .row #block-block-4 a
     display: none !important;
 }
 .total-count{
-       position: fixed;
-    top: 100px;
+    position: fixed;
+    bottom:25%;
     left: 10%;
     width: 25%;
-    background: #fff;
+ 
     color: #d8450b;
 }
 .total-count .form-control{
