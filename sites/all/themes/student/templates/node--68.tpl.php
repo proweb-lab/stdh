@@ -1,7 +1,7 @@
 <div class="services clearfix">
    <?php print views_embed_view('services','block');?>
 </div>
-<div id="wrap" class="clearfix">
+<div class="clearfix single-service-form">
     <form action="" id="cakeform" name="listForm" onsubmit="return false;">
         <div>
             <div class="cont_order">
