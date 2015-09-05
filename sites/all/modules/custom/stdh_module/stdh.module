@@ -166,6 +166,7 @@ if ($form['#id']== 'webform-client-form-64'){
           $form['#suffix']='</div>';
        $form['title']['#default_value'] = 'Payment at ' . date('d/m/Y H:i:s', time());
           $form['title']['#access'] = 0;
+          $form['actions']['submit']['#value'] = t('Next');
         
                   
        break;
