@@ -10,14 +10,14 @@
 //$allowed_values_jo = list_allowed_values($field);
 //print_r($allowed_values[2]);
 
-      if($fields['field_recognized_jo']->content=='No'){
-            echo '<span class="reg-country no">';
+      if($fields['field_recognized_jo']->content=='1'){
+            echo '<span class="reg-country yes">';
          
             print '</span>';
          }
         
        else{
-             echo '<span class="reg-country yes">';
+             echo '<span class="reg-country no">';
            
            print '</span>';
         }
