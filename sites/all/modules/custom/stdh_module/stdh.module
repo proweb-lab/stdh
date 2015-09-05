@@ -132,7 +132,7 @@ if ($form['#id']== 'webform-client-form-64'){
           
           $form['#suffix']='</div>';
           $form['#suffix']='</div>';
-           $form['#suffix']='<div class="btn btn-test-universities btn-lg total-count"><a href="service-cal" target="_blank">حاسبة الخدمات</a></div>';
+           $form['#suffix']='<div class="btn btn-test-universities btn-lg total-count"><a href="/service-cal" target="_blank">حاسبة الخدمات</a></div>';
           $form['title']['#default_value'] = 'New Service';
           $form['title']['#access'] = 0;
           $form['language']['#access'] = 0;
