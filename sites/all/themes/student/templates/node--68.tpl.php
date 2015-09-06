@@ -17,7 +17,8 @@
                         سيقوم مكتب تركيا بإرسال لمكتب عمان  باسم الشخص المستقبل ورقم هاتفه وصورته الشخصية ومكتب عمان سيقوم بإرسال هذه المعلومات إلى الطالب($85.47)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="42.74" onchange="checkTotal()"/>تأمين السكن الداخلي في الجامعة :
                         سيتم من خلال ورقة تقديم الطلب، ويعتمد على تاريخ تقديم الطلب($42.74)</label><br>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="71.23" onchange="checkTotal()"/>محاضرة تعريفية عن دولة الدراسة في دولة الدراسة ($71.23)</label><br>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="71.23" onchange="checkTotal()"/>محاضرة تعريفية عن دولة الدراسة في دولة الدراسة :
+                        سيتم عقد محاضرة تعريفية في تركيا تحتوي على: طرق التنقل، الأماكن المهمة، أرقام مهمة لتواصل، المساعدة في شراء شريحة الهاتف، تعرف على قانون الدولة، طبيعة الحياة، تسليم الطالب بطاقة مواصلات($71.23)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="28.49" onchange="checkTotal()"/>المساعدة في التحضير لامتحانات القبول الجامعي من خلال إرشادهم إلى المراكز المعنية($28.49)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="213.68" onchange="checkTotal()"/>تأمين السكن خارجي($213.68)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="142.45" onchange="checkTotal()"/> المساعدة في إصدار الإقامة($142.45)</label><br>
