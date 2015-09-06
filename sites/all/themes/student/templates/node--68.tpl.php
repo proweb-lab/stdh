@@ -11,7 +11,8 @@
                     <p id="noteprice">*ملاحظة العملة المتداولة في اسعار الخدمات بالدولار الامريكي فقط</p>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="498.58" onchange="checkTotal()"/>تامين القبول الجامعي :
                         عمل مسح ضوئي للورق المطلوب وإرساله عبر الإيميل لمكتب تركيا للقيام بإجراءات تأمين القبول($498.58)</label><br>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="21.37" onchange="checkTotal()"/>تأمين حجوزات الطيران ($21.37)</label><br>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="21.37" onchange="checkTotal()"/>تأمين حجوزات الطيران :
+                        مساعدة الطالب على حجز تذاكر سفر من خلال الاتفاق مع بعض المكاتب، ونقترح تعاون مع بتونيا للسفر أو الرفادة($21.37)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="85.47" onchange="checkTotal()"/>الاستقبال في المطار($85.47)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="42.74" onchange="checkTotal()"/>تأمين السكن الداخلي في الجامعة ($42.74)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="71.23" onchange="checkTotal()"/>محاضرة تعريفية عن دولة الدراسة في دولة الدراسة ($71.23)</label><br>
