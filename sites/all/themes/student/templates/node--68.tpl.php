@@ -33,7 +33,8 @@
                         عقد دورة لمدة 25 ساعة في أساسيات اللغة التركية($356.13)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="170.94" onchange="checkTotal()"/>المساعدة في استخراج الرقم الضريبي وفتح الحساب البنكي  :
                         تعبئة نموذج الرقم الضريبي، تسجيل الهاتف في تركيا وتكلفتة 135 ليرة ويقوم طالب بتحملها، فتح حساب بنكي يجب عمل إيداع بنكي($170.94)</label><br>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="142.45" onchange="checkTotal()"/>رحلة ترفيهية وتعليمية خلال السنة الدراسية للطلبة  ($142.45)</label><br><br><br>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="142.45" onchange="checkTotal()"/>رحلة ترفيهية وتعليمية خلال السنة الدراسية للطلبة  :
+                        توب كابي، بانوراما فتح القسطنطينية، بالإضافة إلى وجبة الغداء($142.45)</label><br><br><br>
                     <div id="totalPrice"> السعر: <input type="text" size="2" id="txtResult"name="total" readonly="readonly" value="0"/></div>
                 </fieldset>
             </div>
