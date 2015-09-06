@@ -25,8 +25,10 @@
                         سيقوم مكتب تركيا بحجز غرفة لطالب، حيث سيتكفل طالب تكلفة السكن($213.68)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="142.45" onchange="checkTotal()"/> المساعدة في إصدار الإقامة:
                         تأمين الصحي تكلفته 600 ليرة وسيقوم الطالب بدفعه، تعبئة طلب الإقامة وتكلفتة 20 ليرة وسيتحملها المشروع، وزيارة الأمنيات - مركز الشرطة($142.45)</label><br>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="99.72" onchange="checkTotal()"/>جولة سياحية ($99.72)</label><br>
-                    <label class='radiolabel'><input type="checkbox" name="choice" value="213.68" onchange="checkTotal()"/>استكمال إجراءات التسجيل ($213.68)</label><br>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="99.72" onchange="checkTotal()"/>جولة سياحية :
+                        مضيق البسفور ، زيارة مسجد السلطان الأحمد،مسجد الفاتح يلدز بارك بالإضافة إلى وجبة الغداء($99.72)</label><br>
+                    <label class='radiolabel'><input type="checkbox" name="choice" value="213.68" onchange="checkTotal()"/>استكمال إجراءات التسجيل :
+                        ترجمة أوراق الطالب من عند النوتر + التعليم العالي التركي($213.68)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="356.13" onchange="checkTotal()"/>دورة أساسية في اللغة التركية تعقد في تركيا ($356.13)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="170.94" onchange="checkTotal()"/>المساعدة في استخراج الرقم الضريبي وفتح الحساب البنكي  ($170.94)</label><br>
                     <label class='radiolabel'><input type="checkbox" name="choice" value="142.45" onchange="checkTotal()"/>رحلة ترفيهية وتعليمية خلال السنة الدراسية للطلبة  ($142.45)</label><br><br><br>
