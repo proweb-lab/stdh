@@ -10,20 +10,6 @@
 //$allowed_values_jo = list_allowed_values($field);
 //print_r($allowed_values[2]);
 
-      
-       
-         if($fields['field_recognized_ksa']->content=='Yes'){
-            echo '<span class="reg-country yes">';
-        
-            print '</span>';
-         } 
-        
-         else{
-              echo '<span class="reg-country no">';
-       
-            print '</span>';
-         }
-        
          if($fields['field_recognized_jo']->content=='yes'){
             echo '<span class="reg-country yes">';
          
@@ -35,6 +21,20 @@
            
            print '</span>';
         }
+       
+         if($fields['field_recognized_ksa']->content=='yes'){
+            echo '<span class="reg-country yes">';
+        
+            print '</span>';
+         } 
+        
+         else{
+              echo '<span class="reg-country no">';
+       
+            print '</span>';
+         }
+        
+      
             if($fields['field_recognized_uae']->content=='Yes'){
             echo '<span class="reg-country yes">';
          
