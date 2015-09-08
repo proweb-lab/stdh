@@ -15,15 +15,15 @@
        
             print '</span>';
          }
-                 if($fields['field_recognized_jordan']->content=='yes'){
-            echo '<span class="reg-country yes">';
+                 if($fields['field_recognized_jordan']->content=='no'){
+            echo '<span class="reg-country no">';
          
             print '</span>';
          } 
          
         
          else{
-              echo '<span class="reg-country no">';
+              echo '<span class="reg-country yes">';
         
             print '</span>';
          }
