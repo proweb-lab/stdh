@@ -183,17 +183,17 @@ if ($form['#id']== 'webform-client-form-64'){
   function stdh_application_submit($form, &$form_state) {
 
 
-  $form_state['redirect'] = '/node/add/register_university';
+  $form_state['redirect'] = 'choose-university';
       }
        function stdh_register_university_submit($form, &$form_state) {
 
 
-  $form_state['redirect'] = '/node/add/single-service';
+  $form_state['redirect'] = 'choose-service';
       }
         function stdh_service_submit($form, &$form_state) {
 
 
-  $form_state['redirect'] = '/node/add/fixed-payment';
+  $form_state['redirect'] = 'first-payment';
       }
       
 
