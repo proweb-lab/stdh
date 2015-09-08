@@ -2,18 +2,7 @@
 
 <?php
 
-            if($fields['field_recognized_jordan']->content=='yes'){
-            echo '<span class="reg-country yes">';
-         
-            print '</span>';
-         } 
-         
-        
-         else{
-              echo '<span class="reg-country no">';
-        
-            print '</span>';
-         }
+    
        
          if($fields['field_recognized_ksa']->content=='Yes'){
             echo '<span class="reg-country yes">';
@@ -24,6 +13,18 @@
          else{
               echo '<span class="reg-country no">';
        
+            print '</span>';
+         }
+                 if($fields['field_recognized_jordan']->content=='yes'){
+            echo '<span class="reg-country yes">';
+         
+            print '</span>';
+         } 
+         
+        
+         else{
+              echo '<span class="reg-country no">';
+        
             print '</span>';
          }
         
