@@ -43,10 +43,10 @@
             <?php print t('University Name')?>
         </span>
         <span class="reg-country">
-            <?php print t('Jordan')?>
+            <?php print t('KSA')?>
         </span>
          <span class="reg-country">
-            <?php print t('KSA')?>
+            <?php print t('Jordan')?>
         </span>
          <span class="reg-country">
             <?php print t('UAE')?>
