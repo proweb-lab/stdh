@@ -175,6 +175,17 @@ if ($form['#id']== 'webform-client-form-64'){
         
                   
        break;
+     case 'payment_node_form';
+       $form['#prefix']='<div class="container">';
+           $form['#prefix']='<div class="col-sm-6">';
+          $form['#suffix']='</div>';
+          $form['#suffix']='</div>';
+       $form['title']['#default_value'] = 'Payment at ' . date('d/m/Y H:i:s', time());
+          $form['title']['#access'] = 0;
+          $form['actions']['submit']['#value'] = t('Next');
+        
+                  
+       break;
         }
       
        
