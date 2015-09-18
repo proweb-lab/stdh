@@ -47,6 +47,10 @@ function stdh_permission() {
 function stdh_get_students_applications() {
   return views_embed_view('students_applications', 'main_block');
 }
+function stdh_get_students_payment() {
+  return views_embed_view('payments', 'administration_page');
+}
+
 
 
 
