@@ -107,6 +107,7 @@ if ($form['#id']== 'webform-client-form-64'){
          drupal_set_title(t('Select University'));
       $form['title']['#default_value'] = 'New ';
           $form['title']['#access'] = 0;
+          $form['language']['#access'] = 0;
            $form['#prefix']='<div class="container">';
            $form['#prefix']='<div class="col-sm-6">';
           $form['#suffix']='</div>';
