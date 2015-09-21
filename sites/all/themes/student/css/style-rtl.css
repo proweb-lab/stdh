@@ -493,8 +493,16 @@ footer .row #block-block-4 a
     background: url('../images/share-twitter.png') no-repeat ;
     padding: 20px 0;
 }
+.social-block .tw:hover{
+    background: url('../images/share-tw-org.png') no-repeat ;
+    padding: 20px 0;
+}
 .social-block .yt{
     background: url('../images/share-youtube.png') no-repeat;
+    padding: 20px 0;
+}
+.social-block .yt:hover{
+    background: url('../images/share-youtube-org.png') no-repeat;
     padding: 20px 0;
 }
 /*End style social-block */
