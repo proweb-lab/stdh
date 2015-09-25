@@ -305,15 +305,10 @@ li.dropdown {
 }
 .form-textarea-wrapper{
     height: 100%;
-
+    width:60%;
 }
 .webform-submit{
     margin-top: 10px;
-}
-#edit-submitted-message{
-
-    height: 20%;
-
 }
 .grippie
 {
