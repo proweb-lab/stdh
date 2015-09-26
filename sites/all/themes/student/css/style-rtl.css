@@ -296,7 +296,7 @@ li.dropdown {
 .region-footer-second .block-title
 {
    color:#fff;
-   font:17px 'Droid Arabic Kufi' !important;
+   font:17px;
 }
 .region-footer-second .webform-client-form-285 .webform-submit{
     background-color: #d8450b;
@@ -634,11 +634,6 @@ footer .row #block-block-4 a
     float: right;
     padding: 0 30px;
 }
-
-
-
-
-
 /*Begin style services*/
 .front .service-block{
     border:1px solid  #d5d5d5;
