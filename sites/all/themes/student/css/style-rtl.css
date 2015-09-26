@@ -293,6 +293,10 @@ li.dropdown {
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+.region-footer-second .block-title
+{
+   color:#fff;
+}
 .region-footer-second .webform-client-form-285 .webform-submit{
     background-color: #d8450b;
     border-color: #d8450b;
