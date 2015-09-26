@@ -312,6 +312,7 @@ li.dropdown {
 }
 .region-footer-second .webform-submit .form-submit{
     margin-top: 10px;
+    float:none;
 }
 .region-footer-second .grippie
 {
