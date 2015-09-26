@@ -310,7 +310,7 @@ li.dropdown {
 .region-footer-second .form-textarea-wrapper{
     height: 100%;
 }
-.region-footer-second .webform-submit{
+.region-footer-second .webform-submit .form-submit{
     margin-top: 10px;
 }
 .region-footer-second .grippie
