@@ -310,6 +310,9 @@ li.dropdown {
 .region-footer-second .form-textarea-wrapper{
     height: 100%;
 }
+.region-footer-second .form-textarea{
+    height: 50%;
+}
 .region-footer-second .webform-submit{
     margin-top: 10px;
 }
