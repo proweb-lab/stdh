@@ -297,9 +297,10 @@ li.dropdown {
 {
    display:none;
 }
-.region-footer-second .webform-client-form-285 .webform-submit.btn-primary{
+.region-footer-second .webform-client-form-285 .webform-submit .btn-primary{
     background-color: #d8450b;
     border-color: #d8450b;
+    margin-top: 10px;
 }
 .region-footer-second .form-item{
     padding-top: 20px;
@@ -309,9 +310,6 @@ li.dropdown {
 }
 .region-footer-second .form-textarea-wrapper{
     height: 100%;
-}
-.region-footer-second .webform-submit .form-submit{
-    margin-top: 10px;
 }
 .region-footer-second .grippie
 {
