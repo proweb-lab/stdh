@@ -4,7 +4,7 @@
 
     
        
-         if($fields['field_recognized_ksa']->content=='Yes'){
+         if($fields['field_recognized_ksa']->content=='yes'){
             echo '<span class="reg-country yes">';
         
             print '</span>';
@@ -29,7 +29,7 @@
          }
         
       
-            if($fields['field_recognized_uae']->content=='Yes'){
+            if($fields['field_recognized_uae']->content=='yes'){
             echo '<span class="reg-country yes">';
          
             print '</span>';
