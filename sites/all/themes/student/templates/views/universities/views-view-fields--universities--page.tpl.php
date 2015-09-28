@@ -3,7 +3,7 @@
 <?php
 
    
-         if($fields['field_recognized_ksa']->content=='Yes'){
+         if($fields['field_recognized_ksa']->content=='yes'){
             echo '<span class="reg-country yes">';
         
             print '</span>';
@@ -14,7 +14,7 @@
        
             print '</span>';
          }
-                  if($fields['field_recognized_jo']->content==='No'){
+                  if($fields['field_recognized_jo']->content==='no'){
             echo '<span class="reg-country no">';
          
             print '</span>';
@@ -28,7 +28,7 @@
   
         
       
-            if($fields['field_recognized_uae']->content=='Yes'){
+            if($fields['field_recognized_uae']->content=='yes'){
             echo '<span class="reg-country yes">';
          
             print '</span>';
