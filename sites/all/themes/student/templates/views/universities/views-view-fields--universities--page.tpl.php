@@ -41,7 +41,7 @@
         
             print '</span>';
          }
-            if($fields['field_recognized_jo']->content=='no'){
+            if($fields['field_recognized_jo']->content==no){
             echo '<span class="reg-country no">';
          
             print '</span>';
