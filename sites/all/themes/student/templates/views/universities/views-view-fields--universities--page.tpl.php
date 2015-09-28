@@ -41,14 +41,14 @@
         
             print '</span>';
          }
-               if($fields['field_recognized_jo']->content==='Yes'){
-            echo '<span class="reg-country yes">';
+               if($fields['field_recognized_jo']->content==='No'){
+            echo '<span class="reg-country no">';
          
             print '</span>';
          } 
         
          else{
-              echo '<span class="reg-country no">';
+              echo '<span class="reg-country yes">';
         
             print '</span>';
          }
