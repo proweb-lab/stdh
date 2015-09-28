@@ -709,6 +709,9 @@ footer .row #block-block-4 a
 .field-content{
     margin-top: 65px;
 }
+.view-students-applications .field-content{
+    margin-top: 0px;
+}
 .box .service-description{
     padding: 10px 10px;
 }
