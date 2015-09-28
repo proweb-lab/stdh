@@ -712,6 +712,10 @@ footer .row #block-block-4 a
 .view-students-applications .field-content{
     margin-top: 0px;
 }
+.view-students-applications .views-label{
+    color: #000;
+    font-weight: 700;
+}
 .view-students-applications .views-row{
     border-bottom: 2px solid #a9a9a9;
     padding: 30px 0;
