@@ -45,14 +45,15 @@
         <span class="reg-country">
             <?php print t('KSA')?>
         </span>
-         <span class="reg-country">
-            <?php print t('Jordan')?>
-        </span>
+         
          <span class="reg-country">
             <?php print t('UAE')?>
         </span>
          <span class="reg-country">
             <?php print t('kuwait')?>
+        </span>
+            <span class="reg-country">
+            <?php print t('Jordan')?>
         </span>
        
         </div>
