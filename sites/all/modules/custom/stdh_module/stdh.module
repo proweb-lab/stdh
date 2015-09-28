@@ -122,7 +122,10 @@ if ($form['#id']== 'webform-client-form-64'){
            $form['#prefix']='<div class="col-sm-6">';
           $form['#suffix']='</div>';
           $form['#suffix']='</div>';
-              $form['title']['#default_value'] = 'New Application';
+           $form['#suffix']='<div class="text">الخطوة التالية</div>';
+           $form['#suffix']='<div class="btn btn-test-universities btn-lg"> إختيار الجامعة</div>';
+              
+          $form['title']['#default_value'] = 'New Application';
           $form['title']['#access'] = 0;
           $form['language']['#access'] = 0;
            $form['actions']['submit']['#value'] = t('Next');
