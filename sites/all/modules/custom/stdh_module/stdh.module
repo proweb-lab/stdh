@@ -108,10 +108,10 @@ if ($form['#id']== 'webform-client-form-64'){
       $form['title']['#default_value'] = 'New ';
           $form['title']['#access'] = 0;
           $form['language']['#access'] = 0;
-           $form['#prefix']='<div class="container">';
-           $form['#prefix']='<div class="col-sm-6">';
-          $form['#suffix']='</div>';
-          $form['#suffix']='</div>';
+          $form['#prefix']='<div class="container"><div class="col-sm-6">';
+          $form['#suffix']='</div></div>
+        <div class="text-left">الخطوة التالية</div>
+         <div class="btn btn-test-universities btn-lg text-left"> إختيار  الخدمات</div>';
     $form['field_universiry']['und']['#options']['_none'] = t('Select University');
      $form['actions']['submit']['#value'] = t('Next');
       $form['actions']['submit']['#submit'][] = 'stdh_register_university_submit';
@@ -121,8 +121,8 @@ if ($form['#id']== 'webform-client-form-64'){
          
            $form['#prefix']='<div class="container"><div class="col-sm-6">';
           $form['#suffix']='</div></div>
-        <div class="text">الخطوة التالية</div>
-         <div class="btn btn-test-universities btn-lg"> إختيار الجامعة</div>';
+        <div class="text-left">الخطوة التالية</div>
+         <div class="btn btn-test-universities btn-lg text-left"> إختيار الجامعة</div>';
               
           $form['title']['#default_value'] = 'New Application';
           $form['title']['#access'] = 0;
@@ -134,11 +134,10 @@ if ($form['#id']== 'webform-client-form-64'){
   case 'single_service_node_form';
      //print_r($form);
     
-   $form['#prefix']='<div class="container">';
-           $form['#prefix']='<div class="col-sm-6">';
-          
-          $form['#suffix']='</div>';
-          $form['#suffix']='</div>';
+   $form['#prefix']='<div class="container"><div class="col-sm-6">';
+          $form['#suffix']='</div></div>
+        <div class="text-left">الخطوة التالية</div>
+         <div class="btn btn-test-universities btn-lg text-left">الدفعة الاولى</div>';
            $form['#suffix']='<div class="btn btn-test-universities btn-lg total-count"><a href="/service-cal" target="_blank">حاسبة الخدمات</a></div>';
           $form['title']['#default_value'] = 'New Service';
           $form['title']['#access'] = 0;
