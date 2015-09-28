@@ -121,8 +121,8 @@ if ($form['#id']== 'webform-client-form-64'){
          
            $form['#prefix']='<div class="container"><div class="col-sm-6">';
           $form['#suffix']='</div></div>
-        <div class="pull-left">الخطوة التالية</div>
-         <div class="btn btn-test-universities btn-lg pull-left"> إختيار الجامعة</div>';
+        <div class="f-left text">الخطوة التالية</div>
+         <div class="btn btn-test-universities btn-lg f-left"> إختيار الجامعة</div>';
               
           $form['title']['#default_value'] = 'New Application';
           $form['title']['#access'] = 0;
