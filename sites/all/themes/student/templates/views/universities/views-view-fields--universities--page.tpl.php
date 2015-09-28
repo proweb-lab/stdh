@@ -22,7 +22,7 @@
          } 
          
         
-         else{
+         elseif($fields['field_recognized']->content=='yes'){
               echo '<span class="reg-country yes">';
         
             print '</span>';
