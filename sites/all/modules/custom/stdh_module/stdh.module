@@ -136,9 +136,8 @@ if ($form['#id']== 'webform-client-form-64'){
     
    $form['#prefix']='<div class="container"><div class="col-sm-6">';
           $form['#suffix']='</div></div>
-           <div class="f-left text">الخطوة التالية</div>
-         <div class="btn btn-circle btn-lg f-left"> الدفعة الاولى</div>';
-           $form['#suffix']='<div class="btn btn-test-universities btn-lg total-count"><a href="/service-cal" target="_blank">حاسبة الخدمات</a></div>';
+         <div class="f-left text">الخطوة التالية</div>
+         <div class="btn btn-circle btn-lg f-left"> الدفعة الاولى</div><div class="btn btn-test-universities btn-lg total-count"><a href="/service-cal" target="_blank">حاسبة الخدمات</a></div>';
           $form['title']['#default_value'] = 'New Service';
           $form['title']['#access'] = 0;
           $form['language']['#access'] = 0;
