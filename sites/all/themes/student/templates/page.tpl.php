@@ -77,8 +77,10 @@
                 echo $link_learn_turkish;?>
             </div>
             <div class="btn btn-success-stories btn-lg">
-                <?php  $link_Stories = l(t('Success Stories'), '');
-                echo $link_Stories;?>
+                <?php   $link_test = l(t('Apply and Order service'),
+                    'upload-files',array('html' => TRUE, 'attributes' =>
+                        array('target' => '_blank')));
+                echo $link_test;?>
             </div>
         </div>
         <div class="offices-block container">
