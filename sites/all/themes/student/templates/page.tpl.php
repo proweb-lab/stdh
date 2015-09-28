@@ -124,9 +124,13 @@
             <?php print render($title_suffix); ?>
 
             
-            <?php if (!empty($tabs)): ?>
-                <?php print render($tabs); ?>
-            <?php endif; ?>
+            <?php //if (!empty($tabs)): ?>
+                <?php //print render($tabs); ?>
+            <?php //endif; ?>
+            <?php if ($tabs and $is_admin): ?>
+<div class="tabs">
+  <?php print render($tabs); ?>
+</div>
             <?php if (!empty($page['help'])): ?>
                 <?php print render($page['help']); ?>
             <?php endif; ?>
