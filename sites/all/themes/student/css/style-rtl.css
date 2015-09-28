@@ -414,6 +414,7 @@ footer .row #block-block-4 a
 .form-item-field-pay-und-line-item-container-0-quantity{
     display: none;
 }
+.form-item-field-payment-und-line-item-container-0-amount.form-item,
 .form-item-field-pay-und-line-item-container-0-amount.form-item{
     float: right !important;
 }
