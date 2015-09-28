@@ -1000,7 +1000,7 @@ padding: 15px;
     display: none;
 }
 /*Begin style payments table*/ 
-#ctools-button
+.ctools-dropbutton
 { 
     display: none;
 } 
