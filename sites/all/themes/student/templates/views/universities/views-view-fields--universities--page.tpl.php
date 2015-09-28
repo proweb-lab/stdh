@@ -15,18 +15,7 @@
        
             print '</span>';
          }
-          if($fields['field_recognized_jo']->content=='no'){
-            echo '<span class="reg-country no">';
-         
-            print '</span>';
-         } 
-         
-        
-         else{
-              echo '<span class="reg-country yes">';
-        
-            print '</span>';
-         }
+  
         
       
             if($fields['field_recognized_uae']->content=='Yes'){
@@ -49,6 +38,18 @@
         
          else{
               echo '<span class="reg-country no">';
+        
+            print '</span>';
+         }
+            if($fields['field_recognized_jo']->content=='no'){
+            echo '<span class="reg-country no">';
+         
+            print '</span>';
+         } 
+         
+        
+         else{
+              echo '<span class="reg-country yes">';
         
             print '</span>';
          }
