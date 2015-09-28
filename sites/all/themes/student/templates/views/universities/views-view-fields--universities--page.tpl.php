@@ -2,7 +2,7 @@
 
 <?php
 
-    
+    print_r($fields['field_recognized_jo']->content);
        
          if($fields['field_recognized_ksa']->content=='Yes'){
             echo '<span class="reg-country yes">';
