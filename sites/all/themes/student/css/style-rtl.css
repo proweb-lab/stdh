@@ -408,6 +408,8 @@ footer .row #block-block-4 a
     border-color:#d8450b;
     color: #fff;
 }
+.form-item-field-payment-und-line-item-container-0-tax-rate,
+.form-item-field-payment-und-line-item-container-0-quantity,
 .form-item-field-pay-und-line-item-container-0-tax-rate,
 .form-item-field-pay-und-line-item-container-0-quantity{
     display: none;
