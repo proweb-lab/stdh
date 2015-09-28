@@ -712,6 +712,10 @@ footer .row #block-block-4 a
 .view-students-applications .field-content{
     margin-top: 0px;
 }
+.view-students-application .views-row{
+    border-bottom: 2px solid #a9a9a9;
+    padding-bottom: 20px;
+}
 .box .service-description{
     padding: 10px 10px;
 }
