@@ -1000,7 +1000,7 @@ padding: 15px;
     display: none;
 }
 /*Begin style payments table*/ 
-.ctools-content .operations .payment-view first 
+#ctools-button-1 .ctools-content .operations .payment-view first 
 { 
     display:none;
 } 
