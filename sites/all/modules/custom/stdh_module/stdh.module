@@ -118,12 +118,11 @@ if ($form['#id']== 'webform-client-form-64'){
       break;
     case 'application_node_form';
          // print_r($form);
-          $form['#prefix']='<div class="container">';
-           $form['#prefix']='<div class="col-sm-6">';
-          $form['#suffix']='</div>';
-          $form['#suffix']='</div>';
-           $form['#suffix']='<div class="text">الخطوة التالية</div>';
-           $form['#suffix']='<div class="btn btn-test-universities btn-lg"> إختيار الجامعة</div>';
+         
+           $form['#prefix']='<div class="container"><div class="col-sm-6">';
+          $form['#suffix']='</div></div>
+        <div class="text">الخطوة التالية</div>
+         <div class="btn btn-test-universities btn-lg"> إختيار الجامعة</div>';
               
           $form['title']['#default_value'] = 'New Application';
           $form['title']['#access'] = 0;
