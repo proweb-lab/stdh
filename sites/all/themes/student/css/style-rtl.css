@@ -1000,6 +1000,10 @@ padding: 15px;
     display: none;
 }
 /*Begin style payments table*/ 
+.views-field .views-field-operations
+{
+    display: none;
+}
 .ctools-dropbutton
 { 
     display: none;
