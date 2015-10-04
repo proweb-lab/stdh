@@ -1000,7 +1000,16 @@ padding: 15px;
 .node-payment table{
     display: none;
 }
-
+/*Begin style payments table*/ 
+.views-table .views-field-operations
+{
+    display: none;
+}
+.ctools-dropbutton
+{ 
+    display: none;
+} 
+/*End style payments table*/
 
 
 @media only screen and (max-width:960px){
