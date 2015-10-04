@@ -995,6 +995,7 @@ left: 10%;
 padding: 15px;
 }
 /*payment Styles*/
+.page-user ,tabs--primary,
 .node-fixed-payment table,
 .node-payment table{
     display: none;
