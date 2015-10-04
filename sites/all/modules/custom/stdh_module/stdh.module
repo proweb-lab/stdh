@@ -143,8 +143,8 @@ if ($form['#id']== 'webform-client-form-64'){
           $form['language']['#access'] = 0;
           $form['actions']['submit']['#value'] = t('Next');
           $form['actions']['submit']['#submit'][] = 'stdh_service_submit';
-          $form['field_flight_reservation']['und']['#options']['_none'] = '';
-          $form['field_flight_reservation']['und']['#type'] = 'checkboxes';
+          $form['field_secure_flight_reservations']['und']['#options']['_none'] = '';
+          $form['field_secure_flight_reservations']['und']['#type'] = 'checkboxes';
 
           $form['field_university_admission']['und']['#options']['_none'] = '';
           $form['field_university_admission']['und']['#type'] = 'checkboxes';
