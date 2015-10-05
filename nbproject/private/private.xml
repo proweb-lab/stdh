@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/fadi/NetBeansProjects/stdh/sites/all/themes/student/templates/views/universities/views-view--universities--page.tpl.php</file>
+            <file>file:/home/fadi/NetBeansProjects/stdh/sites/all/themes/student/templates/views/universities/views-view-fields--universities--page.tpl.php</file>
+            <file>file:/home/fadi/NetBeansProjects/stdh/sites/all/modules/custom/stdh_module/stdh.module</file>
+            <file>file:/home/fadi/NetBeansProjects/stdh/sites/all/themes/student/css/style-rtl.css</file>
+            <file>file:/home/fadi/NetBeansProjects/stdh/sites/all/themes/student/js/script.js</file>
+        </group>
     </open-files>
 </project-private>
