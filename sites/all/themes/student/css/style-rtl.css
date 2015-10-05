@@ -527,6 +527,14 @@ footer .row #block-block-4 a
 .social-block .fb{
     background: url('../images/share-fb.png') no-repeat ;
     padding: 20px 0;
+     height: 20px;
+    width: 22px;
+    float: right;
+    }
+.social-block .tw:hover{
+    background: url('../images/share-twitter-org.png') no-repeat ;
+    padding: 20px 0;
+   
 }
 .f-left{
     float: left;
@@ -557,13 +565,7 @@ footer .row #block-block-4 a
     height: 20px;
     width: 24px;
     float: right;
-}
-.social-block .tw:hover{
-    background: url('../images/share-twitter-org.png') no-repeat ;
-    padding: 20px 0;
-    height: 20px;
-    width: 22px;
-    float: right;
+
 }
 .social-block .yt{
     background: url('../images/share-youtube.png') no-repeat;
