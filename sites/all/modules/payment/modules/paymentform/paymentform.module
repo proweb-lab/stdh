@@ -228,7 +228,7 @@ function paymentform_payment_finish(Payment $payment) {
   if ($uri = entity_uri($payment->context_data['entity_type'], $entity)) {
     drupal_goto($uri['path'], $uri['options']);
   }
-  drupal_goto('/thank-you');
+  drupal_goto('thank-you');
 }
 
 
