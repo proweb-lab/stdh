@@ -364,6 +364,13 @@ footer .row #block-block-4 a
 {
     color:#fff;
 }
+#block-menu-menu-footer-menu .nav{
+    padding: 0;
+}
+#block-menu-menu-footer-menu .nav > li > a{ 
+    padding: 35px 0px 0px 27px;
+}
+
 /*End Style footer*/
 /*Begin style login*/
 #edit-name{
