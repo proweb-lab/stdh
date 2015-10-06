@@ -159,7 +159,7 @@ if ($form['#id']== 'webform-client-form-64'){
           $form['field_exam_center_guidance']['und']['#type'] = 'checkboxes';
           $form['field_service_bundle']['und']['#options']['_none'] = '';
           $form['field_service_bundle']['#suffix']='<div class="divider"></div><hr>';
-       
+       $form['field_outer_accommodation']['und']['#type'] = 'checkboxes';
           $form['field_issuance_of_residence']['und']['#type'] = 'checkboxes';
           $form['field_complete_registration']['und']['#type'] = 'checkboxes';
           $form['field_tour']['und']['#type'] = 'checkboxes';
