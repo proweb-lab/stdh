@@ -20,7 +20,12 @@ function stdh_menu() {
     'access arguments' => array('administer stdh'),
     'type' => MENU_NORMAL_ITEM,
   );
- 
+    $items['admin/config/services/payment/method/1/edit'] = array(
+    'title' => t('Configure paypal'),
+    'access arguments' => array('administer paypal'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+
   return $items;
 }
 
